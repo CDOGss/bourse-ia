@@ -1,0 +1,959 @@
+[
+  {
+    "nom": "Accor",
+    "marche": "CAC40",
+    "candidates": [
+      "AC.PA"
+    ]
+  },
+  {
+    "nom": "Air Liquide",
+    "marche": "CAC40",
+    "candidates": [
+      "AI.PA"
+    ]
+  },
+  {
+    "nom": "Airbus",
+    "marche": "CAC40",
+    "candidates": [
+      "AIR.PA"
+    ]
+  },
+  {
+    "nom": "Alstom",
+    "marche": "CAC40",
+    "candidates": [
+      "ALSN.PA",
+      "ALO.PA",
+      "RCS.PA"
+    ]
+  },
+  {
+    "nom": "ArcelorMittal",
+    "marche": "CAC40",
+    "candidates": [
+      "MT.PA",
+      "AC.PA",
+      "MTXD.DE"
+    ]
+  },
+  {
+    "nom": "AXA",
+    "marche": "CAC40",
+    "candidates": [
+      "CS.PA",
+      "AXA.PA"
+    ]
+  },
+  {
+    "nom": "BNP Paribas",
+    "marche": "CAC40",
+    "candidates": [
+      "BNP.PA",
+      "BNPP.PA"
+    ]
+  },
+  {
+    "nom": "Bouygues",
+    "marche": "CAC40",
+    "candidates": [
+      "EN.PA"
+    ]
+  },
+  {
+    "nom": "Bureau Veritas",
+    "marche": "CAC40",
+    "candidates": [
+      "BVI.PA"
+    ]
+  },
+  {
+    "nom": "Capgemini",
+    "marche": "CAC40",
+    "candidates": [
+      "CAP.PA"
+    ]
+  },
+  {
+    "nom": "Carrefour",
+    "marche": "CAC40",
+    "candidates": [
+      "CA.PA",
+      "PR.PA",
+      "CAR.PA"
+    ]
+  },
+  {
+    "nom": "Christian Dior",
+    "marche": "CAC40",
+    "candidates": [
+      "CDI.PA",
+      "BEI.PA",
+      "DC.PA"
+    ]
+  },
+  {
+    "nom": "Crédit Agricole",
+    "marche": "CAC40",
+    "candidates": [
+      "ACA.PA",
+      "ACP.PA",
+      "AGR.PA"
+    ]
+  },
+  {
+    "nom": "Danone",
+    "marche": "CAC40",
+    "candidates": [
+      "BN.PA",
+      "DANO.PA"
+    ]
+  },
+  {
+    "nom": "Dassault Systèmes",
+    "marche": "CAC40",
+    "candidates": [
+      "DSY.PA",
+      "DSSAY.PA",
+      "DAST.PA"
+    ]
+  },
+  {
+    "nom": "Edenred",
+    "marche": "CAC40",
+    "candidates": [
+      "EDEN.PA"
+    ]
+  },
+  {
+    "nom": "Eiffage",
+    "marche": "CAC40",
+    "candidates": [
+      "FGR.PA",
+      "FO.PA",
+      "EIF.PA"
+    ]
+  },
+  {
+    "nom": "Engie",
+    "marche": "CAC40",
+    "candidates": [
+      "ENGI.PA",
+      "ENG.PA"
+    ]
+  },
+  {
+    "nom": "EssilorLuxottica",
+    "marche": "CAC40",
+    "candidates": [
+      "EL.PA",
+      "ISID.PA",
+      "ESO.PA"
+    ]
+  },
+  {
+    "nom": "Eurazeo",
+    "marche": "CAC40",
+    "candidates": [
+      "RF.PA",
+      "EURA.PA",
+      "ZEO.PA"
+    ]
+  },
+  {
+    "nom": "Eurofins Scientific",
+    "marche": "CAC40",
+    "candidates": [
+      "ERF.PA"
+    ]
+  },
+  {
+    "nom": "Euronext",
+    "marche": "CAC40",
+    "candidates": [
+      "ENX.PA"
+    ]
+  },
+  {
+    "nom": "Hermès International",
+    "marche": "CAC40",
+    "candidates": [
+      "RMS.PA"
+    ]
+  },
+  {
+    "nom": "Iliad",
+    "marche": "CAC40",
+    "candidates": [
+      "RNE.PA",
+      "ILIAD.PA"
+    ]
+  },
+  {
+    "nom": "Kering",
+    "marche": "CAC40",
+    "candidates": [
+      "KER.PA",
+      "KE.PA",
+      "KC.PA"
+    ]
+  },
+  {
+    "nom": "L'Oréal",
+    "marche": "CAC40",
+    "candidates": [
+      "OR.PA"
+    ]
+  },
+  {
+    "nom": "Legrand",
+    "marche": "CAC40",
+    "candidates": [
+      "LR.PA"
+    ]
+  },
+  {
+    "nom": "LVMH",
+    "marche": "CAC40",
+    "candidates": [
+      "MC.PA"
+    ]
+  },
+  {
+    "nom": "Michelin",
+    "marche": "CAC40",
+    "candidates": [
+      "ML.PA"
+    ]
+  },
+  {
+    "nom": "Orange",
+    "marche": "CAC40",
+    "candidates": [
+      "ORA.PA",
+      "OR.PA"
+    ]
+  },
+  {
+    "nom": "Pernod Ricard",
+    "marche": "CAC40",
+    "candidates": [
+      "RI.PA"
+    ]
+  },
+  {
+    "nom": "Publicis Groupe",
+    "marche": "CAC40",
+    "candidates": [
+      "PUB.PA"
+    ]
+  },
+  {
+    "nom": "Renault",
+    "marche": "CAC40",
+    "candidates": [
+      "RNO.PA"
+    ]
+  },
+  {
+    "nom": "Safran",
+    "marche": "CAC40",
+    "candidates": [
+      "SAF.PA"
+    ]
+  },
+  {
+    "nom": "Saint-Gobain",
+    "marche": "CAC40",
+    "candidates": [
+      "SGO.PA",
+      "GTP.PA",
+      "SGOB.PA",
+      "SGP.PA"
+    ]
+  },
+  {
+    "nom": "Sanofi",
+    "marche": "CAC40",
+    "candidates": [
+      "SAN.PA"
+    ]
+  },
+  {
+    "nom": "Schneider Electric",
+    "marche": "CAC40",
+    "candidates": [
+      "SU.PA"
+    ]
+  },
+  {
+    "nom": "Société Générale",
+    "marche": "CAC40",
+    "candidates": [
+      "GLE.PA",
+      "SOC.PA",
+      "SGE.PA"
+    ]
+  },
+  {
+    "nom": "Stellantis",
+    "marche": "CAC40",
+    "candidates": [
+      "STLAP.PA",
+      "STLA.PA"
+    ]
+  },
+  {
+    "nom": "STMicroelectronics",
+    "marche": "CAC40",
+    "candidates": [
+      "STMPA.PA",
+      "STM.PA"
+    ]
+  },
+  {
+    "nom": "Teleperformance",
+    "marche": "CAC40",
+    "candidates": [
+      "TEP.PA",
+      "TP.PA"
+    ]
+  },
+  {
+    "nom": "Thales",
+    "marche": "CAC40",
+    "candidates": [
+      "HO.PA"
+    ]
+  },
+  {
+    "nom": "TotalEnergies",
+    "marche": "CAC40",
+    "candidates": [
+      "TTE.PA"
+    ]
+  },
+  {
+    "nom": "Unibail-Rodamco-Westfield",
+    "marche": "CAC40",
+    "candidates": [
+      "URW.PA"
+    ]
+  },
+  {
+    "nom": "Veolia",
+    "marche": "CAC40",
+    "candidates": [
+      "VIE.PA"
+    ]
+  },
+  {
+    "nom": "Vinci",
+    "marche": "CAC40",
+    "candidates": [
+      "DG.PA"
+    ]
+  },
+  {
+    "nom": "Wendel",
+    "marche": "CAC40",
+    "candidates": [
+      "MF.PA",
+      "MWF.PA",
+      "ADP.MI"
+    ]
+  },
+  {
+    "nom": "Worldline",
+    "marche": "CAC40",
+    "candidates": [
+      "WLO.PA",
+      "WLP.PA",
+      "WLD.PA"
+    ]
+  },
+  {
+    "nom": "ADP",
+    "marche": "SBF120",
+    "candidates": [
+      "ADP.PA"
+    ]
+  },
+  {
+    "nom": "Air France-KLM",
+    "marche": "SBF120",
+    "candidates": [
+      "AIRF.PA",
+      "AF.PA"
+    ]
+  },
+  {
+    "nom": "Alten",
+    "marche": "SBF120",
+    "candidates": [
+      "ATS.PA",
+      "ALT.PA"
+    ]
+  },
+  {
+    "nom": "Amundi",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Aperam",
+    "marche": "SBF120",
+    "candidates": [
+      "APAM.PA"
+    ]
+  },
+  {
+    "nom": "Argan",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Arkema",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Atos",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Ayvens",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Bénéteau",
+    "marche": "SBF120",
+    "candidates": [
+      "BEN.PA"
+    ]
+  },
+  {
+    "nom": "Bic",
+    "marche": "SBF120",
+    "candidates": [
+      "ABI.PA",
+      "BIC.PA"
+    ]
+  },
+  {
+    "nom": "Biomérieux",
+    "marche": "SBF120",
+    "candidates": [
+      "BIM.PA"
+    ]
+  },
+  {
+    "nom": "Boiron",
+    "marche": "SBF120",
+    "candidates": [
+      "BIO.PA",
+      "BIHO.PA"
+    ]
+  },
+  {
+    "nom": "Bolloré",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Bonduelle",
+    "marche": "SBF120",
+    "candidates": [
+      "BLD.PA"
+    ]
+  },
+  {
+    "nom": "Carmila",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Clariane",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Coca-Cola Europacific Partners",
+    "marche": "SBF120",
+    "candidates": [
+      "CCEP.PA"
+    ]
+  },
+  {
+    "nom": "Coface",
+    "marche": "SBF120",
+    "candidates": [
+      "COFA.PA",
+      "FAC.PA"
+    ]
+  },
+  {
+    "nom": "Covivio",
+    "marche": "SBF120",
+    "candidates": [
+      "CVP.PA",
+      "COV.PA",
+      "RIV.PA"
+    ]
+  },
+  {
+    "nom": "Dassault Aviation",
+    "marche": "SBF120",
+    "candidates": [
+      "AM.PA",
+      "DAVI.PA"
+    ]
+  },
+  {
+    "nom": "Derichebourg",
+    "marche": "SBF120",
+    "candidates": [
+      "DHE.PA",
+      "DB.PA"
+    ]
+  },
+  {
+    "nom": "Elior",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Elis",
+    "marche": "SBF120",
+    "candidates": [
+      "ELI.PA",
+      "WCS.PA"
+    ]
+  },
+  {
+    "nom": "Emeis",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Eramet",
+    "marche": "SBF120",
+    "candidates": [
+      "ERI.PA",
+      "ERA.PA"
+    ]
+  },
+  {
+    "nom": "Esso",
+    "marche": "SBF120",
+    "candidates": [
+      "ELO.PA"
+    ]
+  },
+  {
+    "nom": "Eutelsat",
+    "marche": "SBF120",
+    "candidates": [
+      "ETL.PA",
+      "DNE.PA"
+    ]
+  },
+  {
+    "nom": "FDJ",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "FFP",
+    "marche": "SBF120",
+    "candidates": [
+      "FFP.PA"
+    ]
+  },
+  {
+    "nom": "Forvia",
+    "marche": "SBF120",
+    "candidates": [
+      "FRIO.PA",
+      "FR.PA",
+      "CS.PA"
+    ],
+    "mustNotMatch": "axa"
+  },
+  {
+    "nom": "Gecina",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Getlink",
+    "marche": "SBF120",
+    "candidates": [
+      "GETP.PA",
+      "GTP.PA",
+      "GET.PA"
+    ],
+    "mustNotMatch": "gobain"
+  },
+  {
+    "nom": "GTT",
+    "marche": "SBF120",
+    "candidates": [
+      "GTT.PA"
+    ],
+    "q": "gaztransport"
+  },
+  {
+    "nom": "Icade",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "ID Logistics Group",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Imerys",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Interparfums",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Ipsen",
+    "marche": "SBF120",
+    "candidates": [
+      "IPN.PA",
+      "IPS.PA"
+    ]
+  },
+  {
+    "nom": "Ipsos",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "JCDecaux",
+    "marche": "SBF120",
+    "candidates": [
+      "DEC.PA",
+      "JCDA.PA"
+    ]
+  },
+  {
+    "nom": "Klépierre",
+    "marche": "SBF120",
+    "candidates": [
+      "LI.PA",
+      "KL.PA"
+    ]
+  },
+  {
+    "nom": "Lafarge",
+    "marche": "SBF120",
+    "candidates": [
+      "LHP.PA",
+      "LGDR.PA"
+    ]
+  },
+  {
+    "nom": "LDC (Le Puy)",
+    "marche": "SBF120",
+    "candidates": [
+      "ANW.PA",
+      "LDC.PA"
+    ]
+  },
+  {
+    "nom": "M6 Metropole Television",
+    "marche": "SBF120",
+    "candidates": [
+      "MMEL.PA"
+    ]
+  },
+  {
+    "nom": "Manitou BF",
+    "marche": "SBF120",
+    "candidates": [
+      "FTCI.PA",
+      "MAN.PA",
+      "RCT.PA"
+    ]
+  },
+  {
+    "nom": "Maurel & Prom",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "MedinCell",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Mercialys",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Mersen",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Neoen",
+    "marche": "SBF120",
+    "candidates": [
+      "NEOEN.PA"
+    ]
+  },
+  {
+    "nom": "Nexans",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Nexity",
+    "marche": "SBF120",
+    "candidates": [
+      "NEXI.PA"
+    ]
+  },
+  {
+    "nom": "OPmobility",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Pierre & Vacances",
+    "marche": "SBF120",
+    "candidates": [
+      "VAC.PA"
+    ]
+  },
+  {
+    "nom": "Planisware",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Pluxee",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Rallye",
+    "marche": "SBF120",
+    "candidates": [
+      "RA.PA"
+    ]
+  },
+  {
+    "nom": "Remy Cointreau",
+    "marche": "SBF120",
+    "candidates": [
+      "RCO.PA",
+      "COF.PA"
+    ]
+  },
+  {
+    "nom": "Rexel",
+    "marche": "SBF120",
+    "candidates": [
+      "RXL.PA",
+      "Rex.PA"
+    ]
+  },
+  {
+    "nom": "Robertet",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Rubis",
+    "marche": "SBF120",
+    "candidates": [
+      "RBI.PA"
+    ]
+  },
+  {
+    "nom": "Sartorius Stedim Biotech",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Scor SE",
+    "marche": "SBF120",
+    "candidates": [
+      "SCR.PA",
+      "SCAI.PA"
+    ]
+  },
+  {
+    "nom": "SEB",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "SES",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Sodexo",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Soitec",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Solvay",
+    "marche": "SBF120",
+    "candidates": [
+      "SOLV.PA"
+    ]
+  },
+  {
+    "nom": "Sopra Steria",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "SPIE",
+    "marche": "SBF120",
+    "candidates": [
+      "SPIE.PA",
+      "API.PA"
+    ]
+  },
+  {
+    "nom": "ST Microelectronics",
+    "marche": "SBF120",
+    "candidates": [
+      "STM.PA"
+    ]
+  },
+  {
+    "nom": "STEF",
+    "marche": "SBF120",
+    "candidates": [
+      "STF.PA",
+      "STEF.PA"
+    ]
+  },
+  {
+    "nom": "Technip Energies",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "TechnipFMC",
+    "marche": "SBF120",
+    "candidates": [
+      "TKPR.PA",
+      "FTI.PA"
+    ]
+  },
+  {
+    "nom": "TF1",
+    "marche": "SBF120",
+    "candidates": [
+      "TF1.PA"
+    ]
+  },
+  {
+    "nom": "Trigano",
+    "marche": "SBF120",
+    "candidates": [
+      "TRI.PA"
+    ]
+  },
+  {
+    "nom": "Ubisoft",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Valeo",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Vallourec",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Valneva SE",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Verallia",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Vicat",
+    "marche": "SBF120",
+    "candidates": [
+      "VCK.PA",
+      "VIC.PA"
+    ]
+  },
+  {
+    "nom": "Vilmorin",
+    "marche": "SBF120",
+    "candidates": [
+      "VIL.PA"
+    ]
+  },
+  {
+    "nom": "Virbac",
+    "marche": "SBF120",
+    "candidates": [
+      "VIRP.PA",
+      "VIR.PA"
+    ]
+  },
+  {
+    "nom": "Viridien",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Vivendi",
+    "marche": "SBF120",
+    "candidates": []
+  },
+  {
+    "nom": "Voltalia",
+    "marche": "SBF120",
+    "candidates": [
+      "VLTH.PA",
+      "VLT.PA"
+    ]
+  },
+  {
+    "nom": "Vranken-Pommery",
+    "marche": "SBF120",
+    "candidates": [
+      "VRA.PA"
+    ]
+  },
+  {
+    "nom": "Vusion",
+    "marche": "SBF120",
+    "candidates": []
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "bourse-ia",
+  "version": "1.1.0",
+  "description": "IA d'aide a la decision actions francaises (CAC 40 / SBF 120) - papier trading via GitHub Actions + Gemini",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "test:each": "node scripts/test-each.js",
+    "run:analyze": "node src/run.js",
+    "run:dry": "node src/run.js --dry-run",
+    "simulation": "node scripts/simulation.js",
+    "preview": "node scripts/serve.js 8080",
+    "smoke:dashboard": "node scripts/dashboard-smoke.js",
+    "build:candidats": "node scripts/build-candidats.js",
+    "validate:universe": "node scripts/validate-universe.js",
+    "check:static": "node scripts/check-static.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

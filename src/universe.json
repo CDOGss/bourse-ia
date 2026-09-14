@@ -1,0 +1,740 @@
+[
+  {
+    "symbol": "AC.PA",
+    "nom": "Accor",
+    "nom_yahoo": "Accor SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "AI.PA",
+    "nom": "Air Liquide",
+    "nom_yahoo": "L'Air Liquide S.A.",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "AIR.PA",
+    "nom": "Airbus",
+    "nom_yahoo": "Airbus SE",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "ALO.PA",
+    "nom": "Alstom",
+    "nom_yahoo": "Alstom SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "CS.PA",
+    "nom": "AXA",
+    "nom_yahoo": "AXA SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "BNP.PA",
+    "nom": "BNP Paribas",
+    "nom_yahoo": "BNP Paribas SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "EN.PA",
+    "nom": "Bouygues",
+    "nom_yahoo": "Bouygues SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "BVI.PA",
+    "nom": "Bureau Veritas",
+    "nom_yahoo": "Bureau Veritas SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "CAP.PA",
+    "nom": "Capgemini",
+    "nom_yahoo": "Capgemini SE",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "CA.PA",
+    "nom": "Carrefour",
+    "nom_yahoo": "Carrefour SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "CDI.PA",
+    "nom": "Christian Dior",
+    "nom_yahoo": "Christian Dior SE",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "ACA.PA",
+    "nom": "Crédit Agricole",
+    "nom_yahoo": "Crédit Agricole S.A.",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "BN.PA",
+    "nom": "Danone",
+    "nom_yahoo": "Danone S.A.",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "DSY.PA",
+    "nom": "Dassault Systèmes",
+    "nom_yahoo": "Dassault Systèmes SE",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "EDEN.PA",
+    "nom": "Edenred",
+    "nom_yahoo": "Edenred SE",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "FGR.PA",
+    "nom": "Eiffage",
+    "nom_yahoo": "Eiffage SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "ENGI.PA",
+    "nom": "Engie",
+    "nom_yahoo": "Engie SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "EL.PA",
+    "nom": "EssilorLuxottica",
+    "nom_yahoo": "EssilorLuxottica Société anonyme",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "RF.PA",
+    "nom": "Eurazeo",
+    "nom_yahoo": "Eurazeo SE",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "ERF.PA",
+    "nom": "Eurofins Scientific",
+    "nom_yahoo": "Eurofins Scientific SE",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "ENX.PA",
+    "nom": "Euronext",
+    "nom_yahoo": "Euronext N.V.",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "RMS.PA",
+    "nom": "Hermès International",
+    "nom_yahoo": "Hermès International Société en commandite par actions",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "KER.PA",
+    "nom": "Kering",
+    "nom_yahoo": "Kering SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "OR.PA",
+    "nom": "L'Oréal",
+    "nom_yahoo": "L'Oréal S.A.",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "LR.PA",
+    "nom": "Legrand",
+    "nom_yahoo": "Legrand SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "MC.PA",
+    "nom": "LVMH",
+    "nom_yahoo": "LVMH Moët Hennessy - Louis Vuitton, Société Européenne",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "ML.PA",
+    "nom": "Michelin",
+    "nom_yahoo": "Compagnie Générale des Établissements Michelin Société en commandite par actions",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "ORA.PA",
+    "nom": "Orange",
+    "nom_yahoo": "Orange S.A.",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "RI.PA",
+    "nom": "Pernod Ricard",
+    "nom_yahoo": "Pernod Ricard SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "PUB.PA",
+    "nom": "Publicis Groupe",
+    "nom_yahoo": "Publicis Groupe S.A.",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "RNO.PA",
+    "nom": "Renault",
+    "nom_yahoo": "Renault SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "SAF.PA",
+    "nom": "Safran",
+    "nom_yahoo": "Safran SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "SGP.PA",
+    "nom": "Saint-Gobain",
+    "nom_yahoo": "Compagnie de Saint-Gobain S.A. IDX/LKD BDS PERP EUR152.45",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "SAN.PA",
+    "nom": "Sanofi",
+    "nom_yahoo": "Sanofi",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "SU.PA",
+    "nom": "Schneider Electric",
+    "nom_yahoo": "Schneider Electric S.E.",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "GLE.PA",
+    "nom": "Société Générale",
+    "nom_yahoo": "Société Générale Société anonyme",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "STLAP.PA",
+    "nom": "Stellantis",
+    "nom_yahoo": "Stellantis N.V.",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "TEP.PA",
+    "nom": "Teleperformance",
+    "nom_yahoo": "Teleperformance SE",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "HO.PA",
+    "nom": "Thales",
+    "nom_yahoo": "Thales S.A.",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "TTE.PA",
+    "nom": "TotalEnergies",
+    "nom_yahoo": "TotalEnergies SE",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "VIE.PA",
+    "nom": "Veolia Environnement",
+    "nom_yahoo": "Veolia Environnement SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "DG.PA",
+    "nom": "Vinci",
+    "nom_yahoo": "Vinci SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "MF.PA",
+    "nom": "Wendel",
+    "nom_yahoo": "Wendel",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "WLN.PA",
+    "nom": "Worldline",
+    "nom_yahoo": "Worldline SA",
+    "marche": "CAC40"
+  },
+  {
+    "symbol": "AF.PA",
+    "nom": "Air France-KLM",
+    "nom_yahoo": "Air France-KLM SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "ATE.PA",
+    "nom": "Alten",
+    "nom_yahoo": "Alten S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "AMUN.PA",
+    "nom": "Amundi",
+    "nom_yahoo": "Amundi S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "ARG.PA",
+    "nom": "Argan",
+    "nom_yahoo": "Argan SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "AKE.PA",
+    "nom": "Arkema",
+    "nom_yahoo": "Arkema S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "ATO.PA",
+    "nom": "Atos",
+    "nom_yahoo": "Atos Group",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "AYV.PA",
+    "nom": "Ayvens",
+    "nom_yahoo": "Ayvens",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "BEN.PA",
+    "nom": "Bénéteau",
+    "nom_yahoo": "Bénéteau S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "BB.PA",
+    "nom": "Bic",
+    "nom_yahoo": "Société BIC SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "BIM.PA",
+    "nom": "Biomérieux",
+    "nom_yahoo": "bioMérieux S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "BOI.PA",
+    "nom": "Boiron",
+    "nom_yahoo": "Boiron SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "BOL.PA",
+    "nom": "Bolloré",
+    "nom_yahoo": "Bolloré SE",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "BON.PA",
+    "nom": "Bonduelle",
+    "nom_yahoo": "Bonduelle SCA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "CARM.PA",
+    "nom": "Carmila",
+    "nom_yahoo": "Carmila S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "CLARI.PA",
+    "nom": "Clariane",
+    "nom_yahoo": "Clariane SE",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "COFA.PA",
+    "nom": "Coface",
+    "nom_yahoo": "COFACE SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "COV.PA",
+    "nom": "Covivio",
+    "nom_yahoo": "Covivio",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "AM.PA",
+    "nom": "Dassault Aviation",
+    "nom_yahoo": "Dassault Aviation société anonyme",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "DBG.PA",
+    "nom": "Derichebourg",
+    "nom_yahoo": "Derichebourg SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "ELIOR.PA",
+    "nom": "Elior",
+    "nom_yahoo": "Elior Group SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "ELIS.PA",
+    "nom": "Elis",
+    "nom_yahoo": "Elis SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "EMEIS.PA",
+    "nom": "Emeis",
+    "nom_yahoo": "emeis Société anonyme",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "ERA.PA",
+    "nom": "Eramet",
+    "nom_yahoo": "ERAMET S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "ETL.PA",
+    "nom": "Eutelsat",
+    "nom_yahoo": "Eutelsat Communications S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "FDJU.PA",
+    "nom": "FDJ",
+    "nom_yahoo": "FDJ United",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "FRVIA.PA",
+    "nom": "Forvia",
+    "nom_yahoo": "Forvia SE",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "GFC.PA",
+    "nom": "Gecina",
+    "nom_yahoo": "Gecina",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "GET.PA",
+    "nom": "Getlink",
+    "nom_yahoo": "Getlink SE",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "GLO.PA",
+    "nom": "GL events",
+    "nom_yahoo": "GL Events SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "ADP.PA",
+    "nom": "Groupe ADP",
+    "nom_yahoo": "Aeroports de Paris SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "GTT.PA",
+    "nom": "GTT",
+    "nom_yahoo": "Gaztransport & Technigaz SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "ICAD.PA",
+    "nom": "Icade",
+    "nom_yahoo": "Icade",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "IDL.PA",
+    "nom": "ID Logistics Group",
+    "nom_yahoo": "ID Logistics Group SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "NK.PA",
+    "nom": "Imerys",
+    "nom_yahoo": "Imerys S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "ITP.PA",
+    "nom": "Interparfums",
+    "nom_yahoo": "Interparfums SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "IPN.PA",
+    "nom": "Ipsen",
+    "nom_yahoo": "Ipsen S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "IPS.PA",
+    "nom": "Ipsos",
+    "nom_yahoo": "Ipsos SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "DEC.PA",
+    "nom": "JCDecaux",
+    "nom_yahoo": "JCDecaux SE",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "LI.PA",
+    "nom": "Klépierre",
+    "nom_yahoo": "Klépierre SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "MTU.PA",
+    "nom": "Manitou BF",
+    "nom_yahoo": "Manitou BF SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "MAU.PA",
+    "nom": "Maurel & Prom",
+    "nom_yahoo": "Etablissements Maurel & Prom S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "MEDCL.PA",
+    "nom": "MedinCell",
+    "nom_yahoo": "MedinCell S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "MERY.PA",
+    "nom": "Mercialys",
+    "nom_yahoo": "Mercialys SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "MRN.PA",
+    "nom": "Mersen",
+    "nom_yahoo": "Mersen S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "NEX.PA",
+    "nom": "Nexans",
+    "nom_yahoo": "Nexans S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "NXI.PA",
+    "nom": "Nexity",
+    "nom_yahoo": "Nexity SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "OPM.PA",
+    "nom": "OPmobility",
+    "nom_yahoo": "OPmobility SE",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "VAC.PA",
+    "nom": "Pierre & Vacances",
+    "nom_yahoo": "Pierre et Vacances SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "PLNW.PA",
+    "nom": "Planisware",
+    "nom_yahoo": "Planisware SAS",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "PLX.PA",
+    "nom": "Pluxee",
+    "nom_yahoo": "Pluxee N.V.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "RCO.PA",
+    "nom": "Remy Cointreau",
+    "nom_yahoo": "Rémy Cointreau SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "RXL.PA",
+    "nom": "Rexel",
+    "nom_yahoo": "Rexel S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "RBT.PA",
+    "nom": "Robertet",
+    "nom_yahoo": "Robertet SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "RUI.PA",
+    "nom": "Rubis",
+    "nom_yahoo": "Rubis",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "DIM.PA",
+    "nom": "Sartorius Stedim Biotech",
+    "nom_yahoo": "Sartorius Stedim Biotech S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "SCR.PA",
+    "nom": "Scor",
+    "nom_yahoo": "SCOR SE",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "SK.PA",
+    "nom": "SEB",
+    "nom_yahoo": "SEB SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "SESG.PA",
+    "nom": "SES",
+    "nom_yahoo": "SES S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "SW.PA",
+    "nom": "Sodexo",
+    "nom_yahoo": "Sodexo S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "SOI.PA",
+    "nom": "Soitec",
+    "nom_yahoo": "Soitec SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "SOP.PA",
+    "nom": "Sopra Steria",
+    "nom_yahoo": "Sopra Steria Group SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "SPIE.PA",
+    "nom": "SPIE",
+    "nom_yahoo": "SPIE SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "STF.PA",
+    "nom": "STEF",
+    "nom_yahoo": "STEF SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "STMPA.PA",
+    "nom": "STMicroelectronics",
+    "nom_yahoo": "STMicroelectronics N.V.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "TE.PA",
+    "nom": "Technip Energies",
+    "nom_yahoo": "Technip Energies N.V.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "TFI.PA",
+    "nom": "TF1",
+    "nom_yahoo": "TF1 SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "TRI.PA",
+    "nom": "Trigano",
+    "nom_yahoo": "Trigano S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "UBI.PA",
+    "nom": "Ubisoft",
+    "nom_yahoo": "Ubisoft Entertainment SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "URW.PA",
+    "nom": "Unibail-Rodamco-Westfield",
+    "nom_yahoo": "Unibail-Rodamco-Westfield SE",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "FR.PA",
+    "nom": "Valeo",
+    "nom_yahoo": "Valeo SE",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "VK.PA",
+    "nom": "Vallourec",
+    "nom_yahoo": "Vallourec S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "VLA.PA",
+    "nom": "Valneva SE",
+    "nom_yahoo": "Valneva SE",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "VRLA.PA",
+    "nom": "Verallia",
+    "nom_yahoo": "Verallia Société Anonyme",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "VCT.PA",
+    "nom": "Vicat",
+    "nom_yahoo": "Vicat S.A.",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "VIRP.PA",
+    "nom": "Virbac",
+    "nom_yahoo": "Virbac SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "VIRI.PA",
+    "nom": "Viridien",
+    "nom_yahoo": "Viridien Société anonyme",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "VIV.PA",
+    "nom": "Vivendi",
+    "nom_yahoo": "Vivendi SE",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "VLTSA.PA",
+    "nom": "Voltalia",
+    "nom_yahoo": "Voltalia SA",
+    "marche": "SBF120"
+  },
+  {
+    "symbol": "VU.PA",
+    "nom": "Vusion",
+    "nom_yahoo": "Vusion S.A.",
+    "marche": "SBF120"
+  }
+]

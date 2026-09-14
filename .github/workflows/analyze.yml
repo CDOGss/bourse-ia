@@ -1,0 +1,70 @@
+name: Analyse IA (2h)
+
+on:
+  schedule:
+    - cron: "0 9,11,13,15,17 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Mode essai : pipeline complet sans appel a l'IA ni signaux"
+        type: boolean
+        default: false
+      force:
+        description: "Ignorer week-end et jours feriers boursiers"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: analyse
+  cancel-in-progress: false
+
+jobs:
+  analyser:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Tests
+        run: node --test
+
+      - name: Analyse (cours + actus + IA + papier trading)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          ARGS=""
+          [ "$DRY_RUN" = "true" ] && ARGS="$ARGS --dry-run"
+          [ "$FORCE" = "true" ] && ARGS="$ARGS --force"
+          node src/run.js $ARGS
+
+      - name: Committer l'etat (portfolio, dernier run, cours)
+        run: |
+          git config user.name "bourse-ia[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/portfolio.json data/last-run.json data/quotes.json
+          if git diff --cached --quiet; then
+            echo "Rien a committer (etat inchange)."
+            exit 0
+          fi
+          MSG="analyse $(date -u '+%Y-%m-%d %H:%M UTC') (run #${GITHUB_RUN_ID})"
+          git commit -m "$MSG"
+          for i in 1 2 3; do
+            if git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME"; then
+              echo "Pousse."
+              exit 0
+            fi
+            echo "Push #${i} en echec, nouvelle tentative..."; sleep 15
+          done
+          echo "::error::impossible de pousser l'etat apres 3 tentatives"
+          exit 1

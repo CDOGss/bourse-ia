@@ -1,0 +1,10 @@
+node_modules/
+.env
+data/.cache/
+.playwright-cli/
+*.log
+
+# Artefacts locaux des scripts d'entretien et de validation
+_simulation.json
+_tmp*/
+*.bak

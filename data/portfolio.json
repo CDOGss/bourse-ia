@@ -1,0 +1,26 @@
+{
+ "meta": {
+  "initialCapital": 10000,
+  "currency": "EUR",
+  "startDate": "2026-09-14T13:30:00.000Z",
+  "createdAt": "2026-09-14T12:00:19.135Z",
+  "feePct": 0.1,
+  "ttfPct": 0.3
+ },
+ "cash": 10000,
+ "positions": [],
+ "trades": [],
+ "history": [
+  {
+   "date": "2026-09-14T13:30:00.000Z",
+   "equity": 10000,
+   "cac": 8125.48
+  },
+  {
+   "date": "2026-09-14T13:30:00.000Z",
+   "equity": 10000,
+   "cac": 8116.42
+  }
+ ],
+ "signaux": []
+}

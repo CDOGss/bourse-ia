@@ -1,0 +1,54 @@
+:root {
+  --bg: #0f1218;
+  --panel: #171c26;
+  --line: #262d3a;
+  --txt: #e5e9f0;
+  --muted: #8b95a7;
+  --pos: #34d399;
+  --neg: #f87171;
+  --accent: #38bdf8;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--txt);
+  font: 15px/1.5 system-ui, "Segoe UI", Roboto, sans-serif;
+}
+header {
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+  padding: 18px 22px; border-bottom: 1px solid var(--line);
+}
+h1 { margin: 0; font-size: 21px; }
+h2 { font-size: 15px; margin: 0 0 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+section { padding: 18px 22px; border-bottom: 1px solid var(--line); }
+.muted { color: var(--muted); font-size: 13px; }
+.pos { color: var(--pos); }
+.neg { color: var(--neg); }
+.tag {
+  font-size: 11px; padding: 2px 8px; border-radius: 20px;
+  background: #1e2a3a; color: var(--accent); vertical-align: middle;
+}
+.badge {
+  font-size: 13px; font-weight: 600; padding: 6px 14px; border-radius: 20px;
+  background: #1e293b; border: 1px solid var(--line);
+}
+.badge.ok { background: #06341f; color: var(--pos); border-color: #0a5c38; }
+.badge.warn { background: #3a2c07; color: #fbbf24; border-color: #7c5c0e; }
+.badge.danger { background: #3f0d13; color: var(--neg); border-color: #7f1d24; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+.card .label { font-size: 12px; color: var(--muted); }
+.card .value { font-size: 20px; font-weight: 700; margin-top: 2px; }
+.card .sub { font-size: 12px; }
+.resume { font-size: 15px; margin: 0 0 12px; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; white-space: nowrap; }
+td.justif { color: #c3cad6; min-width: 260px; }
+svg { width: 100%; height: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; }
+footer { padding: 18px 22px; color: var(--muted); font-size: 12.5px; }
+#rejets { margin-top: 8px; }
+#verdict { margin-bottom: 14px; }
+.sous-titre { font-size: 13px; color: var(--muted); margin: 18px 0 8px; font-weight: 600; }
+#meriques { margin-bottom: 6px; }
+#meriques .card .value { font-size: 18px; }

@@ -1,0 +1,41 @@
+{
+  "modele": "gemini-3.8-flash",
+  "reflexion": "high",
+  "miseDepart": 10000,
+  "fraisPct": 0.1,
+  "taxeTransactionPct": 0.3,
+  "gardeFous": {
+    "confianceMinimale": 70,
+    "maxAchatsParPassage": 3,
+    "maxPositions": 8,
+    "maxPoidsLignePct": 25,
+    "seuilKrachPct": -3
+  },
+  "benchmark": "^FCHI",
+  "grounding": false,
+  "evaluation": {
+    "ageMinJours": 90,
+    "tradesSoldesMin": 20,
+    "alphaMinPct": 0,
+    "profitFactorMin": 1.3,
+    "maxDrawdownMinPct": -20
+  },
+  "news": {
+    "ageMaxHeures": 24,
+    "maxTitres": 80,
+    "moversSeuilPct": 3,
+    "maxNewsParValeur": 3,
+    "queriesGenerales": [
+      "CAC 40",
+      "bourse Paris actions France",
+      "marches actions zone euro"
+    ],
+    "fluxSites": [
+      "https://www.lemonde.fr/economie/rss_full.xml",
+      "news:bourse OR actions site:lesechos.fr when:1d",
+      "news:site:bfmtv.com OR site:capital.fr bourse when:1d",
+      "news:site:boursorama.com when:1d",
+      "news:site:zonebourse.com when:1d"
+    ]
+  }
+}

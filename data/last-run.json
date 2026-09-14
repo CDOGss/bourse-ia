@@ -1,0 +1,78 @@
+{
+ "date": "2026-09-14T13:30:00.000Z",
+ "dureeS": 16,
+ "dryRun": true,
+ "modele": "gemini-3.8-flash",
+ "regime": "NORMAL",
+ "regimeApplique": "NORMAL",
+ "resume_marche": "MODE ESSAI (dry-run) : aucun appel a l'IA, aucun ordre genere.",
+ "signaux": [],
+ "signaux_ecartes": [],
+ "appliques": [],
+ "rejetes": [],
+ "fluxEnEchec": [],
+ "meriques": {
+  "ageJours": 0,
+  "nbPassages": 2,
+  "equity": 10000,
+  "perfPct": 0,
+  "cacPerfPct": 0,
+  "alphaPct": 0,
+  "maxDrawdownPct": 0,
+  "sharpe": null,
+  "expositionPct": 0,
+  "trades": {
+   "nbAchats": 0,
+   "nbSolde": 0,
+   "tauxReussitePct": null,
+   "gainMoyenPct": null,
+   "perteMoyennePct": null,
+   "profitFactor": null,
+   "montantGagne": 0,
+   "montantPerdu": 0
+  },
+  "couts": {
+   "fraisCumules": 0,
+   "ttfCumule": 0,
+   "totalEur": 0,
+   "montantAchete": 0,
+   "coutEnPctDuCapital": 0
+  },
+  "signaux": {
+   "achats": {
+    "nb": 0,
+    "nbEvalues": 0,
+    "tauxReussitePct": null,
+    "alphaMoyen1mPct": null,
+    "alphaMoyen1sPct": null
+   },
+   "ventes": {
+    "nb": 0,
+    "nbEvalues": 0,
+    "tauxReussitePct": null,
+    "alphaMoyen1mPct": null,
+    "alphaMoyen1sPct": null
+   },
+   "calibration": null
+  },
+  "verdict": {
+   "etat": "PAS_ENCORE_CONCLUANT",
+   "raisons": [
+    "il faut 90 jours de recul (actuellement 0)",
+    "il faut 20 positions soldees (actuellement 0)"
+   ],
+   "criteres": {
+    "ageMinJours": 90,
+    "tradesSoldesMin": 20,
+    "alphaMinPct": 0,
+    "profitFactorMin": 1.3,
+    "maxDrawdownMinPct": -20
+   }
+  }
+ },
+ "stats": {
+  "equity": 10000,
+  "cash": 10000,
+  "nbPositions": 0
+ }
+}

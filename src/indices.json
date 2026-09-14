@@ -1,0 +1,289 @@
+{
+  "source": "Wikipedia (fr) : CAC 40, composition au 22/12/2025 ; SBF 120, liste au 23/12/2024",
+  "recense_le": "2026-09-14",
+  "note": "Euronext revise les indices fin juin (application au 1er septembre) et remplace les valeurs retirees sur operation sur capital. Relire cette liste chaque trimestre, puis relancer npm run build:candidats et npm run validate:universe.",
+  "cac40": [
+    {
+      "nom": "Accor",
+      "mnemo": "AC"
+    },
+    {
+      "nom": "Air liquide",
+      "mnemo": "AI"
+    },
+    {
+      "nom": "Airbus",
+      "mnemo": "AIR"
+    },
+    {
+      "nom": "ArcelorMittal",
+      "mnemo": "MT"
+    },
+    {
+      "nom": "Axa",
+      "mnemo": "CS"
+    },
+    {
+      "nom": "BNP Paribas",
+      "mnemo": "BNP"
+    },
+    {
+      "nom": "Bouygues",
+      "mnemo": "EN"
+    },
+    {
+      "nom": "Bureau Veritas",
+      "mnemo": "BVI"
+    },
+    {
+      "nom": "Capgemini",
+      "mnemo": "CAP"
+    },
+    {
+      "nom": "Carrefour",
+      "mnemo": "CA"
+    },
+    {
+      "nom": "Crédit agricole",
+      "mnemo": "ACA"
+    },
+    {
+      "nom": "Danone",
+      "mnemo": "BN"
+    },
+    {
+      "nom": "Dassault Systèmes",
+      "mnemo": "DSY"
+    },
+    {
+      "nom": "Eiffage",
+      "mnemo": "FGR"
+    },
+    {
+      "nom": "Engie",
+      "mnemo": "ENGI"
+    },
+    {
+      "nom": "EssilorLuxottica",
+      "mnemo": "EL"
+    },
+    {
+      "nom": "Eurofins Scientific",
+      "mnemo": "ERF"
+    },
+    {
+      "nom": "Euronext",
+      "mnemo": "ENX"
+    },
+    {
+      "nom": "Hermès International",
+      "mnemo": "RMS"
+    },
+    {
+      "nom": "Kering",
+      "mnemo": "KER"
+    },
+    {
+      "nom": "Legrand",
+      "mnemo": "LR"
+    },
+    {
+      "nom": "L'Oréal",
+      "mnemo": "OR"
+    },
+    {
+      "nom": "LVMH",
+      "mnemo": "MC"
+    },
+    {
+      "nom": "Michelin",
+      "mnemo": "ML"
+    },
+    {
+      "nom": "Orange",
+      "mnemo": "ORA"
+    },
+    {
+      "nom": "Pernod Ricard",
+      "mnemo": "RI"
+    },
+    {
+      "nom": "Publicis Groupe",
+      "mnemo": "PUB"
+    },
+    {
+      "nom": "Renault",
+      "mnemo": "RNO"
+    },
+    {
+      "nom": "Safran",
+      "mnemo": "SAF"
+    },
+    {
+      "nom": "Saint-Gobain",
+      "mnemo": "SGO"
+    },
+    {
+      "nom": "Sanofi",
+      "mnemo": "SAN"
+    },
+    {
+      "nom": "Schneider Electric",
+      "mnemo": "SU"
+    },
+    {
+      "nom": "Société générale",
+      "mnemo": "GLE"
+    },
+    {
+      "nom": "Stellantis",
+      "mnemo": "STLAP"
+    },
+    {
+      "nom": "STMicroelectronics",
+      "mnemo": "STMPA"
+    },
+    {
+      "nom": "Thales",
+      "mnemo": "HO"
+    },
+    {
+      "nom": "TotalEnergies",
+      "mnemo": "TTE"
+    },
+    {
+      "nom": "Unibail-Rodamco-Westfield",
+      "mnemo": "URW"
+    },
+    {
+      "nom": "Veolia",
+      "mnemo": "VIE"
+    },
+    {
+      "nom": "Vinci",
+      "mnemo": "DG"
+    }
+  ],
+  "sbf120": [
+    "Accor",
+    "ADP",
+    "Air France-KLM",
+    "Air liquide",
+    "Airbus Group",
+    "Alstom",
+    "Alten",
+    "Amundi",
+    "Aperam",
+    "Arcelor Mittal",
+    "Argan",
+    "Arkema",
+    "Atos",
+    "AXA",
+    "Ayvens",
+    "Bénéteau",
+    "Bic",
+    "Biomérieux",
+    "BNP Paribas",
+    "Bolloré",
+    "Bouygues",
+    "Bureau Veritas",
+    "Capgemini",
+    "Carmila",
+    "Carrefour",
+    "Clariane",
+    "Coface",
+    "Covivio",
+    "Crédit agricole",
+    "Danone",
+    "Dassault Aviation",
+    "Dassault Systèmes",
+    "Derichebourg",
+    "Edenred",
+    "Eiffage",
+    "Elior",
+    "Elis",
+    "Emeis",
+    "Engie",
+    "Eramet",
+    "EssilorLuxottica",
+    "Esso",
+    "Eurazeo",
+    "Eurofins Scientific",
+    "Euronext",
+    "FDJ",
+    "Forvia",
+    "Gecina",
+    "Getlink",
+    "GTT",
+    "Hermès",
+    "Icade",
+    "ID Logistics Group",
+    "Imerys",
+    "Interparfums",
+    "Ipsen",
+    "Ipsos",
+    "JCDecaux",
+    "Kering",
+    "Klepierre",
+    "L’Oréal",
+    "Legrand",
+    "LVMH",
+    "Maurel & Prom",
+    "MedinCell",
+    "Mercialys",
+    "Mersen",
+    "M6 Metropole Television",
+    "Michelin",
+    "Neoen",
+    "Nexans",
+    "Nexity",
+    "OPmobility",
+    "Orange",
+    "Pernod Ricard",
+    "Planisware",
+    "Pluxee",
+    "Publicis Groupe",
+    "Remy Cointreau",
+    "Renault",
+    "Rexel",
+    "Robertet",
+    "Rubis",
+    "SEB",
+    "Safran",
+    "Saint-Gobain",
+    "Sanofi",
+    "Sartorius Stedim Biotech",
+    "Schneider Electric",
+    "Scor SE",
+    "SES",
+    "Société générale",
+    "Sodexo",
+    "Soitec",
+    "Solvay",
+    "Sopra Steria",
+    "Spie",
+    "Stellantis",
+    "ST Microelectronics",
+    "Technip Energies",
+    "Teleperformance",
+    "TF1",
+    "Thales",
+    "TotalEnergies",
+    "Trigano",
+    "Ubisoft",
+    "Unibail-Rodamco-Westfield",
+    "Valeo",
+    "Vallourec",
+    "Valneva SE",
+    "Veolia Environnement",
+    "Verallia",
+    "Vicat",
+    "Vinci",
+    "Virbac",
+    "Viridien",
+    "Vivendi",
+    "Vusion",
+    "Wendel",
+    "Worldline"
+  ]
+}
