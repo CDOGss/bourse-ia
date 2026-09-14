@@ -1,28 +1,72 @@
 {
- "date": "2026-09-14T12:45:28.693Z",
- "dureeS": 11,
- "dryRun": true,
+ "date": "2026-09-14T12:48:39.173Z",
+ "dureeS": 26,
+ "dryRun": false,
  "modele": "gemini-3.8-flash",
- "regime": "NORMAL",
- "regimeApplique": "NORMAL",
- "resume_marche": "MODE ESSAI (dry-run) : aucun appel a l'IA, aucun ordre genere.",
- "signaux": [],
+ "regime": "PRUDENT",
+ "regimeApplique": "PRUDENT",
+ "resume_marche": "La seance est marquee par une baisse de -0,93 % sur le CAC 40 a 8103,78 points, entrainee par de fortes tensions sur les valeurs technologiques liees aux craintes d un ralentissement de l IA (STM -6,91 %, Schneider -6,92 %, Soitec -13,53 %). La largeur de marche ressort degradee a 43,4 % de valeurs au-dessus de leur SMA200, classant l environnement en etat FAIBLE. Dans ce contexte incertain et volatil, la selective rigueur impose des achats reduits de moitie en taille, uniquement sur des titres beneficiant de catalyseurs reels et d une structure technique robuste.",
+ "signaux": [
+  {
+   "symbole": "ENX.PA",
+   "action": "ACHAT",
+   "confiance": 78,
+   "justification": "Euronext affiche une excellente force relative en seance (+1,77 %) en tendance HAUSSE_CONFIRMEE (+2,57 % de pente, chg126d +15,83 %) avec un RSI 14 non sature a 44,4. Le dossier beneficie d un catalyseur specifique cite dans les actualites avec l ouverture explicite d Euronext a un rapprochement strategique avec Deutsche Borse.",
+   "prix_entree": 161,
+   "stop_perte": 149,
+   "prise_profit": null,
+   "taille_pct": 7,
+   "invalidation": "Cassure cloturee sous la SMA50 a 156,30 EUR invalidant la dynamique d accumulation."
+  },
+  {
+   "symbole": "SAF.PA",
+   "action": "ACHAT",
+   "confiance": 76,
+   "justification": "Apres une consolidation de -10,76 % sur 20 jours, Safran revient tester avec succes le support majeur de sa SMA200 a 314,12 EUR (ecart +2,41 %) avec un RSI 14 assaini a 36,5 en tendance de fond HAUSSE_CONFIRMEE. La valeur beneficie d un catalyseur cite dans les actualites : le relevement par S&P de sa note de credit de A- a A avec perspective stable.",
+   "prix_entree": 321.7,
+   "stop_perte": 298,
+   "prise_profit": null,
+   "taille_pct": 6,
+   "invalidation": "Cassure en cloture journaliere sous le support cle de la SMA200 a 314,0 EUR."
+  }
+ ],
  "signaux_ecartes": [],
- "appliques": [],
+ "appliques": [
+  {
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "ACHAT",
+   "shares": 4,
+   "prix": 161,
+   "montant": 646.58,
+   "motif": "Euronext affiche une excellente force relative en seance (+1,77 %) en tendance HAUSSE_CONFIRMEE (+2,57 % de pente, chg126d +15,83 %) avec un RSI 14 non sature a 44,4. Le dossier beneficie d un catalyseur specifique cite dans les actualites avec l ouverture explicite d Euronext a un rapprochement strategique avec Deutsche Borse.",
+   "confiance": 78
+  },
+  {
+   "symbole": "SAF.PA",
+   "nom": "Safran",
+   "action": "ACHAT",
+   "shares": 1,
+   "prix": 321.7,
+   "montant": 322.99,
+   "motif": "Apres une consolidation de -10,76 % sur 20 jours, Safran revient tester avec succes le support majeur de sa SMA200 a 314,12 EUR (ecart +2,41 %) avec un RSI 14 assaini a 36,5 en tendance de fond HAUSSE_CONFIRMEE. La valeur beneficie d un catalyseur cite dans les actualites : le relevement par S&P de sa note de credit de A- a A avec perspective stable.",
+   "confiance": 76
+  }
+ ],
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 0,
-  "nbPassages": 3,
-  "equity": 10000,
-  "perfPct": 0,
+  "nbPassages": 4,
+  "equity": 9996.13,
+  "perfPct": -0.04,
   "cacPerfPct": 0,
-  "alphaPct": 0,
+  "alphaPct": -0.04,
   "maxDrawdownPct": 0,
   "sharpe": null,
-  "expositionPct": 0,
+  "expositionPct": 9.7,
   "trades": {
-   "nbAchats": 0,
+   "nbAchats": 2,
    "nbSolde": 0,
    "tauxReussitePct": null,
    "gainMoyenPct": null,
@@ -32,15 +76,15 @@
    "montantPerdu": 0
   },
   "couts": {
-   "fraisCumules": 0,
-   "ttfCumule": 0,
-   "totalEur": 0,
-   "montantAchete": 0,
-   "coutEnPctDuCapital": 0
+   "fraisCumules": 0.96,
+   "ttfCumule": 2.9,
+   "totalEur": 3.86,
+   "montantAchete": 969.57,
+   "coutEnPctDuCapital": 0.04
   },
   "signaux": {
    "achats": {
-    "nb": 0,
+    "nb": 2,
     "nbEvalues": 0,
     "tauxReussitePct": null,
     "alphaMoyen1mPct": null,
@@ -71,8 +115,8 @@
   }
  },
  "stats": {
-  "equity": 10000,
-  "cash": 10000,
-  "nbPositions": 0
+  "equity": 9996.13,
+  "cash": 9030.43,
+  "nbPositions": 2
  }
 }

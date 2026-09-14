@@ -7,9 +7,65 @@
   "feePct": 0.1,
   "ttfPct": 0.3
  },
- "cash": 10000,
- "positions": [],
- "trades": [],
+ "cash": 9030.43,
+ "positions": [
+  {
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "shares": 4,
+   "pmc": 161.64,
+   "price": 161,
+   "stop": 149,
+   "target": 185.15,
+   "dateAchat": "2026-09-14T12:48:39.173Z",
+   "these": "Euronext affiche une excellente force relative en seance (+1,77 %) en tendance HAUSSE_CONFIRMEE (+2,57 % de pente, chg126d +15,83 %) avec un RSI 14 non sature a 44,4. Le dossier beneficie d un catalyseur specifique cite dans les actualites avec l ouverture explicite d Euronext a un rapprochement strategique avec Deutsche Borse.",
+   "confiance": 78
+  },
+  {
+   "symbole": "SAF.PA",
+   "nom": "Safran",
+   "shares": 1,
+   "pmc": 322.99,
+   "price": 321.7,
+   "stop": 298,
+   "target": 369.96,
+   "dateAchat": "2026-09-14T12:48:39.173Z",
+   "these": "Apres une consolidation de -10,76 % sur 20 jours, Safran revient tester avec succes le support majeur de sa SMA200 a 314,12 EUR (ecart +2,41 %) avec un RSI 14 assaini a 36,5 en tendance de fond HAUSSE_CONFIRMEE. La valeur beneficie d un catalyseur cite dans les actualites : le relevement par S&P de sa note de credit de A- a A avec perspective stable.",
+   "confiance": 76
+  }
+ ],
+ "trades": [
+  {
+   "date": "2026-09-14T12:48:39.173Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "ACHAT",
+   "shares": 4,
+   "prix": 161,
+   "montant": 646.58,
+   "frais": 0.64,
+   "ttf": 1.93,
+   "motif": "Euronext affiche une excellente force relative en seance (+1,77 %) en tendance HAUSSE_CONFIRMEE (+2,57 % de pente, chg126d +15,83 %) avec un RSI 14 non sature a 44,4. Le dossier beneficie d un catalyseur specifique cite dans les actualites avec l ouverture explicite d Euronext a un rapprochement strategique avec Deutsche Borse.",
+   "confiance": 78,
+   "stop": 149,
+   "objectif": null
+  },
+  {
+   "date": "2026-09-14T12:48:39.173Z",
+   "symbole": "SAF.PA",
+   "nom": "Safran",
+   "action": "ACHAT",
+   "shares": 1,
+   "prix": 321.7,
+   "montant": 322.99,
+   "frais": 0.32,
+   "ttf": 0.97,
+   "motif": "Apres une consolidation de -10,76 % sur 20 jours, Safran revient tester avec succes le support majeur de sa SMA200 a 314,12 EUR (ecart +2,41 %) avec un RSI 14 assaini a 36,5 en tendance de fond HAUSSE_CONFIRMEE. La valeur beneficie d un catalyseur cite dans les actualites : le relevement par S&P de sa note de credit de A- a A avec perspective stable.",
+   "confiance": 76,
+   "stop": 298,
+   "objectif": null
+  }
+ ],
  "history": [
   {
    "date": "2026-09-14T13:30:00.000Z",
@@ -25,7 +81,45 @@
    "date": "2026-09-14T12:45:28.693Z",
    "equity": 10000,
    "cac": 8104.72
+  },
+  {
+   "date": "2026-09-14T12:48:39.173Z",
+   "equity": 9996.13,
+   "cac": 8103.78
   }
  ],
- "signaux": []
+ "signaux": [
+  {
+   "id": "2026-09-141248-ENX.PA-0",
+   "date": "2026-09-14T12:48:39.173Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "ACHAT",
+   "confiance": 78,
+   "prixSignal": 161,
+   "cacAuSignal": 8103.78,
+   "execute": true,
+   "motifRejet": null,
+   "justification": "Euronext affiche une excellente force relative en seance (+1,77 %) en tendance HAUSSE_CONFIRMEE (+2,57 % de pente, chg126d +15,83 %) avec un RSI 14 non sature a 44,4. Le dossier beneficie d un catalyseur specifique cite dans les actualites avec l ouverture explicite d Euronext a un rapprochement str",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-141248-SAF.PA-1",
+   "date": "2026-09-14T12:48:39.173Z",
+   "symbole": "SAF.PA",
+   "nom": "Safran",
+   "action": "ACHAT",
+   "confiance": 76,
+   "prixSignal": 321.7,
+   "cacAuSignal": 8103.78,
+   "execute": true,
+   "motifRejet": null,
+   "justification": "Apres une consolidation de -10,76 % sur 20 jours, Safran revient tester avec succes le support majeur de sa SMA200 a 314,12 EUR (ecart +2,41 %) avec un RSI 14 assaini a 36,5 en tendance de fond HAUSSE_CONFIRMEE. La valeur beneficie d un catalyseur cite dans les actualites : le relevement par S&P de ",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  }
+ ]
 }
