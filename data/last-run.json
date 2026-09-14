@@ -1,6 +1,6 @@
 {
- "date": "2026-09-14T13:30:00.000Z",
- "dureeS": 16,
+ "date": "2026-09-14T12:45:28.693Z",
+ "dureeS": 11,
  "dryRun": true,
  "modele": "gemini-3.8-flash",
  "regime": "NORMAL",
@@ -13,7 +13,7 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 0,
-  "nbPassages": 2,
+  "nbPassages": 3,
   "equity": 10000,
   "perfPct": 0,
   "cacPerfPct": 0,
