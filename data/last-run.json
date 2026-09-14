@@ -1,55 +1,56 @@
 {
- "date": "2026-09-14T12:48:39.173Z",
- "dureeS": 26,
+ "date": "2026-09-14T19:48:30.967Z",
+ "dureeS": 22,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "La seance est marquee par une baisse de -0,93 % sur le CAC 40 a 8103,78 points, entrainee par de fortes tensions sur les valeurs technologiques liees aux craintes d un ralentissement de l IA (STM -6,91 %, Schneider -6,92 %, Soitec -13,53 %). La largeur de marche ressort degradee a 43,4 % de valeurs au-dessus de leur SMA200, classant l environnement en etat FAIBLE. Dans ce contexte incertain et volatil, la selective rigueur impose des achats reduits de moitie en taille, uniquement sur des titres beneficiant de catalyseurs reels et d une structure technique robuste.",
+ "resume_marche": "Le CAC 40 cède 0,76 % à 8 117,78 points, plombé par les craintes de surchauffe et de ralentissement des investissements dans le secteur de l'intelligence artificielle (chutes de Soitec, Schneider et STMicroelectronics). La largeur de marché reste dégradée avec seulement 43,4 % de valeurs au-dessus de leur SMA 200, maintenant un état d'ensemble FAIBLE. Dans cet environnement de repli généralisé, la prudence s'impose avec une sélection très stricte orientée vers les titres affichant une forte force relative et une dynamique de fond intacte.",
  "signaux": [
   {
    "symbole": "ENX.PA",
-   "action": "ACHAT",
-   "confiance": 78,
-   "justification": "Euronext affiche une excellente force relative en seance (+1,77 %) en tendance HAUSSE_CONFIRMEE (+2,57 % de pente, chg126d +15,83 %) avec un RSI 14 non sature a 44,4. Le dossier beneficie d un catalyseur specifique cite dans les actualites avec l ouverture explicite d Euronext a un rapprochement strategique avec Deutsche Borse.",
-   "prix_entree": 161,
+   "action": "CONSERVER",
+   "confiance": 80,
+   "justification": "Euronext confirme sa vigueur dans un marché baissier avec un gain de 1,33 % ce jour (cours 160,30 EUR), soutenu par les spéculations d'un rapprochement avec Deutsche Börse. La tendance reste HAUSSE_CONFIRMEE (pente +2,57 %, SMA 200 à 139,94 EUR) et la thèse d'entrée demeure parfaitement intègre.",
+   "prix_entree": 160.3,
    "stop_perte": 149,
    "prise_profit": null,
-   "taille_pct": 7,
-   "invalidation": "Cassure cloturee sous la SMA50 a 156,30 EUR invalidant la dynamique d accumulation."
+   "taille_pct": 6.5,
+   "invalidation": "Enfoncement sous le stop initial fixé à 149,00 EUR."
   },
   {
    "symbole": "SAF.PA",
-   "action": "ACHAT",
-   "confiance": 76,
-   "justification": "Apres une consolidation de -10,76 % sur 20 jours, Safran revient tester avec succes le support majeur de sa SMA200 a 314,12 EUR (ecart +2,41 %) avec un RSI 14 assaini a 36,5 en tendance de fond HAUSSE_CONFIRMEE. La valeur beneficie d un catalyseur cite dans les actualites : le relevement par S&P de sa note de credit de A- a A avec perspective stable.",
-   "prix_entree": 321.7,
+   "action": "CONSERVER",
+   "confiance": 75,
+   "justification": "Safran consolide à 321,60 EUR (-2,60 % ce jour) mais préserve le support clé de sa SMA 200 (314,12 EUR, écart +2,38 %). Le catalyseur industriel des premiers contrats sur le Rafale F5 cité dans les actualités appuie la pérennité de la tendance de fond HAUSSE_CONFIRMEE.",
+   "prix_entree": 321.6,
    "stop_perte": 298,
    "prise_profit": null,
-   "taille_pct": 6,
-   "invalidation": "Cassure en cloture journaliere sous le support cle de la SMA200 a 314,0 EUR."
+   "taille_pct": 3.2,
+   "invalidation": "Cassure confirmée en clôture sous la SMA 200 et le seuil d'invalidation à 298,00 EUR."
+  },
+  {
+   "symbole": "PUB.PA",
+   "action": "ACHAT",
+   "confiance": 76,
+   "justification": "Publicis démontre une force relative remarquable en progressant de 3,67 % à 100,35 EUR à contre-courant du repli du CAC 40, confirmant son statut de valeur de qualité souligné par la presse. Le dossier bénéficie d'une tendance HAUSSE_CONFIRMEE irréprochable (chg126d +33,30 %, cours nettement au-dessus de la SMA 200 à 84,91 EUR) avec un RSI 14 assaini à 41,8.",
+   "prix_entree": 100.35,
+   "stop_perte": 93.8,
+   "prise_profit": null,
+   "taille_pct": 8,
+   "invalidation": "Rupture de la zone de support et de la SMA 50 sous 94,50 EUR."
   }
  ],
  "signaux_ecartes": [],
  "appliques": [
   {
-   "symbole": "ENX.PA",
-   "nom": "Euronext",
+   "symbole": "PUB.PA",
+   "nom": "Publicis Groupe",
    "action": "ACHAT",
-   "shares": 4,
-   "prix": 161,
-   "montant": 646.58,
-   "motif": "Euronext affiche une excellente force relative en seance (+1,77 %) en tendance HAUSSE_CONFIRMEE (+2,57 % de pente, chg126d +15,83 %) avec un RSI 14 non sature a 44,4. Le dossier beneficie d un catalyseur specifique cite dans les actualites avec l ouverture explicite d Euronext a un rapprochement strategique avec Deutsche Borse.",
-   "confiance": 78
-  },
-  {
-   "symbole": "SAF.PA",
-   "nom": "Safran",
-   "action": "ACHAT",
-   "shares": 1,
-   "prix": 321.7,
-   "montant": 322.99,
-   "motif": "Apres une consolidation de -10,76 % sur 20 jours, Safran revient tester avec succes le support majeur de sa SMA200 a 314,12 EUR (ecart +2,41 %) avec un RSI 14 assaini a 36,5 en tendance de fond HAUSSE_CONFIRMEE. La valeur beneficie d un catalyseur cite dans les actualites : le relevement par S&P de sa note de credit de A- a A avec perspective stable.",
+   "shares": 7,
+   "prix": 100.35,
+   "montant": 705.26,
+   "motif": "Publicis démontre une force relative remarquable en progressant de 3,67 % à 100,35 EUR à contre-courant du repli du CAC 40, confirmant son statut de valeur de qualité souligné par la presse. Le dossier bénéficie d'une tendance HAUSSE_CONFIRMEE irréprochable (chg126d +33,30 %, cours nettement au-dessus de la SMA 200 à 84,91 EUR) avec un RSI 14 assaini à 41,8.",
    "confiance": 76
   }
  ],
@@ -57,16 +58,16 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 0,
-  "nbPassages": 4,
-  "equity": 9996.13,
-  "perfPct": -0.04,
+  "nbPassages": 5,
+  "equity": 9990.42,
+  "perfPct": -0.1,
   "cacPerfPct": 0,
-  "alphaPct": -0.04,
+  "alphaPct": -0.1,
   "maxDrawdownPct": 0,
   "sharpe": null,
-  "expositionPct": 9.7,
+  "expositionPct": 16.7,
   "trades": {
-   "nbAchats": 2,
+   "nbAchats": 3,
    "nbSolde": 0,
    "tauxReussitePct": null,
    "gainMoyenPct": null,
@@ -76,15 +77,15 @@
    "montantPerdu": 0
   },
   "couts": {
-   "fraisCumules": 0.96,
-   "ttfCumule": 2.9,
-   "totalEur": 3.86,
-   "montantAchete": 969.57,
-   "coutEnPctDuCapital": 0.04
+   "fraisCumules": 1.66,
+   "ttfCumule": 5.01,
+   "totalEur": 6.67,
+   "montantAchete": 1674.83,
+   "coutEnPctDuCapital": 0.07
   },
   "signaux": {
    "achats": {
-    "nb": 2,
+    "nb": 3,
     "nbEvalues": 0,
     "tauxReussitePct": null,
     "alphaMoyen1mPct": null,
@@ -115,8 +116,8 @@
   }
  },
  "stats": {
-  "equity": 9996.13,
-  "cash": 9030.43,
-  "nbPositions": 2
+  "equity": 9990.42,
+  "cash": 8325.17,
+  "nbPositions": 3
  }
 }
