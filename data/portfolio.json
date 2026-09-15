@@ -7,14 +7,14 @@
   "feePct": 0.1,
   "ttfPct": 0.3
  },
- "cash": 8325.17,
+ "cash": 7529.8,
  "positions": [
   {
    "symbole": "ENX.PA",
    "nom": "Euronext",
    "shares": 4,
    "pmc": 161.64,
-   "price": 160.3,
+   "price": 158.5,
    "stop": 149,
    "target": 185.15,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -26,7 +26,7 @@
    "nom": "Safran",
    "shares": 1,
    "pmc": 322.99,
-   "price": 321.6,
+   "price": 323,
    "stop": 298,
    "target": 369.96,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -38,12 +38,24 @@
    "nom": "Publicis Groupe",
    "shares": 7,
    "pmc": 100.75,
-   "price": 100.35,
+   "price": 99.18,
    "stop": 93.8,
    "target": 115.4,
    "dateAchat": "2026-09-14T19:48:30.967Z",
    "these": "Publicis démontre une force relative remarquable en progressant de 3,67 % à 100,35 EUR à contre-courant du repli du CAC 40, confirmant son statut de valeur de qualité souligné par la presse. Le dossier bénéficie d'une tendance HAUSSE_CONFIRMEE irréprochable (chg126d +33,30 %, cours nettement au-dessus de la SMA 200 à 84,91 EUR) avec un RSI 14 assaini à 41,8.",
    "confiance": 76
+  },
+  {
+   "symbole": "DBG.PA",
+   "nom": "Derichebourg",
+   "shares": 85,
+   "pmc": 9.36,
+   "price": 9.32,
+   "stop": 8.55,
+   "target": 10.72,
+   "dateAchat": "2026-09-15T14:17:29.128Z",
+   "these": "Derichebourg s'inscrit en tendance HAUSSE_CONFIRMEE avec une pente haussière de +3,82 %, un gain semestriel de +15,62 % (chg126d) et un cours à 9,32 EUR supérieur à toutes ses moyennes mobiles (SMA 20 à 9,13 EUR et SMA 200 à 8,76 EUR). Le titre bénéficie d'un catalyseur d'analyste favorable réaffirmé le jour même (Invest Securities à l'achat) et d'un RSI bien orienté à 60,2.",
+   "confiance": 75
   }
  ],
  "trades": [
@@ -91,6 +103,21 @@
    "confiance": 76,
    "stop": 93.8,
    "objectif": null
+  },
+  {
+   "date": "2026-09-15T14:17:29.128Z",
+   "symbole": "DBG.PA",
+   "nom": "Derichebourg",
+   "action": "ACHAT",
+   "shares": 85,
+   "prix": 9.32,
+   "montant": 795.37,
+   "frais": 0.79,
+   "ttf": 2.38,
+   "motif": "Derichebourg s'inscrit en tendance HAUSSE_CONFIRMEE avec une pente haussière de +3,82 %, un gain semestriel de +15,62 % (chg126d) et un cours à 9,32 EUR supérieur à toutes ses moyennes mobiles (SMA 20 à 9,13 EUR et SMA 200 à 8,76 EUR). Le titre bénéficie d'un catalyseur d'analyste favorable réaffirmé le jour même (Invest Securities à l'achat) et d'un RSI bien orienté à 60,2.",
+   "confiance": 75,
+   "stop": 8.55,
+   "objectif": null
   }
  ],
  "history": [
@@ -118,6 +145,11 @@
    "date": "2026-09-14T19:48:30.967Z",
    "equity": 9990.42,
    "cac": 8117.78
+  },
+  {
+   "date": "2026-09-15T14:17:29.128Z",
+   "equity": 9973.26,
+   "cac": 8098.67
   }
  ],
  "signaux": [
@@ -197,6 +229,70 @@
    "execute": true,
    "motifRejet": null,
    "justification": "Publicis démontre une force relative remarquable en progressant de 3,67 % à 100,35 EUR à contre-courant du repli du CAC 40, confirmant son statut de valeur de qualité souligné par la presse. Le dossier bénéficie d'une tendance HAUSSE_CONFIRMEE irréprochable (chg126d +33,30 %, cours nettement au-dess",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-151417-ENX.PA-0",
+   "date": "2026-09-15T14:17:29.128Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "CONSERVER",
+   "confiance": 78,
+   "prixSignal": 158.5,
+   "cacAuSignal": 8098.67,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Euronext cote 158,50 EUR (-1,12 % du jour), se maintenant confortablement au-dessus de sa SMA 50 à 156,50 EUR (+1,28 %) et de sa SMA 200 à 140,07 EUR (+13,16 %). La tendance de fond reste HAUSSE_CONFIRMEE avec une progression sur six mois de +13,21 % (chg126d) et un RSI assaini à 37,1, maintenant la",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-151417-SAF.PA-1",
+   "date": "2026-09-15T14:17:29.128Z",
+   "symbole": "SAF.PA",
+   "nom": "Safran",
+   "action": "CONSERVER",
+   "confiance": 80,
+   "prixSignal": 323,
+   "cacAuSignal": 8098.67,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Safran progresse de +0,44 % à 323,00 EUR, validant le rebond sur le support clé de sa SMA 200 à 314,29 EUR (écart +2,77 %). Le titre conserve une tendance HAUSSE_CONFIRMEE avec un RSI assaini à 34,0 et bénéficie du catalyseur opérationnel récent relatif à l'alliance avec Exotrail dans la propulsion ",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-151417-PUB.PA-2",
+   "date": "2026-09-15T14:17:29.128Z",
+   "symbole": "PUB.PA",
+   "nom": "Publicis Groupe",
+   "action": "CONSERVER",
+   "confiance": 76,
+   "prixSignal": 99.18,
+   "cacAuSignal": 8098.67,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Publicis s'établit à 99,18 EUR (-1,17 % sur la séance), préservant une dynamique de fond remarquable avec un chg126d de +32,42 % et une marge confortable sur sa SMA 50 à 95,74 EUR (+3,59 %) et sa SMA 200 à 84,99 EUR (+16,69 %). La tendance reste HAUSSE_CONFIRMEE et le RSI 14 à 41,0 laisse une marge ",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-151417-DBG.PA-3",
+   "date": "2026-09-15T14:17:29.128Z",
+   "symbole": "DBG.PA",
+   "nom": "Derichebourg",
+   "action": "ACHAT",
+   "confiance": 75,
+   "prixSignal": 9.32,
+   "cacAuSignal": 8098.67,
+   "execute": true,
+   "motifRejet": null,
+   "justification": "Derichebourg s'inscrit en tendance HAUSSE_CONFIRMEE avec une pente haussière de +3,82 %, un gain semestriel de +15,62 % (chg126d) et un cours à 9,32 EUR supérieur à toutes ses moyennes mobiles (SMA 20 à 9,13 EUR et SMA 200 à 8,76 EUR). Le titre bénéficie d'un catalyseur d'analyste favorable réaffirm",
    "h1s": null,
    "h1m": null,
    "solde": null
