@@ -7,14 +7,14 @@
   "feePct": 0.1,
   "ttfPct": 0.3
  },
- "cash": 7529.8,
+ "cash": 6566.36,
  "positions": [
   {
    "symbole": "ENX.PA",
    "nom": "Euronext",
    "shares": 4,
    "pmc": 161.64,
-   "price": 158.5,
+   "price": 157.9,
    "stop": 149,
    "target": 185.15,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -26,7 +26,7 @@
    "nom": "Safran",
    "shares": 1,
    "pmc": 322.99,
-   "price": 323,
+   "price": 322.3,
    "stop": 298,
    "target": 369.96,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -38,7 +38,7 @@
    "nom": "Publicis Groupe",
    "shares": 7,
    "pmc": 100.75,
-   "price": 99.18,
+   "price": 98.8,
    "stop": 93.8,
    "target": 115.4,
    "dateAchat": "2026-09-14T19:48:30.967Z",
@@ -50,12 +50,24 @@
    "nom": "Derichebourg",
    "shares": 85,
    "pmc": 9.36,
-   "price": 9.32,
+   "price": 9.22,
    "stop": 8.55,
    "target": 10.72,
    "dateAchat": "2026-09-15T14:17:29.128Z",
    "these": "Derichebourg s'inscrit en tendance HAUSSE_CONFIRMEE avec une pente haussière de +3,82 %, un gain semestriel de +15,62 % (chg126d) et un cours à 9,32 EUR supérieur à toutes ses moyennes mobiles (SMA 20 à 9,13 EUR et SMA 200 à 8,76 EUR). Le titre bénéficie d'un catalyseur d'analyste favorable réaffirmé le jour même (Invest Securities à l'achat) et d'un RSI bien orienté à 60,2.",
    "confiance": 75
+  },
+  {
+   "symbole": "HO.PA",
+   "nom": "Thales",
+   "shares": 4,
+   "pmc": 240.86,
+   "price": 239.9,
+   "stop": 219,
+   "target": 275.89,
+   "dateAchat": "2026-09-15T18:52:56.856Z",
+   "these": "Thales signe un rebond marqué de +4,12 % à 239,90 EUR, soutenu par deux catalyseurs d'actualité majeurs (interventions rassurantes lors d'une conférence investisseurs et sélection par l'UGAP pour les marchés cloud et infrastructures). Sur le plan technique, le titre opère un retournement haussier sur la zone de confluence SMA50 (243,40 EUR) / SMA200 (242,75 EUR) avec un RSI 14 qui redémarre à 37,3",
+   "confiance": 78
   }
  ],
  "trades": [
@@ -118,6 +130,21 @@
    "confiance": 75,
    "stop": 8.55,
    "objectif": null
+  },
+  {
+   "date": "2026-09-15T18:52:56.856Z",
+   "symbole": "HO.PA",
+   "nom": "Thales",
+   "action": "ACHAT",
+   "shares": 4,
+   "prix": 239.9,
+   "montant": 963.44,
+   "frais": 0.96,
+   "ttf": 2.88,
+   "motif": "Thales signe un rebond marqué de +4,12 % à 239,90 EUR, soutenu par deux catalyseurs d'actualité majeurs (interventions rassurantes lors d'une conférence investisseurs et sélection par l'UGAP pour les marchés cloud et infrastructures). Sur le plan technique, le titre opère un retournement haussier sur la zone de confluence SMA50 (243,40 EUR) / SMA200 (242,75 EUR) avec un RSI 14 qui redémarre à 37,3",
+   "confiance": 78,
+   "stop": 219,
+   "objectif": null
   }
  ],
  "history": [
@@ -150,6 +177,11 @@
    "date": "2026-09-15T14:17:29.128Z",
    "equity": 9973.26,
    "cac": 8098.67
+  },
+  {
+   "date": "2026-09-15T18:52:56.856Z",
+   "equity": 9955.16,
+   "cac": 8090.28
   }
  ],
  "signaux": [
@@ -293,6 +325,86 @@
    "execute": true,
    "motifRejet": null,
    "justification": "Derichebourg s'inscrit en tendance HAUSSE_CONFIRMEE avec une pente haussière de +3,82 %, un gain semestriel de +15,62 % (chg126d) et un cours à 9,32 EUR supérieur à toutes ses moyennes mobiles (SMA 20 à 9,13 EUR et SMA 200 à 8,76 EUR). Le titre bénéficie d'un catalyseur d'analyste favorable réaffirm",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-151852-ENX.PA-0",
+   "date": "2026-09-15T18:52:56.856Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "CONSERVER",
+   "confiance": 78,
+   "prixSignal": 157.9,
+   "cacAuSignal": 8090.28,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Le cours à 157,90 EUR reste confortablement au-dessus de sa SMA200 (140,07 EUR, écart +12,73 %) en tendance HAUSSE_CONFIRMEE (+2,53 % de pente). Le dossier continue de faire l'objet de spéculations d'alliances européennes dans l'actualité du jour, maintenant la thèse intacte.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-151852-SAF.PA-1",
+   "date": "2026-09-15T18:52:56.856Z",
+   "symbole": "SAF.PA",
+   "nom": "Safran",
+   "action": "CONSERVER",
+   "confiance": 78,
+   "prixSignal": 322.3,
+   "cacAuSignal": 8090.28,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Safran stabilise à 322,30 EUR (+0,22 % ce jour) au contact direct de son support majeur SMA200 (314,29 EUR, écart +2,55 %). La dynamique de fond HAUSSE_CONFIRMEE (chg126d +5,71 %) et le RSI 14 assaini à 33,3 valident le maintien de la position.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-151852-PUB.PA-2",
+   "date": "2026-09-15T18:52:56.856Z",
+   "symbole": "PUB.PA",
+   "nom": "Publicis Groupe",
+   "action": "CONSERVER",
+   "confiance": 75,
+   "prixSignal": 98.8,
+   "cacAuSignal": 8090.28,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Après un repli technique sous les 100 EUR, Publicis préserve sa tendance de fond HAUSSE_CONFIRMEE (chg126d +31,91 %, pente +1,90 %) et évolue au-dessus de sa SMA50 à 95,73 EUR (+3,20 %).",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-151852-DBG.PA-3",
+   "date": "2026-09-15T18:52:56.856Z",
+   "symbole": "DBG.PA",
+   "nom": "Derichebourg",
+   "action": "CONSERVER",
+   "confiance": 75,
+   "prixSignal": 9.22,
+   "cacAuSignal": 8090.28,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Derichebourg préserve sa trajectoire haussière (tendance HAUSSE_CONFIRMEE, pente +3,81 %, chg126d +14,32 %) avec un cours à 9,22 EUR au-dessus de sa SMA20 (9,12 EUR) et un soutien analytique réaffirmé par Invest Securities ce jour.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-151852-HO.PA-4",
+   "date": "2026-09-15T18:52:56.856Z",
+   "symbole": "HO.PA",
+   "nom": "Thales",
+   "action": "ACHAT",
+   "confiance": 78,
+   "prixSignal": 239.9,
+   "cacAuSignal": 8090.28,
+   "execute": true,
+   "motifRejet": null,
+   "justification": "Thales signe un rebond marqué de +4,12 % à 239,90 EUR, soutenu par deux catalyseurs d'actualité majeurs (interventions rassurantes lors d'une conférence investisseurs et sélection par l'UGAP pour les marchés cloud et infrastructures). Sur le plan technique, le titre opère un retournement haussier su",
    "h1s": null,
    "h1m": null,
    "solde": null

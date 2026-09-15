@@ -1,84 +1,95 @@
 {
- "date": "2026-09-15T14:17:29.128Z",
- "dureeS": 29,
+ "date": "2026-09-15T18:52:56.856Z",
+ "dureeS": 21,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 affiche un léger repli de -0,24 % à 8 098,67 points dans un climat attentiste marqué par les tensions sur les taux et l'énergie. La largeur du marché demeure dégradée avec seulement 41,8 % des valeurs au-dessus de leur SMA 200, confirmant un état FAIBLE de l'univers de cotation. Dans cette configuration de marché fragile, une discipline stricte s'impose avec des positions sélectives et des tailles de lignes réduites.",
+ "resume_marche": "Le CAC 40 clôture en baisse modérée de -0,34 % à 8090,28 points dans un climat d'aversion au risque alimenté par la remontée des taux souverains et du pétrole. La largeur de marché reste FAIBLE avec seulement 41,8 % des composantes au-dessus de leur SMA200. Face à cette divergence et aux incertitudes macroéconomiques, la gestion du risque impose une grande sélectivité et des expositions mesurées.",
  "signaux": [
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 78,
-   "justification": "Euronext cote 158,50 EUR (-1,12 % du jour), se maintenant confortablement au-dessus de sa SMA 50 à 156,50 EUR (+1,28 %) et de sa SMA 200 à 140,07 EUR (+13,16 %). La tendance de fond reste HAUSSE_CONFIRMEE avec une progression sur six mois de +13,21 % (chg126d) et un RSI assaini à 37,1, maintenant la thèse intacte au-dessus du stop à 149,00 EUR.",
-   "prix_entree": 158.5,
+   "justification": "Le cours à 157,90 EUR reste confortablement au-dessus de sa SMA200 (140,07 EUR, écart +12,73 %) en tendance HAUSSE_CONFIRMEE (+2,53 % de pente). Le dossier continue de faire l'objet de spéculations d'alliances européennes dans l'actualité du jour, maintenant la thèse intacte.",
+   "prix_entree": 157.9,
    "stop_perte": 149,
    "prise_profit": null,
-   "taille_pct": 6.5,
-   "invalidation": "Clôture sous le support des 149,00 EUR ou cassure nette de la SMA 50."
+   "taille_pct": 10,
+   "invalidation": "Cassure confirmée du stop de protection placé à 149,00 EUR."
   },
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
-   "confiance": 80,
-   "justification": "Safran progresse de +0,44 % à 323,00 EUR, validant le rebond sur le support clé de sa SMA 200 à 314,29 EUR (écart +2,77 %). Le titre conserve une tendance HAUSSE_CONFIRMEE avec un RSI assaini à 34,0 et bénéficie du catalyseur opérationnel récent relatif à l'alliance avec Exotrail dans la propulsion électrique spatiale.",
-   "prix_entree": 323,
+   "confiance": 78,
+   "justification": "Safran stabilise à 322,30 EUR (+0,22 % ce jour) au contact direct de son support majeur SMA200 (314,29 EUR, écart +2,55 %). La dynamique de fond HAUSSE_CONFIRMEE (chg126d +5,71 %) et le RSI 14 assaini à 33,3 valident le maintien de la position.",
+   "prix_entree": 322.3,
    "stop_perte": 298,
    "prise_profit": null,
-   "taille_pct": 3.2,
-   "invalidation": "Enfoncement clôturé sous la SMA 200 à 314,29 EUR ou rupture du stop à 298,00 EUR."
+   "taille_pct": 10,
+   "invalidation": "Rupture de la SMA200 et du stop fixé à 298,00 EUR."
   },
   {
    "symbole": "PUB.PA",
    "action": "CONSERVER",
-   "confiance": 76,
-   "justification": "Publicis s'établit à 99,18 EUR (-1,17 % sur la séance), préservant une dynamique de fond remarquable avec un chg126d de +32,42 % et une marge confortable sur sa SMA 50 à 95,74 EUR (+3,59 %) et sa SMA 200 à 84,99 EUR (+16,69 %). La tendance reste HAUSSE_CONFIRMEE et le RSI 14 à 41,0 laisse une marge d'appréciation saine au-dessus du stop de 93,80 EUR.",
-   "prix_entree": 99.18,
+   "confiance": 75,
+   "justification": "Après un repli technique sous les 100 EUR, Publicis préserve sa tendance de fond HAUSSE_CONFIRMEE (chg126d +31,91 %, pente +1,90 %) et évolue au-dessus de sa SMA50 à 95,73 EUR (+3,20 %).",
+   "prix_entree": 98.8,
    "stop_perte": 93.8,
    "prise_profit": null,
-   "taille_pct": 7,
-   "invalidation": "Clôture sous la SMA 50 à 95,74 EUR ou rupture du niveau d'invalidation à 93,80 EUR."
+   "taille_pct": 10,
+   "invalidation": "Enfoncement en clôture de la SMA50 et déclenchement du stop à 93,80 EUR."
   },
   {
    "symbole": "DBG.PA",
-   "action": "ACHAT",
+   "action": "CONSERVER",
    "confiance": 75,
-   "justification": "Derichebourg s'inscrit en tendance HAUSSE_CONFIRMEE avec une pente haussière de +3,82 %, un gain semestriel de +15,62 % (chg126d) et un cours à 9,32 EUR supérieur à toutes ses moyennes mobiles (SMA 20 à 9,13 EUR et SMA 200 à 8,76 EUR). Le titre bénéficie d'un catalyseur d'analyste favorable réaffirmé le jour même (Invest Securities à l'achat) et d'un RSI bien orienté à 60,2.",
-   "prix_entree": 9.32,
+   "justification": "Derichebourg préserve sa trajectoire haussière (tendance HAUSSE_CONFIRMEE, pente +3,81 %, chg126d +14,32 %) avec un cours à 9,22 EUR au-dessus de sa SMA20 (9,12 EUR) et un soutien analytique réaffirmé par Invest Securities ce jour.",
+   "prix_entree": 9.22,
    "stop_perte": 8.55,
    "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Clôture sous la SMA 200 à 8,76 EUR ou rupture du support à 8,55 EUR."
+   "taille_pct": 10,
+   "invalidation": "Cassure du support technique sous 8,55 EUR."
+  },
+  {
+   "symbole": "HO.PA",
+   "action": "ACHAT",
+   "confiance": 78,
+   "justification": "Thales signe un rebond marqué de +4,12 % à 239,90 EUR, soutenu par deux catalyseurs d'actualité majeurs (interventions rassurantes lors d'une conférence investisseurs et sélection par l'UGAP pour les marchés cloud et infrastructures). Sur le plan technique, le titre opère un retournement haussier sur la zone de confluence SMA50 (243,40 EUR) / SMA200 (242,75 EUR) avec un RSI 14 qui redémarre à 37,3",
+   "prix_entree": 239.9,
+   "stop_perte": 219,
+   "prise_profit": null,
+   "taille_pct": 10,
+   "invalidation": "Clôture sous les plus bas récents et sous le seuil technique de 219,00 EUR."
   }
  ],
  "signaux_ecartes": [],
  "appliques": [
   {
-   "symbole": "DBG.PA",
-   "nom": "Derichebourg",
+   "symbole": "HO.PA",
+   "nom": "Thales",
    "action": "ACHAT",
-   "shares": 85,
-   "prix": 9.32,
-   "montant": 795.37,
-   "motif": "Derichebourg s'inscrit en tendance HAUSSE_CONFIRMEE avec une pente haussière de +3,82 %, un gain semestriel de +15,62 % (chg126d) et un cours à 9,32 EUR supérieur à toutes ses moyennes mobiles (SMA 20 à 9,13 EUR et SMA 200 à 8,76 EUR). Le titre bénéficie d'un catalyseur d'analyste favorable réaffirmé le jour même (Invest Securities à l'achat) et d'un RSI bien orienté à 60,2.",
-   "confiance": 75
+   "shares": 4,
+   "prix": 239.9,
+   "montant": 963.44,
+   "motif": "Thales signe un rebond marqué de +4,12 % à 239,90 EUR, soutenu par deux catalyseurs d'actualité majeurs (interventions rassurantes lors d'une conférence investisseurs et sélection par l'UGAP pour les marchés cloud et infrastructures). Sur le plan technique, le titre opère un retournement haussier sur la zone de confluence SMA50 (243,40 EUR) / SMA200 (242,75 EUR) avec un RSI 14 qui redémarre à 37,3",
+   "confiance": 78
   }
  ],
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 1,
-  "nbPassages": 6,
-  "equity": 9973.26,
-  "perfPct": -0.27,
-  "cacPerfPct": -0.24,
-  "alphaPct": -0.03,
-  "maxDrawdownPct": -0.2,
+  "nbPassages": 7,
+  "equity": 9955.16,
+  "perfPct": -0.45,
+  "cacPerfPct": -0.34,
+  "alphaPct": -0.11,
+  "maxDrawdownPct": -0.4,
   "sharpe": null,
-  "expositionPct": 24.5,
+  "expositionPct": 34,
   "trades": {
-   "nbAchats": 4,
+   "nbAchats": 5,
    "nbSolde": 0,
    "tauxReussitePct": null,
    "gainMoyenPct": null,
@@ -88,15 +99,15 @@
    "montantPerdu": 0
   },
   "couts": {
-   "fraisCumules": 2.45,
-   "ttfCumule": 7.39,
-   "totalEur": 9.84,
-   "montantAchete": 2470.2,
-   "coutEnPctDuCapital": 0.1
+   "fraisCumules": 3.41,
+   "ttfCumule": 10.27,
+   "totalEur": 13.68,
+   "montantAchete": 3433.64,
+   "coutEnPctDuCapital": 0.14
   },
   "signaux": {
    "achats": {
-    "nb": 4,
+    "nb": 5,
     "nbEvalues": 0,
     "tauxReussitePct": null,
     "alphaMoyen1mPct": null,
@@ -127,8 +138,8 @@
   }
  },
  "stats": {
-  "equity": 9973.26,
-  "cash": 7529.8,
-  "nbPositions": 4
+  "equity": 9955.16,
+  "cash": 6566.36,
+  "nbPositions": 5
  }
 }
