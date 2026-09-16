@@ -1,89 +1,100 @@
 {
- "date": "2026-09-16T14:09:31.933Z",
- "dureeS": 21,
+ "date": "2026-09-16T16:55:20.995Z",
+ "dureeS": 25,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 progresse de 0,50 % a 8130,78 points a mi-seance, dans un contexte d attentisme generalise avant les annonces de politique monetaire de la Fed. La largeur de marche demeure fragile avec seulement 44,3 % des valeurs au-dessus de leur SMA200 (etat FAIBLE), justifiant un calibrage defensif des expositions. Nous conservons nos 5 positions ouvertes tout en saisissant une opportunite de continuation a fort momentum et signal d inities.",
+ "resume_marche": "Le CAC 40 termine la seance en rebond de +0,62 % a 8 140,59 points a la veille des decisions de la Fed. La largeur du marche reste neanmoins restreinte avec 43,4 % seulement des valeurs au-dessus de leur SMA 200, ce qui maintient l'univers en configuration FAIBLE. Dans ce contexte d'appetit selectif, la gestion demeure prudente avec des tailles de position reduites et un ciblage exclusif des valeurs en dynamique haussiere soutenue par des contrats reels.",
  "signaux": [
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 78,
-   "justification": "Euronext reste solidement positionne au-dessus de sa SMA50 (156,67 EUR) et SMA200 (140,20 EUR) en tendance HAUSSE_CONFIRMEE avec une pente a +2,48 %, tandis que le RSI 14 a 40,4 est assaini.",
-   "prix_entree": 158,
+   "justification": "Euronext reste bien ancre au-dessus de sa SMA 200 a 140,19 EUR (+12,13 %) et au contact de sa SMA 50 a 156,66 EUR (+0,35 %) en tendance HAUSSE_CONFIRMEE, avec un RSI 14 non sature a 39,0.",
+   "prix_entree": 157.2,
    "stop_perte": 149,
    "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Cassure cloturee sous le stop de 149,00 EUR."
+   "taille_pct": 10,
+   "invalidation": "Cassure cloturee sous le stop fixe a 149,00 EUR."
   },
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
-   "confiance": 78,
-   "justification": "Safran confirme son rebond sur support SMA200 (+1,02 % a 325,60 EUR, SMA200 a 314,47 EUR) avec un RSI a 29,7 sortant de survente et un flux d actualite confirmant le renforcement industriel au Maroc.",
-   "prix_entree": 325.6,
+   "confiance": 80,
+   "justification": "Safran poursuit son rebond a 326,30 EUR (+1,24 % ce jour) au-dessus de sa SMA 200 a 314,47 EUR (+3,76 %), soutenu par les actualites sur la forte demande de pieces detachees aeronautiques.",
+   "prix_entree": 326.3,
    "stop_perte": 298,
    "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Rupture de la zone support et du stop a 298,00 EUR."
+   "taille_pct": 10,
+   "invalidation": "Enfoncement net du support majeur et de la SMA 200 sous 298,00 EUR."
   },
   {
    "symbole": "PUB.PA",
    "action": "CONSERVER",
    "confiance": 76,
-   "justification": "Publicis consolide a 97,86 EUR au-dessus de sa SMA50 a 95,93 EUR dans une tendance haussiere intacte (+1,89 % de pente, chg126d +35,95 %). Le niveau de stop a 93,80 EUR n est nullement menace.",
-   "prix_entree": 97.86,
+   "justification": "Malgre un repli seancier a 97,04 EUR, la tendance de fond HAUSSE_CONFIRMEE reste intacte (+34,82 % sur 126 jours) au-dessus de la SMA 50 a 95,91 EUR (+1,18 %) et SMA 200 a 85,06 EUR (+14,09 %).",
+   "prix_entree": 97.04,
    "stop_perte": 93.8,
    "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Enfoncement des 93,80 EUR en cloture."
+   "taille_pct": 10,
+   "invalidation": "Rupture du support SMA 50 et invalidation sous 93,80 EUR."
   },
   {
    "symbole": "DBG.PA",
    "action": "CONSERVER",
    "confiance": 75,
-   "justification": "Derichebourg recule a 9,03 EUR mais preserve son orientation de fond HAUSSE_CONFIRMEE (+3,79 % de pente) et son plancher technique au-dessus de la SMA200 a 8,77 EUR, confortant le maintien de la position.",
-   "prix_entree": 9.03,
+   "justification": "Derichebourg preserve sa dynamique positive de long terme (+10,97 % sur 126 jours) au-dessus de sa SMA 200 a 8,78 EUR (+3,76 %) avec un RSI neutre a 47,9.",
+   "prix_entree": 9.11,
    "stop_perte": 8.55,
    "prise_profit": null,
-   "taille_pct": 8,
+   "taille_pct": 10,
    "invalidation": "Cloture sous le support des 8,55 EUR."
   },
   {
    "symbole": "HO.PA",
    "action": "CONSERVER",
-   "confiance": 78,
-   "justification": "Thales conforte son rebond a 241,00 EUR (+6,78 % sur 5 jours) soutenu par les developpements industriels recents en Inde et le lancement reussi des satellites Copernicus Sentinel-3C relayes par la presse.",
-   "prix_entree": 241,
+   "confiance": 80,
+   "justification": "Thales conforte sa stabilite a 240,90 EUR (+0,42 %), beneficiant d'un flux dense d'actualites favorables (contrat satellite NigComSat-2A, succes du tir spatial europeen et production de roquettes en Inde).",
+   "prix_entree": 240.9,
    "stop_perte": 219,
    "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Cassure du seuil des 219,00 EUR."
+   "taille_pct": 10,
+   "invalidation": "Enfoncement des plus bas recents sous 219,00 EUR."
   },
   {
    "symbole": "ERF.PA",
-   "action": "ACHAT",
-   "confiance": 78,
-   "justification": "Eurofins inscrit un nouveau plus haut a 74,56 EUR (+7,03 % sur 20j) en tendance HAUSSE_CONFIRMEE au-dessus de toutes ses moyennes mobiles (SMA50 a 70,43 EUR, SMA200 a 65,91 EUR), avec un RSI non sature a 58,3. Le titre beneficie d un catalyseur fort avec les achats d actions recents realises par une entite controlee par le CEO.",
-   "prix_entree": 74.56,
+   "action": "CONSERVER",
+   "confiance": 80,
+   "justification": "Eurofins Scientific progresse de +1,66 % a 74,70 EUR au plus haut sur 52 semaines en HAUSSE_CONFIRMEE (+19,52 % sur 126 jours), avec le signal de confiance additionnel d'achats d'actions par le CEO.",
+   "prix_entree": 74.7,
    "stop_perte": 68.5,
    "prise_profit": null,
+   "taille_pct": 10,
+   "invalidation": "Retournement et rupture de la SMA 50 sous 68,50 EUR."
+  },
+  {
+   "symbole": "DEC.PA",
+   "action": "ACHAT",
+   "confiance": 78,
+   "justification": "JCDecaux est etabli en tendance HAUSSE_CONFIRMEE (pente +4,99 %, chg126d +24,20 %) au-dessus de ses moyennes SMA 50 a 23,17 EUR (+5,23 %) et SMA 200 a 19,03 EUR (+28,13 %), avec un RSI equilibre a 53,2. Le dossier beneficie d'un catalyseur commercial direct annonce aujourd'hui avec le gain/renouvellement strategique de la concession a Dusseldorf.",
+   "prix_entree": 24.38,
+   "stop_perte": 22.2,
+   "prise_profit": null,
    "taille_pct": 8,
-   "invalidation": "Cassure cloturee sous la SMA50 et l ancien palier a 68,50 EUR."
+   "invalidation": "Cloture journaliere sous le niveau de support et SMA 20 a 22,20 EUR."
   }
  ],
  "signaux_ecartes": [],
  "appliques": [
   {
-   "symbole": "ERF.PA",
-   "nom": "Eurofins Scientific",
+   "symbole": "DEC.PA",
+   "nom": "JCDecaux",
    "action": "ACHAT",
-   "shares": 10,
-   "prix": 74.56,
-   "montant": 748.58,
-   "motif": "Eurofins inscrit un nouveau plus haut a 74,56 EUR (+7,03 % sur 20j) en tendance HAUSSE_CONFIRMEE au-dessus de toutes ses moyennes mobiles (SMA50 a 70,43 EUR, SMA200 a 65,91 EUR), avec un RSI non sature a 58,3. Le titre beneficie d un catalyseur fort avec les achats d actions recents realises par une entite controlee par le CEO.",
+   "shares": 32,
+   "prix": 24.38,
+   "montant": 783.28,
+   "motif": "JCDecaux est etabli en tendance HAUSSE_CONFIRMEE (pente +4,99 %, chg126d +24,20 %) au-dessus de ses moyennes SMA 50 a 23,17 EUR (+5,23 %) et SMA 200 a 19,03 EUR (+28,13 %), avec un RSI equilibre a 53,2. Le dossier beneficie d'un catalyseur commercial direct annonce aujourd'hui avec le gain/renouvellement strategique de la concession a Dusseldorf.",
    "confiance": 78
   }
  ],
@@ -91,16 +102,16 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 2,
-  "nbPassages": 8,
-  "equity": 9937.55,
-  "perfPct": -0.62,
-  "cacPerfPct": 0.16,
-  "alphaPct": -0.78,
-  "maxDrawdownPct": -0.5,
+  "nbPassages": 9,
+  "equity": 9933.99,
+  "perfPct": -0.66,
+  "cacPerfPct": 0.28,
+  "alphaPct": -0.94,
+  "maxDrawdownPct": -0.6,
   "sharpe": null,
-  "expositionPct": 41.5,
+  "expositionPct": 49.3,
   "trades": {
-   "nbAchats": 6,
+   "nbAchats": 7,
    "nbSolde": 0,
    "tauxReussitePct": null,
    "gainMoyenPct": null,
@@ -110,15 +121,15 @@
    "montantPerdu": 0
   },
   "couts": {
-   "fraisCumules": 4.16,
-   "ttfCumule": 12.51,
-   "totalEur": 16.67,
-   "montantAchete": 4182.22,
-   "coutEnPctDuCapital": 0.17
+   "fraisCumules": 4.94,
+   "ttfCumule": 14.85,
+   "totalEur": 19.79,
+   "montantAchete": 4965.5,
+   "coutEnPctDuCapital": 0.2
   },
   "signaux": {
    "achats": {
-    "nb": 6,
+    "nb": 7,
     "nbEvalues": 0,
     "tauxReussitePct": null,
     "alphaMoyen1mPct": null,
@@ -149,8 +160,8 @@
   }
  },
  "stats": {
-  "equity": 9937.55,
-  "cash": 5817.78,
-  "nbPositions": 6
+  "equity": 9933.99,
+  "cash": 5034.5,
+  "nbPositions": 7
  }
 }
