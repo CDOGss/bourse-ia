@@ -11,9 +11,12 @@ servi par GitHub Pages.
 
 ## Ce qui tourne
 
-- **Cron GitHub Actions** : lundi a vendredi, 9 h, 11 h, 13 h, 15 h et 17 h UTC (soit ~11 h a
-  ~19 h a Paris l'ete, ~10 h a ~18 h l'hiver ; le dernier passage fait le point de fin de
-  seance). Week-ends et jours feries boursiers d'Euronext : skip.
+- **Cron GitHub Actions** : lundi a vendredi, 5 creneaux a 9 h, 11 h, 13 h, 15 h et 17 h UTC
+  (soit ~11 h a ~19 h a Paris l'ete, ~10 h a ~18 h l'hiver ; le dernier passage fait le point
+  de fin de seance). Chaque creneau est tente 3 fois (:07, :27, :47) car GitHub saute ou retarde
+  souvent les schedules ; `run.js` refuse de tourner deux fois en moins de
+  `espacementMinMinutes` (75 min, `config.json`), donc une seule tentative appelle l'IA.
+  Week-ends et jours feries boursiers d'Euronext : skip.
 - **Pipeline `src/run.js`** : cours + indicateurs → actualites → memoire des decisions
   precedentes → appel Gemini → validation stricte du JSON → garde-fous → portefeuille virtuel →
   journal des signaux → meriques → commit de l'etat dans `data/` → dashboard.
@@ -142,8 +145,10 @@ trades, journal des signaux), `data/last-run.json` (derniere analyse et meriques
 - **Yahoo Finance est une API non officielle** : gratuite, sans garantie, susceptible de
   changer ou de bloquer les adresses des runners GitHub. Le run echoue alors proprement (etat
   preserve) et se reprend au passage suivant.
-- **Les schedules GitHub Actions** peuvent prendre quelques minutes de retard les jours
-  charges ; GitHub garantit l'execution, pas l'heure exacte.
+- **Les schedules GitHub Actions ne sont pas fiables** : sur un depot gratuit, observe en
+  septembre 2026, ~30 % des creneaux tournent, avec 1 a 3 h de retard. Les 3 tentatives par
+  creneau ameliorent le taux sans le garantir ; pour une execution a l'heure, il faut un
+  declencheur externe (`workflow_dispatch` via l'API GitHub depuis un cron tiers).
 - **Un stop n'est verifie que 5 fois par jour.** Une ouverture en fort gap se solde au prix du
   marche, plus bas que le stop. C'est ce qui se passerait en reel avec des ordres au marche.
 - **La vente a decouvert est volontairement desactivee** (le compte-titres le permettrait) :

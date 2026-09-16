@@ -37,3 +37,12 @@ export function marcheFerme(now = new Date()) {
   if (estJourFerieBoursier(local)) return "jour ferie";
   return null;
 }
+
+// Garde d'espacement : renvoie un motif si un vrai passage (hors dry-run) a eu lieu il y a
+// moins de `minutes`, null sinon. Sert quand le cron tente plusieurs fois le meme creneau.
+export function passageTropRecent(now, dernierRun, minutes) {
+  if (!minutes || !dernierRun?.date || dernierRun.dryRun) return null;
+  const ecartMin = (now - new Date(dernierRun.date)) / 60000;
+  if (Number.isNaN(ecartMin) || ecartMin < 0 || ecartMin >= minutes) return null;
+  return `dernier passage il y a ${Math.round(ecartMin)} min (< ${minutes} min)`;
+}

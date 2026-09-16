@@ -2,7 +2,10 @@ name: Analyse IA (2h)
 
 on:
   schedule:
-    - cron: "7 9,11,13,15,17 * * 1-5"
+    # 3 tentatives par creneau : GitHub retarde ou abandonne souvent les schedules.
+    # src/run.js refuse de tourner deux fois en moins de `espacementMinMinutes` (config.json),
+    # donc les tentatives excedentaires s'arretent sans appel a l'IA.
+    - cron: "7,27,47 9,11,13,15,17 * * 1-5"
   workflow_dispatch:
     inputs:
       dry_run:

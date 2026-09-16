@@ -8,7 +8,7 @@ import { largeurDuMarche } from "./indicators.js";
 import { fetchNews } from "./news.js";
 import { callGemini, validerAnalyseTolerante } from "./llm.js";
 import { systemInstructionFrom } from "./prompt.js";
-import { marcheFerme } from "./marche.js";
+import { marcheFerme, passageTropRecent } from "./marche.js";
 import { enregistrerSignaux, mettreAJourHorizons, rattacherResultatSortie } from "./review.js";
 import { calculerMeriques } from "./metrics.js";
 
@@ -85,6 +85,18 @@ async function main() {
   }
 
   const config = JSON.parse(readFileSync(join(ROOT, "config.json"), "utf8"));
+
+  // Le cron tente chaque creneau plusieurs fois (GitHub en saute souvent) : une seule tentative
+  // doit aboutir. `--force` court-circuite la garde pour les lancements manuels.
+  const dernierRun = lireJson(join(dataDir, "last-run.json"));
+  if (!has("--force")) {
+    const recent = passageTropRecent(now, dernierRun, config.espacementMinMinutes);
+    if (recent) {
+      console.log(`${recent} - rien a faire`);
+      return;
+    }
+  }
+
   const universe = JSON.parse(readFileSync(join(ROOT, "src", "universe.json"), "utf8"));
   const systemInstruction = systemInstructionFrom(readFileSync(join(ROOT, "PROMPT.md"), "utf8"));
   const gf = config.gardeFous;
@@ -100,7 +112,6 @@ async function main() {
   };
 
   const portfolioPath = join(dataDir, "portfolio.json");
-  const dernierRun = lireJson(join(dataDir, "last-run.json"));
   let portfolio = lireJson(portfolioPath) || initPortfolio(engineCfg, now.toISOString());
   if (!Array.isArray(portfolio.signaux)) portfolio.signaux = [];
   if (!Array.isArray(portfolio.trades)) portfolio.trades = [];

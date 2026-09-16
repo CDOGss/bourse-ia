@@ -1,6 +1,7 @@
 {
   "modele": "gemini-3.8-flash",
   "reflexion": "high",
+  "espacementMinMinutes": 75,
   "miseDepart": 10000,
   "fraisPct": 0.1,
   "taxeTransactionPct": 0.3,
