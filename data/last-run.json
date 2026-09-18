@@ -1,61 +1,17 @@
 {
- "date": "2026-09-18T13:32:58.805Z",
- "dureeS": 21,
+ "date": "2026-09-18T17:12:56.704Z",
+ "dureeS": 20,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 cede 1,24 % a 8 085,8 points dans un contexte de consolidation hebdomadaire marque par les trois sorcieres. La largeur de marche reste classee FAIBLE avec seulement 42,6 % des valeurs de l'univers au-dessus de leur SMA 200. Le portefeuille compte deja ses 8 positions autorisees, imposant une gestion stricte des risques et le maintien des stops.",
+ "resume_marche": "Le CAC 40 subit un net repli de -1,49 % à 8065,02 points, pénalisé par la tension sur les rendements souverains français (OAT 10 ans bondissant à 4,55 %) et l'envolée de la prime de risque. La largeur de marché demeure fragile à l'état FAIBLE avec seulement 41 % des valeurs au-dessus de leur SMA200. Dans ce contexte d'aversion au risque, la discipline de gestion impose de couper les lignes dont la configuration technique s'est rompue.",
  "signaux": [
   {
-   "symbole": "ENX.PA",
-   "action": "CONSERVER",
-   "confiance": 78,
-   "justification": "Euronext reste ancre en tendance HAUSSE_CONFIRMEE avec une avance confortable de +11,48 % sur sa SMA 200 (140,47 EUR) et un RSI assaini a 33,5. Le repli actuel reste au-dessus du seuil d'invalidation (stop a 149 EUR).",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "SAF.PA",
-   "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "Safran preserve ses gains (+1,1 % en portefeuille) et fait preuve de stabilite (+0,06 % en seance a 326,50 EUR) malgre le repli du marche. Le cours evolue au-dessus de sa SMA 200 (314,89 EUR, ecart +3,69 %) en tendance HAUSSE_CONFIRMEE.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "PUB.PA",
-   "action": "CONSERVER",
-   "confiance": 80,
-   "justification": "Publicis demontre une nette force relative en seance (+0,99 % a 98,00 EUR) a contre-courant du CAC 40. La tendance de fond demeure HAUSSE_CONFIRMEE avec un ecart a la SMA 200 de +15,01 % et un gain semestriel robuste (+38,97 % sur 126 jours).",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
    "symbole": "DBG.PA",
-   "action": "CONSERVER",
-   "confiance": 70,
-   "justification": "Derichebourg subit des degagements (-4,12 % a 8,73 EUR) suites au franchissement de seuil a la baisse d'Amiral Gestion. Le cours reste neanmoins au contact de sa SMA 200 (8,80 EUR, ecart -0,82 %) et au-dessus de notre stop de securite situe a 8,55 EUR.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "HO.PA",
-   "action": "CONSERVER",
-   "confiance": 84,
-   "justification": "Thales beneficie d'un flux d'actualites defensif et porteur (annonce du systeme d'IA HexaForce et renforcement de capacites industrielles a La Ferte-Saint-Aubin). Le titre resiste sur la seance (+0,04 % a 241,00 EUR) et progresse de +7,06 % sur 5 jours.",
+   "action": "VENTE",
+   "confiance": 80,
+   "justification": "Derichebourg a chuté de -4,61 % à 8,69 EUR, cassant à la baisse son support clé de la SMA200 (8,80 EUR) ainsi que sa SMA50 (9,24 EUR). Ce décrochage s'accompagne d'un flux vendeur institutionnel matérialisé par le franchissement à la baisse du seuil des 5 % par Amiral Gestion, invalidant formellement la thèse d'entrée haussière.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -66,7 +22,7 @@
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Eurofins Scientific enregistre un nouveau plus haut a 77,46 EUR (+3,69 % en seance, +9,22 % sur 5 jours) en tendance HAUSSE_CONFIRMEE. La dynamique haussiere moyen terme reste intacte en direction de la cible a 85,74 EUR malgre un RSI a 70,3.",
+   "justification": "Eurofins Scientific confirme son excellente dynamique haussière en s'adjugeant +2,33 % à 76,44 EUR sur de nouveaux plus hauts annuels, soutenue par une tendance HAUSSE_CONFIRMEE et un momentum intact.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -76,8 +32,41 @@
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
+   "confiance": 82,
+   "justification": "JCDecaux fait preuve d'une force relative exceptionnelle avec un gain de +3,61 % à 25,26 EUR (plus haut 52 semaines) dans un marché baissier, bien ancrée au-dessus de sa SMA50 (23,32 EUR).",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "HO.PA",
+   "action": "CONSERVER",
    "confiance": 80,
-   "justification": "JCDecaux surperforme largement la cote (+1,23 % a 24,68 EUR) a proximite immediate de son sommet annuel de 24,88 EUR. La configuration technique reste ideale en HAUSSE_CONFIRMEE avec une avance de +29,09 % sur la SMA 200.",
+   "justification": "Thales résiste convenablement (-1,12 % à 238,20 EUR) et bénéficie d'un catalyseur porteur avec l'annonce du lancement de sa solution d'IA militaire HexaForce face à Palantir.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "SAF.PA",
+   "action": "CONSERVER",
+   "confiance": 80,
+   "justification": "Safran préserve le niveau de sa SMA200 (314,87 EUR) à 323,00 EUR et bénéficie du soutien actif de la poursuite de son programme de rachat d'actions (tranche de 375 M€ annoncée ce jour).",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "PUB.PA",
+   "action": "CONSERVER",
+   "confiance": 78,
+   "justification": "Publicis démontre une résilience marquée en clôturant dans le vert (+0,49 % à 97,52 EUR) à contre-courant du CAC 40, maintenant fermement sa SMA50 (96,45 EUR).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -87,8 +76,19 @@
   {
    "symbole": "SW.PA",
    "action": "CONSERVER",
-   "confiance": 80,
-   "justification": "Sodexo progresse de +1,77 % a 57,40 EUR, confirmant sa bonne tenue apres les reclassements recents d'analystes. Le titre conserve son ancrage haussier (+19,10 % au-dessus de la SMA 200 a 48,20 EUR) et son invalidation a 53,80 EUR n'est pas menacee.",
+   "confiance": 77,
+   "justification": "Sodexo progresse de +1,15 % à 57,05 EUR et surperforme largement l'indice, confirmant sa tendance de fond favorable (HAUSSE_CONFIRMEE, pente +2,37 %).",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "ENX.PA",
+   "action": "CONSERVER",
+   "confiance": 76,
+   "justification": "Euronext fait preuve de stabilité (-0,13 % à 157,00 EUR) sur le niveau exact de sa SMA50 (157,02 EUR) avec une marge confortable sur sa SMA200 (140,47 EUR).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -97,35 +97,47 @@
   }
  ],
  "signaux_ecartes": [],
- "appliques": [],
+ "appliques": [
+  {
+   "symbole": "DBG.PA",
+   "nom": "Derichebourg",
+   "action": "VENTE",
+   "shares": 85,
+   "prix": 8.69,
+   "montant": 737.91,
+   "pnlPct": -7.16,
+   "pnlEur": -57.69,
+   "motif": "Derichebourg a chuté de -4,61 % à 8,69 EUR, cassant à la baisse son support clé de la SMA200 (8,80 EUR) ainsi que sa SMA50 (9,24 EUR). Ce décrochage s'accompagne d'un flux vendeur institutionnel matérialisé par le franchissement à la baisse du seuil des 5 % par Amiral Gestion, invalidant formellement la thèse d'entrée haussière."
+  }
+ ],
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 4,
-  "nbPassages": 13,
-  "equity": 9925.82,
-  "perfPct": -0.74,
-  "cacPerfPct": -0.39,
-  "alphaPct": -0.35,
-  "maxDrawdownPct": -0.6,
+  "nbPassages": 14,
+  "equity": 9909.03,
+  "perfPct": -0.91,
+  "cacPerfPct": -0.65,
+  "alphaPct": -0.26,
+  "maxDrawdownPct": -0.8,
   "sharpe": null,
-  "expositionPct": 57,
+  "expositionPct": 49.5,
   "trades": {
    "nbAchats": 8,
-   "nbSolde": 0,
-   "tauxReussitePct": null,
+   "nbSolde": 1,
+   "tauxReussitePct": 0,
    "gainMoyenPct": null,
-   "perteMoyennePct": null,
-   "profitFactor": null,
+   "perteMoyennePct": -7.16,
+   "profitFactor": 0,
    "montantGagne": 0,
-   "montantPerdu": 0
+   "montantPerdu": 56.91
   },
   "couts": {
-   "fraisCumules": 5.7,
+   "fraisCumules": 6.44,
    "ttfCumule": 17.13,
-   "totalEur": 22.83,
+   "totalEur": 23.57,
    "montantAchete": 5729.69,
-   "coutEnPctDuCapital": 0.23
+   "coutEnPctDuCapital": 0.24
   },
   "signaux": {
    "achats": {
@@ -136,7 +148,7 @@
     "alphaMoyen1sPct": null
    },
    "ventes": {
-    "nb": 0,
+    "nb": 1,
     "nbEvalues": 0,
     "tauxReussitePct": null,
     "alphaMoyen1mPct": null,
@@ -148,7 +160,7 @@
    "etat": "PAS_ENCORE_CONCLUANT",
    "raisons": [
     "il faut 90 jours de recul (actuellement 4)",
-    "il faut 20 positions soldees (actuellement 0)"
+    "il faut 20 positions soldees (actuellement 1)"
    ],
    "criteres": {
     "ageMinJours": 90,
@@ -160,8 +172,8 @@
   }
  },
  "stats": {
-  "equity": 9925.82,
-  "cash": 4270.31,
-  "nbPositions": 8
+  "equity": 9909.03,
+  "cash": 5008.22,
+  "nbPositions": 7
  }
 }
