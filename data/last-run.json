@@ -1,106 +1,128 @@
 {
- "date": "2026-09-18T19:45:20.769Z",
- "dureeS": 22,
+ "date": "2026-09-21T15:51:17.978Z",
+ "dureeS": 27,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Séance de nette baisse sur la place parisienne avec un CAC 40 en repli de -1,49 % à 8065,02 points, pénalisé par des tensions accrues sur les rendements obligataires. La largeur de marché ressort dégradée à l'état FAIBLE, avec seulement 41 % des valeurs de l'univers au-dessus de leur SMA 200. Face à ce contexte macroéconomique incertain et avec déjà 7 lignes en portefeuille sur un maximum autorisé de 8, la priorité absolue est la préservation du capital et le maintien d'une réserve de liquidités de 50 %.",
+ "resume_marche": "Le CAC 40 progresse de +0,92 % a 8 138,94 points, mais la largeur de marche demeure degradee avec seulement 42,6 % des composants du SBF 120 au-dessus de leur moyenne mobile a 200 jours (etat FAIBLE). La dispersion reste marquee et commande une gestion prudente de l'exposition globale, en calibrant moderement les nouvelles prises de risque.",
  "signaux": [
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 78,
-   "justification": "Euronext reste quasi stable sur la séance (-0,13 % à 157,00 EUR) et teste sa SMA 50 (157,02 EUR) tout en conservant une tendance HAUSSE_CONFIRMEE (+11,76 % au-dessus de sa SMA 200 à 140,47 EUR, RSI à 34,0). Le stop à 149,00 EUR est intact.",
-   "prix_entree": 157,
-   "stop_perte": 149,
+   "justification": "Euronext progresse de +1,72 % a 159,70 EUR et preserve sa tendance HAUSSE_CONFIRMEE (pente +2,33 %, ecart SMA200 +13,44 %). Le cours evolue au-dessus de sa SMA50 (157,45 EUR) avec un RSI 14 non sature a 46,8, validant le maintien de la position.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 6.5,
-   "invalidation": "Cassure en clôture du support majeur des 149,00 EUR."
+   "taille_pct": null,
+   "invalidation": "Cassure cloturee sous la SMA50 a 157,45 EUR."
   },
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "Safran résiste convenablement (-1,01 % à 323,00 EUR) en s'appuyant sur sa SMA 200 (314,87 EUR, écart +2,58 %) en tendance HAUSSE_CONFIRMEE. Le dossier est renforcé par l'annonce d'une nouvelle tranche de rachat d'actions de 375 millions d'euros.",
-   "prix_entree": 323,
-   "stop_perte": 298,
+   "confiance": 83,
+   "justification": "Safran poursuit son rebond (+2,38 % a 330,70 EUR, +2,83 % sur 5 jours), appuye par l'annonce d'un programme de rachat d'actions et le renforcement de sa production a Nouaceur publies le 21/09. Le titre consolide positivement au-dessus de sa SMA200 a 315,23 EUR en tendance HAUSSE_CONFIRMEE.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 3.3,
-   "invalidation": "Rupture de la SMA 200 sous 314 EUR entraînant l'activation du stop à 298 EUR."
+   "taille_pct": null,
+   "invalidation": "Rupture de la SMA200 a 315,23 EUR."
   },
   {
    "symbole": "PUB.PA",
    "action": "CONSERVER",
-   "confiance": 80,
-   "justification": "Publicis fait preuve d'une excellente force relative en progressant de +0,49 % à 97,52 EUR à contre-courant du marché. La structure haussière de fond demeure saine (HAUSSE_CONFIRMEE, +14,45 % sur SMA 200, +38,29 % sur 126 jours).",
-   "prix_entree": 97.52,
-   "stop_perte": 93.8,
+   "confiance": 78,
+   "justification": "Publicis Groupe reste stable (-0,10 % a 97,42 EUR) et preserve sa structure de fond en tendance HAUSSE_CONFIRMEE (pente +1,80 %, chg126d +38,38 %). Le cours se maintient au-dessus de sa SMA50 a 96,85 EUR et loin du stop a 93,80 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 6.9,
-   "invalidation": "Enfoncement du support des 93,80 EUR."
+   "taille_pct": null,
+   "invalidation": "Cloture sous le support horizontal des 94,00 EUR."
   },
   {
    "symbole": "HO.PA",
    "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "Thales affiche une baisse mesurée (-1,12 % à 238,20 EUR) après un gain hebdomadaire de +5,82 %. Le titre bénéficie d'un catalyseur fort avec la présentation de sa solution souveraine d'IA militaire HexaForce destinée à l'OTAN.",
-   "prix_entree": 238.2,
-   "stop_perte": 219,
+   "confiance": 81,
+   "justification": "Thales consolide a 236,70 EUR (-0,63 %) tout en conservant un gain de +2,73 % sur 5 jours au contact de sa SMA20 (237,25 EUR). Le flux de contrats et de developpement militaire rapporte le 21/09 (radars pour l'Irlande, hub au Danemark) conforte la visibilite operationnelle.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 9.6,
-   "invalidation": "Cassure du seuil technique des 219,00 EUR."
+   "taille_pct": null,
+   "invalidation": "Enfoncement net des 225,00 EUR."
   },
   {
    "symbole": "ERF.PA",
    "action": "CONSERVER",
-   "confiance": 85,
-   "justification": "Eurofins Scientific confirme sa dynamique haussière en s'adjugeant +2,33 % à 76,44 EUR, marquant un nouveau plus haut sur 52 semaines dans un marché baissier. Les indicateurs restent orientés à la hausse (RSI à 67,6, HAUSSE_CONFIRMEE).",
-   "prix_entree": 76.44,
-   "stop_perte": 68.5,
+   "confiance": 86,
+   "justification": "Eurofins Scientific atteint un nouveau plus haut a 78,06 EUR (+2,12 % du jour, +8,18 % sur 5j) en tendance HAUSSE_CONFIRMEE. La these est renforcee par l'annonce le 21/09 d'achats de titres par une entite liee au CEO ; on laisse courir les gains.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 7.7,
-   "invalidation": "Retour sous la SMA 20 à 72,68 EUR invalidant l'impulsion."
+   "taille_pct": null,
+   "invalidation": "Cassure du support technique a 72,00 EUR."
   },
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
-   "confiance": 84,
-   "justification": "JCDecaux surperforme très nettement avec un gain de +3,61 % à 25,26 EUR, atteignant son plus haut annuel. La tendance est fortement haussière (pente SMA 200 à +5 %, chg126d +23,70 %) avec un RSI équilibré à 64,3.",
-   "prix_entree": 25.26,
-   "stop_perte": 22.2,
+   "confiance": 81,
+   "justification": "Malgre un repli technique de -1,90 % a 24,78 EUR apres son test des sommets annuels, JCDecaux conserve une tendance HAUSSE_CONFIRMEE marquee (pente +5,05 %, chg126d +27,86 %, +28,96 % sur la SMA200). La dynamique moyen terme reste excellente.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 8.1,
-   "invalidation": "Repli sous la SMA 50 à 23,32 EUR."
+   "taille_pct": null,
+   "invalidation": "Rupture de la moyenne mobile 50 jours a 23,48 EUR."
   },
   {
    "symbole": "SW.PA",
    "action": "CONSERVER",
    "confiance": 78,
-   "justification": "Sodexo rebondit de +1,15 % à 57,05 EUR et consolide à 3,06 % de son plus haut annuel en tendance HAUSSE_CONFIRMEE (+18,37 % au-dessus de sa SMA 200). Le catalyseur du relèvement d'analyste de JPMorgan reste d'actualité.",
-   "prix_entree": 57.05,
-   "stop_perte": 53.8,
+   "justification": "Sodexo est inchange a 57,05 EUR (+1,15 % sur 5j) et se maintient au-dessus de sa SMA50 (56,57 EUR) et de sa SMA200 (48,31 EUR) en tendance HAUSSE_CONFIRMEE (+2,39 % de pente). Le cours reste proche de ses plus hauts annuels (dist -3,06 %).",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 7.5,
-   "invalidation": "Rupture du support et du stop positionné à 53,80 EUR."
+   "taille_pct": null,
+   "invalidation": "Enfoncement de la SMA50 a 56,57 EUR."
+  },
+  {
+   "symbole": "GLE.PA",
+   "action": "ACHAT",
+   "confiance": 80,
+   "justification": "Societe Generale beneficie d'un catalyseur direct cite le 21/09 (acceleration de la numerisation, reductions de couts et accueil positif du plan strategique). Le cours rebondit de +1,76 % a 73,87 EUR sur sa SMA200 (71,91 EUR, ecart +2,73 %) et repasse sa SMA20 en tendance HAUSSE_CONFIRMEE (chg126d +16,29 %, RSI equilibre a 52,3).",
+   "prix_entree": 73.87,
+   "stop_perte": 68.5,
+   "prise_profit": null,
+   "taille_pct": 8,
+   "invalidation": "Cloture journaliere sous la SMA200 a 71,50 EUR."
   }
  ],
  "signaux_ecartes": [],
- "appliques": [],
+ "appliques": [
+  {
+   "symbole": "GLE.PA",
+   "nom": "Société Générale",
+   "action": "ACHAT",
+   "shares": 10,
+   "prix": 73.87,
+   "montant": 741.65,
+   "motif": "Societe Generale beneficie d'un catalyseur direct cite le 21/09 (acceleration de la numerisation, reductions de couts et accueil positif du plan strategique). Le cours rebondit de +1,76 % a 73,87 EUR sur sa SMA200 (71,91 EUR, ecart +2,73 %) et repasse sa SMA20 en tendance HAUSSE_CONFIRMEE (chg126d +16,29 %, RSI equilibre a 52,3).",
+   "confiance": 80
+  }
+ ],
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
-  "ageJours": 4,
-  "nbPassages": 15,
-  "equity": 9909.03,
-  "perfPct": -0.91,
-  "cacPerfPct": -0.65,
-  "alphaPct": -0.26,
+  "ageJours": 7,
+  "nbPassages": 16,
+  "equity": 9918.72,
+  "perfPct": -0.81,
+  "cacPerfPct": 0.26,
+  "alphaPct": -1.07,
   "maxDrawdownPct": -0.8,
   "sharpe": null,
-  "expositionPct": 49.5,
+  "expositionPct": 57,
   "trades": {
-   "nbAchats": 8,
+   "nbAchats": 9,
    "nbSolde": 1,
    "tauxReussitePct": 0,
    "gainMoyenPct": null,
@@ -110,19 +132,19 @@
    "montantPerdu": 56.91
   },
   "couts": {
-   "fraisCumules": 6.44,
-   "ttfCumule": 17.13,
-   "totalEur": 23.57,
-   "montantAchete": 5729.69,
-   "coutEnPctDuCapital": 0.24
+   "fraisCumules": 7.18,
+   "ttfCumule": 19.35,
+   "totalEur": 26.53,
+   "montantAchete": 6471.34,
+   "coutEnPctDuCapital": 0.27
   },
   "signaux": {
    "achats": {
-    "nb": 8,
+    "nb": 9,
     "nbEvalues": 0,
     "tauxReussitePct": null,
     "alphaMoyen1mPct": null,
-    "alphaMoyen1sPct": null
+    "alphaMoyen1sPct": 0.56
    },
    "ventes": {
     "nb": 1,
@@ -136,7 +158,7 @@
   "verdict": {
    "etat": "PAS_ENCORE_CONCLUANT",
    "raisons": [
-    "il faut 90 jours de recul (actuellement 4)",
+    "il faut 90 jours de recul (actuellement 7)",
     "il faut 20 positions soldees (actuellement 1)"
    ],
    "criteres": {
@@ -149,8 +171,8 @@
   }
  },
  "stats": {
-  "equity": 9909.03,
-  "cash": 5008.22,
-  "nbPositions": 7
+  "equity": 9918.72,
+  "cash": 4266.57,
+  "nbPositions": 8
  }
 }
