@@ -1,7 +1,8 @@
 // Calendrier boursier d'Euronext Paris.
 //
-// Fermetures : dimanches et lundis de Paques et de Pentecote, Vendredi saint, 1er janvier,
-// 1er mai, 8 mai, 15 aout, 1er novembre, 11 novembre, 25 decembre.
+// Fermetures (calendrier officiel Euronext, marche actions) : 1er janvier, Vendredi saint,
+// lundi de Paques, 1er mai, 25 et 26 decembre. Les autres feries francais (8 mai, Ascension,
+// lundi de Pentecote, 14 juillet, 15 aout, 1er et 11 novembre) sont des jours de SEANCE.
 // Seances : 09:00 a 17:30 heure de Paris.
 
 function easter(y) {
@@ -15,7 +16,7 @@ function easter(y) {
   return new Date(Date.UTC(y, month - 1, day));
 }
 
-const FIXES = new Set(["01-01", "05-01", "05-08", "08-15", "11-01", "11-11", "12-25"]);
+const FIXES = new Set(["01-01", "05-01", "12-25", "12-26"]);
 
 // `localDate` : date civile locale (heure de Paris), sans composante horaire trompeuse.
 export function estJourFerieBoursier(localDate) {
@@ -26,7 +27,7 @@ export function estJourFerieBoursier(localDate) {
     const d = new Date(easter(y).getTime() + offset * 86400000);
     return `${String(d.getUTCMonth() + 1).padStart(2, "0")}-${String(d.getUTCDate()).padStart(2, "0")}`;
   };
-  return new Set([rel(-2), rel(1), rel(39), rel(50)]).has(md);
+  return new Set([rel(-2), rel(1)]).has(md); // Vendredi saint, lundi de Paques
 }
 
 // Renvoie un motif (chaine) si le marche est ferme, null s'il est ouvert.

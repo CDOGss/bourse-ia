@@ -7,19 +7,25 @@ const jour = (y, m, d) => new Date(y, m - 1, d);
 test("jours fixes de fermeture d'Euronext Paris", () => {
   assert.ok(estJourFerieBoursier(jour(2026, 1, 1)), "1er janvier");
   assert.ok(estJourFerieBoursier(jour(2026, 5, 1)), "1er mai");
-  assert.ok(estJourFerieBoursier(jour(2026, 5, 8)), "8 mai");
-  assert.ok(estJourFerieBoursier(jour(2027, 8, 15)), "15 aout (tombe un dimanche en 2026)");
-  assert.ok(estJourFerieBoursier(jour(2026, 11, 1)), "Toussaint");
-  assert.ok(estJourFerieBoursier(jour(2026, 11, 11)), "Armistice");
   assert.ok(estJourFerieBoursier(jour(2026, 12, 25)), "Noel");
+  assert.ok(estJourFerieBoursier(jour(2025, 12, 26)), "26 decembre");
+});
+
+test("les feries francais hors calendrier Euronext sont des jours de seance", () => {
+  assert.equal(estJourFerieBoursier(jour(2026, 5, 8)), false, "8 mai");
+  assert.equal(estJourFerieBoursier(jour(2026, 7, 14)), false, "14 juillet");
+  assert.equal(estJourFerieBoursier(jour(2027, 8, 15)), false, "15 aout");
+  assert.equal(estJourFerieBoursier(jour(2027, 11, 1)), false, "Toussaint");
+  assert.equal(estJourFerieBoursier(jour(2026, 11, 11)), false, "Armistice");
+  assert.equal(estJourFerieBoursier(jour(2026, 5, 14)), false, "Ascension");
+  assert.equal(estJourFerieBoursier(jour(2026, 5, 25)), false, "lundi de Pentecote");
 });
 
 test("jours mobiles calcules a partir de Paques 2026 (5 avril)", () => {
   assert.ok(estJourFerieBoursier(jour(2026, 4, 3)), "Vendredi saint");
   assert.ok(estJourFerieBoursier(jour(2026, 4, 6)), "lundi de Paques");
-  assert.ok(estJourFerieBoursier(jour(2026, 5, 14)), "Ascension");
-  assert.ok(estJourFerieBoursier(jour(2026, 5, 25)), "lundi de Pentecote");
-  assert.ok(estJourFerieBoursier(jour(2027, 3, 29)), "Paques 2027 : vendredi saint");
+  assert.ok(estJourFerieBoursier(jour(2027, 3, 26)), "Paques 2027 : vendredi saint");
+  assert.ok(estJourFerieBoursier(jour(2027, 3, 29)), "Paques 2027 : lundi de Paques");
 });
 
 test("un jour ouvrable ordinaire n'est pas ferme", () => {
@@ -31,7 +37,8 @@ test("un jour ouvrable ordinaire n'est pas ferme", () => {
 test("marcheFerme distingue week-end, jour ferie et seance ouverte", () => {
   assert.equal(marcheFerme(new Date("2026-09-12T09:00:00Z")), "week-end", "samedi");
   assert.equal(marcheFerme(new Date("2026-09-13T09:00:00Z")), "week-end", "dimanche");
-  assert.equal(marcheFerme(new Date("2026-11-11T09:00:00Z")), "jour ferie");
+  assert.equal(marcheFerme(new Date("2026-12-25T09:00:00Z")), "jour ferie", "Noel");
+  assert.equal(marcheFerme(new Date("2026-11-11T09:00:00Z")), null, "11 novembre : seance");
   assert.equal(marcheFerme(new Date("2026-09-14T09:00:00Z")), null, "lundi ordinaire");
 });
 
