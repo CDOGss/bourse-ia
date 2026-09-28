@@ -1,99 +1,99 @@
 {
- "date": "2026-09-28T13:20:34.881Z",
- "dureeS": 28,
+ "date": "2026-09-28T15:20:36.633Z",
+ "dureeS": 20,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 progresse moderement de +0,54 % a 8121,5 points, mais la largeur de marche demeure degradee avec seulement 38,5 % des valeurs au-dessus de leur moyenne mobile a 200 jours (etat FAIBLE). La dispersion sectorielle et les tensions sur les taux obligataires incitent a maintenir un profil defensif. Le portefeuille est pleinement investi sur 8 lignes, le maximum autorise.",
+ "resume_marche": "Le CAC 40 affiche un gain modeste de +0,28 % à 8 100,33 points, mais la largeur de marché demeure dégradée avec seulement 36,1 % des composantes au-dessus de leur SMA200 (état FAIBLE). Dans cet environnement sélectif et compte tenu d'un portefeuille ayant atteint sa limite maximale de 8 lignes, la discipline impose de préserver le capital sans forcer d'arbitrage superflu.",
  "signaux": [
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Safran confirme sa force relative (+0,51 % en seance, +2,21 % sur 5j) en tendance HAUSSE_CONFIRMEE (ecart SMA200 +6,87 %, pente +1,17 %). Le gain atteint +4,6 % et le RSI a 53,4 reste dans une dynamique equilibree conforme a l'objectif de 369,96 EUR.",
+   "justification": "Safran progresse de +3,5 % depuis l'entrée (cours à 334,30 EUR), solidement ancré au-dessus de sa SMA200 (316,25 EUR, écart +5,71 %) dans une tendance HAUSSE_CONFIRMEE avec un RSI sain à 50,5.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Cassure cloturee sous le stop fixe a 298 EUR."
+   "invalidation": null
   },
   {
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Eurofins Scientific progresse de +1,09 % a 78,20 EUR, tout pres de son plus haut annuel a 78,96 EUR. Bien que le RSI14 entre en surachat technique a 73,0, la dynamique de moyen terme (chg126d +24,80 %, tendance HAUSSE_CONFIRMEE) reste parfaitement orientee.",
+   "justification": "Eurofins Scientific poursuit sa progression avec un gain de +4,9 % (cours 78,50 EUR), frôlant son plus haut à 78,96 EUR. La tendance reste fortement haussière (pente +2,47 %, chg126d +25,28 %), justifiant de laisser courir vers l'objectif de 85,74 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Revers brutal sous la SMA50 a 71,79 EUR."
+   "invalidation": null
   },
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "JCDecaux touche un nouveau plus haut a 25,26 EUR (+1,20 % ce jour, +5,16 % sur 20j), conforte par une pente SMA200 remarquable (+5,12 %) et une avance de +29,81 % sur sa SMA200. La these de swing haussier est pleinement validee.",
+   "justification": "JCDecaux cote 25,02 EUR, à moins de 1 % de son sommet annuel (25,26 EUR) avec une surperformance trimestrielle marquée (chg63d +29,04 %) et une tendance HAUSSE_CONFIRMEE très bien orientée.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Cloture sous le support SMA50 a 23,84 EUR."
+   "invalidation": null
   },
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 81,
-   "justification": "Euronext enregistre une hausse de +1,50 % a 161,90 EUR, confortant son ancrage au-dessus de sa SMA20 (159,49 EUR) et de sa SMA50 (158,45 EUR). La tendance est saine avec un RSI neutre a 52,0 et un ecart a la SMA200 de +14,30 %.",
+   "justification": "Euronext consolide à plat (160,90 EUR, -0,5 % de PnL) au-dessus de ses moyennes SMA20 (159,44 EUR) et SMA50 (158,43 EUR) dans une configuration technique saine (RSI 49,5, tendance HAUSSE_CONFIRMEE).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Rupture des 149 EUR invalidant la structure ascendante."
+   "invalidation": null
   },
   {
    "symbole": "PUB.PA",
    "action": "CONSERVER",
    "confiance": 80,
-   "justification": "Publicis temporise a 97,32 EUR (-0,55 % en seance) tout en conservant une avance substantielle sur sa SMA200 (+13,68 %, 85,61 EUR) et un gain a 6 mois robuste (+37,38 %). Le RSI a 43,8 ne montre aucune saturation et le stop a 93,80 EUR protege efficacement la position.",
+   "justification": "Publicis Groupe évolue à 96,42 EUR, au-dessus de son stop de protection (93,80 EUR) et conserve une tendance séculaire favorable avec un matelas de +12,63 % sur sa SMA200 (85,60 EUR) et un RSI à 41,0.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Enfoncement du stop de protection a 93,80 EUR."
+   "invalidation": null
   },
   {
    "symbole": "SW.PA",
    "action": "CONSERVER",
    "confiance": 79,
-   "justification": "Sodexo reste stable a 57,20 EUR, au contact immediat de ses SMA20 (57,20 EUR) et SMA50 (56,94 EUR), et largement au-dessus de sa SMA200 (+17,64 %). La valeur evolue a seulement 2,8 % de son sommet annuel dans une volatilite maitrisee a 19,9 %.",
+   "justification": "Sodexo reste stable à 57,00 EUR, largement soutenu par sa SMA200 (48,62 EUR, écart +17,23 %) et une dynamique à six mois solide (chg126d +29,25 %), bien au-dessus du stop fixé à 53,80 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Cassure du support et du stop places a 53,80 EUR."
+   "invalidation": null
   },
   {
    "symbole": "HO.PA",
    "action": "CONSERVER",
    "confiance": 76,
-   "justification": "Thales recule a 227,20 EUR (-0,96 % ce jour), mais se maintient au-dessus de son plus bas annuel (216,50 EUR) et de son stop defini a 219 EUR. Le flux d'actualites reste porteur sur le spatial (Bromo, Thales Alenia Space a Cannes) et le RSI a 43,5 est assaini.",
+   "justification": "Thales cote 226,60 EUR, au-dessus de son stop d'invalidation (219,00 EUR) et de son plus bas annuel (216,50 EUR), bénéficiant d'annonces favorables sur l'emploi et les investissements spatiaux (projet Bromo, Cannes).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Declenchement du stop de protection a 219 EUR."
+   "invalidation": null
   },
   {
    "symbole": "GLE.PA",
    "action": "CONSERVER",
    "confiance": 75,
-   "justification": "Societe Generale consolide a 72,04 EUR au contact direct de sa SMA200 (72,12 EUR). Le dossier est soutenu par l'approbation formelle de Bruxelles concernant le controle conjoint d'OXG avec Vodafone, validant le deploiement strategique sans remettre en cause le stop a 68,50 EUR.",
+   "justification": "Société Générale se maintient à 71,72 EUR à proximité immédiate de sa SMA200 (72,11 EUR), soutenue par le feu vert de Bruxelles concernant la coentreprise OXG avec Vodafone, sans menace sur son stop à 68,50 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Cloture franche sous le niveau d'invalidation a 68,50 EUR."
+   "invalidation": null
   }
  ],
  "signaux_ecartes": [],
@@ -102,14 +102,14 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 14,
-  "nbPassages": 28,
-  "equity": 9896.53,
-  "perfPct": -1.03,
-  "cacPerfPct": 0.05,
-  "alphaPct": -1.08,
+  "nbPassages": 29,
+  "equity": 9869.65,
+  "perfPct": -1.3,
+  "cacPerfPct": -0.21,
+  "alphaPct": -1.09,
   "maxDrawdownPct": -1.4,
   "sharpe": null,
-  "expositionPct": 56.9,
+  "expositionPct": 56.8,
   "trades": {
    "nbAchats": 9,
    "nbSolde": 1,
@@ -160,7 +160,7 @@
   }
  },
  "stats": {
-  "equity": 9896.53,
+  "equity": 9869.65,
   "cash": 4266.57,
   "nbPositions": 8
  }
