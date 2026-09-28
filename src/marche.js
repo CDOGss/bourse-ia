@@ -38,6 +38,20 @@ export function marcheFerme(now = new Date()) {
   return null;
 }
 
+// Renvoie un motif si l'heure de Paris est hors seance (09:00-17:35), null sinon. Un
+// lancement de secours du cron GitHub peut arriver avec plusieurs heures de retard :
+// on refuse alors d'analyser apres la cloture (cours figes, ordres impossibles).
+export function horsSeance(now = new Date()) {
+  const [h, m] = now
+    .toLocaleTimeString("fr-FR", { timeZone: "Europe/Paris", hour: "2-digit", minute: "2-digit", hour12: false })
+    .split(":")
+    .map(Number);
+  const minutes = h * 60 + m;
+  if (minutes < 9 * 60) return `avant l'ouverture (${String(h).padStart(2, "0")}h${String(m).padStart(2, "0")} Paris)`;
+  if (minutes > 17 * 60 + 35) return `apres la cloture (${String(h).padStart(2, "0")}h${String(m).padStart(2, "0")} Paris)`;
+  return null;
+}
+
 // Garde d'espacement : renvoie un motif si un vrai passage (hors dry-run) a eu lieu il y a
 // moins de `minutes`, null sinon. Sert quand le cron tente plusieurs fois le meme creneau.
 export function passageTropRecent(now, dernierRun, minutes) {

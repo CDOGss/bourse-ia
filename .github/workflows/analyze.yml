@@ -1,11 +1,13 @@
 name: Analyse IA (2h)
 
 on:
+  # Declencheur PRINCIPAL : cron-job.org appelle workflow_dispatch a 09h20, 11h20, 13h20,
+  # 15h20 et 17h20 (heure de Paris, lun-ven) - voir docs/declenchement-externe.md.
+  # Le cron GitHub (retards de ~5 h constates en sept. 2026) n'est plus qu'un SECOURS :
+  # `--secours` ne laisse passer que si aucun passage depuis `espacementSecoursMinutes`,
+  # et jamais hors seance (09:00-17:35 Paris).
   schedule:
-    # 3 tentatives par creneau : GitHub retarde ou abandonne souvent les schedules.
-    # src/run.js refuse de tourner deux fois en moins de `espacementMinMinutes` (config.json),
-    # donc les tentatives excedentaires s'arretent sans appel a l'IA.
-    - cron: "7,27,47 9,11,13,15,17 * * 1-5"
+    - cron: "50 7,9,11,13,15 * * 1-5"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -49,6 +51,7 @@ jobs:
           ARGS=""
           [ "$DRY_RUN" = "true" ] && ARGS="$ARGS --dry-run"
           [ "$FORCE" = "true" ] && ARGS="$ARGS --force"
+          [ "${{ github.event_name }}" = "schedule" ] && ARGS="$ARGS --secours"
           node src/run.js $ARGS
 
       - name: Committer l'etat (portfolio, dernier run, cours)

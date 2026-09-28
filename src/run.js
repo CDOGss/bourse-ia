@@ -8,7 +8,7 @@ import { largeurDuMarche } from "./indicators.js";
 import { fetchNews } from "./news.js";
 import { callGemini, validerAnalyseTolerante } from "./llm.js";
 import { systemInstructionFrom } from "./prompt.js";
-import { marcheFerme, passageTropRecent } from "./marche.js";
+import { marcheFerme, horsSeance, passageTropRecent } from "./marche.js";
 import { enregistrerSignaux, mettreAJourHorizons, rattacherResultatSortie } from "./review.js";
 import { calculerMeriques } from "./metrics.js";
 
@@ -77,7 +77,7 @@ async function main() {
   const dryRun = has("--dry-run");
 
   if (!has("--force")) {
-    const closed = marcheFerme(now);
+    const closed = marcheFerme(now) || horsSeance(now);
     if (closed) {
       console.log(`marche ferme (${closed}) - rien a faire`);
       return;
@@ -86,11 +86,16 @@ async function main() {
 
   const config = JSON.parse(readFileSync(join(ROOT, "config.json"), "utf8"));
 
-  // Le cron tente chaque creneau plusieurs fois (GitHub en saute souvent) : une seule tentative
-  // doit aboutir. `--force` court-circuite la garde pour les lancements manuels.
+  // Declencheur principal : cron-job.org (workflow_dispatch, a l'heure). Le cron GitHub ne
+  // sert que de SECOURS (`--secours`) : il n'aboutit que si un creneau a vraiment ete manque
+  // (aucun passage depuis `espacementSecoursMinutes`), sinon il decalerait le planning.
+  // `--force` court-circuite la garde pour les lancements manuels.
   const dernierRun = lireJson(join(dataDir, "last-run.json"));
   if (!has("--force")) {
-    const recent = passageTropRecent(now, dernierRun, config.espacementMinMinutes);
+    const espacement = has("--secours")
+      ? config.espacementSecoursMinutes ?? config.espacementMinMinutes
+      : config.espacementMinMinutes;
+    const recent = passageTropRecent(now, dernierRun, espacement);
     if (recent) {
       console.log(`${recent} - rien a faire`);
       return;

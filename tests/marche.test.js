@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { estJourFerieBoursier, marcheFerme, passageTropRecent } from "../src/marche.js";
+import { estJourFerieBoursier, horsSeance, marcheFerme, passageTropRecent } from "../src/marche.js";
 
 const jour = (y, m, d) => new Date(y, m - 1, d);
 
@@ -46,4 +46,15 @@ test("passageTropRecent bloque les tentatives redondantes du cron", () => {
   assert.equal(passageTropRecent(now, { ...ilYA(5), dryRun: true }, 75), null, "un dry-run ne compte pas");
   assert.equal(passageTropRecent(now, ilYA(5), 0), null, "garde desactivee si 0");
   assert.equal(passageTropRecent(now, { date: "n'importe quoi" }, 75), null, "date illisible : autorise");
+});
+
+test("horsSeance refuse avant 09:00 et apres 17:35 (heure de Paris)", () => {
+  // Ete : Paris = UTC+2
+  assert.match(horsSeance(new Date("2026-09-28T06:30:00Z")), /avant/, "08h30 Paris");
+  assert.equal(horsSeance(new Date("2026-09-28T07:20:00Z")), null, "09h20 Paris");
+  assert.equal(horsSeance(new Date("2026-09-28T15:20:00Z")), null, "17h20 Paris");
+  assert.match(horsSeance(new Date("2026-09-28T17:12:00Z")), /apres/, "19h12 Paris (secours en retard)");
+  // Hiver : Paris = UTC+1
+  assert.equal(horsSeance(new Date("2026-12-01T16:20:00Z")), null, "17h20 Paris en hiver");
+  assert.match(horsSeance(new Date("2026-12-01T16:50:00Z")), /apres/, "17h50 Paris en hiver");
 });
