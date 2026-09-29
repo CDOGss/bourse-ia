@@ -1,99 +1,99 @@
 {
- "date": "2026-09-29T11:20:38.322Z",
+ "date": "2026-09-29T13:20:37.249Z",
  "dureeS": 21,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 progresse moderement de 0,31 % a 8103,78 points a la mi-journee, mais la largeur de marche demeure degradee a 39,3 % de valeurs au-dessus de leur SMA200 (etat FAIBLE). Les initiatives acheteuses globales restent bridees par les incertitudes geopolitiques et sectorielles, justifiant un maintien strict de la discipline de gestion.",
+ "resume_marche": "Le CAC 40 stagne a 8075,18 points (-0,04 %) tandis que la largeur de marche demeure degradee a 39,3 % de valeurs au-dessus de leur SMA200 (etat FAIBLE). Dans ce contexte d'appetit pour le risque modere et avec un portefeuille deja sature a 8 positions sur 8 autorisees, la gestion des positions existantes reste la priorite absolue. Aucun signal d'invalidation technique ou fondamentale ne justifie de rotation forcee ce jour.",
  "signaux": [
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Safran affiche une solide progression (+1,14 % a 336,80 EUR, PnL +4,3 %) en tendance HAUSSE_CONFIRMEE au-dessus de sa SMA200 a 316,47 EUR (+6,42 %) avec un RSI 14 calibre a 61,7. La dynamique haussiere de moyen terme demeure parfaitement intacte.",
-   "prix_entree": 336.8,
-   "stop_perte": 298,
+   "justification": "Cours a 336,40 EUR (+1,02 % ce jour, gain latent +4,2 %), au-dessus de sa SMA20 (329,95 EUR) et SMA200 (316,47 EUR) en tendance HAUSSE_CONFIRMEE avec RSI equilibre a 61,4.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Cassure confirmee sous le support des 314 EUR correspondant a la SMA200."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "ERF.PA",
    "action": "CONSERVER",
-   "confiance": 84,
-   "justification": "Malgre un abaissement de recommandation par Bernstein pesant sur la seance (-2,01 % a 77,14 EUR), Eurofins conserve une avance confortable (+7,8 % sur 20j, PnL +3,0 %) en tendance HAUSSE_CONFIRMEE au-dessus de ses SMA50 (71,95 EUR) et SMA200 (66,85 EUR).",
-   "prix_entree": 77.14,
-   "stop_perte": 68.5,
+   "confiance": 83,
+   "justification": "Cours a 77,16 EUR (+7,83 % sur 20j, gain latent +3,1 %), au-dessus de la SMA50 (71,95 EUR) en tendance HAUSSE_CONFIRMEE ; la degradation d'analyste ce jour est absorbee sans mise en danger du support.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Rupture de la SMA50 a 71,95 EUR en cloture."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "JCDecaux consolide sereinement a 24,98 EUR (+6,03 % sur 20j, PnL +2,0 %) a portee immediate de ses plus hauts annuels (25,26 EUR). La pente de tendance reste tres forte (+5,13 %) et au-dessus de la SMA50 a 23,89 EUR.",
-   "prix_entree": 24.98,
-   "stop_perte": 22.2,
+   "justification": "Cours a 24,92 EUR (+5,77 % sur 20j, gain latent +1,8 %) solidement ancre en tendance HAUSSE_CONFIRMEE (+27,76 % au-dessus de la SMA200) avec RSI a 67,3.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Enfoncement des 23,80 EUR marquant la sortie du canal haussier court terme."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Euronext reste stable a 160,60 EUR, solidement ancre en tendance HAUSSE_CONFIRMEE (ecart SMA200 +13,24 %, chg126d +15,96 %) avec un RSI 14 neutre a 54,4. Le profil defuturisation des flux boursiers preserve la these.",
-   "prix_entree": 160.6,
-   "stop_perte": 149,
+   "justification": "Cours a 160,80 EUR en legere hausse (+0,12 %), evoluant au-dessus de sa SMA20 (159,40 EUR) et SMA50 (158,68 EUR) en tendance HAUSSE_CONFIRMEE.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Cloture journaliere sous la SMA50 a 158,68 EUR."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "PUB.PA",
    "action": "CONSERVER",
    "confiance": 80,
-   "justification": "Publicis s'appuie sur sa SMA50 a 97,92 EUR (cours a 96,28 EUR, ecart SMA200 +12,42 %) apres une respiration sans volume d'alarme (RSI a 51,0). La tendance de fond HAUSSE_CONFIRMEE (chg126d +35,07 %) justifie le maintien de la position.",
-   "prix_entree": 96.28,
-   "stop_perte": 93.8,
+   "justification": "Cours stable a 96,18 EUR (+0,04 %), restant a l'ecart du stop (93,80 EUR) avec un coussin confortable de +12,30 % sur sa SMA200 et un RSI sain a 50,6.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Enfoncement confirme du niveau de stop a 93,80 EUR."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "SW.PA",
    "action": "CONSERVER",
    "confiance": 79,
-   "justification": "Sodexo absorbe sereinement l'annonce de la transition a la presidence (+0,35 % a 57,00 EUR) et preserve sa configuration haussiere au-dessus de sa SMA200 (48,68 EUR, ecart +17,10 %). La dynamique de fond reste intacte.",
-   "prix_entree": 57,
-   "stop_perte": 53.8,
+   "justification": "Cours a 56,90 EUR (+0,18 %), preservation du support sur SMA50 (57,01 EUR) et ecart de +16,89 % sur la SMA200 ; l'annonce de gouvernance ce jour ne remet pas en cause les fondamentaux.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Rupture des 55,00 EUR invalidant le palier de soutien technique."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "HO.PA",
    "action": "CONSERVER",
    "confiance": 76,
-   "justification": "Thales stabilise a 226,50 EUR (+0,22 %) apres son repli recent, soutenu par des flux d'actualites favorables (hub securite aerienne a Merignac, developpement de vehicules tactiques avec Renault). Le stop a 219 EUR n'est pas menace.",
-   "prix_entree": 226.5,
-   "stop_perte": 219,
+   "justification": "Stabilisation a 226,50 EUR (+0,22 %) au-dessus du seuil d'invalidation (stop a 219 EUR), portee par l'annonce de projets industriels avec Airbus et Renault.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Cassure du support des 219,00 EUR."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "GLE.PA",
    "action": "CONSERVER",
    "confiance": 75,
-   "justification": "Societe Generale se stabilise a 71,55 EUR (+0,13 %) juste sur sa zone pivot de SMA200 a 72,15 EUR (ecart -0,83 %), alors que le programme de rachat d'actions se poursuit selon les actualites recentes. Le titre conserve sa tendance de fond haussiere.",
-   "prix_entree": 71.55,
-   "stop_perte": 68.5,
+   "justification": "Cours a 71,37 EUR (-0,13 %) sur sa zone de pivot SMA200 (72,15 EUR), maintenant sa structure de fond HAUSSE_CONFIRMEE (pente +1,79 %) a distance du stop fixe a 68,50 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Cassure de la zone d'invalidation technique a 68,50 EUR."
+   "taille_pct": null,
+   "invalidation": null
   }
  ],
  "signaux_ecartes": [],
@@ -102,11 +102,11 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 15,
-  "nbPassages": 32,
-  "equity": 9852.99,
-  "perfPct": -1.47,
-  "cacPerfPct": -0.17,
-  "alphaPct": -1.3,
+  "nbPassages": 33,
+  "equity": 9847.87,
+  "perfPct": -1.52,
+  "cacPerfPct": -0.52,
+  "alphaPct": -1,
   "maxDrawdownPct": -1.4,
   "sharpe": null,
   "expositionPct": 56.7,
@@ -160,7 +160,7 @@
   }
  },
  "stats": {
-  "equity": 9852.99,
+  "equity": 9847.87,
   "cash": 4266.57,
   "nbPositions": 8
  }
