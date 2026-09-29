@@ -14,7 +14,7 @@
    "nom": "Euronext",
    "shares": 4,
    "pmc": 161.64,
-   "price": 160.9,
+   "price": 160.5,
    "stop": 149,
    "target": 185.15,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -26,7 +26,7 @@
    "nom": "Safran",
    "shares": 1,
    "pmc": 322.99,
-   "price": 334.3,
+   "price": 334.2,
    "stop": 298,
    "target": 369.96,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -38,7 +38,7 @@
    "nom": "Publicis Groupe",
    "shares": 7,
    "pmc": 100.75,
-   "price": 96.42,
+   "price": 95.84,
    "stop": 93.8,
    "target": 115.4,
    "dateAchat": "2026-09-14T19:48:30.967Z",
@@ -50,7 +50,7 @@
    "nom": "Thales",
    "shares": 4,
    "pmc": 240.86,
-   "price": 226.6,
+   "price": 225.9,
    "stop": 219,
    "target": 275.89,
    "dateAchat": "2026-09-15T18:52:56.856Z",
@@ -62,7 +62,7 @@
    "nom": "Eurofins Scientific",
    "shares": 10,
    "pmc": 74.86,
-   "price": 78.5,
+   "price": 77.26,
    "stop": 68.5,
    "target": 85.74,
    "dateAchat": "2026-09-16T14:09:31.933Z",
@@ -74,7 +74,7 @@
    "nom": "JCDecaux",
    "shares": 32,
    "pmc": 24.48,
-   "price": 25.02,
+   "price": 24.86,
    "stop": 22.2,
    "target": 28.04,
    "dateAchat": "2026-09-16T16:55:20.995Z",
@@ -86,7 +86,7 @@
    "nom": "Sodexo",
    "shares": 13,
    "pmc": 58.78,
-   "price": 57,
+   "price": 56.5,
    "stop": 53.8,
    "target": 67.33,
    "dateAchat": "2026-09-17T14:15:47.636Z",
@@ -98,7 +98,7 @@
    "nom": "Société Générale",
    "shares": 10,
    "pmc": 74.17,
-   "price": 71.72,
+   "price": 71.8,
    "stop": 68.5,
    "target": 84.95,
    "dateAchat": "2026-09-21T15:51:17.978Z",
@@ -403,6 +403,11 @@
    "date": "2026-09-28T15:20:36.633Z",
    "equity": 9869.65,
    "cac": 8100.33
+  },
+  {
+   "date": "2026-09-29T07:20:38.270Z",
+   "equity": 9837.87,
+   "cac": 8092.83
   }
  ],
  "signaux": [
@@ -2102,7 +2107,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Euronext progresse de +1,72 % a 159,70 EUR et preserve sa tendance HAUSSE_CONFIRMEE (pente +2,33 %, ecart SMA200 +13,44 %). Le cours evolue au-dessus de sa SMA50 (157,45 EUR) avec un RSI 14 non sature a 46,8, validant le maintien de la position.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 8,
+    "prix": 160.5,
+    "chgPct": 0.5,
+    "cacChgPct": -0.57,
+    "alphaPct": 1.07
+   },
    "h1m": null,
    "solde": null
   },
@@ -2118,7 +2130,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Safran poursuit son rebond (+2,38 % a 330,70 EUR, +2,83 % sur 5 jours), appuye par l'annonce d'un programme de rachat d'actions et le renforcement de sa production a Nouaceur publies le 21/09. Le titre consolide positivement au-dessus de sa SMA200 a 315,23 EUR en tendance HAUSSE_CONFIRMEE.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 8,
+    "prix": 334.2,
+    "chgPct": 1.06,
+    "cacChgPct": -0.57,
+    "alphaPct": 1.62
+   },
    "h1m": null,
    "solde": null
   },
@@ -2134,7 +2153,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Publicis Groupe reste stable (-0,10 % a 97,42 EUR) et preserve sa structure de fond en tendance HAUSSE_CONFIRMEE (pente +1,80 %, chg126d +38,38 %). Le cours se maintient au-dessus de sa SMA50 a 96,85 EUR et loin du stop a 93,80 EUR.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 8,
+    "prix": 95.84,
+    "chgPct": -1.62,
+    "cacChgPct": -0.57,
+    "alphaPct": -1.06
+   },
    "h1m": null,
    "solde": null
   },
@@ -2150,7 +2176,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Thales consolide a 236,70 EUR (-0,63 %) tout en conservant un gain de +2,73 % sur 5 jours au contact de sa SMA20 (237,25 EUR). Le flux de contrats et de developpement militaire rapporte le 21/09 (radars pour l'Irlande, hub au Danemark) conforte la visibilite operationnelle.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 8,
+    "prix": 225.9,
+    "chgPct": -4.56,
+    "cacChgPct": -0.57,
+    "alphaPct": -4
+   },
    "h1m": null,
    "solde": null
   },
@@ -2166,7 +2199,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Eurofins Scientific atteint un nouveau plus haut a 78,06 EUR (+2,12 % du jour, +8,18 % sur 5j) en tendance HAUSSE_CONFIRMEE. La these est renforcee par l'annonce le 21/09 d'achats de titres par une entite liee au CEO ; on laisse courir les gains.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 8,
+    "prix": 77.26,
+    "chgPct": -1.02,
+    "cacChgPct": -0.57,
+    "alphaPct": -0.46
+   },
    "h1m": null,
    "solde": null
   },
@@ -2182,7 +2222,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Malgre un repli technique de -1,90 % a 24,78 EUR apres son test des sommets annuels, JCDecaux conserve une tendance HAUSSE_CONFIRMEE marquee (pente +5,05 %, chg126d +27,86 %, +28,96 % sur la SMA200). La dynamique moyen terme reste excellente.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 8,
+    "prix": 24.86,
+    "chgPct": 0.32,
+    "cacChgPct": -0.57,
+    "alphaPct": 0.89
+   },
    "h1m": null,
    "solde": null
   },
@@ -2198,7 +2245,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Sodexo est inchange a 57,05 EUR (+1,15 % sur 5j) et se maintient au-dessus de sa SMA50 (56,57 EUR) et de sa SMA200 (48,31 EUR) en tendance HAUSSE_CONFIRMEE (+2,39 % de pente). Le cours reste proche de ses plus hauts annuels (dist -3,06 %).",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 8,
+    "prix": 56.5,
+    "chgPct": -0.96,
+    "cacChgPct": -0.57,
+    "alphaPct": -0.4
+   },
    "h1m": null,
    "solde": null
   },
@@ -2214,7 +2268,14 @@
    "execute": true,
    "motifRejet": null,
    "justification": "Societe Generale beneficie d'un catalyseur direct cite le 21/09 (acceleration de la numerisation, reductions de couts et accueil positif du plan strategique). Le cours rebondit de +1,76 % a 73,87 EUR sur sa SMA200 (71,91 EUR, ecart +2,73 %) et repasse sa SMA20 en tendance HAUSSE_CONFIRMEE (chg126d +",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 8,
+    "prix": 71.8,
+    "chgPct": -2.8,
+    "cacChgPct": -0.57,
+    "alphaPct": -2.24
+   },
    "h1m": null,
    "solde": null
   },
@@ -2230,7 +2291,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Eurofins progresse de +2,12 % à 78,06 EUR et inscrit un nouveau plus haut annuel (+8,18 % sur 5j). La dynamique haussière de fond est confirmée (SMA200 à 66,25 EUR, chg126d +27,97 %) et renforcée par des achats d'initiés liés au CEO signalés ce jour.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 7,
+    "prix": 77.26,
+    "chgPct": -1.02,
+    "cacChgPct": -0.57,
+    "alphaPct": -0.46
+   },
    "h1m": null,
    "solde": null
   },
@@ -2246,7 +2314,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Safran rebondit de +2,38 % à 330,70 EUR en confirmation de son appui sur la SMA200 (315,23 EUR, écart +4,91 %). Le titre bénéficie d'un rachat d'actions annoncé dans les actualités et d'une tendance de fond HAUSSE_CONFIRMEE (+17,23 % sur 126j).",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 7,
+    "prix": 334.2,
+    "chgPct": 1.06,
+    "cacChgPct": -0.57,
+    "alphaPct": 1.62
+   },
    "h1m": null,
    "solde": null
   },
@@ -2262,7 +2337,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "JCDecaux consolide normalement à 24,78 EUR (-1,90 % du jour) après un parcours vigoureux (+27,86 % sur 126j). La tendance reste solidement haussière avec une pente de +5,05 % et un cours bien ancré au-dessus de la SMA50 (23,48 EUR) et SMA200 (19,22 EUR).",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 7,
+    "prix": 24.86,
+    "chgPct": 0.32,
+    "cacChgPct": -0.57,
+    "alphaPct": 0.89
+   },
    "h1m": null,
    "solde": null
   },
@@ -2278,7 +2360,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Thales cote 236,70 EUR (-0,63 % du jour, +2,73 % sur 5j), proche de sa SMA20 (237,25 EUR). Le flux d'actualités reste porteur dans la défense et la connectivité (CWIX 2026, laboratoire au Danemark), préservant la thèse de moyen terme.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 7,
+    "prix": 225.9,
+    "chgPct": -4.56,
+    "cacChgPct": -0.57,
+    "alphaPct": -4
+   },
    "h1m": null,
    "solde": null
   },
@@ -2294,7 +2383,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Société Générale clôture à 73,87 EUR (+1,76 %) au-dessus de sa SMA20 (73,61 EUR) et de sa SMA200 (71,91 EUR). L'accueil positif du plan stratégique et la dynamique de BoursoBank confortent l'entrée récente en tendance HAUSSE_CONFIRMEE.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 7,
+    "prix": 71.8,
+    "chgPct": -2.8,
+    "cacChgPct": -0.57,
+    "alphaPct": -2.24
+   },
    "h1m": null,
    "solde": null
   },
@@ -2310,7 +2406,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Euronext avance de +1,72 % à 159,70 EUR, se maintenant au contact de sa SMA20 (160,51 EUR) et confortablement au-dessus de la SMA200 à 140,78 EUR (+13,44 %). La tendance de fond demeure haussière (+20,17 % sur 126j).",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 7,
+    "prix": 160.5,
+    "chgPct": 0.5,
+    "cacChgPct": -0.57,
+    "alphaPct": 1.07
+   },
    "h1m": null,
    "solde": null
   },
@@ -2326,7 +2429,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Publicis temporise à 97,42 EUR (-0,10 %), préservant son niveau au-dessus de la SMA50 (96,85 EUR) et surperformant son secteur sur 6 mois (+38,38 % sur 126j, tendance HAUSSE_CONFIRMEE). Le stop à 93,80 EUR reste éloigné.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 7,
+    "prix": 95.84,
+    "chgPct": -1.62,
+    "cacChgPct": -0.57,
+    "alphaPct": -1.06
+   },
    "h1m": null,
    "solde": null
   },
@@ -2342,7 +2452,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Sodexo est stable à 57,05 EUR, à seulement 3,06 % de son plus haut annuel. Le titre évolue au-dessus de sa SMA50 (56,57 EUR) et affiche une solide tendance de fond HAUSSE_CONFIRMEE (+34,30 % sur 126j, SMA200 à 48,31 EUR).",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-09-29T07:20:38.270Z",
+    "jours": 7,
+    "prix": 56.5,
+    "chgPct": -0.96,
+    "cacChgPct": -0.57,
+    "alphaPct": -0.4
+   },
    "h1m": null,
    "solde": null
   },
@@ -3878,6 +3995,134 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Société Générale se maintient à 71,72 EUR à proximité immédiate de sa SMA200 (72,11 EUR), soutenue par le feu vert de Bruxelles concernant la coentreprise OXG avec Vodafone, sans menace sur son stop à 68,50 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-290720-SAF.PA-0",
+   "date": "2026-09-29T07:20:38.270Z",
+   "symbole": "SAF.PA",
+   "nom": "Safran",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "prixSignal": 334.2,
+   "cacAuSignal": 8092.83,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Cours a 334,20 EUR en progression de +3,5 % sur le prix d'achat, solidement installe au-dessus de sa SMA 200 a 316,25 EUR (+5,68 %) en tendance HAUSSE_CONFIRMEE avec un RSI 14 neutre a 50,5.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-290720-ERF.PA-1",
+   "date": "2026-09-29T07:20:38.270Z",
+   "symbole": "ERF.PA",
+   "nom": "Eurofins Scientific",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "prixSignal": 77.26,
+   "cacAuSignal": 8092.83,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Gain de +3,2 % a 77,26 EUR en tendance HAUSSE_CONFIRMEE au-dessus de toutes ses moyennes mobiles (ecart SMA 200 a +15,74 %, chg126d +23,30 %). Le RSI a 71 signale une dynamique forte sans retournement technique.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-290720-DEC.PA-2",
+   "date": "2026-09-29T07:20:38.270Z",
+   "symbole": "DEC.PA",
+   "nom": "JCDecaux",
+   "action": "CONSERVER",
+   "confiance": 83,
+   "prixSignal": 24.86,
+   "cacAuSignal": 8092.83,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Position en plus-value (+1,6 % a 24,86 EUR) affichant une forte pente haussiere (+5,11 %, chg126d +34,38 %) et une nette avance sur la SMA 200 (+27,77 %) avec un RSI 14 dynamique a 64,7.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-290720-ENX.PA-3",
+   "date": "2026-09-29T07:20:38.270Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "CONSERVER",
+   "confiance": 82,
+   "prixSignal": 160.5,
+   "cacAuSignal": 8092.83,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Stabilisation a 160,50 EUR (-0,7 % sur PMC) au-dessus de sa SMA 20 (159,42 EUR) et SMA 50 (158,42 EUR) en tendance HAUSSE_CONFIRMEE (+2,27 % de pente, chg126d +18,71 %) avec RSI 14 sain a 48,4.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-290720-PUB.PA-4",
+   "date": "2026-09-29T07:20:38.270Z",
+   "symbole": "PUB.PA",
+   "nom": "Publicis Groupe",
+   "action": "CONSERVER",
+   "confiance": 80,
+   "prixSignal": 95.84,
+   "cacAuSignal": 8092.83,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Cours a 95,84 EUR restant a bonne distance de sa SMA 200 a 85,60 EUR (+11,96 %) et de son stop de protection a 93,80 EUR, en tendance de fond HAUSSE_CONFIRMEE (chg126d +35,29 %) avec un RSI a 39,3.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-290720-SW.PA-5",
+   "date": "2026-09-29T07:20:38.270Z",
+   "symbole": "SW.PA",
+   "nom": "Sodexo",
+   "action": "CONSERVER",
+   "confiance": 79,
+   "prixSignal": 56.5,
+   "cacAuSignal": 8092.83,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "A 56,50 EUR, le titre preserve son assise au-dessus de la SMA 200 a 48,62 EUR (+16,21 %) en tendance HAUSSE_CONFIRMEE (chg126d +28,12 %). L'annonce de la proposition de presidence de Nathalie Bellon-Szabo perennise la gouvernance.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-290720-GLE.PA-6",
+   "date": "2026-09-29T07:20:38.270Z",
+   "symbole": "GLE.PA",
+   "nom": "Société Générale",
+   "action": "CONSERVER",
+   "confiance": 75,
+   "prixSignal": 71.8,
+   "cacAuSignal": 8092.83,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Cours a 71,80 EUR en consolidation normale au contact de sa SMA 200 a 72,12 EUR (-0,44 %), soutenu par les rachats d'actions publies le 28/09 et une tendance structurelle HAUSSE_CONFIRMEE (chg126d +16,26 %).",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-09-290720-HO.PA-7",
+   "date": "2026-09-29T07:20:38.270Z",
+   "symbole": "HO.PA",
+   "nom": "Thales",
+   "action": "CONSERVER",
+   "confiance": 74,
+   "prixSignal": 225.9,
+   "cacAuSignal": 8092.83,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Cours a 225,90 EUR restant au-dessus du stop a 219 EUR. Bien que Bernstein ait revise son objectif a 250 EUR, la recommandation de surperformance est maintenue et la tendance long terme conserve une pente positive (+0,22 %).",
    "h1s": null,
    "h1m": null,
    "solde": null
