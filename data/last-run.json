@@ -1,133 +1,104 @@
 {
- "date": "2026-09-30T09:20:37.001Z",
+ "date": "2026-09-30T11:20:35.993Z",
  "dureeS": 27,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 cède -0,32 % à 8010,26 points en milieu de matinée dans un marché sans direction nette. La largeur de marché demeure dégradée avec seulement 38,5 % des composantes au-dessus de leur SMA 200 (état FAIBLE). La prudence impose de solder rigoureusement la position Publicis passée sous son niveau d'invalidation et de maintenir les autres lignes robustes en portefeuille.",
+ "resume_marche": "Le CAC 40 recule de -0,52 % à 7 993,83 points dans un climat attentiste. La largeur du marché reste nettement dégradée avec seulement 36,9 % des valeurs de l'univers au-dessus de leur moyenne mobile à 200 jours, confirmant un état FAIBLE. Face à cette fragilité d'ensemble et avec 7 positions déjà actives sur les 8 permises, la discipline commande de préserver le capital sans initier de nouvel achat opportuniste.",
  "signaux": [
-  {
-   "symbole": "PUB.PA",
-   "action": "VENTE",
-   "confiance": 85,
-   "justification": "Le cours recule de -2,26 % à 93,62 EUR, enfonçant le stop fixé à 93,80 EUR et rompant le support des 94 EUR relevé par l'actualité de marché. Sortie disciplinée pour couper la perte (-7,1 %) et protéger le capital.",
-   "prix_entree": 93.62,
-   "stop_perte": 0,
-   "prise_profit": null,
-   "taille_pct": 0,
-   "invalidation": "Refranchissement net en clôture des 95 EUR"
-  },
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Cours à 338,10 EUR (+4,7 % de plus-value), tendance HAUSSE_CONFIRMEE avec un écart SMA 200 de +6,76 % et RSI sain à 63,3. Le titre reste parmi les plus fortes hausses du CAC 40 selon la presse.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Le titre progresse de +0,36 % à 336,30 EUR (+4,1 % de PnL) en tendance HAUSSE_CONFIRMEE avec un écart à la SMA200 de +6,20 % et un RSI équilibré à 62,2. L'actualité confirme la solide dynamique du titre parmi les leaders du CAC 40.",
+   "prix_entree": 336.3,
+   "stop_perte": 298,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 10,
+   "invalidation": "Cassure confirmée sous la SMA200 à 316,68 EUR"
   },
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "Le titre consolide sereinement à 24,66 EUR en tendance HAUSSE_CONFIRMEE (+5,13 % de pente, chg126d de +33,44 %) au-dessus de sa SMA 50 (+3,00 %) avec un RSI équilibré à 53,0.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "confiance": 84,
+   "justification": "Cours à 24,60 EUR (+0,5 % de PnL) solidement ancré en tendance HAUSSE_CONFIRMEE (pente +5,13 %, chg126d +33,12 %). Le cours reste confortablement au-dessus de la SMA50 à 23,94 EUR et de la SMA200 à 19,55 EUR.",
+   "prix_entree": 24.6,
+   "stop_perte": 22.2,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 8,
+   "invalidation": "Rupture de support sous 23,00 EUR"
   },
   {
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "La valeur cote 75,70 EUR en tendance HAUSSE_CONFIRMEE au-dessus de ses moyennes SMA 50 (+5,09 %) et SMA 200 (+13,09 %), avec une progression de +4,01 % sur 20 jours.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Position en gain (+1,0 %) à 75,60 EUR, évoluant au-dessus de ses SMA50 (72,03 EUR) et SMA200 (66,93 EUR, +12,95 %) avec une pente haussière confirmée (+2,52 %) et un RSI 14 régulier à 62,6.",
+   "prix_entree": 75.6,
+   "stop_perte": 68.5,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 8,
+   "invalidation": "Clôture sous la SMA50 à 72,00 EUR"
   },
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Euronext tient parfaitement à 161,50 EUR au-dessus de sa SMA 20 (+1,24 %) et de sa SMA 200 (+13,72 %) en tendance HAUSSE_CONFIRMEE, soutenue par les avis d'analystes favorables.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Stabilité parfaite en séance à 160,70 EUR en tendance HAUSSE_CONFIRMEE (+2,29 % de pente, chg126d +14,46 %). Le titre se maintient au-dessus de sa SMA20 (159,48 EUR) et SMA200 (142,01 EUR, +13,16 %).",
+   "prix_entree": 160.7,
+   "stop_perte": 149,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 7,
+   "invalidation": "Enfoncement net sous 155,00 EUR"
   },
   {
    "symbole": "SW.PA",
    "action": "CONSERVER",
    "confiance": 78,
-   "justification": "Cours à 56,10 EUR se maintenant au-dessus de la SMA 200 (+15,13 %) et à bonne distance du stop à 53,80 EUR. La succession annoncée à la présidence du conseil s'opère dans la continuité.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Le repli modéré à 56,05 EUR (-0,36 % en séance) préserve la marge de sécurité au-dessus de la SMA200 à 48,73 EUR (+15,03 %). Les actualités confirment une transition managériale ordonnée à la présidence du conseil d'administration.",
+   "prix_entree": 56.05,
+   "stop_perte": 53.8,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 8,
+   "invalidation": "Cassure du stop de protection à 53,80 EUR"
   },
   {
    "symbole": "HO.PA",
    "action": "CONSERVER",
    "confiance": 76,
-   "justification": "Thales cote 227,20 EUR, au-dessus du seuil d'invalidation à 219,00 EUR, bénéficiant d'un flux d'actualités industrielles porteur (sécurisation aéronautique et véhicules tactiques).",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Cours à 226,00 EUR maintenant une marge au-dessus du stop de protection fixé à 219,00 EUR et du plus bas 52s (216,50 EUR). Le RSI 14 à 51,2 montre une stabilisation technique en cours.",
+   "prix_entree": 226,
+   "stop_perte": 219,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 10,
+   "invalidation": "Enfoncement du stop de sécurité à 219,00 EUR"
   },
   {
    "symbole": "GLE.PA",
    "action": "CONSERVER",
-   "confiance": 74,
-   "justification": "Stabilisation à 70,50 EUR à proximité immédiate de la SMA 200 (-2,32 %) et marge suffisante par rapport au stop à 68,50 EUR en tendance HAUSSE_CONFIRMEE.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "confiance": 75,
+   "justification": "À 69,69 EUR, le titre préserve son niveau d'invalidation (stop à 68,50 EUR) et bénéficie d'une actualité positive ce matin de Morningstar soulignant la confiance du Capital Markets Day pour viser +30 % de valorisation. RSI à 37,1 prêt pour un rebond.",
+   "prix_entree": 69.69,
+   "stop_perte": 68.5,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 8,
+   "invalidation": "Rupture du seuil d'invalidation à 68,50 EUR"
   }
  ],
  "signaux_ecartes": [],
- "appliques": [
-  {
-   "symbole": "PUB.PA",
-   "nom": "Publicis Groupe",
-   "action": "VENTE",
-   "shares": 7,
-   "prix": 93.62,
-   "montant": 654.68,
-   "pnlPct": -7.08,
-   "pnlEur": -50.57,
-   "motif": "stop-perte declenche"
-  }
- ],
- "rejetes": [
-  {
-   "symbole": "PUB.PA",
-   "action": "VENTE",
-   "motif": "position_inexistante"
-  }
- ],
+ "appliques": [],
+ "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 16,
-  "nbPassages": 36,
-  "equity": 9794.57,
-  "perfPct": -2.05,
-  "cacPerfPct": -1.32,
-  "alphaPct": -0.73,
-  "maxDrawdownPct": -2,
+  "nbPassages": 37,
+  "equity": 9773.1,
+  "perfPct": -2.27,
+  "cacPerfPct": -1.53,
+  "alphaPct": -0.74,
+  "maxDrawdownPct": -2.2,
   "sharpe": null,
-  "expositionPct": 49.8,
+  "expositionPct": 49.6,
   "trades": {
    "nbAchats": 9,
    "nbSolde": 2,
@@ -178,7 +149,7 @@
   }
  },
  "stats": {
-  "equity": 9794.57,
+  "equity": 9773.1,
   "cash": 4921.25,
   "nbPositions": 7
  }
