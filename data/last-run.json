@@ -1,17 +1,28 @@
 {
- "date": "2026-09-30T07:20:36.979Z",
- "dureeS": 25,
+ "date": "2026-09-30T09:20:37.001Z",
+ "dureeS": 27,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 enregistre une modeste hausse de +0,25 % à 8056,15 points, mais la largeur de marché demeure FAIBLE avec seulement 39,3 % des composantes au-dessus de leur SMA200. Le portefeuille compte déjà 8 positions ouvertes (limite maximale atteinte), interdisant toute nouvelle entrée sans arbitrage préalable. L'ensemble des lignes existantes reste dans les clous de leurs thèses et stops respectifs, justifiant une approche de préservation.",
+ "resume_marche": "Le CAC 40 cède -0,32 % à 8010,26 points en milieu de matinée dans un marché sans direction nette. La largeur de marché demeure dégradée avec seulement 38,5 % des composantes au-dessus de leur SMA 200 (état FAIBLE). La prudence impose de solder rigoureusement la position Publicis passée sous son niveau d'invalidation et de maintenir les autres lignes robustes en portefeuille.",
  "signaux": [
+  {
+   "symbole": "PUB.PA",
+   "action": "VENTE",
+   "confiance": 85,
+   "justification": "Le cours recule de -2,26 % à 93,62 EUR, enfonçant le stop fixé à 93,80 EUR et rompant le support des 94 EUR relevé par l'actualité de marché. Sortie disciplinée pour couper la perte (-7,1 %) et protéger le capital.",
+   "prix_entree": 93.62,
+   "stop_perte": 0,
+   "prise_profit": null,
+   "taille_pct": 0,
+   "invalidation": "Refranchissement net en clôture des 95 EUR"
+  },
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Safran affiche une solide progression de +4,3 % en portefeuille avec un cours à 336,90 EUR au-dessus de sa SMA20 (329,97 EUR) et de sa SMA200 (316,47 EUR, écart +6,45 %). La tendance HAUSSE_CONFIRMEE et le RSI 14 à 61,7 confirment la vigueur du rebond technique.",
+   "justification": "Cours à 338,10 EUR (+4,7 % de plus-value), tendance HAUSSE_CONFIRMEE avec un écart SMA 200 de +6,76 % et RSI sain à 63,3. Le titre reste parmi les plus fortes hausses du CAC 40 selon la presse.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -21,8 +32,8 @@
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
-   "confiance": 84,
-   "justification": "JCDecaux conserve une dynamique exemplaire avec un gain de +1,6 % en portefeuille, un cours à 24,88 EUR et une progression de +27,56 % au-dessus de sa SMA200 (19,51 EUR). La tendance HAUSSE_CONFIRMEE (pente +5,13 %) et le RSI 14 à 66,7 soutiennent la poursuite du swing.",
+   "confiance": 83,
+   "justification": "Le titre consolide sereinement à 24,66 EUR en tendance HAUSSE_CONFIRMEE (+5,13 % de pente, chg126d de +33,44 %) au-dessus de sa SMA 50 (+3,00 %) avec un RSI équilibré à 53,0.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -33,7 +44,7 @@
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "Eurofins Scientific progresse de +1,9 % depuis l'entrée avec un cours à 76,30 EUR bien installé au-dessus de ses SMA50 (71,94 EUR) et SMA200 (66,85 EUR, écart +14,14 %). La tendance de fond HAUSSE_CONFIRMEE (+17,28 % sur 126j) reste parfaitement saine.",
+   "justification": "La valeur cote 75,70 EUR en tendance HAUSSE_CONFIRMEE au-dessus de ses moyennes SMA 50 (+5,09 %) et SMA 200 (+13,09 %), avec une progression de +4,01 % sur 20 jours.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -44,18 +55,7 @@
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Euronext avance de +1,49 % sur la séance à 163,00 EUR (+0,8 % de PnL), tout près de son plus haut à 165,30 EUR (écart -1,39 %). En tendance HAUSSE_CONFIRMEE avec un RSI 14 maîtrisé à 60,0 et un écart SMA200 de +14,92 %, la ligne reste à garder.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "PUB.PA",
-   "action": "CONSERVER",
-   "confiance": 80,
-   "justification": "Publicis Groupe s'établit à 95,46 EUR, conservant une marge adéquate au-dessus de son stop à 93,80 EUR et de sa SMA200 à 85,64 EUR (+11,46 %). Le relèvement d'objectif de cours de 98 à 106 EUR par Huber Research confirme les fondamentaux de la valeur.",
+   "justification": "Euronext tient parfaitement à 161,50 EUR au-dessus de sa SMA 20 (+1,24 %) et de sa SMA 200 (+13,72 %) en tendance HAUSSE_CONFIRMEE, soutenue par les avis d'analystes favorables.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -66,7 +66,7 @@
    "symbole": "SW.PA",
    "action": "CONSERVER",
    "confiance": 78,
-   "justification": "Sodexo cote 56,40 EUR, maintenant un écart positif de +15,87 % sur sa SMA200 (48,68 EUR) en tendance HAUSSE_CONFIRMEE (+24,12 % sur 126j). Le stop à 53,80 EUR n'est pas menacé et le passage de témoin au conseil se déroule sans accroc majeur.",
+   "justification": "Cours à 56,10 EUR se maintenant au-dessus de la SMA 200 (+15,13 %) et à bonne distance du stop à 53,80 EUR. La succession annoncée à la présidence du conseil s'opère dans la continuité.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -77,7 +77,7 @@
    "symbole": "HO.PA",
    "action": "CONSERVER",
    "confiance": 76,
-   "justification": "Thales progresse de +0,73 % ce jour à 227,65 EUR, restant à bonne distance de son seuil d'invalidation fixé à 219,00 EUR. Le flux d'actualités opérationnelles demeure positif (sécurisation aéronautique et partenariats tactiques) avec un RSI 14 neutre à 52,6.",
+   "justification": "Thales cote 227,20 EUR, au-dessus du seuil d'invalidation à 219,00 EUR, bénéficiant d'un flux d'actualités industrielles porteur (sécurisation aéronautique et véhicules tactiques).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -88,7 +88,7 @@
    "symbole": "GLE.PA",
    "action": "CONSERVER",
    "confiance": 74,
-   "justification": "Société Générale oscille à 71,39 EUR (-0,10 % sur 1j), à proximité immédiate de sa SMA200 (72,15 EUR) et au-dessus de son stop de protection à 68,50 EUR. La tendance reste HAUSSE_CONFIRMEE (pente +1,79 %, chg126d +8,23 %), justifiant le maintien de la position.",
+   "justification": "Stabilisation à 70,50 EUR à proximité immédiate de la SMA 200 (-2,32 %) et marge suffisante par rapport au stop à 68,50 EUR en tendance HAUSSE_CONFIRMEE.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -97,33 +97,51 @@
   }
  ],
  "signaux_ecartes": [],
- "appliques": [],
- "rejetes": [],
+ "appliques": [
+  {
+   "symbole": "PUB.PA",
+   "nom": "Publicis Groupe",
+   "action": "VENTE",
+   "shares": 7,
+   "prix": 93.62,
+   "montant": 654.68,
+   "pnlPct": -7.08,
+   "pnlEur": -50.57,
+   "motif": "stop-perte declenche"
+  }
+ ],
+ "rejetes": [
+  {
+   "symbole": "PUB.PA",
+   "action": "VENTE",
+   "motif": "position_inexistante"
+  }
+ ],
  "fluxEnEchec": [],
  "meriques": {
-  "ageJours": 15,
-  "nbPassages": 35,
-  "equity": 9840.55,
-  "perfPct": -1.59,
-  "cacPerfPct": -0.76,
-  "alphaPct": -0.84,
-  "maxDrawdownPct": -1.6,
+  "ageJours": 16,
+  "nbPassages": 36,
+  "equity": 9794.57,
+  "perfPct": -2.05,
+  "cacPerfPct": -1.32,
+  "alphaPct": -0.73,
+  "maxDrawdownPct": -2,
   "sharpe": null,
-  "expositionPct": 56.6,
+  "expositionPct": 49.8,
   "trades": {
    "nbAchats": 9,
-   "nbSolde": 1,
+   "nbSolde": 2,
    "tauxReussitePct": 0,
    "gainMoyenPct": null,
-   "perteMoyennePct": -7.16,
+   "perteMoyennePct": -7.12,
    "profitFactor": 0,
    "montantGagne": 0,
-   "montantPerdu": 56.91
+   "montantPerdu": 106.79
   },
   "couts": {
-   "fraisCumules": 7.18,
+   "fraisCumules": 7.84,
    "ttfCumule": 19.35,
-   "totalEur": 26.53,
+   "totalEur": 27.19,
    "montantAchete": 6471.34,
    "coutEnPctDuCapital": 0.27
   },
@@ -136,7 +154,7 @@
     "alphaMoyen1sPct": -1.01
    },
    "ventes": {
-    "nb": 1,
+    "nb": 2,
     "nbEvalues": 0,
     "tauxReussitePct": null,
     "alphaMoyen1mPct": null,
@@ -147,8 +165,8 @@
   "verdict": {
    "etat": "PAS_ENCORE_CONCLUANT",
    "raisons": [
-    "il faut 90 jours de recul (actuellement 15)",
-    "il faut 20 positions soldees (actuellement 1)"
+    "il faut 90 jours de recul (actuellement 16)",
+    "il faut 20 positions soldees (actuellement 2)"
    ],
    "criteres": {
     "ageMinJours": 90,
@@ -160,8 +178,8 @@
   }
  },
  "stats": {
-  "equity": 9840.55,
-  "cash": 4266.57,
-  "nbPositions": 8
+  "equity": 9794.57,
+  "cash": 4921.25,
+  "nbPositions": 7
  }
 }
