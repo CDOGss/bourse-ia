@@ -1,122 +1,93 @@
 {
- "date": "2026-10-01T09:20:39.235Z",
- "dureeS": 24,
+ "date": "2026-10-01T11:20:37.739Z",
+ "dureeS": 23,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "La seance est marquee par une nette baisse du CAC 40 (-1,28 % a 7 862,54 points), dans un contexte d'inquietudes sur les taux obligataires francais et la presentation du budget de redressement. La largeur de marche demeure tres degradee avec seulement 32 % des valeurs evoluant au-dessus de leur moyenne mobile a 200 jours (etat FAIBLE). La prudence impose de ne prendre aucun nouveau risque a l'achat et de couper rigoureusement les positions dont les seuils d'invalidation sont atteints.",
+ "resume_marche": "Le CAC 40 recule de 0,67 % à 7 910,96 points dans un climat d'aversion au risque marqué par la tension sur les rendements souverains européens. La largeur du marché est FAIBLE avec seulement 31,1 % des valeurs de l'univers au-dessus de leur moyenne mobile à 200 jours. Face à cette dégradation macroéconomique et technique générale, la préservation du capital prime et aucun nouvel achat n'est engagé.",
  "signaux": [
-  {
-   "symbole": "GLE.PA",
-   "action": "VENTE",
-   "confiance": 90,
-   "justification": "Le cours de Societe Generale chute a 67,11 EUR (-3,52 % sur la seance), enfoncant nettement le stop de protection etabli a 68,50 EUR et sa SMA200 a 72,17 EUR (ecart de -7,01 %). La these de rebond sur support est invalidee par la defaillance technique.",
-   "prix_entree": 67.11,
-   "stop_perte": 0,
-   "prise_profit": null,
-   "taille_pct": 0,
-   "invalidation": "Non applicable pour une vente"
-  },
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Safran preserve ses gains (+3 % en portefeuille a 332,80 EUR) en restant au-dessus de sa SMA200 a 316,87 EUR (+5,03 %) et de sa SMA20 a 330,23 EUR, portee par l'annonce du doublement de ses capacites de turboreacteurs au Texas.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Cours à 334,40 EUR, stable en séance et en gain de 3,5 % depuis l'achat. Le titre évolue confortablement au-dessus de sa SMA200 (316,88 EUR, soit +5,53 %) en tendance HAUSSE_CONFIRMEE, soutenu par l'annonce du doublement de ses capacités de production au Texas.",
+   "prix_entree": 334.4,
+   "stop_perte": 298,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 10,
+   "invalidation": "Cassure en clôture du support technique sous 315,00 EUR (SMA200)."
   },
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "JCDecaux montre une remarquable force relative (+0,08 % ce jour a 24,66 EUR) en HAUSSE_CONFIRMEE, maintenue confortablement au-dessus de sa SMA50 (24,00 EUR) et de sa SMA200 (19,60 EUR).",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Le titre gagne 0,89 % à 24,86 EUR et reste très ferme à +26,84 % de sa SMA200 (19,60 EUR). La dynamique de fond est solide (HAUSSE_CONFIRMEE, pente +5,13 %, RSI 14 à 57,6), ce qui conforte la position en portefeuille.",
+   "prix_entree": 24.86,
+   "stop_perte": 22.2,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 8,
+   "invalidation": "Enfoncement des 23,00 EUR marquant la perte de la SMA50."
   },
   {
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Eurofins Scientific consolide calmement a 74,82 EUR (-0,24 % ce jour) dans une structure saine en HAUSSE_CONFIRMEE, bien soutenue au-dessus de sa SMA50 (72,20 EUR) avec un RSI a 60,8.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Eurofins fait preuve de résilience (+0,08 % à 75,06 EUR) au-dessus de sa SMA50 (72,20 EUR) et SMA200 (67,01 EUR, écart +12,01 %). La tendance HAUSSE_CONFIRMEE et un RSI à 61,5 confirment la validité de la thèse.",
+   "prix_entree": 75.06,
+   "stop_perte": 68.5,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 8,
+   "invalidation": "Clôture sous le support des 71,50 EUR."
   },
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
-   "confiance": 80,
-   "justification": "Euronext resiste bien (-0,31 % a 158,40 EUR) au-dessus de son support majeur de SMA200 a 142,17 EUR (+11,41 %) et de sa SMA50 (159,13 EUR), avec un RSI neutre a 50,6.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "confiance": 82,
+   "justification": "Euronext progresse de 1,01 % à 160,50 EUR, affichant une nette force relative sectorielle face à la baisse du marché. La valeur demeure en tendance HAUSSE_CONFIRMEE (+12,88 % vs SMA200 à 142,18 EUR) avec un RSI équilibré à 56,6.",
+   "prix_entree": 160.5,
+   "stop_perte": 149,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 7,
+   "invalidation": "Rupture confirmée du seuil des 154,00 EUR."
   },
   {
    "symbole": "HO.PA",
    "action": "CONSERVER",
-   "confiance": 78,
-   "justification": "Thales progresse de +0,22 % a 225,00 EUR a contre-courant du marche, conservant une marge sur son stop a 219,00 EUR et beneficiant de multiples catalyseurs favorables dans la cybersecurite face a l'IA.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "confiance": 77,
+   "justification": "Thales se stabilise en hausse de 0,49 % à 225,60 EUR après avoir testé avec succès le support des 223,70 EUR mentionné dans l'actualité. Le dossier bénéficie de catalyseurs porteurs dans la cybersécurité et la lutte anti-drones, maintenant le cours au-dessus du stop de 219 EUR.",
+   "prix_entree": 225.6,
+   "stop_perte": 219,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 9,
+   "invalidation": "Enfoncement du plancher récent à 219,00 EUR déclenchant le stop."
   },
   {
    "symbole": "SW.PA",
    "action": "CONSERVER",
-   "confiance": 74,
-   "justification": "Sodexo s'efforce de stabiliser son cours a 55,25 EUR (-0,18 % ce jour), preservant pour le moment le seuil de protection fixe a 53,80 EUR dans une tendance de fond toujours haussiere (SMA200 a 48,77 EUR).",
-   "prix_entree": null,
-   "stop_perte": null,
+   "confiance": 72,
+   "justification": "Sodexo cède 0,90 % à 54,85 EUR, restant au-dessus de son stop fixé à 53,80 EUR et conservant une marge saine de +12,48 % par rapport à sa SMA200 (48,76 EUR). La gouvernance évolue (succession à la présidence du CA) sans altérer la tendance de fond HAUSSE_CONFIRMEE.",
+   "prix_entree": 54.85,
+   "stop_perte": 53.8,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 7,
+   "invalidation": "Cassure du niveau de stop de sécurité à 53,80 EUR."
   }
  ],
  "signaux_ecartes": [],
- "appliques": [
-  {
-   "symbole": "GLE.PA",
-   "nom": "Société Générale",
-   "action": "VENTE",
-   "shares": 10,
-   "prix": 67.11,
-   "montant": 670.43,
-   "pnlPct": -9.52,
-   "pnlEur": -71.27,
-   "motif": "stop-perte declenche"
-  }
- ],
- "rejetes": [
-  {
-   "symbole": "GLE.PA",
-   "action": "VENTE",
-   "motif": "position_inexistante"
-  }
- ],
+ "appliques": [],
+ "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 17,
-  "nbPassages": 41,
-  "equity": 9713.65,
-  "perfPct": -2.86,
-  "cacPerfPct": -3.14,
-  "alphaPct": 0.28,
-  "maxDrawdownPct": -2.8,
+  "nbPassages": 42,
+  "equity": 9729.65,
+  "perfPct": -2.7,
+  "cacPerfPct": -2.55,
+  "alphaPct": -0.16,
+  "maxDrawdownPct": -2.6,
   "sharpe": null,
-  "expositionPct": 42.4,
+  "expositionPct": 42.5,
   "trades": {
    "nbAchats": 9,
    "nbSolde": 3,
@@ -167,7 +138,7 @@
   }
  },
  "stats": {
-  "equity": 9713.65,
+  "equity": 9729.65,
   "cash": 5591.68,
   "nbPositions": 6
  }
