@@ -1,88 +1,88 @@
 {
- "date": "2026-09-30T15:20:34.245Z",
- "dureeS": 25,
+ "date": "2026-10-01T07:22:28.744Z",
+ "dureeS": 26,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 clôture en repli de -0,94 % à 7 960,51 points dans un climat de tension sur la dette et de fragilité macroéconomique. La largeur de marché reste très dégradée avec seulement 36,1 % des valeurs de l'univers au-dessus de leur SMA 200, caractérisant un état de marché 'FAIBLE'. Dans ce contexte, aucune prise de position acheteuse agressive n'est justifiée et la gestion rigoureuse des lignes en portefeuille prime.",
+ "resume_marche": "Le CAC 40 recule de -0,58 % à 7 918,10 points dans un climat d'attentisme et d'aversion au risque avant la présentation du budget gouvernemental français. La largeur de marché reste très dégradée avec seulement 32 % des valeurs au-dessus de leur SMA 200 (état FAIBLE). Dans cet environnement fragile et avec 7 positions déjà ouvertes sur les 8 autorisées, la priorité absolue est la préservation du capital et la gestion rigoureuse des lignes en portefeuille.",
  "signaux": [
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Safran surperforme nettement avec un P&L positif (+3,3 %), solidement ancré en tendance HAUSSE_CONFIRMEE au-dessus de sa SMA 200 (+5,38 %) et soutenu par des actualités industrielles favorables.",
-   "prix_entree": 333.7,
+   "justification": "Safran affiche une excellente résistance (+0,63 % à 337,20 EUR) en tendance HAUSSE_CONFIRMEE au-dessus de sa SMA 200 à 316,69 EUR (+6,48 %) et SMA 20 à 330,31 EUR (+2,09 %), avec un RSI sain à 62,8 et une performance à 6 mois solide (chg126d +17,37 %).",
+   "prix_entree": 337.2,
    "stop_perte": 298,
    "prise_profit": null,
    "taille_pct": 10,
-   "invalidation": "Rupture clôturée sous le stop de protection fixé à 298 EUR."
-  },
-  {
-   "symbole": "DEC.PA",
-   "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "JCDecaux conserve une structure technique remarquable (HAUSSE_CONFIRMEE, pente +5,13 %, +26,02 % sur la SMA 200 et chg126d à +33,33 %) avec un RSI équilibré à 52,7.",
-   "prix_entree": 24.64,
-   "stop_perte": 22.2,
-   "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Clôture sous le stop de 22,2 EUR."
-  },
-  {
-   "symbole": "ERF.PA",
-   "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "Eurofins maintient une excellente dynamique haussière (+12,98 % au-dessus de sa SMA 200, tendance HAUSSE_CONFIRMEE avec pente +2,52 % et gain latent de +1,0 %).",
-   "prix_entree": 75.62,
-   "stop_perte": 68.5,
-   "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Enfoncement net du stop de protection à 68,5 EUR."
-  },
-  {
-   "symbole": "ENX.PA",
-   "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "Euronext reste résistant (-0,56 % en séance, +12,53 % au-dessus de sa SMA 200) avec une tendance de fond HAUSSE_CONFIRMEE (chg126d +13,82 %).",
-   "prix_entree": 159.8,
-   "stop_perte": 149,
-   "prise_profit": null,
-   "taille_pct": 7,
-   "invalidation": "Cassure du seuil des 149 EUR."
-  },
-  {
-   "symbole": "SW.PA",
-   "action": "CONSERVER",
-   "confiance": 78,
-   "justification": "Sodexo reste au-dessus de son support SMA 200 à 48,72 EUR (+13,7 %) et en HAUSSE_CONFIRMEE ; la succession à la présidence du conseil d'administration confirme la continuité stratégique.",
-   "prix_entree": 55.4,
-   "stop_perte": 53.8,
-   "prise_profit": null,
-   "taille_pct": 7,
-   "invalidation": "Cassure du stop de protection à 53,8 EUR."
+   "invalidation": "Clôture sous la SMA 200 à 316,69 EUR ou déclenchement du stop de protection à 298 EUR."
   },
   {
    "symbole": "HO.PA",
    "action": "CONSERVER",
-   "confiance": 76,
-   "justification": "Thales est conforté par l'actualité relative au partenariat de véhicule tactique avec Renault et aux innovations SkyLab, alors que le cours reste au-dessus du stop à 219 EUR.",
-   "prix_entree": 224.6,
+   "confiance": 78,
+   "justification": "Thales stabilise (-0,18 % à 226,20 EUR, RSI à 51,5) et bénéficie d'un double catalyseur d'actualité ce matin avec l'extension de son partenariat avec Google Cloud dans la sécurité de l'IA agentique et le lancement du HSM Luna 8 en cryptographie post-quantique.",
+   "prix_entree": 226.2,
    "stop_perte": 219,
    "prise_profit": null,
    "taille_pct": 10,
-   "invalidation": "Rupture confirmée sous 219 EUR."
+   "invalidation": "Enfoncement net du support des 219 EUR matérialisant le stop de protection."
+  },
+  {
+   "symbole": "DEC.PA",
+   "action": "CONSERVER",
+   "confiance": 82,
+   "justification": "JCDecaux conserve sa dynamique de fond en tendance HAUSSE_CONFIRMEE (+5,12 % de pente, chg126d +31,71 %) avec un cours à 24,34 EUR situé largement au-dessus de sa SMA 200 à 19,55 EUR (+24,50 %) et un RSI équilibré à 48,4.",
+   "prix_entree": 24.34,
+   "stop_perte": 22.2,
+   "prise_profit": null,
+   "taille_pct": 8,
+   "invalidation": "Rupture confirmée du support technique et du stop fixé à 22,20 EUR."
+  },
+  {
+   "symbole": "ERF.PA",
+   "action": "CONSERVER",
+   "confiance": 82,
+   "justification": "Eurofins Scientific consolide calmement à 74,28 EUR (RSI 58,5) en restant bien ancré en tendance HAUSSE_CONFIRMEE au-dessus de ses moyennes SMA 50 à 72,01 EUR (+3,16 %) et SMA 200 à 66,93 EUR (+10,98 %).",
+   "prix_entree": 74.28,
+   "stop_perte": 68.5,
+   "prise_profit": null,
+   "taille_pct": 8,
+   "invalidation": "Cassure du support intermédiaire des 70 EUR et du stop à 68,50 EUR."
+  },
+  {
+   "symbole": "ENX.PA",
+   "action": "CONSERVER",
+   "confiance": 80,
+   "justification": "Euronext reste ferme sur ses bases à 157,90 EUR (chg126d +12,46 %, pente +2,28 %) au-dessus de sa SMA 200 à 142,00 EUR (+11,20 %) avec une volatilité contenue à 17,4 % et un RSI neutre à 43,6.",
+   "prix_entree": 157.9,
+   "stop_perte": 149,
+   "prise_profit": null,
+   "taille_pct": 8,
+   "invalidation": "Clôture sous le seuil d'invalidation et stop à 149 EUR."
+  },
+  {
+   "symbole": "SW.PA",
+   "action": "CONSERVER",
+   "confiance": 74,
+   "justification": "Sodexo recule à 54,85 EUR mais préserve pour l'instant son support et sa tendance HAUSSE_CONFIRMEE au-dessus de sa SMA 200 à 48,72 EUR (+12,58 %) avec un RSI 14 à 41,9 non dégradé.",
+   "prix_entree": 54.85,
+   "stop_perte": 53.8,
+   "prise_profit": null,
+   "taille_pct": 8,
+   "invalidation": "Enfoncement du plancher récent sous le niveau de stop à 53,80 EUR."
   },
   {
    "symbole": "GLE.PA",
    "action": "CONSERVER",
-   "confiance": 74,
-   "justification": "Société Générale bénéficie d'une perspective de valorisation rehaussée de 30 % selon l'analyse Morningstar suite au Capital Markets Day ; le cours à 69,67 EUR teste un support clé sans violer le stop à 68,5 EUR.",
-   "prix_entree": 69.67,
+   "confiance": 70,
+   "justification": "Société Générale fléchit à 68,66 EUR sous la pression sectorielle liée au budget, mais teste une zone charnière sans enfoncer son niveau d'invalidation (stop à 68,50 EUR) tandis que sa tendance de fond reste HAUSSE_CONFIRMEE (chg126d +6,88 %).",
+   "prix_entree": 68.66,
    "stop_perte": 68.5,
    "prise_profit": null,
    "taille_pct": 8,
-   "invalidation": "Violation clôturée du stop à 68,5 EUR."
+   "invalidation": "Rupture confirmée sous 68,50 EUR déclenchant la vente de discipline."
   }
  ],
  "signaux_ecartes": [],
@@ -91,14 +91,14 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 16,
-  "nbPassages": 39,
-  "equity": 9754.13,
-  "perfPct": -2.46,
-  "cacPerfPct": -1.94,
-  "alphaPct": -0.52,
-  "maxDrawdownPct": -2.4,
+  "nbPassages": 40,
+  "equity": 9716.18,
+  "perfPct": -2.84,
+  "cacPerfPct": -2.46,
+  "alphaPct": -0.38,
+  "maxDrawdownPct": -2.7,
   "sharpe": null,
-  "expositionPct": 49.5,
+  "expositionPct": 49.3,
   "trades": {
    "nbAchats": 9,
    "nbSolde": 2,
@@ -149,7 +149,7 @@
   }
  },
  "stats": {
-  "equity": 9754.13,
+  "equity": 9716.18,
   "cash": 4921.25,
   "nbPositions": 7
  }
