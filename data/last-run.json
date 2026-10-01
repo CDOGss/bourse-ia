@@ -1,77 +1,77 @@
 {
- "date": "2026-10-01T11:20:37.739Z",
- "dureeS": 23,
+ "date": "2026-10-01T13:20:40.265Z",
+ "dureeS": 27,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 recule de 0,67 % à 7 910,96 points dans un climat d'aversion au risque marqué par la tension sur les rendements souverains européens. La largeur du marché est FAIBLE avec seulement 31,1 % des valeurs de l'univers au-dessus de leur moyenne mobile à 200 jours. Face à cette dégradation macroéconomique et technique générale, la préservation du capital prime et aucun nouvel achat n'est engagé.",
+ "resume_marche": "Le CAC 40 recule de 0,68 % à 7 910,33 points dans un contexte de fortes tensions sur les rendements obligataires. La largeur de marché reste très dégradée avec seulement 32,8 % des valeurs de l'univers au-dessus de leur SMA 200, caractérisant un état FAIBLE. La prudence et la préservation du cash (42,5 % du portefeuille investi) restent prioritaires face à l'absence de soutien macroéconomique.",
  "signaux": [
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Cours à 334,40 EUR, stable en séance et en gain de 3,5 % depuis l'achat. Le titre évolue confortablement au-dessus de sa SMA200 (316,88 EUR, soit +5,53 %) en tendance HAUSSE_CONFIRMEE, soutenu par l'annonce du doublement de ses capacités de production au Texas.",
-   "prix_entree": 334.4,
-   "stop_perte": 298,
+   "justification": "Tendance HAUSSE_CONFIRMEE solide (pente +1,22 %, écart SMA 200 +4,43 %) et dynamique opérationnelle confortée par l'annonce du doublement des capacités industrielles de turboréacteurs au Texas.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Cassure en clôture du support technique sous 315,00 EUR (SMA200)."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "Le titre gagne 0,89 % à 24,86 EUR et reste très ferme à +26,84 % de sa SMA200 (19,60 EUR). La dynamique de fond est solide (HAUSSE_CONFIRMEE, pente +5,13 %, RSI 14 à 57,6), ce qui conforte la position en portefeuille.",
-   "prix_entree": 24.86,
-   "stop_perte": 22.2,
+   "justification": "Belle résilience relative (+1,06 % ce jour) et orientation haussière intacte (pente +5,13 %, performance 126 jours de +32,31 %), avec un RSI 14 équilibré à 58,0.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Enfoncement des 23,00 EUR marquant la perte de la SMA50."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Eurofins fait preuve de résilience (+0,08 % à 75,06 EUR) au-dessus de sa SMA50 (72,20 EUR) et SMA200 (67,01 EUR, écart +12,01 %). La tendance HAUSSE_CONFIRMEE et un RSI à 61,5 confirment la validité de la thèse.",
-   "prix_entree": 75.06,
-   "stop_perte": 68.5,
+   "justification": "Le titre progresse de 0,72 % en séance, bien installé au-dessus de sa SMA 50 (+4,61 %) et de sa SMA 200 (+12,72 %) en tendance HAUSSE_CONFIRMEE.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Clôture sous le support des 71,50 EUR."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "Euronext progresse de 1,01 % à 160,50 EUR, affichant une nette force relative sectorielle face à la baisse du marché. La valeur demeure en tendance HAUSSE_CONFIRMEE (+12,88 % vs SMA200 à 142,18 EUR) avec un RSI équilibré à 56,6.",
-   "prix_entree": 160.5,
-   "stop_perte": 149,
+   "confiance": 81,
+   "justification": "Résistance notable à la baisse de l'indice (+1,01 % ce jour), structure technique saine avec un cours supérieur à la SMA 200 (+12,88 %) et un RSI 14 maîtrisé à 56,6.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 7,
-   "invalidation": "Rupture confirmée du seuil des 154,00 EUR."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "HO.PA",
    "action": "CONSERVER",
    "confiance": 77,
-   "justification": "Thales se stabilise en hausse de 0,49 % à 225,60 EUR après avoir testé avec succès le support des 223,70 EUR mentionné dans l'actualité. Le dossier bénéficie de catalyseurs porteurs dans la cybersécurité et la lutte anti-drones, maintenant le cours au-dessus du stop de 219 EUR.",
-   "prix_entree": 225.6,
-   "stop_perte": 219,
+   "justification": "Stabilisation du cours (+0,27 % à 225,10 EUR) au-dessus du seuil d'invalidation (219 EUR), soutenue par de nouveaux développements commerciaux dans la cybersécurité pour l'IA (Sentinel Envelope Plus).",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 9,
-   "invalidation": "Enfoncement du plancher récent à 219,00 EUR déclenchant le stop."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "SW.PA",
    "action": "CONSERVER",
    "confiance": 72,
-   "justification": "Sodexo cède 0,90 % à 54,85 EUR, restant au-dessus de son stop fixé à 53,80 EUR et conservant une marge saine de +12,48 % par rapport à sa SMA200 (48,76 EUR). La gouvernance évolue (succession à la présidence du CA) sans altérer la tendance de fond HAUSSE_CONFIRMEE.",
-   "prix_entree": 54.85,
-   "stop_perte": 53.8,
+   "justification": "Le repli récent s'atténue (-0,90 % à 54,85 EUR) au-dessus du stop à 53,80 EUR ; la tendance de fond demeure haussière (écart SMA 200 de +12,48 %, pente +2,35 %) malgré les annonces de gouvernance.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 7,
-   "invalidation": "Cassure du niveau de stop de sécurité à 53,80 EUR."
+   "taille_pct": null,
+   "invalidation": null
   }
  ],
  "signaux_ecartes": [],
@@ -80,11 +80,11 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 17,
-  "nbPassages": 42,
-  "equity": 9729.65,
+  "nbPassages": 43,
+  "equity": 9730.23,
   "perfPct": -2.7,
-  "cacPerfPct": -2.55,
-  "alphaPct": -0.16,
+  "cacPerfPct": -2.56,
+  "alphaPct": -0.14,
   "maxDrawdownPct": -2.6,
   "sharpe": null,
   "expositionPct": 42.5,
@@ -138,7 +138,7 @@
   }
  },
  "stats": {
-  "equity": 9729.65,
+  "equity": 9730.23,
   "cash": 5591.68,
   "nbPositions": 6
  }
