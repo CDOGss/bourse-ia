@@ -7,14 +7,14 @@
   "feePct": 0.1,
   "ttfPct": 0.3
  },
- "cash": 5538.24,
+ "cash": 4849.5,
  "positions": [
   {
    "symbole": "ENX.PA",
    "nom": "Euronext",
    "shares": 4,
    "pmc": 161.64,
-   "price": 161.4,
+   "price": 160.3,
    "stop": 149,
    "target": 185.15,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -26,7 +26,7 @@
    "nom": "Safran",
    "shares": 1,
    "pmc": 322.99,
-   "price": 335.8,
+   "price": 330.4,
    "stop": 298,
    "target": 369.96,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -38,7 +38,7 @@
    "nom": "Thales",
    "shares": 4,
    "pmc": 240.86,
-   "price": 226.4,
+   "price": 224.7,
    "stop": 219,
    "target": 275.89,
    "dateAchat": "2026-09-15T18:52:56.856Z",
@@ -50,7 +50,7 @@
    "nom": "Eurofins Scientific",
    "shares": 10,
    "pmc": 74.86,
-   "price": 75.06,
+   "price": 75.08,
    "stop": 68.5,
    "target": 85.74,
    "dateAchat": "2026-09-16T14:09:31.933Z",
@@ -62,7 +62,7 @@
    "nom": "JCDecaux",
    "shares": 32,
    "pmc": 24.48,
-   "price": 24.6,
+   "price": 24.44,
    "stop": 22.2,
    "target": 28.04,
    "dateAchat": "2026-09-16T16:55:20.995Z",
@@ -74,12 +74,24 @@
    "nom": "Interparfums",
    "shares": 25,
    "pmc": 30.06,
-   "price": 29.94,
+   "price": 30,
    "stop": 27,
    "target": 34.43,
    "dateAchat": "2026-10-02T09:20:39.768Z",
    "these": "Interparfums affiche une dynamique forte (+4,25 % ce jour, chg126d à +28,42 %) en tendance HAUSSE_CONFIRMEE au-dessus de toutes ses moyennes mobiles (SMA50 à 27,25 EUR, SMA200 à 24,45 EUR). Le titre bénéficie d'un relèvement d'objectif de cours majeur par Kepler Cheuvreux à 36 EUR avec un RSI 14 non saturé à 58,8.",
    "confiance": 78
+  },
+  {
+   "symbole": "NEX.PA",
+   "nom": "Nexans",
+   "shares": 5,
+   "pmc": 137.75,
+   "price": 137.2,
+   "stop": 124.5,
+   "target": 157.78,
+   "dateAchat": "2026-10-02T15:20:36.425Z",
+   "these": "Nexans rebondit de +3,31 % à 137,20 EUR, validant un appui direct sur le faisceau SMA20 (137,08 EUR) et SMA200 (136,57 EUR) en tendance HAUSSE_CONFIRMEE (chg126d +16,67 %). Le dossier bénéficie d'un catalyseur concret avec l'inauguration et l'investissement de 90 M€ à Charleroi pour les réseaux électriques européens.",
+   "confiance": 75
   }
  ],
  "trades": [
@@ -291,6 +303,21 @@
    "motif": "Interparfums affiche une dynamique forte (+4,25 % ce jour, chg126d à +28,42 %) en tendance HAUSSE_CONFIRMEE au-dessus de toutes ses moyennes mobiles (SMA50 à 27,25 EUR, SMA200 à 24,45 EUR). Le titre bénéficie d'un relèvement d'objectif de cours majeur par Kepler Cheuvreux à 36 EUR avec un RSI 14 non saturé à 58,8.",
    "confiance": 78,
    "stop": 27,
+   "objectif": null
+  },
+  {
+   "date": "2026-10-02T15:20:36.425Z",
+   "symbole": "NEX.PA",
+   "nom": "Nexans",
+   "action": "ACHAT",
+   "shares": 5,
+   "prix": 137.2,
+   "montant": 688.74,
+   "frais": 0.69,
+   "ttf": 2.06,
+   "motif": "Nexans rebondit de +3,31 % à 137,20 EUR, validant un appui direct sur le faisceau SMA20 (137,08 EUR) et SMA200 (136,57 EUR) en tendance HAUSSE_CONFIRMEE (chg126d +16,67 %). Le dossier bénéficie d'un catalyseur concret avec l'inauguration et l'investissement de 90 M€ à Charleroi pour les réseaux électriques européens.",
+   "confiance": 75,
+   "stop": 124.5,
    "objectif": null
   }
  ],
@@ -534,6 +561,11 @@
    "date": "2026-10-02T13:20:39.000Z",
    "equity": 9711.54,
    "cac": 7900.02
+  },
+  {
+   "date": "2026-10-02T15:20:36.425Z",
+   "equity": 9688.78,
+   "cac": 7905.15
   }
  ],
  "signaux": [
@@ -3720,7 +3752,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Safran affiche une avance de +3,9 % (cours 335,60 EUR, +0,39 % 1j et +3,90 % 5j) en tendance HAUSSE_CONFIRMEE au-dessus de sa SMA200 a 316,03 EUR (+6,19 %). Le RSI a 52,0 reste parfaitement calibre et le stop a 298,00 EUR demeure eloigne.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T15:20:36.425Z",
+    "jours": 7,
+    "prix": 330.4,
+    "chgPct": -1.55,
+    "cacChgPct": -1.99,
+    "alphaPct": 0.44
+   },
    "h1m": null,
    "solde": null
   },
@@ -3736,7 +3775,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Eurofins Scientific progresse de +2,7 % en portefeuille a 76,88 EUR, bien ancre en tendance HAUSSE_CONFIRMEE (chg126d a +22,58 %) et a +15,35 % de sa SMA200 (66,65 EUR). Le RSI a 67,3 traduit un momentum porteur sans exces.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T15:20:36.425Z",
+    "jours": 7,
+    "prix": 75.08,
+    "chgPct": -2.34,
+    "cacChgPct": -1.99,
+    "alphaPct": -0.35
+   },
    "h1m": null,
    "solde": null
   },
@@ -3752,7 +3798,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "JCDecaux conforte sa dynamique a 24,84 EUR (+0,81 % en seance, gain latent de +1,5 %) avec un ecart de +27,98 % a sa SMA200 (19,41 EUR). La tendance est HAUSSE_CONFIRMEE avec une pente vigoureuse de +5,11 % et un RSI sain a 59,7.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T15:20:36.425Z",
+    "jours": 7,
+    "prix": 24.44,
+    "chgPct": -1.61,
+    "cacChgPct": -1.99,
+    "alphaPct": 0.38
+   },
    "h1m": null,
    "solde": null
   },
@@ -3768,7 +3821,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Euronext tient parfaitement son niveau a 160,10 EUR (+0,06 % sur 1j, +1,97 % sur 5j) a +13,18 % de sa SMA200 (141,45 EUR). Le titre reste en tendance HAUSSE_CONFIRMEE avec un RSI equilibre a 52,3, protegeant la position au-dessus du stop a 149,00 EUR.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T15:20:36.425Z",
+    "jours": 7,
+    "prix": 160.3,
+    "chgPct": 0.12,
+    "cacChgPct": -1.99,
+    "alphaPct": 2.11
+   },
    "h1m": null,
    "solde": null
   },
@@ -3784,7 +3844,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Publicis Groupe s'etablit a 97,48 EUR (-0,18 % sur 1j) a +13,94 % au-dessus de sa SMA200 (85,56 EUR), en tendance HAUSSE_CONFIRMEE (chg126d a +39,46 %). Le titre preserve son socle technique bien au-dessus de notre stop a 93,80 EUR.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T15:20:36.425Z",
+    "jours": 7,
+    "prix": 93.96,
+    "chgPct": -3.61,
+    "cacChgPct": -1.99,
+    "alphaPct": -1.62
+   },
    "h1m": null,
    "solde": null
   },
@@ -3800,7 +3867,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Sodexo rebondit de +1,16 % en seance a 56,75 EUR, evoluant a +16,86 % de sa SMA200 (48,56 EUR) dans une configuration HAUSSE_CONFIRMEE (pente +2,42 %). Le stop a 53,80 EUR est respecte.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T15:20:36.425Z",
+    "jours": 7,
+    "prix": 53.75,
+    "chgPct": -5.29,
+    "cacChgPct": -1.99,
+    "alphaPct": -3.3
+   },
    "h1m": null,
    "solde": null
   },
@@ -3816,7 +3890,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Societe Generale signe une vive reprise de +3,81 % a 72,53 EUR, validant son rebond direct sur sa SMA200 a 72,08 EUR (+0,63 %) avec un RSI assaini a 42,0 en tendance HAUSSE_CONFIRMEE.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T15:20:36.425Z",
+    "jours": 7,
+    "prix": 66.36,
+    "chgPct": -8.51,
+    "cacChgPct": -1.99,
+    "alphaPct": -6.52
+   },
    "h1m": null,
    "solde": null
   },
@@ -3832,7 +3913,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Thales se negocie a 229,60 EUR (-1,12 % sur la seance), au-dessus de son plancher d'invalidation fixe a 219,00 EUR. Le titre evolue avec une volatilite moderee (24,7 %) et un RSI neutre a 47,7 justifiant de maintenir la position.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T15:20:36.425Z",
+    "jours": 7,
+    "prix": 224.7,
+    "chgPct": -2.13,
+    "cacChgPct": -1.99,
+    "alphaPct": -0.15
+   },
    "h1m": null,
    "solde": null
   },
@@ -6584,6 +6672,118 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Thales se stabilise à 226,40 EUR (+0,49 % 1d) au-dessus de son plancher récent (216,50 EUR) et de son stop (219 EUR), avec un RSI assaini à 44,3. La valeur bénéficie de solides catalyseurs d'actualité ce jour (contrat de radars en Irlande et déploiement de solutions cyber face aux agents IA).",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-021520-SAF.PA-0",
+   "date": "2026-10-02T15:20:36.425Z",
+   "symbole": "SAF.PA",
+   "nom": "Safran",
+   "action": "CONSERVER",
+   "confiance": 86,
+   "prixSignal": 330.4,
+   "cacAuSignal": 7905.15,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Safran confirme son rebond (+1,04 % à 330,40 EUR) au-dessus de sa SMA200 (317,02 EUR) en tendance HAUSSE_CONFIRMEE, porté par des flux d'actualité industriels positifs sur ses moteurs TR40.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-021520-DEC.PA-1",
+   "date": "2026-10-02T15:20:36.425Z",
+   "symbole": "DEC.PA",
+   "nom": "JCDecaux",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "prixSignal": 24.44,
+   "cacAuSignal": 7905.15,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "JCDecaux consolide à plat à 24,44 EUR (-0,97 %) en restant fermement ancré en tendance HAUSSE_CONFIRMEE (+5,09 % de pente, chg126d +32,47 %) au-dessus de sa SMA50 (24,04 EUR), soutenu par des anticipations favorables pour le T3.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-021520-ERF.PA-2",
+   "date": "2026-10-02T15:20:36.425Z",
+   "symbole": "ERF.PA",
+   "nom": "Eurofins Scientific",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "prixSignal": 75.08,
+   "cacAuSignal": 7905.15,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Eurofins Scientific progresse de +0,72 % à 75,08 EUR, bien installé au-dessus de ses SMA50 (72,36 EUR) et SMA200 (67,08 EUR) en tendance HAUSSE_CONFIRMEE (RSI équilibré à 57,9).",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-021520-ENX.PA-3",
+   "date": "2026-10-02T15:20:36.425Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "CONSERVER",
+   "confiance": 82,
+   "prixSignal": 160.3,
+   "cacAuSignal": 7905.15,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Euronext enregistre une hausse de +0,63 % à 160,30 EUR, se maintenant au-dessus de ses SMA20 (159,28 EUR) et SMA50 (159,41 EUR) dans une configuration haussière robuste à faible volatilité (15,3 %).",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-021520-ITP.PA-4",
+   "date": "2026-10-02T15:20:36.425Z",
+   "symbole": "ITP.PA",
+   "nom": "Interparfums",
+   "action": "CONSERVER",
+   "confiance": 80,
+   "prixSignal": 30,
+   "cacAuSignal": 7905.15,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Interparfums consolide les gains récents à 30,00 EUR en tendance HAUSSE_CONFIRMEE (+28,68 % sur 126j), soutenu par le relèvement d'objectif de cours de Kepler Cheuvreux à 36 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-021520-HO.PA-5",
+   "date": "2026-10-02T15:20:36.425Z",
+   "symbole": "HO.PA",
+   "nom": "Thales",
+   "action": "CONSERVER",
+   "confiance": 78,
+   "prixSignal": 224.7,
+   "cacAuSignal": 7905.15,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Thales stabilise ses cours à 224,70 EUR au-dessus de son stop (219 EUR), conforté par de nouveaux contrats (radars en Irlande) et son positionnement stratégique en cybersécurité IA.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-021520-NEX.PA-6",
+   "date": "2026-10-02T15:20:36.425Z",
+   "symbole": "NEX.PA",
+   "nom": "Nexans",
+   "action": "ACHAT",
+   "confiance": 75,
+   "prixSignal": 137.2,
+   "cacAuSignal": 7905.15,
+   "execute": true,
+   "motifRejet": null,
+   "justification": "Nexans rebondit de +3,31 % à 137,20 EUR, validant un appui direct sur le faisceau SMA20 (137,08 EUR) et SMA200 (136,57 EUR) en tendance HAUSSE_CONFIRMEE (chg126d +16,67 %). Le dossier bénéficie d'un catalyseur concret avec l'inauguration et l'investissement de 90 M€ à Charleroi pour les réseaux élec",
    "h1s": null,
    "h1m": null,
    "solde": null
