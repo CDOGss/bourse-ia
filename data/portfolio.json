@@ -14,7 +14,7 @@
    "nom": "Euronext",
    "shares": 4,
    "pmc": 161.64,
-   "price": 159.4,
+   "price": 159.7,
    "stop": 149,
    "target": 185.15,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -26,7 +26,7 @@
    "nom": "Safran",
    "shares": 1,
    "pmc": 322.99,
-   "price": 329.4,
+   "price": 327.4,
    "stop": 298,
    "target": 369.96,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -38,7 +38,7 @@
    "nom": "Thales",
    "shares": 4,
    "pmc": 240.86,
-   "price": 225.2,
+   "price": 227.1,
    "stop": 219,
    "target": 275.89,
    "dateAchat": "2026-09-15T18:52:56.856Z",
@@ -50,7 +50,7 @@
    "nom": "Eurofins Scientific",
    "shares": 10,
    "pmc": 74.86,
-   "price": 74.88,
+   "price": 73.9,
    "stop": 68.5,
    "target": 85.74,
    "dateAchat": "2026-09-16T14:09:31.933Z",
@@ -62,7 +62,7 @@
    "nom": "JCDecaux",
    "shares": 32,
    "pmc": 24.48,
-   "price": 24.58,
+   "price": 24.74,
    "stop": 22.2,
    "target": 28.04,
    "dateAchat": "2026-09-16T16:55:20.995Z",
@@ -487,6 +487,11 @@
    "date": "2026-10-01T15:20:37.363Z",
    "equity": 9692.89,
    "cac": 7843.55
+  },
+  {
+   "date": "2026-10-02T07:20:33.642Z",
+   "equity": 9695.01,
+   "cac": 7855.84
   }
  ],
  "signaux": [
@@ -3489,7 +3494,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Cours a 334,30 EUR en hausse latente (+3,5 %), solidement au-dessus de sa SMA200 a 315,83 EUR (+5,85 %) avec un RSI neutre a 50,6 en tendance HAUSSE_CONFIRMEE ; stop a 298 EUR preserve.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T07:20:33.642Z",
+    "jours": 8,
+    "prix": 327.4,
+    "chgPct": -2.06,
+    "cacChgPct": -2.79,
+    "alphaPct": 0.73
+   },
    "h1m": null,
    "solde": null
   },
@@ -3505,7 +3517,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Progression de +2,05 % en seance a 77,72 EUR (+3,8 % de PnL), soutenue par le desenclavement des positions vendeuses cite dans la presse et une tendance HAUSSE_CONFIRMEE bien au-dessus de la SMA50 a 71,51 EUR.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T07:20:33.642Z",
+    "jours": 8,
+    "prix": 73.9,
+    "chgPct": -4.92,
+    "cacChgPct": -2.79,
+    "alphaPct": -2.12
+   },
    "h1m": null,
    "solde": null
   },
@@ -3521,7 +3540,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Position en leger gain (+0,7 % a 24,64 EUR), ancree dans une forte dynamique HAUSSE_CONFIRMEE (chg126d a +30,23 %, SMA200 a 19,36 EUR soit +27,25 %) et un RSI maitrise a 54,0.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T07:20:33.642Z",
+    "jours": 8,
+    "prix": 24.74,
+    "chgPct": 0.41,
+    "cacChgPct": -2.79,
+    "alphaPct": 3.2
+   },
    "h1m": null,
    "solde": null
   },
@@ -3537,7 +3563,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Cours stable a 160 EUR (+0,13 % sur SMA20, +13,26 % sur SMA200 a 141,27 EUR) avec une perte latente limitee a -1,0 % et un RSI sain a 49,3, loin du stop a 149 EUR.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T07:20:33.642Z",
+    "jours": 8,
+    "prix": 159.7,
+    "chgPct": -0.19,
+    "cacChgPct": -2.79,
+    "alphaPct": 2.6
+   },
    "h1m": null,
    "solde": null
   },
@@ -3553,7 +3586,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Repli a 232,20 EUR (-2,72 % en seance) mais le titre conserve ses catalyseurs recents et demeure a distance de securite de son seuil d'invalidation (stop a 219 EUR).",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T07:20:33.642Z",
+    "jours": 8,
+    "prix": 227.1,
+    "chgPct": -2.2,
+    "cacChgPct": -2.79,
+    "alphaPct": 0.6
+   },
    "h1m": null,
    "solde": null
   },
@@ -3569,7 +3609,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Resilience avec une hausse de +0,12 % a 97,66 EUR, maintien au-dessus de la SMA50 (97,36 EUR) et de la SMA200 (85,50 EUR, +14,22 %) en tendance HAUSSE_CONFIRMEE ; stop a 93,80 EUR respecte.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T07:20:33.642Z",
+    "jours": 8,
+    "prix": 95.68,
+    "chgPct": -2.03,
+    "cacChgPct": -2.79,
+    "alphaPct": 0.76
+   },
    "h1m": null,
    "solde": null
   },
@@ -3585,7 +3632,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Baisse a 56,10 EUR sous l'impact de tensions sociales locales au siege, mais la structure de fond reste intacte (+15,66 % sur SMA200 a 48,50 EUR, HAUSSE_CONFIRMEE) au-dessus du stop a 53,80 EUR.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T07:20:33.642Z",
+    "jours": 8,
+    "prix": 53.7,
+    "chgPct": -4.28,
+    "cacChgPct": -2.79,
+    "alphaPct": -1.49
+   },
    "h1m": null,
    "solde": null
   },
@@ -3601,7 +3655,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Recul de -3,29 % a 69,87 EUR sous la SMA200 (72,03 EUR), le cours testant les supports mentionnes dans l'actualite mais demeurant au-dessus du seuil de coupure strict fixe a 68,50 EUR.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-02T07:20:33.642Z",
+    "jours": 8,
+    "prix": 65.8,
+    "chgPct": -5.83,
+    "cacChgPct": -2.79,
+    "alphaPct": -3.03
+   },
    "h1m": null,
    "solde": null
   },
@@ -6113,6 +6174,86 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Thales progresse de +0,31 % a 225,20 EUR, surperformant largement l'indice, portee par des annonces technologiques en IA et un partenariat renforce avec Google Cloud. Le stop a 219 EUR n'est pas menace.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-020720-SAF.PA-0",
+   "date": "2026-10-02T07:20:33.642Z",
+   "symbole": "SAF.PA",
+   "nom": "Safran",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "prixSignal": 327.4,
+   "cacAuSignal": 7855.84,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Le titre se stabilise à 327,40 EUR au-dessus de sa SMA 200 (316,84 EUR, écart +3,33 %) en tendance HAUSSE_CONFIRMEE avec un RSI sain à 47,5. Le flux de nouvelles reste porteur avec l'expansion industrielle au Texas (doublement des capacités sur les moteurs de missiles TR40).",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-020720-DEC.PA-1",
+   "date": "2026-10-02T07:20:33.642Z",
+   "symbole": "DEC.PA",
+   "nom": "JCDecaux",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "prixSignal": 24.74,
+   "cacAuSignal": 7855.84,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "JCDecaux conserve une excellente dynamique à 24,74 EUR, en tendance HAUSSE_CONFIRMEE (pente +5,12 %, chg126d +31,46 %) et RSI équilibré à 56,0. Le flux d'actualités confirme un momentum opérationnel supérieur aux attentes pour le troisième trimestre.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-020720-ERF.PA-2",
+   "date": "2026-10-02T07:20:33.642Z",
+   "symbole": "ERF.PA",
+   "nom": "Eurofins Scientific",
+   "action": "CONSERVER",
+   "confiance": 83,
+   "prixSignal": 73.9,
+   "cacAuSignal": 7855.84,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Le cours à 73,90 EUR reste confortablement installé au-dessus de ses SMA 50 (+2,39 %) et SMA 200 (+10,29 %) en tendance HAUSSE_CONFIRMEE. La finalisation simultanée de la cession de MET Labs (575 M€) et de l'acquisition d'Element (400 M$) conforte la trajectoire stratégique.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-020720-ENX.PA-3",
+   "date": "2026-10-02T07:20:33.642Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "CONSERVER",
+   "confiance": 81,
+   "prixSignal": 159.7,
+   "cacAuSignal": 7855.84,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Euronext tient parfaitement ses niveaux à 159,70 EUR (+0,50 % sur la séance), en tendance HAUSSE_CONFIRMEE (pente +2,28 %, écart SMA 200 +12,32 %) avec une volatilité contenue (15,5 %) et un RSI neutre à 54,5.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-020720-HO.PA-4",
+   "date": "2026-10-02T07:20:33.642Z",
+   "symbole": "HO.PA",
+   "nom": "Thales",
+   "action": "CONSERVER",
+   "confiance": 78,
+   "prixSignal": 227.1,
+   "cacAuSignal": 7855.84,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Le titre reprend +1,16 % à 227,10 EUR avec un RSI normalisé à 50,4, demeurant au-dessus de son niveau de stop (219 EUR). Le dossier reste soutenu par l'inauguration de son centre dédié à la sécurité des vols à Mérignac et les déploiements en cyberdéfense IA.",
    "h1s": null,
    "h1m": null,
    "solde": null
