@@ -1,50 +1,28 @@
 {
- "date": "2026-10-02T07:20:33.642Z",
+ "date": "2026-10-02T09:20:39.768Z",
  "dureeS": 21,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 progresse timidement de +0,26 % à 7 855,84 points dans une ambiance attentiste avant la publication des chiffres de l'emploi américain. La largeur de marché demeure fragile avec seulement 32 % des composantes au-dessus de leur SMA 200, caractérisant un état FAIBLE. Dans ce contexte d'hésitation et de pressions sectorielles persistantes, la prudence s'impose, privilégiant la gestion stricte du cash et le maintien des positions robustes déjà en portefeuille.",
+ "resume_marche": "Le CAC 40 rebondit de +0,88 % à 7904,4 points mais la largeur de marché reste très dégradée avec seulement 32 % de valeurs au-dessus de leur moyenne mobile à 200 jours (état FAIBLE). Les tensions sur les taux souverains européens et l'attente des chiffres de l'emploi américain incitent à la prudence, imposant une sélection rigoureuse et des tailles de position réduites.",
  "signaux": [
-  {
-   "symbole": "SAF.PA",
-   "action": "CONSERVER",
-   "confiance": 85,
-   "justification": "Le titre se stabilise à 327,40 EUR au-dessus de sa SMA 200 (316,84 EUR, écart +3,33 %) en tendance HAUSSE_CONFIRMEE avec un RSI sain à 47,5. Le flux de nouvelles reste porteur avec l'expansion industrielle au Texas (doublement des capacités sur les moteurs de missiles TR40).",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "DEC.PA",
-   "action": "CONSERVER",
-   "confiance": 84,
-   "justification": "JCDecaux conserve une excellente dynamique à 24,74 EUR, en tendance HAUSSE_CONFIRMEE (pente +5,12 %, chg126d +31,46 %) et RSI équilibré à 56,0. Le flux d'actualités confirme un momentum opérationnel supérieur aux attentes pour le troisième trimestre.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "ERF.PA",
-   "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "Le cours à 73,90 EUR reste confortablement installé au-dessus de ses SMA 50 (+2,39 %) et SMA 200 (+10,29 %) en tendance HAUSSE_CONFIRMEE. La finalisation simultanée de la cession de MET Labs (575 M€) et de l'acquisition d'Element (400 M$) conforte la trajectoire stratégique.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
-   "confiance": 81,
-   "justification": "Euronext tient parfaitement ses niveaux à 159,70 EUR (+0,50 % sur la séance), en tendance HAUSSE_CONFIRMEE (pente +2,28 %, écart SMA 200 +12,32 %) avec une volatilité contenue (15,5 %) et un RSI neutre à 54,5.",
+   "confiance": 82,
+   "justification": "Euronext consolide sereinement à 160,40 EUR au-dessus de ses SMA20 et SMA50 (159,28 EUR et 159,41 EUR) et conserve son avance de +12,67 % sur sa SMA200. La tendance HAUSSE_CONFIRMEE et le RSI 14 équilibré à 50,3 confortent le maintien de la position.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "SAF.PA",
+   "action": "CONSERVER",
+   "confiance": 86,
+   "justification": "Safran progresse de +1,62 % à 332,30 EUR en tendance HAUSSE_CONFIRMEE (+4,82 % au-dessus de la SMA200 à 317,03 EUR), conforté par l'annonce de l'expansion de ses capacités industrielles au Texas.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -54,31 +32,75 @@
   {
    "symbole": "HO.PA",
    "action": "CONSERVER",
-   "confiance": 78,
-   "justification": "Le titre reprend +1,16 % à 227,10 EUR avec un RSI normalisé à 50,4, demeurant au-dessus de son niveau de stop (219 EUR). Le dossier reste soutenu par l'inauguration de son centre dédié à la sécurité des vols à Mérignac et les déploiements en cyberdéfense IA.",
+   "confiance": 80,
+   "justification": "Thales gagne +0,80 % à 227,10 EUR et accumule les catalyseurs opérationnels ce matin (lancement de Sentinel Envelope Plus en cybersécurité et commande de radars par l'armée irlandaise). La thèse de rebond reste intacte au-dessus du stop à 219 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
    "invalidation": null
+  },
+  {
+   "symbole": "ERF.PA",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "justification": "Eurofins finalise simultanément la vente de MET Labs pour 575 M€ et l'acquisition d'Element aux USA pour 400 M$, optimisant sa rentabilité. La tendance est HAUSSE_CONFIRMEE (+11,43 % au-dessus de la SMA200) avec un RSI sain à 57,1.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "DEC.PA",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "justification": "JCDecaux progresse de +0,89 % à 24,90 EUR, à seulement -1,43 % de ses plus hauts annuels, soutenue par les révisions d'analystes anticipant un dépassement des prévisions au T3. La tendance HAUSSE_CONFIRMEE (+26,74 % sur la SMA200) est parfaitement respectée.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "ITP.PA",
+   "action": "ACHAT",
+   "confiance": 78,
+   "justification": "Interparfums affiche une dynamique forte (+4,25 % ce jour, chg126d à +28,42 %) en tendance HAUSSE_CONFIRMEE au-dessus de toutes ses moyennes mobiles (SMA50 à 27,25 EUR, SMA200 à 24,45 EUR). Le titre bénéficie d'un relèvement d'objectif de cours majeur par Kepler Cheuvreux à 36 EUR avec un RSI 14 non saturé à 58,8.",
+   "prix_entree": 29.94,
+   "stop_perte": 27,
+   "prise_profit": null,
+   "taille_pct": 8,
+   "invalidation": "Clôture sous les 27,00 EUR, matérialisant la rupture du support de la SMA50."
   }
  ],
  "signaux_ecartes": [],
- "appliques": [],
+ "appliques": [
+  {
+   "symbole": "ITP.PA",
+   "nom": "Interparfums",
+   "action": "ACHAT",
+   "shares": 25,
+   "prix": 29.94,
+   "montant": 751.49,
+   "motif": "Interparfums affiche une dynamique forte (+4,25 % ce jour, chg126d à +28,42 %) en tendance HAUSSE_CONFIRMEE au-dessus de toutes ses moyennes mobiles (SMA50 à 27,25 EUR, SMA200 à 24,45 EUR). Le titre bénéficie d'un relèvement d'objectif de cours majeur par Kepler Cheuvreux à 36 EUR avec un RSI 14 non saturé à 58,8.",
+   "confiance": 78
+  }
+ ],
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
-  "ageJours": 17,
-  "nbPassages": 45,
-  "equity": 9695.01,
-  "perfPct": -3.05,
-  "cacPerfPct": -3.23,
-  "alphaPct": 0.18,
+  "ageJours": 18,
+  "nbPassages": 46,
+  "equity": 9713.24,
+  "perfPct": -2.87,
+  "cacPerfPct": -2.63,
+  "alphaPct": -0.24,
   "maxDrawdownPct": -3,
   "sharpe": null,
-  "expositionPct": 35.1,
+  "expositionPct": 43,
   "trades": {
-   "nbAchats": 9,
+   "nbAchats": 10,
    "nbSolde": 4,
    "tauxReussitePct": 0,
    "gainMoyenPct": null,
@@ -88,15 +110,15 @@
    "montantPerdu": 242.68
   },
   "couts": {
-   "fraisCumules": 9.21,
-   "ttfCumule": 19.35,
-   "totalEur": 28.56,
-   "montantAchete": 6471.34,
-   "coutEnPctDuCapital": 0.29
+   "fraisCumules": 9.96,
+   "ttfCumule": 21.6,
+   "totalEur": 31.56,
+   "montantAchete": 7222.83,
+   "coutEnPctDuCapital": 0.32
   },
   "signaux": {
    "achats": {
-    "nb": 9,
+    "nb": 10,
     "nbEvalues": 0,
     "tauxReussitePct": null,
     "alphaMoyen1mPct": null,
@@ -114,7 +136,7 @@
   "verdict": {
    "etat": "PAS_ENCORE_CONCLUANT",
    "raisons": [
-    "il faut 90 jours de recul (actuellement 17)",
+    "il faut 90 jours de recul (actuellement 18)",
     "il faut 20 positions soldees (actuellement 4)"
    ],
    "criteres": {
@@ -127,8 +149,8 @@
   }
  },
  "stats": {
-  "equity": 9695.01,
-  "cash": 6289.73,
-  "nbPositions": 5
+  "equity": 9713.24,
+  "cash": 5538.24,
+  "nbPositions": 6
  }
 }
