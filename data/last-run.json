@@ -1,99 +1,99 @@
 {
- "date": "2026-10-06T13:20:47.422Z",
- "dureeS": 38,
+ "date": "2026-10-06T15:20:43.749Z",
+ "dureeS": 28,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 progresse modestement de +0,27 % a 7 854,98 points, tente par un rebond technique dans un contexte d accalmie obligataire. Neanmoins, la largeur du marche reste tres degradee avec seulement 33,6 % des valeurs du SBF 120 au-dessus de leur SMA200 (etat FAIBLE), justifiant le maintien d une posture prudente. Le portefeuille comptant deja 8 positions (plafond reglementaire atteint) et un niveau de liquidites confortable de 41,4 %, aucune rotation forcee ne s impose.",
+ "resume_marche": "Le CAC 40 affiche un rebond modéré de +0,33 % à 7 859,88 points, mais la largeur de marché reste très dégradée avec seulement 32,8 % des valeurs au-dessus de leur SMA 200 (état FAIBLE). Dans cet environnement d'indécision et avec un portefeuille affichant un taux d'occupation maximal (8 positions sur 8 autorisées), la discipline commande l'attentisme. Aucun achat n'est envisageable sans cession préalable.",
  "signaux": [
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Euronext reste fermement installe en tendance HAUSSE_CONFIRMEE (ecart SMA200 +14,28 %, chg126d +13,42 %) a proximite de ses plus hauts annuels (163,10 EUR contre plus-haut a 165,30 EUR), malgre un RSI a 70,1 qui invite a surveiller d eventuels allegements a l approche de l objectif a 185,15 EUR.",
-   "prix_entree": 163.1,
-   "stop_perte": 149,
+   "justification": "Euronext conserve une configuration solide en tendance HAUSSE_CONFIRMEE au-dessus de sa SMA 50 (159,92 EUR, écart +2,80 %) malgré un RSI 14 à 72,5 proche de ses sommets annuels.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 6.74,
-   "invalidation": "Cassure sous le stop a 149,00 EUR"
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Safran preserve sa dynamique saine en tendance HAUSSE_CONFIRMEE (+2,3 % de gain latent), appuyee par des catalyseurs favorables dans l actualite (acceleration de Safran Reosc dans le spatial et l optique avec l ELT). Le cours de 330,50 EUR evolue confortablement au-dessus de sa SMA200 (317,28 EUR).",
-   "prix_entree": 330.5,
-   "stop_perte": 298,
+   "justification": "Safran stabilise ses gains (+2,0 % en portefeuille) au-dessus de sa SMA 200 à 317,28 EUR (écart +3,88 %), conforté par l'achèvement du projet ELT et ses perspectives dans le spatial et la défense.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 3.41,
-   "invalidation": "Enfoncement cloture sous le support SMA200 a 317,00 EUR"
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Eurofins Scientific affiche une tres nette vigueur relative (+3,47 % a 78,16 EUR, chg126d +21,82 %) proche de ses sommets a 78,96 EUR, validee par des articles de presse soulignant son acceleration trimestrielle (+12 % en 3 mois). La tendance HAUSSE_CONFIRMEE s etend sans saturation technique (RSI 59,1).",
-   "prix_entree": 78.16,
-   "stop_perte": 68.5,
+   "justification": "Eurofins Scientific progresse de +1,5 % sur son prix de revient, maintenu en tendance HAUSSE_CONFIRMEE (+18,49 % sur 126 jours) avec des indicateurs équilibrés (RSI 14 à 53,9).",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 8.07,
-   "invalidation": "Rupture de la SMA50 a 72,73 EUR"
-  },
-  {
-   "symbole": "DEC.PA",
-   "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "JCDecaux demeure bien oriente en tendance HAUSSE_CONFIRMEE avec une pente vigoureuse (+5,05 %, chg126d +28,38 %) a 24,56 EUR. Les flux d affaires recents et les campagnes innovantes citees dans la presse soutiennent la valorisation bien au-dessus de la SMA200 (19,74 EUR).",
-   "prix_entree": 24.56,
-   "stop_perte": 22.2,
-   "prise_profit": null,
-   "taille_pct": 8.13,
-   "invalidation": "Cassure du seuil des 22,20 EUR"
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "ITP.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Interparfums confirme sa surperformance a 30,64 EUR (+1,79 % ce jour, ecart SMA200 +25,02 %, chg126d +34,61 %) a seulement 0,97 % de son plus-haut a 52 semaines. Le momentum reste intact et porte par une dynamique semestrielle robuste.",
-   "prix_entree": 30.64,
-   "stop_perte": 27,
+   "justification": "Interparfums confirme sa dynamique haussière (+1,79 % ce jour, +9,43 % sur 20 jours) confortablement installé au-dessus de sa SMA 50 (27,50 EUR, écart +11,40 %).",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 7.91,
-   "invalidation": "Repli sous 27,00 EUR"
+   "taille_pct": null,
+   "invalidation": null
   },
   {
-   "symbole": "HO.PA",
+   "symbole": "DEC.PA",
    "action": "CONSERVER",
-   "confiance": 78,
-   "justification": "Malgre une faiblesse passagere a 220,90 EUR (-2,60 %), le cours reste au-dessus du seuil de stop a 219,00 EUR. Le titre est en survente extreme (RSI 22,4) et beneficie de catalyseurs contractuels et produits concrets devoiles ce jour (vehicule non habite BladeHAUL avec 3ME Technology).",
-   "prix_entree": 220.9,
-   "stop_perte": 219,
+   "confiance": 83,
+   "justification": "JCDecaux reste stable sur son point d'entrée (-0,5 %) en tendance HAUSSE_CONFIRMEE avec une pente de +5,04 % et un RSI 14 neutre à 49,7.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 9.13,
-   "invalidation": "Declenchement strict du stop a 219,00 EUR"
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "AI.PA",
+   "action": "CONSERVER",
+   "confiance": 83,
+   "justification": "Air Liquide consolide à 169,24 EUR sur sa SMA 50 (169,10 EUR) et conserve l'appui de catalyseurs industriels d'envergure (investissement de 170 M€ au Japon) en tendance HAUSSE_CONFIRMEE.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "NEX.PA",
    "action": "CONSERVER",
    "confiance": 78,
-   "justification": "Nexans consolide a 132,30 EUR mais la tendance HAUSSE_CONFIRMEE reste active et l actualite industrielle matinale confirme un investissement porteur de 70 M EUR a Charleroi pour les reseaux electriques europeens. La distance au stop (124,50 EUR) reste securisante.",
-   "prix_entree": 132.3,
-   "stop_perte": 124.5,
+   "justification": "Nexans résiste à 133,30 EUR (-3,2 % en portefeuille), soutenu par des investissements capacitaires confirmés à Charleroi (70 M€), le stop à 124,50 EUR demeurant intact.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 6.83,
-   "invalidation": "Enfoncement cloture sous 124,50 EUR"
+   "taille_pct": null,
+   "invalidation": null
   },
   {
-   "symbole": "AI.PA",
+   "symbole": "HO.PA",
    "action": "CONSERVER",
-   "confiance": 84,
-   "justification": "Air Liquide subit un leger tassement a 168,50 EUR mais conserve sa tendance HAUSSE_CONFIRMEE (ecart SMA200 +3,63 %, RSI 54,5 equilibre). Le dossier cumule des nouvelles fondamentales hautement favorables (emprunt obligataire aux conditions meilleures que la dette souveraine francaise, investissement de 170 M EUR au Japon dans les semi-conducteurs et confirmation d achat par Deutsche Bank).",
-   "prix_entree": 168.5,
-   "stop_perte": 161.5,
+   "confiance": 75,
+   "justification": "Thales recule à 220,80 EUR sous la rupture des 224,50 EUR, mais le niveau de stop initial (219,00 EUR) est respecté tandis que le RSI 14 à 22,3 signale une survente extrême favorable à un rebond technique.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 6.96,
-   "invalidation": "Cloture sous 161,50 EUR"
+   "taille_pct": null,
+   "invalidation": null
   }
  ],
  "signaux_ecartes": [],
@@ -102,14 +102,14 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 22,
-  "nbPassages": 58,
-  "equity": 9679.25,
-  "perfPct": -3.21,
-  "cacPerfPct": -3.24,
-  "alphaPct": 0.03,
-  "maxDrawdownPct": -3.1,
+  "nbPassages": 59,
+  "equity": 9663.31,
+  "perfPct": -3.37,
+  "cacPerfPct": -3.18,
+  "alphaPct": -0.19,
+  "maxDrawdownPct": -3.3,
   "sharpe": null,
-  "expositionPct": 57.2,
+  "expositionPct": 57.1,
   "trades": {
    "nbAchats": 12,
    "nbSolde": 4,
@@ -160,7 +160,7 @@
   }
  },
  "stats": {
-  "equity": 9679.25,
+  "equity": 9663.31,
   "cash": 4143.73,
   "nbPositions": 8
  }
