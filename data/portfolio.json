@@ -14,7 +14,7 @@
    "nom": "Euronext",
    "shares": 4,
    "pmc": 161.64,
-   "price": 163.4,
+   "price": 162.6,
    "stop": 149,
    "target": 185.15,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -26,7 +26,7 @@
    "nom": "Safran",
    "shares": 1,
    "pmc": 322.99,
-   "price": 331.4,
+   "price": 331.3,
    "stop": 298,
    "target": 369.96,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -38,7 +38,7 @@
    "nom": "Thales",
    "shares": 4,
    "pmc": 240.86,
-   "price": 223.7,
+   "price": 222.3,
    "stop": 219,
    "target": 275.89,
    "dateAchat": "2026-09-15T18:52:56.856Z",
@@ -50,7 +50,7 @@
    "nom": "Eurofins Scientific",
    "shares": 10,
    "pmc": 74.86,
-   "price": 77.72,
+   "price": 78.24,
    "stop": 68.5,
    "target": 85.74,
    "dateAchat": "2026-09-16T14:09:31.933Z",
@@ -62,7 +62,7 @@
    "nom": "JCDecaux",
    "shares": 32,
    "pmc": 24.48,
-   "price": 24.66,
+   "price": 24.62,
    "stop": 22.2,
    "target": 28.04,
    "dateAchat": "2026-09-16T16:55:20.995Z",
@@ -74,7 +74,7 @@
    "nom": "Interparfums",
    "shares": 25,
    "pmc": 30.06,
-   "price": 30.22,
+   "price": 30.3,
    "stop": 27,
    "target": 34.43,
    "dateAchat": "2026-10-02T09:20:39.768Z",
@@ -86,7 +86,7 @@
    "nom": "Nexans",
    "shares": 5,
    "pmc": 137.75,
-   "price": 133.8,
+   "price": 134.3,
    "stop": 124.5,
    "target": 157.78,
    "dateAchat": "2026-10-02T15:20:36.425Z",
@@ -98,7 +98,7 @@
    "nom": "Air Liquide",
    "shares": 4,
    "pmc": 176.44,
-   "price": 168.98,
+   "price": 169.36,
    "stop": 161.5,
    "target": 202.1,
    "dateAchat": "2026-10-05T07:20:38.130Z",
@@ -628,6 +628,11 @@
    "date": "2026-10-06T09:20:39.820Z",
    "equity": 9690.27,
    "cac": 7885.32
+  },
+  {
+   "date": "2026-10-06T11:20:40.102Z",
+   "equity": 9691.31,
+   "cac": 7881.75
   }
  ],
  "signaux": [
@@ -5102,7 +5107,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Le titre progresse a 335,30 EUR (+3,8 % de gain latent) en tendance HAUSSE_CONFIRMEE au-dessus de ses moyennes mobiles (SMA20 a 329,89 EUR, SMA200 a 316,47 EUR). Le RSI 14 a 60,7 reste parfaitement oriente et le stop a 298 EUR protege la position.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 331.3,
+    "chgPct": -1.19,
+    "cacChgPct": -2.69,
+    "alphaPct": 1.5
+   },
    "h1m": null,
    "solde": null
   },
@@ -5118,7 +5130,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Gain latent de +3,2 % a 77,24 EUR en tendance HAUSSE_CONFIRMEE forte (+15,54 % au-dessus de la SMA200 a 66,85 EUR). Le RSI a 68,6 traduit un momentum soutenu sans surchauffe excessive et la these d'expansion a moyen terme est intacte.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 78.24,
+    "chgPct": 1.29,
+    "cacChgPct": -2.69,
+    "alphaPct": 3.98
+   },
    "h1m": null,
    "solde": null
   },
@@ -5134,7 +5153,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "A 24,94 EUR (+1,9 % de plus-value latente), JCDecaux preserve sa tendance HAUSSE_CONFIRMEE avec une pente vigoureuse de +5,13 % et un chg126d a +33,37 %. La structure technique demeure robuste au-dessus de la SMA50 a 23,89 EUR.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 24.62,
+    "chgPct": -1.28,
+    "cacChgPct": -2.69,
+    "alphaPct": 1.41
+   },
    "h1m": null,
    "solde": null
   },
@@ -5150,7 +5176,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Position quasi a l'equilibre (-0,6 %) a 160,60 EUR, au-dessus de sa SMA20 a 159,39 EUR et SMA50 a 158,68 EUR. Le RSI neutre a 54,4 et la tendance HAUSSE_CONFIRMEE (ecart SMA200 +13,24 %) justifient le maintien de la position.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 162.6,
+    "chgPct": 1.25,
+    "cacChgPct": -2.69,
+    "alphaPct": 3.94
+   },
    "h1m": null,
    "solde": null
   },
@@ -5166,7 +5199,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Le cours a 96,34 EUR consolide a proximite de sa SMA50 (97,93 EUR) tout en conservant une forte avance sur sa SMA200 (+12,49 % a 85,65 EUR). Le RSI a 51,3 confirme l'absence de panique et le stop a 93,80 EUR reste bien calibre.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 95.24,
+    "chgPct": -1.14,
+    "cacChgPct": -2.69,
+    "alphaPct": 1.55
+   },
    "h1m": null,
    "solde": null
   },
@@ -5182,7 +5222,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Malgre l'annonce d'une transition a la presidence (Nathalie Bellon-Szabo succedant a Sophie Bellon), le cours a 56,80 EUR reste stable au contact de sa SMA50 (57,01 EUR) et largement au-dessus de sa SMA200 (+16,69 % a 48,68 EUR).",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 54.05,
+    "chgPct": -4.84,
+    "cacChgPct": -2.69,
+    "alphaPct": -2.15
+   },
    "h1m": null,
    "solde": null
   },
@@ -5198,7 +5245,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "A 226,00 EUR, le cours integre l'ajustement d'objectif de cours de Bernstein (reduit a 250 EUR mais recommendation de surperformance maintenue). Le RSI neutre a 50,4 et la marge sur le stop a 219 EUR incitent a conserver pour le rebond.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 222.3,
+    "chgPct": -1.64,
+    "cacChgPct": -2.69,
+    "alphaPct": 1.05
+   },
    "h1m": null,
    "solde": null
   },
@@ -5214,7 +5268,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Le titre cote 72,04 EUR et prend appui sur le support pivot de sa SMA200 a 72,15 EUR (ecart -0,16 %). Les rachats d'actions publies renforcent la defense du seuil technique alors que le RSI se redresse a 45,3.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 68.14,
+    "chgPct": -5.41,
+    "cacChgPct": -2.69,
+    "alphaPct": -2.72
+   },
    "h1m": null,
    "solde": null
   },
@@ -5230,7 +5291,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Safran affiche une solide progression (+1,14 % a 336,80 EUR, PnL +4,3 %) en tendance HAUSSE_CONFIRMEE au-dessus de sa SMA200 a 316,47 EUR (+6,42 %) avec un RSI 14 calibre a 61,7. La dynamique haussiere de moyen terme demeure parfaitement intacte.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 331.3,
+    "chgPct": -1.63,
+    "cacChgPct": -2.74,
+    "alphaPct": 1.11
+   },
    "h1m": null,
    "solde": null
   },
@@ -5246,7 +5314,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Malgre un abaissement de recommandation par Bernstein pesant sur la seance (-2,01 % a 77,14 EUR), Eurofins conserve une avance confortable (+7,8 % sur 20j, PnL +3,0 %) en tendance HAUSSE_CONFIRMEE au-dessus de ses SMA50 (71,95 EUR) et SMA200 (66,85 EUR).",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 78.24,
+    "chgPct": 1.43,
+    "cacChgPct": -2.74,
+    "alphaPct": 4.17
+   },
    "h1m": null,
    "solde": null
   },
@@ -5262,7 +5337,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "JCDecaux consolide sereinement a 24,98 EUR (+6,03 % sur 20j, PnL +2,0 %) a portee immediate de ses plus hauts annuels (25,26 EUR). La pente de tendance reste tres forte (+5,13 %) et au-dessus de la SMA50 a 23,89 EUR.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 24.62,
+    "chgPct": -1.44,
+    "cacChgPct": -2.74,
+    "alphaPct": 1.3
+   },
    "h1m": null,
    "solde": null
   },
@@ -5278,7 +5360,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Euronext reste stable a 160,60 EUR, solidement ancre en tendance HAUSSE_CONFIRMEE (ecart SMA200 +13,24 %, chg126d +15,96 %) avec un RSI 14 neutre a 54,4. Le profil defuturisation des flux boursiers preserve la these.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 162.6,
+    "chgPct": 1.25,
+    "cacChgPct": -2.74,
+    "alphaPct": 3.99
+   },
    "h1m": null,
    "solde": null
   },
@@ -5294,7 +5383,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Publicis s'appuie sur sa SMA50 a 97,92 EUR (cours a 96,28 EUR, ecart SMA200 +12,42 %) apres une respiration sans volume d'alarme (RSI a 51,0). La tendance de fond HAUSSE_CONFIRMEE (chg126d +35,07 %) justifie le maintien de la position.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 95.24,
+    "chgPct": -1.08,
+    "cacChgPct": -2.74,
+    "alphaPct": 1.66
+   },
    "h1m": null,
    "solde": null
   },
@@ -5310,7 +5406,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Sodexo absorbe sereinement l'annonce de la transition a la presidence (+0,35 % a 57,00 EUR) et preserve sa configuration haussiere au-dessus de sa SMA200 (48,68 EUR, ecart +17,10 %). La dynamique de fond reste intacte.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 54.05,
+    "chgPct": -5.18,
+    "cacChgPct": -2.74,
+    "alphaPct": -2.44
+   },
    "h1m": null,
    "solde": null
   },
@@ -5326,7 +5429,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Thales stabilise a 226,50 EUR (+0,22 %) apres son repli recent, soutenu par des flux d'actualites favorables (hub securite aerienne a Merignac, developpement de vehicules tactiques avec Renault). Le stop a 219 EUR n'est pas menace.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 222.3,
+    "chgPct": -1.85,
+    "cacChgPct": -2.74,
+    "alphaPct": 0.89
+   },
    "h1m": null,
    "solde": null
   },
@@ -5342,7 +5452,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Societe Generale se stabilise a 71,55 EUR (+0,13 %) juste sur sa zone pivot de SMA200 a 72,15 EUR (ecart -0,83 %), alors que le programme de rachat d'actions se poursuit selon les actualites recentes. Le titre conserve sa tendance de fond haussiere.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-10-06T11:20:40.102Z",
+    "jours": 7,
+    "prix": 68.14,
+    "chgPct": -4.77,
+    "cacChgPct": -2.74,
+    "alphaPct": -2.03
+   },
    "h1m": null,
    "solde": null
   },
@@ -8078,6 +8195,134 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Air Liquide se traite à 168,98 EUR, au-dessus de sa SMA20 (167,51 EUR) et SMA200 (162,61 EUR). L'activisme d'Elliott qui confirme une exposition significative et salue la feuille de route stratégique constitue un catalyseur fondamental robuste.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-061120-AI.PA-0",
+   "date": "2026-10-06T11:20:40.102Z",
+   "symbole": "AI.PA",
+   "nom": "Air Liquide",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "prixSignal": 169.36,
+   "cacAuSignal": 7881.75,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Air Liquide consolide à 169,36 EUR (-0,82 % ce jour) mais reste bien orientée au-dessus de sa SMA200 à 162,61 EUR (+4,15 %) en tendance HAUSSE_CONFIRMEE. Le dossier est renforcé par l'actualité du jour rapportant l'entrée significative et le soutien du fonds activiste Elliott au plan stratégique 203",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-061120-ERF.PA-1",
+   "date": "2026-10-06T11:20:40.102Z",
+   "symbole": "ERF.PA",
+   "nom": "Eurofins Scientific",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "prixSignal": 78.24,
+   "cacAuSignal": 7881.75,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Eurofins Scientific confirme sa vigueur avec un bond de +3,57 % à 78,24 EUR, testant ses plus hauts annuels (à -0,91 % du plus haut 52s de 78,96 EUR). La tendance est solidement HAUSSE_CONFIRMEE (écart SMA200 de +16,39 %, pente +2,51 %) avec un RSI sain à 59,3.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-061120-SAF.PA-2",
+   "date": "2026-10-06T11:20:40.102Z",
+   "symbole": "SAF.PA",
+   "nom": "Safran",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "prixSignal": 331.3,
+   "cacAuSignal": 7881.75,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Safran progresse de +0,45 % à 331,30 EUR en consolidant ses gains (+2,6 % de PnL) au-dessus de sa SMA20 (329,49 EUR) et de sa SMA200 (317,29 EUR). La dynamique de fond HAUSSE_CONFIRMEE et un RSI à 55,1 justifient le maintien de la position.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-061120-HO.PA-3",
+   "date": "2026-10-06T11:20:40.102Z",
+   "symbole": "HO.PA",
+   "nom": "Thales",
+   "action": "CONSERVER",
+   "confiance": 78,
+   "prixSignal": 222.3,
+   "cacAuSignal": 7881.75,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Thales recule à 222,30 EUR (-1,98 %) mais le stop à 219,00 EUR n'est pas franchi, tandis que le RSI14 tombe à 23,3 en zone de survente extrême. Plusieurs flux d'actualités positifs du jour (accélération IA avec la Marine canadienne, nouveau chiffreur Mistral) soutiennent la valeur sur ce plancher te",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-061120-NEX.PA-4",
+   "date": "2026-10-06T11:20:40.102Z",
+   "symbole": "NEX.PA",
+   "nom": "Nexans",
+   "action": "CONSERVER",
+   "confiance": 78,
+   "prixSignal": 134.3,
+   "cacAuSignal": 7881.75,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Nexans gagne +0,60 % à 134,30 EUR en stabilisant son cours à proximité de sa SMA200 (136,68 EUR) en tendance HAUSSE_CONFIRMEE. L'annonce d'un investissement de 70 M€ à Charleroi pour les câbles de réseau confirme la visibilité industrielle du groupe.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-061120-ENX.PA-5",
+   "date": "2026-10-06T11:20:40.102Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "prixSignal": 162.6,
+   "cacAuSignal": 7881.75,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Euronext reste ferme à 162,60 EUR (+0,49 %), à seulement -1,63 % de ses sommets annuels, portée par une tendance HAUSSE_CONFIRMEE (+13,93 % sur SMA200, volatilité contenue à 14,9 %). La thèse reste intacte.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-061120-DEC.PA-6",
+   "date": "2026-10-06T11:20:40.102Z",
+   "symbole": "DEC.PA",
+   "nom": "JCDecaux",
+   "action": "CONSERVER",
+   "confiance": 83,
+   "prixSignal": 24.62,
+   "cacAuSignal": 7881.75,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "JCDecaux poursuit sa trajectoire haussière à 24,62 EUR (+0,90 %), évoluant confortablement au-dessus de sa SMA50 (24,15 EUR) et SMA200 (19,74 EUR, écart +24,75 %). La pente de tendance reste forte (+5,05 %) avec un RSI équilibré à 53,5.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-061120-ITP.PA-7",
+   "date": "2026-10-06T11:20:40.102Z",
+   "symbole": "ITP.PA",
+   "nom": "Interparfums",
+   "action": "CONSERVER",
+   "confiance": 82,
+   "prixSignal": 30.3,
+   "cacAuSignal": 7881.75,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Interparfums consolide à 30,30 EUR (+0,66 %) tout près de son plus haut à 30,94 EUR, en tendance HAUSSE_CONFIRMEE (écart SMA200 +23,64 %, chg126d +33,12 %). Le momentum demeure solide avec un RSI à 62,1 sans surchauffe.",
    "h1s": null,
    "h1m": null,
    "solde": null

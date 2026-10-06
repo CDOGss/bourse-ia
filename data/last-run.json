@@ -1,99 +1,99 @@
 {
- "date": "2026-10-06T09:20:39.820Z",
- "dureeS": 34,
+ "date": "2026-10-06T11:20:40.102Z",
+ "dureeS": 39,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 progresse de +0,65 % à 7 885,32 points, mais la largeur de marché reste FAIBLE avec seulement 31,1 % des valeurs au-dessus de leur SMA200. Le contexte sectoriel est soutenu par la santé et certaines annonces corporate, mais la sélectivité maximale s'impose. Avec un portefeuille déjà à son plafond réglementaire de 8 lignes sur 8, aucune nouvelle entrée n'est autorisée sans arbitrage préalable.",
+ "resume_marche": "Le CAC 40 tente un rebond de +0,61 % à 7 881,75 points dans le sillage de l'accalmie obligataire, mais la santé globale du marché demeure fragile avec une largeur de marché FAIBLE à seulement 32,8 % des valeurs au-dessus de leur SMA200. Le portefeuille compte déjà 8 positions ouvertes (plafond maximal atteint) et aucune dégradation majeure n'impose d'arbitrage d'urgence. La discipline commande de conserver l'ensemble des lignes existantes dont les thèses et les stops restent valides.",
  "signaux": [
   {
-   "symbole": "ENX.PA",
+   "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Euronext progresse de +0,99 % à 163,40 EUR, à proximité de ses plus hauts 52 semaines (165,30 EUR), solidement ancré au-dessus de sa SMA50 (159,90 EUR) et SMA200 (142,72 EUR). Bien que le RSI14 soit à 70,7, la tendance de fond HAUSSE_CONFIRMEE (+13,63 % sur 126j) justifie le maintien de la position.",
-   "prix_entree": 163.4,
-   "stop_perte": 149,
+   "justification": "Air Liquide consolide à 169,36 EUR (-0,82 % ce jour) mais reste bien orientée au-dessus de sa SMA200 à 162,61 EUR (+4,15 %) en tendance HAUSSE_CONFIRMEE. Le dossier est renforcé par l'actualité du jour rapportant l'entrée significative et le soutien du fonds activiste Elliott au plan stratégique 2030.",
+   "prix_entree": 169.36,
+   "stop_perte": 161.5,
    "prise_profit": null,
-   "taille_pct": 6.7,
-   "invalidation": "Cassure clôturée sous le support des 149,00 EUR."
-  },
-  {
-   "symbole": "SAF.PA",
-   "action": "CONSERVER",
-   "confiance": 85,
-   "justification": "Safran s'établit à 331,40 EUR (+0,49 % ce jour), au-dessus de sa SMA20 (329,50 EUR) et SMA200 (317,29 EUR) avec un RSI équilibré à 55,2. La tendance HAUSSE_CONFIRMEE reste valide et la marge de sécurité par rapport au stop fixé à 298 EUR est confortable.",
-   "prix_entree": 331.4,
-   "stop_perte": 298,
-   "prise_profit": null,
-   "taille_pct": 3.4,
-   "invalidation": "Rupture de la SMA200 sous 317,00 EUR."
-  },
-  {
-   "symbole": "HO.PA",
-   "action": "CONSERVER",
-   "confiance": 78,
-   "justification": "Thales cote 223,70 EUR avec un RSI14 en survente prononcée à 24,3, proche du support des plus bas annuels (216,50 EUR). Le stop à 219 EUR n'est pas touché et le dossier reste soutenu par des catalyseurs de défense et cybersécurité mentionnés dans l'actualité.",
-   "prix_entree": 223.7,
-   "stop_perte": 219,
-   "prise_profit": null,
-   "taille_pct": 9.2,
-   "invalidation": "Enfoncement net et clôturé sous 219,00 EUR."
+   "taille_pct": 10,
+   "invalidation": "Cassure en clôture sous le stop de 161,50 EUR."
   },
   {
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Eurofins accélère de +2,89 % à 77,72 EUR, à seulement 1,57 % de son plus haut 52 semaines (78,96 EUR). La valeur bénéficie d'une tendance HAUSSE_CONFIRMEE (chg126d +21,13 %, écart SMA200 +15,62 %) et de flux porteurs sur les sciences de la vie cités dans la presse.",
-   "prix_entree": 77.72,
+   "justification": "Eurofins Scientific confirme sa vigueur avec un bond de +3,57 % à 78,24 EUR, testant ses plus hauts annuels (à -0,91 % du plus haut 52s de 78,96 EUR). La tendance est solidement HAUSSE_CONFIRMEE (écart SMA200 de +16,39 %, pente +2,51 %) avec un RSI sain à 59,3.",
+   "prix_entree": 78.24,
    "stop_perte": 68.5,
    "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Rejet baissier sous la SMA50 à 72,72 EUR."
+   "taille_pct": 10,
+   "invalidation": "Rupture de la SMA50 à 72,73 EUR."
   },
   {
-   "symbole": "DEC.PA",
+   "symbole": "SAF.PA",
    "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "JCDecaux cote 24,66 EUR (+1,07 % ce jour), proche de son zénith annuel (25,26 EUR) avec une structure haussière puissante (+28,91 % sur 126j, SMA200 à 19,74 EUR). Le flux d'actualités opérationnelles demeure positif.",
-   "prix_entree": 24.66,
-   "stop_perte": 22.2,
+   "confiance": 85,
+   "justification": "Safran progresse de +0,45 % à 331,30 EUR en consolidant ses gains (+2,6 % de PnL) au-dessus de sa SMA20 (329,49 EUR) et de sa SMA200 (317,29 EUR). La dynamique de fond HAUSSE_CONFIRMEE et un RSI à 55,1 justifient le maintien de la position.",
+   "prix_entree": 331.3,
+   "stop_perte": 298,
    "prise_profit": null,
-   "taille_pct": 8.1,
-   "invalidation": "Clôture sous la SMA50 à 24,15 EUR."
+   "taille_pct": 10,
+   "invalidation": "Enfoncement du stop de protection à 298,00 EUR."
   },
   {
-   "symbole": "ITP.PA",
+   "symbole": "HO.PA",
    "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "Interparfums se maintient fermement à 30,22 EUR (+0,40 % ce jour, +32,77 % sur 126j), tout près de ses records annuels (30,94 EUR). L'orientation technique reste excellente au-dessus de sa SMA20 (29,46 EUR) et SMA50 (27,50 EUR).",
-   "prix_entree": 30.22,
-   "stop_perte": 27,
+   "confiance": 78,
+   "justification": "Thales recule à 222,30 EUR (-1,98 %) mais le stop à 219,00 EUR n'est pas franchi, tandis que le RSI14 tombe à 23,3 en zone de survente extrême. Plusieurs flux d'actualités positifs du jour (accélération IA avec la Marine canadienne, nouveau chiffreur Mistral) soutiennent la valeur sur ce plancher technique.",
+   "prix_entree": 222.3,
+   "stop_perte": 219,
    "prise_profit": null,
-   "taille_pct": 7.8,
-   "invalidation": "Cassure du support intermédiaire à 27,00 EUR."
+   "taille_pct": 10,
+   "invalidation": "Enfoncement du stop à 219,00 EUR."
   },
   {
    "symbole": "NEX.PA",
    "action": "CONSERVER",
    "confiance": 78,
-   "justification": "Nexans se stabilise à 133,80 EUR (+0,22 % ce jour). La valeur reste soutenue par une actualité industrielle concrète (investissement de 70 M€ annoncé à Charleroi pour les câbles européens) et le stop à 124,50 EUR préserve la thèse de swing.",
-   "prix_entree": 133.8,
+   "justification": "Nexans gagne +0,60 % à 134,30 EUR en stabilisant son cours à proximité de sa SMA200 (136,68 EUR) en tendance HAUSSE_CONFIRMEE. L'annonce d'un investissement de 70 M€ à Charleroi pour les câbles de réseau confirme la visibilité industrielle du groupe.",
+   "prix_entree": 134.3,
    "stop_perte": 124.5,
    "prise_profit": null,
-   "taille_pct": 6.9,
-   "invalidation": "Rupture clôturée sous 124,50 EUR."
+   "taille_pct": 10,
+   "invalidation": "Cassure du stop positionné à 124,50 EUR."
   },
   {
-   "symbole": "AI.PA",
+   "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Air Liquide se traite à 168,98 EUR, au-dessus de sa SMA20 (167,51 EUR) et SMA200 (162,61 EUR). L'activisme d'Elliott qui confirme une exposition significative et salue la feuille de route stratégique constitue un catalyseur fondamental robuste.",
-   "prix_entree": 168.98,
-   "stop_perte": 161.5,
+   "justification": "Euronext reste ferme à 162,60 EUR (+0,49 %), à seulement -1,63 % de ses sommets annuels, portée par une tendance HAUSSE_CONFIRMEE (+13,93 % sur SMA200, volatilité contenue à 14,9 %). La thèse reste intacte.",
+   "prix_entree": 162.6,
+   "stop_perte": 149,
    "prise_profit": null,
-   "taille_pct": 7,
-   "invalidation": "Enfoncement clôturé du seuil de stop à 161,50 EUR."
+   "taille_pct": 10,
+   "invalidation": "Clôture sous 149,00 EUR."
+  },
+  {
+   "symbole": "DEC.PA",
+   "action": "CONSERVER",
+   "confiance": 83,
+   "justification": "JCDecaux poursuit sa trajectoire haussière à 24,62 EUR (+0,90 %), évoluant confortablement au-dessus de sa SMA50 (24,15 EUR) et SMA200 (19,74 EUR, écart +24,75 %). La pente de tendance reste forte (+5,05 %) avec un RSI équilibré à 53,5.",
+   "prix_entree": 24.62,
+   "stop_perte": 22.2,
+   "prise_profit": null,
+   "taille_pct": 10,
+   "invalidation": "Cassure du stop à 22,20 EUR."
+  },
+  {
+   "symbole": "ITP.PA",
+   "action": "CONSERVER",
+   "confiance": 82,
+   "justification": "Interparfums consolide à 30,30 EUR (+0,66 %) tout près de son plus haut à 30,94 EUR, en tendance HAUSSE_CONFIRMEE (écart SMA200 +23,64 %, chg126d +33,12 %). Le momentum demeure solide avec un RSI à 62,1 sans surchauffe.",
+   "prix_entree": 30.3,
+   "stop_perte": 27,
+   "prise_profit": null,
+   "taille_pct": 10,
+   "invalidation": "Retour sous le stop fixé à 27,00 EUR."
   }
  ],
  "signaux_ecartes": [],
@@ -102,11 +102,11 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 22,
-  "nbPassages": 56,
-  "equity": 9690.27,
-  "perfPct": -3.1,
-  "cacPerfPct": -2.86,
-  "alphaPct": -0.23,
+  "nbPassages": 57,
+  "equity": 9691.31,
+  "perfPct": -3.09,
+  "cacPerfPct": -2.91,
+  "alphaPct": -0.18,
   "maxDrawdownPct": -3.1,
   "sharpe": null,
   "expositionPct": 57.2,
@@ -160,7 +160,7 @@
   }
  },
  "stats": {
-  "equity": 9690.27,
+  "equity": 9691.31,
   "cash": 4143.73,
   "nbPositions": 8
  }
