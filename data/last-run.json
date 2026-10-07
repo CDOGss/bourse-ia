@@ -1,116 +1,93 @@
 {
- "date": "2026-10-07T13:20:43.608Z",
- "dureeS": 34,
+ "date": "2026-10-07T15:20:42.159Z",
+ "dureeS": 37,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 recule nettement de -1,12 % à 7776,91 points dans un climat d'aversion au risque alimenté par les tensions sur les taux et l'énergie. La largeur du marché demeure très dégradée avec seulement 32 % des valeurs au-dessus de leur moyenne mobile 200 jours (état FAIBLE). Dans ce contexte incertain, la priorité absolue est la préservation du capital et l'assainissement des positions invalidées.",
+ "resume_marche": "Le CAC 40 recule de -1,36 % à 7 758,33 points dans un contexte de tension sur les rendements obligataires et de repli marqué des valeurs bancaires. La largeur de marché demeure très faible avec seulement 30,3 % des valeurs au-dessus de leur SMA200 (état FAIBLE). La gestion privilégie la prudence et la préservation du capital sans engager de nouveaux achats.",
  "signaux": [
-  {
-   "symbole": "NEX.PA",
-   "action": "VENTE",
-   "confiance": 82,
-   "justification": "La thèse d'appui sur le support du faisceau SMA20 (135,90 EUR) et SMA200 (136,70 EUR) est rompue avec une chute à 128,50 EUR (-3,67 % ce jour). L'actualité confirme la cassure baissière des 130 EUR sous pression vendeuse, invalidant la configuration d'entrée.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Euronext reste résilient à 162,20 EUR, solidement installé en tendance HAUSSE_CONFIRMEE au-dessus de sa SMA200 (142,91 EUR, écart +13,50 %) et de sa SMA50 (160,15 EUR).",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Euronext reste résilient à 162,40 EUR (+2,07 % sur 20 jours) en tendance HAUSSE_CONFIRMEE avec un écart SMA200 de +13,64 % et un RSI équilibré à 64,2.",
+   "prix_entree": 162.4,
+   "stop_perte": 149,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 8,
+   "invalidation": "Cassure confirmée du support sous la SMA50 à 160,15 EUR."
   },
   {
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Eurofins Scientific progresse à 76,56 EUR (+0,55 % en séance, +7,92 % sur 20 jours), surperformant nettement le marché avec des relèvements de cibles d'analystes signalés ce jour.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Eurofins progresse de +7,16 % sur 20 jours à 76,02 EUR en HAUSSE_CONFIRMEE (écart SMA200 +12,98 %), soutenu par les achats d'actions du CEO Gilles Martin relayés dans les actualités.",
+   "prix_entree": 76.02,
+   "stop_perte": 68.5,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 8,
+   "invalidation": "Rupture de la SMA50 à 72,83 EUR en clôture journalière."
   },
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
    "confiance": 80,
-   "justification": "Malgré le repli du jour à 320,90 EUR lié à une note d'analyste, Safran maintient son ancrage au-dessus de sa SMA200 à 317,37 EUR en tendance HAUSSE_CONFIRMEE, avec un déploiement porteur dans le spatial.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Safran préserve le test de sa SMA200 (317,37 EUR, écart +0,99 %) avec un cours à 320,50 EUR en tendance HAUSSE_CONFIRMEE malgré la pression vendeuse intraday.",
+   "prix_entree": 320.5,
+   "stop_perte": 298,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 5,
+   "invalidation": "Enfoncement net et clôturé sous le seuil d'invalidation des 298 EUR."
   },
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "JCDecaux fait preuve d'une excellente tenue (+0,41 % à 24,56 EUR) dans un marché baissier, bien ancré au-dessus de sa SMA50 à 24,20 EUR avec un RSI sain à 45,9.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "JCDecaux conserve une structure solide en HAUSSE_CONFIRMEE (pente +5,03 %, écart SMA200 +22,25 %) avec un cours à 24,18 EUR et un RSI tempéré à 40,0.",
+   "prix_entree": 24.18,
+   "stop_perte": 22.2,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 8,
+   "invalidation": "Cassure de la zone support de swing sous 22,20 EUR."
   },
   {
    "symbole": "ITP.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "Interparfums demeure en tendance HAUSSE_CONFIRMEE au-dessus de sa SMA50 à 27,62 EUR, soutenu par le relèvement de recommandation à l'achat par TP ICAP Midcap avec objectif 38 EUR.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Interparfums affiche un gain de +7,46 % sur 20 jours à 30,26 EUR en HAUSSE_CONFIRMEE (+23,31 % sur SMA200), conforté par le relèvement d'objectif de cours de TP ICAP Midcap à 38 EUR.",
+   "prix_entree": 30.26,
+   "stop_perte": 27,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 8,
+   "invalidation": "Retour sous le support de moyen terme des 27,00 EUR."
   },
   {
    "symbole": "AI.PA",
    "action": "CONSERVER",
-   "confiance": 81,
-   "justification": "Air Liquide consolide à 168,70 EUR en conservant le support de sa SMA20 (167,54 EUR) et sa SMA200 (162,72 EUR), appuyé par des perspectives favorables sur ses marges.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "confiance": 80,
+   "justification": "Air Liquide maintient sa moyenne mobile 20 jours à 167,52 EUR (cours 168,40 EUR, écart SMA200 +3,49 %) en HAUSSE_CONFIRMEE, étayé par une révision de juste valeur à la hausse par Morningstar.",
+   "prix_entree": 168.4,
+   "stop_perte": 161.5,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 7,
+   "invalidation": "Enfoncement du stop de protection positionné à 161,50 EUR sous la SMA200."
   }
  ],
  "signaux_ecartes": [],
- "appliques": [
-  {
-   "symbole": "NEX.PA",
-   "nom": "Nexans",
-   "action": "VENTE",
-   "shares": 5,
-   "prix": 128.5,
-   "montant": 641.86,
-   "pnlPct": -6.72,
-   "pnlEur": -46.89,
-   "motif": "La thèse d'appui sur le support du faisceau SMA20 (135,90 EUR) et SMA200 (136,70 EUR) est rompue avec une chute à 128,50 EUR (-3,67 % ce jour). L'actualité confirme la cassure baissière des 130 EUR sous pression vendeuse, invalidant la configuration d'entrée."
-  }
- ],
+ "appliques": [],
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 23,
-  "nbPassages": 63,
-  "equity": 9611.14,
-  "perfPct": -3.89,
-  "cacPerfPct": -4.2,
-  "alphaPct": 0.31,
-  "maxDrawdownPct": -3.8,
+  "nbPassages": 64,
+  "equity": 9593.28,
+  "perfPct": -4.07,
+  "cacPerfPct": -4.43,
+  "alphaPct": 0.36,
+  "maxDrawdownPct": -4,
   "sharpe": null,
-  "expositionPct": 41.1,
+  "expositionPct": 41,
   "trades": {
    "nbAchats": 12,
    "nbSolde": 6,
@@ -161,7 +138,7 @@
   }
  },
  "stats": {
-  "equity": 9611.14,
+  "equity": 9593.28,
   "cash": 5659.12,
   "nbPositions": 6
  }
