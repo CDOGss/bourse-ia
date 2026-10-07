@@ -1,28 +1,28 @@
 {
- "date": "2026-10-07T11:20:38.213Z",
- "dureeS": 35,
+ "date": "2026-10-07T13:20:43.608Z",
+ "dureeS": 34,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 cede 1,10 % a 7 778,68 points dans un climat assombri par la tension sur les rendements obligataires (OAT) et les cours du brut. La largeur de marche reste tres degradee avec seulement 31,1 % des valeurs au-dessus de leur SMA 200, confirmant l'etat FAIBLE du marche. Dans cet environnement de repli generalise, la preservation du capital prime.",
+ "resume_marche": "Le CAC 40 recule nettement de -1,12 % à 7776,91 points dans un climat d'aversion au risque alimenté par les tensions sur les taux et l'énergie. La largeur du marché demeure très dégradée avec seulement 32 % des valeurs au-dessus de leur moyenne mobile 200 jours (état FAIBLE). Dans ce contexte incertain, la priorité absolue est la préservation du capital et l'assainissement des positions invalidées.",
  "signaux": [
   {
-   "symbole": "HO.PA",
+   "symbole": "NEX.PA",
    "action": "VENTE",
-   "confiance": 86,
-   "justification": "Le cours actuel a 218,60 EUR a enfonce le stop de protection fixe a 219,00 EUR (-9,2 % de PnL). Le titre passe nettement sous sa SMA 200 (242,98 EUR, ecart -10,03 %), invalidant la configuration technique malgre le flux d'annonces de contrats.",
-   "prix_entree": 218.6,
-   "stop_perte": 0,
+   "confiance": 82,
+   "justification": "La thèse d'appui sur le support du faisceau SMA20 (135,90 EUR) et SMA200 (136,70 EUR) est rompue avec une chute à 128,50 EUR (-3,67 % ce jour). L'actualité confirme la cassure baissière des 130 EUR sous pression vendeuse, invalidant la configuration d'entrée.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 0,
-   "invalidation": "Reintegration rapide et confirmee au-dessus de 225 EUR"
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Euronext reste solide a 162,00 EUR en tendance HAUSSE_CONFIRMEE (+13,36 % au-dessus de la SMA 200 a 142,91 EUR), avec une volatilite contenue a 15,9 %.",
+   "justification": "Euronext reste résilient à 162,20 EUR, solidement installé en tendance HAUSSE_CONFIRMEE au-dessus de sa SMA200 (142,91 EUR, écart +13,50 %) et de sa SMA50 (160,15 EUR).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -33,7 +33,7 @@
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Eurofins preserve ses gains (+1,7 % a 76,10 EUR) en tendance HAUSSE_CONFIRMEE au-dessus de sa SMA 50 (72,83 EUR) et de sa SMA 200 (67,29 EUR), soutenu par des revisions positives d'analystes.",
+   "justification": "Eurofins Scientific progresse à 76,56 EUR (+0,55 % en séance, +7,92 % sur 20 jours), surperformant nettement le marché avec des relèvements de cibles d'analystes signalés ce jour.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -43,19 +43,8 @@
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "Safran tient son pivot majeur a 322,70 EUR au-dessus de sa SMA 200 a 317,38 EUR (+1,68 %), au sein d'une tendance de fond saine (HAUSSE_CONFIRMEE).",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "ITP.PA",
-   "action": "CONSERVER",
-   "confiance": 84,
-   "justification": "Interparfums conserve une avance confortable a 30,50 EUR (+1,5 % de PnL, +24,28 % sur SMA 200 a 24,54 EUR) apres le relevement d'objectif recent de TP ICAP Midcap a 38 EUR.",
+   "confiance": 80,
+   "justification": "Malgré le repli du jour à 320,90 EUR lié à une note d'analyste, Safran maintient son ancrage au-dessus de sa SMA200 à 317,37 EUR en tendance HAUSSE_CONFIRMEE, avec un déploiement porteur dans le spatial.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -66,7 +55,18 @@
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "JCDecaux consolide calmement a 24,54 EUR, maintenant sa progression a moyen terme (+24,06 % sur la SMA 200 a 19,78 EUR) et un RSI neutre a 45,5.",
+   "justification": "JCDecaux fait preuve d'une excellente tenue (+0,41 % à 24,56 EUR) dans un marché baissier, bien ancré au-dessus de sa SMA50 à 24,20 EUR avec un RSI sain à 45,9.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "ITP.PA",
+   "action": "CONSERVER",
+   "confiance": 83,
+   "justification": "Interparfums demeure en tendance HAUSSE_CONFIRMEE au-dessus de sa SMA50 à 27,62 EUR, soutenu par le relèvement de recommandation à l'achat par TP ICAP Midcap avec objectif 38 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -76,19 +76,8 @@
   {
    "symbole": "AI.PA",
    "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "Air Liquide resiste au repli du marche (-0,33 % a 168,54 EUR), confortant son avance sur la SMA 200 (162,72 EUR, ecart +3,57 %) avec un flux d'actualite structurellement porteur.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "NEX.PA",
-   "action": "CONSERVER",
-   "confiance": 76,
-   "justification": "Nexans consolide a 129,80 EUR mais demeure bien au-dessus de son niveau de stop a 124,50 EUR, conservant son potentiel moyen terme.",
+   "confiance": 81,
+   "justification": "Air Liquide consolide à 168,70 EUR en conservant le support de sa SMA20 (167,54 EUR) et sa SMA200 (162,72 EUR), appuyé par des perspectives favorables sur ses marges.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -99,51 +88,45 @@
  "signaux_ecartes": [],
  "appliques": [
   {
-   "symbole": "HO.PA",
-   "nom": "Thales",
+   "symbole": "NEX.PA",
+   "nom": "Nexans",
    "action": "VENTE",
-   "shares": 4,
-   "prix": 218.6,
-   "montant": 873.53,
-   "pnlPct": -9.24,
-   "pnlEur": -89.91,
-   "motif": "stop-perte declenche"
+   "shares": 5,
+   "prix": 128.5,
+   "montant": 641.86,
+   "pnlPct": -6.72,
+   "pnlEur": -46.89,
+   "motif": "La thèse d'appui sur le support du faisceau SMA20 (135,90 EUR) et SMA200 (136,70 EUR) est rompue avec une chute à 128,50 EUR (-3,67 % ce jour). L'actualité confirme la cassure baissière des 130 EUR sous pression vendeuse, invalidant la configuration d'entrée."
   }
  ],
- "rejetes": [
-  {
-   "symbole": "HO.PA",
-   "action": "VENTE",
-   "motif": "position_inexistante"
-  }
- ],
+ "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 23,
-  "nbPassages": 62,
-  "equity": 9619.9,
-  "perfPct": -3.8,
-  "cacPerfPct": -4.18,
-  "alphaPct": 0.38,
-  "maxDrawdownPct": -3.7,
+  "nbPassages": 63,
+  "equity": 9611.14,
+  "perfPct": -3.89,
+  "cacPerfPct": -4.2,
+  "alphaPct": 0.31,
+  "maxDrawdownPct": -3.8,
   "sharpe": null,
-  "expositionPct": 47.8,
+  "expositionPct": 41.1,
   "trades": {
    "nbAchats": 12,
-   "nbSolde": 5,
+   "nbSolde": 6,
    "tauxReussitePct": 0,
    "gainMoyenPct": null,
-   "perteMoyennePct": -8.31,
+   "perteMoyennePct": -8.05,
    "profitFactor": 0,
    "montantGagne": 0,
-   "montantPerdu": 331.61
+   "montantPerdu": 377.85
   },
   "couts": {
-   "fraisCumules": 12.22,
+   "fraisCumules": 12.86,
    "ttfCumule": 25.77,
-   "totalEur": 37.99,
+   "totalEur": 38.63,
    "montantAchete": 8617.34,
-   "coutEnPctDuCapital": 0.38
+   "coutEnPctDuCapital": 0.39
   },
   "signaux": {
    "achats": {
@@ -154,7 +137,7 @@
     "alphaMoyen1sPct": -1.01
    },
    "ventes": {
-    "nb": 5,
+    "nb": 6,
     "nbEvalues": 0,
     "tauxReussitePct": null,
     "alphaMoyen1mPct": null,
@@ -166,7 +149,7 @@
    "etat": "PAS_ENCORE_CONCLUANT",
    "raisons": [
     "il faut 90 jours de recul (actuellement 23)",
-    "il faut 20 positions soldees (actuellement 5)"
+    "il faut 20 positions soldees (actuellement 6)"
    ],
    "criteres": {
     "ageMinJours": 90,
@@ -178,8 +161,8 @@
   }
  },
  "stats": {
-  "equity": 9619.9,
-  "cash": 5017.26,
-  "nbPositions": 7
+  "equity": 9611.14,
+  "cash": 5659.12,
+  "nbPositions": 6
  }
 }
