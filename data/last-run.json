@@ -1,17 +1,17 @@
 {
- "date": "2026-10-07T07:20:40.807Z",
- "dureeS": 37,
+ "date": "2026-10-07T09:20:43.341Z",
+ "dureeS": 36,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 recule de -0,59 % a 7 818,28 points dans un contexte de consolidation generalisee. La largeur de marche demeure tres degradee avec 31,1 % seulement des valeurs au-dessus de leur SMA 200 (etat FAIBLE). Le portefeuille est deja au complet avec 8 positions detenues sur un plafond de 8, imposant la conservation rigoureuse des dossiers solides et la surveillance stricte des niveaux d'invalidation.",
+ "resume_marche": "Le CAC 40 recule de -0,53 % à 7 823,52 points dans un climat de tension sur les rendements et l'énergie. La largeur du marché demeure FAIBLE avec seulement 32 % des 122 valeurs au-dessus de leur SMA200, justifiant le maintien d'un régime PRUDENT. Le portefeuille compte le maximum autorisé de 8 positions ouvertes (57 % investi) ; la priorité absolue va au suivi rigoureux des niveaux d'invalidation sans forcer d'arbitrage prématuré.",
  "signaux": [
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Euronext affiche une tendance HAUSSE_CONFIRMEE (ecart SMA200 a +13,93 %, chg126d a +13,07 %) et progresse encore de +0,49 % ce jour a 162,60 EUR avec un RSI sain a 69.",
+   "justification": "Euronext affiche une dynamique robuste (+1,3 % en portefeuille, cours 163,70 EUR) en tendance HAUSSE_CONFIRMEE (+14,54 % au-dessus de la SMA200 à 142,91 EUR) et proche de ses plus hauts annuels (-0,97 % du plus haut 52s).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -22,7 +22,7 @@
    "symbole": "SAF.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "Safran se maintient au-dessus de sa SMA200 (+2,35 % a 324,70 EUR) en tendance HAUSSE_CONFIRMEE avec un RSI equilibre a 48,5, soutenu par des flux industriels vigoureux sur le moteur M88.",
+   "justification": "Safran préserve son support au-dessus de sa SMA200 à 317,39 EUR (+2,24 %) en tendance HAUSSE_CONFIRMEE, avec un RSI 14 assaini à 42,5 et un flux d'activité aéronautique toujours solide.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -33,7 +33,7 @@
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Eurofins progresse de +0,61 % a 76,00 EUR en tendance HAUSSE_CONFIRMEE (ecart SMA200 +13,07 %, chg126d +18,45 %), soutenu par de recents relevements d'objectifs de cours des analystes.",
+   "justification": "Eurofins Scientific progresse à 76,26 EUR (+1,9 % en portefeuille) en tendance HAUSSE_CONFIRMEE (chg126d +17,5 %), bénéficiant de relèvements d'objectifs de cours d'analystes signalés ce jour.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -44,7 +44,7 @@
    "symbole": "ITP.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Interparfums gagne +1,26 % a 30,48 EUR en tendance HAUSSE_CONFIRMEE (chg126d +33,91 %) suite au relevement de recommandation a l'achat et d'objectif a 38 EUR par TP ICAP Midcap.",
+   "justification": "Interparfums conserve une excellente configuration technique (cours 30,54 EUR, +24,44 % sur SMA200, chg126d +33,28 %), renforcée par le relèvement de recommandation de TP ICAP Midcap à l'achat avec cible 38 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -55,7 +55,7 @@
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "JCDecaux reste bien ancre au-dessus de sa SMA200 (+23,04 % a 24,28 EUR) avec une pente robuste (+5,04 %) et un RSI neutre a 48,5, preservant l'integralite de la dynamique swing.",
+   "justification": "JCDecaux reste ancré en tendance HAUSSE_CONFIRMEE (+23,96 % au-dessus de sa SMA200 à 19,78 EUR, chg126d +27,84 %) avec un RSI 14 équilibré à 45,1, sans dégradation de la thèse de reprise.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -66,7 +66,7 @@
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Air Liquide consolide a 168,90 EUR au-dessus de sa SMA200 (+3,87 %) en tendance HAUSSE_CONFIRMEE, confortee par le succes de son emission obligataire de 2 milliards d'euros.",
+   "justification": "Air Liquide se maintient au-dessus de sa SMA200 à 162,72 EUR (+3,77 %) et de son stop à 161,50 EUR, soutenu par l'émission obligataire de 2 Md EUR à conditions favorables et des perspectives de marges positives selon Morningstar.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -76,8 +76,8 @@
   {
    "symbole": "NEX.PA",
    "action": "CONSERVER",
-   "confiance": 77,
-   "justification": "Nexans conserve une tendance de fond HAUSSE_CONFIRMEE (chg126d +2,17 %) a 131,60 EUR ; le niveau de stop a 124,50 EUR est respecte et le RSI a 41,9 n'est pas degrade.",
+   "confiance": 76,
+   "justification": "Nexans consolide à 130,50 EUR mais demeure bien au-dessus de son stop d'invalidation à 124,50 EUR, conservant une tendance de fond HAUSSE_CONFIRMEE malgré la volatilité récente (volatilité 40,8 %).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -87,8 +87,8 @@
   {
    "symbole": "HO.PA",
    "action": "CONSERVER",
-   "confiance": 74,
-   "justification": "Thales est sous pression a 222,00 EUR mais le stop fixe a 219,00 EUR n'est pas enfonce, le RSI 14 est en forte survente a 23,1 et un contrat radar aux Feroe vient d'etre annonce.",
+   "confiance": 73,
+   "justification": "Thales teste sa zone de soutien à 219,90 EUR (stop à 219,00 EUR) avec un RSI 14 en survente marquée à 23,4, soutenu par des annonces concrètes de contrats radars aux Féroé et de cybersécurité pour data centers.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -101,12 +101,12 @@
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
-  "ageJours": 22,
-  "nbPassages": 60,
-  "equity": 9639.39,
-  "perfPct": -3.61,
-  "cacPerfPct": -3.69,
-  "alphaPct": 0.08,
+  "ageJours": 23,
+  "nbPassages": 61,
+  "equity": 9641.31,
+  "perfPct": -3.59,
+  "cacPerfPct": -3.62,
+  "alphaPct": 0.04,
   "maxDrawdownPct": -3.5,
   "sharpe": null,
   "expositionPct": 57,
@@ -140,14 +140,14 @@
     "nbEvalues": 0,
     "tauxReussitePct": null,
     "alphaMoyen1mPct": null,
-    "alphaMoyen1sPct": -2.23
+    "alphaMoyen1sPct": 0.93
    },
    "calibration": null
   },
   "verdict": {
    "etat": "PAS_ENCORE_CONCLUANT",
    "raisons": [
-    "il faut 90 jours de recul (actuellement 22)",
+    "il faut 90 jours de recul (actuellement 23)",
     "il faut 20 positions soldees (actuellement 4)"
    ],
    "criteres": {
@@ -160,7 +160,7 @@
   }
  },
  "stats": {
-  "equity": 9639.39,
+  "equity": 9641.31,
   "cash": 4143.73,
   "nbPositions": 8
  }
