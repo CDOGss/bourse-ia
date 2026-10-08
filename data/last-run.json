@@ -1,95 +1,117 @@
 {
- "date": "2026-10-07T15:20:42.159Z",
- "dureeS": 37,
+ "date": "2026-10-08T07:20:41.027Z",
+ "dureeS": 59,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 recule de -1,36 % à 7 758,33 points dans un contexte de tension sur les rendements obligataires et de repli marqué des valeurs bancaires. La largeur de marché demeure très faible avec seulement 30,3 % des valeurs au-dessus de leur SMA200 (état FAIBLE). La gestion privilégie la prudence et la préservation du capital sans engager de nouveaux achats.",
+ "resume_marche": "Le CAC 40 recule de -0,78 % a 7 708,96 points dans un climat alourdi par les tensions sur la dette souveraine francaise et la chute marquee du secteur bancaire et automobile (Societe Generale -7,25 %, OPmobility -19,54 %). La largeur de marche reste tres degradee avec seulement 29,5 % des titres au-dessus de leur SMA200 (etat FAIBLE). Dans ce regime PRUDENT, nous conservons nos positions de qualite et limitons strictement les nouveaux engagements aux dossiers defensifs disposant d'un catalyseur propre.",
  "signaux": [
+  {
+   "symbole": "GET.PA",
+   "action": "ACHAT",
+   "confiance": 82,
+   "justification": "Getlink fait preuve d'une excellente resilience relative (+0,05 % ce jour, +1,14 % sur 20j) en tendance HAUSSE_CONFIRMEE (+1,77 % de pente, au-dessus de la SMA200 a 18,17 EUR) avec une volatilite tres basse (11,9 %). Le dossier beneficie d'un catalyseur direct issu des actualites de ce matin confirmant un trafic LeShuttle et fret camions en nette hausse en septembre 2026.",
+   "prix_entree": 18.67,
+   "stop_perte": 17.5,
+   "prise_profit": null,
+   "taille_pct": 7,
+   "invalidation": "Cassure cloturee sous la SMA200 a 18,17 EUR ou enfoncement des 17,80 EUR."
+  },
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Euronext reste résilient à 162,40 EUR (+2,07 % sur 20 jours) en tendance HAUSSE_CONFIRMEE avec un écart SMA200 de +13,64 % et un RSI équilibré à 64,2.",
-   "prix_entree": 162.4,
+   "justification": "Euronext consolide a 160,90 EUR tout en maintenant fermement sa tendance HAUSSE_CONFIRMEE (pente +2,33 %, ecart SMA200 +12,6 %, chg126d +11,04 %) avec un RSI 14 non sature a 59,2 et un stop a 149,00 EUR tres preserve.",
+   "prix_entree": 160.9,
    "stop_perte": 149,
    "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Cassure confirmée du support sous la SMA50 à 160,15 EUR."
-  },
-  {
-   "symbole": "ERF.PA",
-   "action": "CONSERVER",
-   "confiance": 85,
-   "justification": "Eurofins progresse de +7,16 % sur 20 jours à 76,02 EUR en HAUSSE_CONFIRMEE (écart SMA200 +12,98 %), soutenu par les achats d'actions du CEO Gilles Martin relayés dans les actualités.",
-   "prix_entree": 76.02,
-   "stop_perte": 68.5,
-   "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Rupture de la SMA50 à 72,83 EUR en clôture journalière."
+   "taille_pct": 6.7,
+   "invalidation": "Cassure de la zone support des 149,00 EUR."
   },
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
    "confiance": 80,
-   "justification": "Safran préserve le test de sa SMA200 (317,37 EUR, écart +0,99 %) avec un cours à 320,50 EUR en tendance HAUSSE_CONFIRMEE malgré la pression vendeuse intraday.",
-   "prix_entree": 320.5,
+   "justification": "Safran se replie a 313,30 EUR sur sa SMA200 (317,33 EUR, ecart -1,27 %) mais reste ancre en tendance HAUSSE_CONFIRMEE (+1,13 %). Les catalyseurs industriels d'optique de defense et spatiale (ELT) confirmes par la presse soutiennent la these de swing.",
+   "prix_entree": 313.3,
    "stop_perte": 298,
    "prise_profit": null,
-   "taille_pct": 5,
-   "invalidation": "Enfoncement net et clôturé sous le seuil d'invalidation des 298 EUR."
+   "taille_pct": 3.3,
+   "invalidation": "Rupture validee du seuil de stop a 298,00 EUR."
+  },
+  {
+   "symbole": "ERF.PA",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "justification": "Eurofins demontre une excellente solidite (-0,11 % dans un marche a -0,78 %, +7,22 % sur 20j) en tendance HAUSSE_CONFIRMEE (pente +2,51 %, ecart SMA200 +13,04 %) avec un RSI neutre a 47,2.",
+   "prix_entree": 76.06,
+   "stop_perte": 68.5,
+   "prise_profit": null,
+   "taille_pct": 7.9,
+   "invalidation": "Passage sous la SMA50 a 72,83 EUR ou sous le stop a 68,50 EUR."
   },
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "JCDecaux conserve une structure solide en HAUSSE_CONFIRMEE (pente +5,03 %, écart SMA200 +22,25 %) avec un cours à 24,18 EUR et un RSI tempéré à 40,0.",
-   "prix_entree": 24.18,
+   "justification": "JCDecaux conserve sa dynamique positive (+2,46 % sur 20j, chg126d +25,76 %) en tendance HAUSSE_CONFIRMEE (pente +5,03 %, cours a 24,12 EUR pour une SMA200 a 19,78 EUR) sans alteration de la these commerciale.",
+   "prix_entree": 24.12,
    "stop_perte": 22.2,
    "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Cassure de la zone support de swing sous 22,20 EUR."
+   "taille_pct": 8.1,
+   "invalidation": "Enfoncement de la zone des 22,20 EUR."
   },
   {
    "symbole": "ITP.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "Interparfums affiche un gain de +7,46 % sur 20 jours à 30,26 EUR en HAUSSE_CONFIRMEE (+23,31 % sur SMA200), conforté par le relèvement d'objectif de cours de TP ICAP Midcap à 38 EUR.",
-   "prix_entree": 30.26,
+   "justification": "Interparfums consolide sainement a 30,18 EUR (+7,17 % sur 20j, chg126d +31,71 %) bien au-dessus de sa SMA50 (27,62 EUR) et SMA200 (24,54 EUR) en tendance HAUSSE_CONFIRMEE (+2,47 % de pente).",
+   "prix_entree": 30.18,
    "stop_perte": 27,
    "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Retour sous le support de moyen terme des 27,00 EUR."
+   "taille_pct": 7.9,
+   "invalidation": "Rupture de la SMA50 a 27,62 EUR ou du stop a 27,00 EUR."
   },
   {
    "symbole": "AI.PA",
    "action": "CONSERVER",
-   "confiance": 80,
-   "justification": "Air Liquide maintient sa moyenne mobile 20 jours à 167,52 EUR (cours 168,40 EUR, écart SMA200 +3,49 %) en HAUSSE_CONFIRMEE, étayé par une révision de juste valeur à la hausse par Morningstar.",
-   "prix_entree": 168.4,
+   "confiance": 81,
+   "justification": "Air Liquide resiste a 168,10 EUR au-dessus de sa SMA200 (162,72 EUR, ecart +3,31 %) en tendance HAUSSE_CONFIRMEE. La confirmation par les actualites d'un plan de rachat d'actions historique de 4 Mds EUR sous l'impulsion du fonds Elliott constitue un puissant soutien technique et fondamental.",
+   "prix_entree": 168.1,
    "stop_perte": 161.5,
    "prise_profit": null,
    "taille_pct": 7,
-   "invalidation": "Enfoncement du stop de protection positionné à 161,50 EUR sous la SMA200."
+   "invalidation": "Cloture sous le stop de protection a 161,50 EUR."
   }
  ],
  "signaux_ecartes": [],
- "appliques": [],
+ "appliques": [
+  {
+   "symbole": "GET.PA",
+   "nom": "Getlink",
+   "action": "ACHAT",
+   "shares": 35,
+   "prix": 18.67,
+   "montant": 656.06,
+   "motif": "Getlink fait preuve d'une excellente resilience relative (+0,05 % ce jour, +1,14 % sur 20j) en tendance HAUSSE_CONFIRMEE (+1,77 % de pente, au-dessus de la SMA200 a 18,17 EUR) avec une volatilite tres basse (11,9 %). Le dossier beneficie d'un catalyseur direct issu des actualites de ce matin confirmant un trafic LeShuttle et fret camions en nette hausse en septembre 2026.",
+   "confiance": 82
+  }
+ ],
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 23,
-  "nbPassages": 64,
-  "equity": 9593.28,
-  "perfPct": -4.07,
-  "cacPerfPct": -4.43,
-  "alphaPct": 0.36,
-  "maxDrawdownPct": -4,
+  "nbPassages": 65,
+  "equity": 9572.75,
+  "perfPct": -4.27,
+  "cacPerfPct": -5.04,
+  "alphaPct": 0.76,
+  "maxDrawdownPct": -4.2,
   "sharpe": null,
-  "expositionPct": 41,
+  "expositionPct": 47.7,
   "trades": {
-   "nbAchats": 12,
+   "nbAchats": 13,
    "nbSolde": 6,
    "tauxReussitePct": 0,
    "gainMoyenPct": null,
@@ -99,15 +121,15 @@
    "montantPerdu": 377.85
   },
   "couts": {
-   "fraisCumules": 12.86,
-   "ttfCumule": 25.77,
-   "totalEur": 38.63,
-   "montantAchete": 8617.34,
-   "coutEnPctDuCapital": 0.39
+   "fraisCumules": 13.51,
+   "ttfCumule": 27.73,
+   "totalEur": 41.24,
+   "montantAchete": 9273.4,
+   "coutEnPctDuCapital": 0.41
   },
   "signaux": {
    "achats": {
-    "nb": 12,
+    "nb": 13,
     "nbEvalues": 0,
     "tauxReussitePct": null,
     "alphaMoyen1mPct": null,
@@ -138,8 +160,8 @@
   }
  },
  "stats": {
-  "equity": 9593.28,
-  "cash": 5659.12,
-  "nbPositions": 6
+  "equity": 9572.75,
+  "cash": 5003.06,
+  "nbPositions": 7
  }
 }
