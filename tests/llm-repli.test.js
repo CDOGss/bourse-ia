@@ -37,9 +37,23 @@ test("en cas de 400, l'appel est rejoue sans niveau de reflexion ni outil", asyn
   });
   assert.deepEqual(r, analyseValide);
   assert.equal(h.appels.length, 2);
-  assert.ok(h.appels[0].thinkingConfig, "la premiere tentative demandait bien un niveau de reflexion");
-  assert.equal(h.appels[1].thinkingConfig, undefined, "repli sans thinkingConfig");
+  assert.deepEqual(h.appels[0].generationConfig.thinkingConfig, { thinkingLevel: "high" },
+    "la premiere tentative demandait bien un niveau de reflexion, DANS generationConfig");
+  assert.equal(h.appels[0].thinkingConfig, undefined, "jamais a la racine du corps (400 de l'API)");
+  assert.equal(h.appels[1].generationConfig.thinkingConfig, undefined, "repli sans thinkingConfig");
+  assert.ok(h.appels[1].generationConfig.responseSchema, "le repli garde le schema");
   assert.equal(h.appels[1].tools, undefined);
+});
+
+test("aucun parametre d'echantillonnage n'est envoye (refuse par les prochains modeles)", async () => {
+  const h = boucherie([]);
+  h.programmer(async () => reponseOk(analyseValide));
+  await callGemini({ model: "m", apiKey: "k", systemInstruction: "s", payload: {}, thinkingLevel: "high" });
+  const gc = h.appels[0].generationConfig;
+  for (const p of ["temperature", "topP", "topK", "thinkingBudget"]) {
+    assert.equal(gc[p], undefined, `${p} ne doit pas etre envoye`);
+  }
+  assert.equal(gc.thinkingConfig.thinkingBudget, undefined);
 });
 
 test("en dernier recours, le schema contraint est retire mais le JSON reste demande", async () => {

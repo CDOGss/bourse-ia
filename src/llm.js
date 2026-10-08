@@ -137,31 +137,32 @@ export async function callGemini({
   payload,
   grounding = false,
   thinkingLevel = "high",
-  maxOutputTokens = 8192,
+  // La reflexion (thinkingLevel) consomme ce budget avant la reponse : 8192 tronquait le JSON.
+  maxOutputTokens = 32768,
   maxTentatives = 4,
 }) {
   if (!apiKey) throw new Error("GEMINI_API_KEY manquante");
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`;
 
-  const variantes = [];
-  const generationConfig = { temperature: 0.4, maxOutputTokens, responseMimeType: "application/json", responseSchema: SCHEMA_ANALYSE };
+  // Pas de temperature/top_p/top_k : sans effet depuis Gemini 3.6 Flash et bientot refuses
+  // (avis Google AI Studio du 07/10/2026). thinkingConfig va DANS generationConfig : place a la
+  // racine du corps, l'API repondait 400 et chaque appel retombait sur la variante sans reflexion.
+  const base = { maxOutputTokens, responseMimeType: "application/json" };
+  const avecSchema = { ...base, responseSchema: SCHEMA_ANALYSE };
+  const reflexion = thinkingLevel && thinkingLevel !== "none" ? { thinkingConfig: { thinkingLevel } } : {};
   const corps = {
     systemInstruction: { parts: [{ text: systemInstruction }] },
     contents: [{ role: "user", parts: [{ text: JSON.stringify(payload) }] }],
-    generationConfig,
+    generationConfig: { ...avecSchema, ...reflexion },
   };
-  if (thinkingLevel && thinkingLevel !== "none") corps.thinkingConfig = { thinkingLevel };
   if (grounding) corps.tools = [{ google_search: {} }];
-  variantes.push(corps);
-  variantes.push({ ...corps, thinkingConfig: undefined, tools: undefined });
-  // Dernier recours : certaines versions de l'API refusent le schema contraint. Le contrat de
-  // sortie reste exigé par le prompt, et `validerAnalyseTolerante` fait le tri cote moteur.
-  variantes.push({
-    ...corps,
-    thinkingConfig: undefined,
-    tools: undefined,
-    generationConfig: { temperature: 0.4, maxOutputTokens, responseMimeType: "application/json" },
-  });
+  const variantes = [
+    corps,
+    { ...corps, generationConfig: avecSchema, tools: undefined },
+    // Dernier recours : certaines versions de l'API refusent le schema contraint. Le contrat de
+    // sortie reste exigé par le prompt, et `validerAnalyseTolerante` fait le tri cote moteur.
+    { ...corps, generationConfig: base, tools: undefined },
+  ];
 
   let dernierErreur = null;
   let varianteIdx = 0;
@@ -198,9 +199,11 @@ export async function callGemini({
     const texte = await res.text();
 
     if (res.status === 400 && varianteIdx < variantes.length - 1) {
-      // L'API refuse un parametre (niveau de reflexion, outil, schema) : on replie.
+      // L'API refuse un parametre (niveau de reflexion, outil, schema) : on replie, en le
+      // signalant dans le log (le repli etait silencieux et a masque un 400 systematique).
       varianteIdx += 1;
       dernierErreur = new Error(`HTTP 400: ${texte.slice(0, 200)}`);
+      console.warn(`      Gemini a refuse la requete (400), repli sur la variante ${varianteIdx + 1} : ${texte.slice(0, 160)}`);
       continue;
     }
     if (res.status === 429 || res.status >= 500) {
