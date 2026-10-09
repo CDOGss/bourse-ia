@@ -1,99 +1,99 @@
 {
- "date": "2026-10-09T09:20:38.616Z",
- "dureeS": 68,
+ "date": "2026-10-09T11:20:40.400Z",
+ "dureeS": 49,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 rebondit de 0,80 % à 7 791,29 points, mais la largeur de marché reste très dégradée avec seulement 32 % des valeurs de l'univers au-dessus de leur SMA 200 (état FAIBLE). Cette dichotomie entre indice et participation globale impose le maintien d'un régime PRUDENT. Le portefeuille compte déjà ses 8 positions autorisées, toutes en tendance haussière confirmée et respectant scrupuleusement leurs plans d'invalidation, ce qui justifie une conservation intégrale sans prise de risque additionnelle.",
+ "resume_marche": "Le CAC 40 rebondit modérément de +0,68 % à 7 782,58 points, mais la largeur de marché demeure fragile avec seulement 32 % des valeurs de l'univers au-dessus de leur SMA 200 (état FAIBLE). Le portefeuille est au complet avec 8 positions ouvertes sur des dossiers solides en tendance de fond favorable, et dispose de 4 312,62 EUR de cash (part investie 55,2 %). La discipline recommande de maintenir l'ensemble des positions existantes sans rotation forcée.",
  "signaux": [
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Euronext progresse de 1,61 % à 164,30 EUR, se situant à seulement -0,60 % de son plus haut à 52 semaines (165,30 EUR). Sa tendance HAUSSE_CONFIRMEE reste solide avec un cours situé à +14,67 % de la SMA 200 (143,27 EUR) et un RSI 14 équilibré à 62,9.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Euronext progresse de +1,42 % ce jour à 164,00 EUR, se rapprochant de son plus haut sur 52 semaines (165,30 EUR, distance -0,79 %). La valeur conserve une tendance HAUSSE_CONFIRMEE avec un écart à la SMA200 de +14,47 % et un RSI 14 non saturé à 62,3.",
+   "prix_entree": 164,
+   "stop_perte": 149,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 13,
+   "invalidation": "Cassure en clôture sous le support des 155 EUR."
   },
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
    "confiance": 80,
-   "justification": "Safran gagne 1,58 % à 315,70 EUR et préserve son support majeur autour de la SMA 200 à 317,50 EUR (écart de -0,57 %), bien au-dessus du stop à 298 EUR. La configuration de fond reste en HAUSSE_CONFIRMEE avec une pente positive (+1,06 %) et un RSI 14 assaini à 34,9.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Safran rebondit de +0,93 % à 313,70 EUR au contact de sa SMA200 à 317,49 EUR (écart -1,19 %) avec un RSI 14 assaini à 32,2 en tendance HAUSSE_CONFIRMEE. Les commentaires positifs de Jefferies relayés dans l'actualité soutiennent la thèse de swing.",
+   "prix_entree": 313.7,
+   "stop_perte": 298,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 10,
+   "invalidation": "Enfoncement net et durable sous 298 EUR."
   },
   {
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Eurofins avance de 0,98 % à 76,44 EUR (+8,12 % sur 20 jours) en tendance HAUSSE_CONFIRMEE (+2,54 % de pente). Le cours se maintient confortablement au-dessus de la SMA 50 (73,15 EUR) et de la SMA 200 (67,43 EUR) avec un RSI équilibré à 44,5.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Eurofins gagne +0,71 % à 76,24 EUR en tendance HAUSSE_CONFIRMEE, évoluant largement au-dessus de sa SMA200 (+13,07 %) et SMA50 (+4,23 %). La confiance est étayée par l'achat d'actions par une entité du PDG signalé ce matin dans les actualités.",
+   "prix_entree": 76.24,
+   "stop_perte": 68.5,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 12,
+   "invalidation": "Rupture de la SMA50 sous 71,50 EUR."
   },
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "JCDecaux progresse de 2,34 % à 24,50 EUR en tendance HAUSSE_CONFIRMEE avec une forte pente de SMA 200 (+4,96 %) et un écart de +23,31 % sur sa moyenne longue (19,87 EUR). Le dossier bénéficie d'un flux d'actualités favorable sur son empreinte mondiale tandis que le RSI reste modéré à 45,3.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "JCDecaux accélère de +2,51 % à 24,54 EUR, confirmant sa tendance HAUSSE_CONFIRMEE (+23,51 % d'écart sur la SMA200 à 19,87 EUR et pente SMA200 de +4,96 %). Le RSI à 46,0 offre une marge de progression saine.",
+   "prix_entree": 24.54,
+   "stop_perte": 22.2,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 11,
+   "invalidation": "Cassure de la SMA50 sous 23,80 EUR."
   },
   {
    "symbole": "ITP.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Interparfums cote 30,56 EUR (+1,33 % sur la séance et +8,14 % sur 20 jours), à proximité immédiate de son plus haut annuel à 30,94 EUR (écart -1,23 %). La valeur évolue en tendance HAUSSE_CONFIRMEE (+2,52 % de pente) avec un RSI non suracheté à 55,4.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Interparfums affiche une progression de +0,86 % à 30,42 EUR (+7,64 % sur 20 jours) en tendance HAUSSE_CONFIRMEE avec des moyennes mobiles bien orientées (SMA50 à 27,85 EUR, SMA200 à 24,61 EUR). Le RSI 14 à 54,4 témoigne d'un momentum équilibré.",
+   "prix_entree": 30.42,
+   "stop_perte": 27,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 11,
+   "invalidation": "Clôture sous 28,00 EUR invalidant le palier haussier."
   },
   {
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Air Liquide cote 169,44 EUR (+0,89 % ce jour), au-dessus de sa SMA 20 (167,74 EUR) et de sa SMA 200 (162,95 EUR, écart +3,98 %) en HAUSSE_CONFIRMEE. La position bénéficie du catalyseur industriel confirmé dans les actualités avec l'investissement de 50 millions d'euros sur son site de Montoir-de-Bretagne.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Air Liquide reprend +0,86 % à 169,38 EUR, repassant au-dessus de ses SMA20 (167,73 EUR) et SMA50 (168,94 EUR) en tendance HAUSSE_CONFIRMEE (+3,94 % sur la SMA200). L'investissement de 50 millions d'euros à Montoir cité dans les actualités renforce la thèse industrielle.",
+   "prix_entree": 169.38,
+   "stop_perte": 161.5,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 12,
+   "invalidation": "Enfoncement du support graphique et stop à 161,50 EUR."
   },
   {
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Getlink cote 18,76 EUR (+0,11 % ce jour, +1,68 % sur 20 jours) en HAUSSE_CONFIRMEE au-dessus de sa SMA 200 à 18,19 EUR (+3,11 %). Sa faible volatilité annualisée (13,1 %) et son RSI neutre à 54,1 confirment la solidité défensive de la position.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "Getlink avance de +0,37 % à 18,81 EUR avec une volatilité très contenue (13,1 %), positionné au-dessus de sa SMA50 (18,65 EUR) et SMA200 (18,19 EUR). La tendance HAUSSE_CONFIRMEE et la solidité défensive du titre restent intactes.",
+   "prix_entree": 18.81,
+   "stop_perte": 17.5,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 10,
+   "invalidation": "Cassure confirmée de la SMA200 sous 17,90 EUR."
   },
   {
    "symbole": "TTE.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "TotalEnergies se maintient à 76,76 EUR (+3,09 % sur 5 jours), solidement ancré au-dessus de sa SMA 200 à 72,12 EUR (écart +6,44 %) avec une pente positive de +3,15 % en HAUSSE_CONFIRMEE et un RSI sain à 43,8.",
-   "prix_entree": null,
-   "stop_perte": null,
+   "justification": "TotalEnergies se maintient à 77,28 EUR au-dessus de sa SMA50 (77,02 EUR) et de sa SMA200 (72,12 EUR, écart +7,15 %) en tendance HAUSSE_CONFIRMEE. Les grèves locales dans quelques stations mentionnées dans les actualités ne remettent aucunement en cause la rentabilité globale du groupe.",
+   "prix_entree": 77.28,
+   "stop_perte": 70.5,
    "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "taille_pct": 11,
+   "invalidation": "Clôture sous le support des 73 EUR."
   }
  ],
  "signaux_ecartes": [],
@@ -102,11 +102,11 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 25,
-  "nbPassages": 71,
-  "equity": 9623.12,
-  "perfPct": -3.77,
-  "cacPerfPct": -4.02,
-  "alphaPct": 0.25,
+  "nbPassages": 72,
+  "equity": 9621.89,
+  "perfPct": -3.78,
+  "cacPerfPct": -4.13,
+  "alphaPct": 0.35,
   "maxDrawdownPct": -4.2,
   "sharpe": null,
   "expositionPct": 55.2,
@@ -133,7 +133,7 @@
     "nbEvalues": 0,
     "tauxReussitePct": null,
     "alphaMoyen1mPct": null,
-    "alphaMoyen1sPct": -1.01
+    "alphaMoyen1sPct": -0.59
    },
    "ventes": {
     "nb": 6,
@@ -160,7 +160,7 @@
   }
  },
  "stats": {
-  "equity": 9623.12,
+  "equity": 9621.89,
   "cash": 4312.62,
   "nbPositions": 8
  }
