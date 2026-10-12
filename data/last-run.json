@@ -1,17 +1,17 @@
 {
- "date": "2026-10-09T15:20:41.456Z",
- "dureeS": 86,
+ "date": "2026-10-12T07:20:40.551Z",
+ "dureeS": 103,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 progresse de +0,96 % a 7 804,17 points dans une seance de rebond, mais la largeur de marche demeure fragile avec seulement 32 % des valeurs au-dessus de leur moyenne mobile 200 jours (etat FAIBLE). Dans ce contexte incertain imposant la prudence, le portefeuille est integralement alloue sur 8 lignes de qualite affichant toutes une tendance HAUSSE_CONFIRMEE. Aucune cession ne s'avere necessaire, toutes les positions respectant scrupuleusement leur cadre strategique et leurs seuils d'invalidation.",
+ "resume_marche": "Le CAC 40 ouvre en hausse de +0,41 % à 7 835,18 points dans un climat d'attente des premiers résultats du troisième trimestre et de stabilisation pétrolière. La largeur du marché demeure toutefois fragile avec seulement 32,8 % des valeurs au-dessus de leur moyenne mobile 200 jours (état FAIBLE), ce qui impose le maintien d'un régime PRUDENT. Le portefeuille compte déjà 8 positions (plafond réglementaire atteint), toutes ancrées en tendance HAUSSE_CONFIRMEE et résilientes face au marché. La discipline exige de maintenir l'intégralité des positions sans engager de rotation superflue génératrice de frais.",
  "signaux": [
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Euronext confirme sa vigueur (+1,11 % ce jour, +3,35 % sur 20 jours) en tendance HAUSSE_CONFIRMEE avec une pente de +2,39 %, au-dessus de sa SMA50 (160,65 EUR) et de sa SMA200 (143,27 EUR). Le RSI 14 a 61,2 reste dans une zone saine et la performance a 126 jours (+12,76 %) confirme la solidite de la position.",
+   "justification": "Euronext consolide à proximité immédiate de son plus haut 52 semaines (164,5 EUR, soit -0,48 % du sommet à 165,3 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,41 %, écart SMA200 +14,67 %). Le RSI14 à 68,3 et la progression de +1,67 % sur 5 jours valident la poursuite de la dynamique haussière.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -22,7 +22,7 @@
    "symbole": "SAF.PA",
    "action": "CONSERVER",
    "confiance": 81,
-   "justification": "Safran rebondit de +1,48 % en seance au contact direct de sa SMA200 a 317,50 EUR, avec un RSI 14 assaini a 34,5 en tendance HAUSSE_CONFIRMEE (+1,05 % de pente). Le titre beneficie de deux catalyseurs tangibles dans l'actualite : un partenariat strategique avec EDGE pour des missiles au Bresil et un contrat de defense pour la fourniture de parachutes. Le stop a 298 EUR est preserve.",
+   "justification": "Safran teste le support technique de sa SMA200 (317,62 EUR, écart -0,07 %) tout en restant largement au-dessus du stop de protection fixé à 298 EUR. La tendance de fond demeure HAUSSE_CONFIRMEE (pente +1,04 %, chg126d +6,44 %) et le RSI14 à 35,5 indique une stabilisation en cours.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -33,7 +33,7 @@
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Eurofins Scientific progresse de +1,56 % a 76,88 EUR (+8,74 % sur 20 jours) en tendance HAUSSE_CONFIRMEE, nettement au-dessus de sa SMA50 (73,16 EUR) et de sa SMA200 (67,43 EUR). L'actualite confirme des achats d'actions par une entite controlee par le PDG et le RSI 14 demeure equilibre a 46,1.",
+   "justification": "Eurofins confirme sa force relative (+7,51 % sur 20j et +2,70 % sur 5j à 77,58 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,56 %, écart SMA200 +14,92 %). Le titre évolue à seulement -1,75 % de son plus haut 52 semaines avec un RSI14 équilibré à 45,4.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -44,7 +44,7 @@
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "JCDecaux bondit de +3,01 % ce jour a 24,66 EUR en tendance HAUSSE_CONFIRMEE tres dynamique (pente de +4,97 %, ecart a la SMA200 de +24,11 %, chg126d a +26,46 %). Le dossier est appuye par la confirmation de la recommandation a l'achat de Berenberg et presente un RSI 14 neutre a 48,1.",
+   "justification": "JCDecaux progresse de +1,06 % à 24,86 EUR, soutenu par l'annonce d'un programme de rachat d'actions cité dans les actualités. La configuration reste solidement orientée en HAUSSE_CONFIRMEE (pente +4,95 %, écart SMA200 +24,82 %) avec un RSI14 sain à 46,0.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -55,7 +55,7 @@
    "symbole": "ITP.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Interparfums gagne +1,72 % ce jour a 30,68 EUR et +8,56 % sur 20 jours, a seulement -0,84 % de son plus haut sur 52 semaines (30,94 EUR). La configuration technique est robuste en HAUSSE_CONFIRMEE (+24,68 % au-dessus de la SMA200 a 24,61 EUR) avec un RSI 14 maitrise a 56,3.",
+   "justification": "Interparfums préserve ses gains (+5,63 % sur 20j, +32,47 % sur 126j) au-dessus de sa SMA20 (29,92 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,53 %, écart SMA200 +23,31 %). Le RSI14 à 44,7 est équilibré et le stop à 27 EUR n'est nullement menacé.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -66,7 +66,7 @@
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Air Liquide reprend +1,18 % a 169,92 EUR et repasse au-dessus de sa SMA20 (167,76 EUR) et de sa SMA50 (168,95 EUR) en tendance HAUSSE_CONFIRMEE (+4,27 % sur la SMA200). La valeur est confortee par l'annonce d'un investissement industriel de 50 millions d'euros sur son site de Montoir-de-Bretagne face a une demande soutenue.",
+   "justification": "Air Liquide se maintient au-dessus de sa SMA200 à 163,07 EUR (écart +3,73 %) et de sa SMA20 (167,86 EUR) en tendance HAUSSE_CONFIRMEE, bien au-delà du stop à 161,5 EUR. L'annonce d'un investissement industriel de plus de 170 M€ au Japon conforte les perspectives fondamentales.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -77,7 +77,7 @@
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Getlink s'apprecie de +0,37 % a 18,81 EUR (+1,95 % sur 20 jours) en tendance HAUSSE_CONFIRMEE, installant son cours au-dessus de sa SMA50 (18,65 EUR) et de sa SMA200 (18,19 EUR) avec une volatilite tres contenue de 13,1 %. L'actualite confirme la progression du fret routier sur Eurotunnel malgre le contexte petrolier.",
+   "justification": "Getlink progresse de +0,75 % à 18,88 EUR (+1,94 % sur 5j) en tendance HAUSSE_CONFIRMEE (pente +1,75 %, écart SMA200 +3,68 %) avec une volatilité très modérée à 13,2 %. Le flux d'actualités confirme la poursuite du mouvement haussier.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -88,7 +88,7 @@
    "symbole": "TTE.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "TotalEnergies avance de +1,26 % a 78,56 EUR (+5,51 % sur 5 jours), confortant son avance au-dessus de sa SMA50 (77,04 EUR) et SMA200 (72,13 EUR) en tendance HAUSSE_CONFIRMEE (+3,16 % de pente). L'annonce d'un contrat DrillPlan de 15 ans avec SLB securise la these de fond malgre les tensions sociales temporaires en raffineries.",
+   "justification": "TotalEnergies consolide de façon constructive à 78,40 EUR (+3,43 % sur 5j) nettement au-dessus de sa SMA200 (72,24 EUR, écart +8,53 %) en tendance HAUSSE_CONFIRMEE (+3,15 % de pente). L'extension de sa coentreprise américaine avec KKR (portefeuille de 700 MW) et la tenue des cours pétroliers confortent la position.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -101,15 +101,15 @@
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
-  "ageJours": 25,
-  "nbPassages": 74,
-  "equity": 9652.01,
-  "perfPct": -3.48,
-  "cacPerfPct": -3.86,
-  "alphaPct": 0.38,
+  "ageJours": 27,
+  "nbPassages": 75,
+  "equity": 9661.88,
+  "perfPct": -3.38,
+  "cacPerfPct": -3.48,
+  "alphaPct": 0.1,
   "maxDrawdownPct": -4.2,
-  "sharpe": null,
-  "expositionPct": 55.3,
+  "sharpe": -6.68,
+  "expositionPct": 55.4,
   "trades": {
    "nbAchats": 14,
    "nbSolde": 6,
@@ -133,7 +133,7 @@
     "nbEvalues": 0,
     "tauxReussitePct": null,
     "alphaMoyen1mPct": null,
-    "alphaMoyen1sPct": -0.95
+    "alphaMoyen1sPct": -1.15
    },
    "ventes": {
     "nb": 6,
@@ -147,7 +147,7 @@
   "verdict": {
    "etat": "PAS_ENCORE_CONCLUANT",
    "raisons": [
-    "il faut 90 jours de recul (actuellement 25)",
+    "il faut 90 jours de recul (actuellement 27)",
     "il faut 20 positions soldees (actuellement 6)"
    ],
    "criteres": {
@@ -160,7 +160,7 @@
   }
  },
  "stats": {
-  "equity": 9652.01,
+  "equity": 9661.88,
   "cash": 4312.62,
   "nbPositions": 8
  }
