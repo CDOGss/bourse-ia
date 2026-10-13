@@ -1,99 +1,99 @@
 {
- "date": "2026-10-12T15:20:39.670Z",
- "dureeS": 55,
+ "date": "2026-10-13T07:20:39.582Z",
+ "dureeS": 89,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 progresse modestement de +0,30 % a 7 826,81 points, mais la largeur de marche demeure tres degradee avec seulement 31,1 % des valeurs au-dessus de leur SMA 200 (etat FAIBLE). Dans cet environnement fragile, le portefeuille est deja sature a son plafond de 8 positions, toutes ancrees en tendance HAUSSE_CONFIRMEE. Aucune invalidation technique ni deterioration fondamentale n'etant relevee sur les lignes detenues, le maintien integral des positions s'impose.",
+ "resume_marche": "Le CAC 40 enregistre une modeste hausse de +0,43 % a 7 866,35 points, mais la largeur de marche demeure FAIBLE avec seulement 34,4 % des 122 valeurs au-dessus de leur SMA200, signalant une fragilite sous-jacente persistante. Dans ce contexte ou les tensions sur les taux souverains incitent a la vigilance, le regime PRUDENT reste rigoureusement de mise. Le portefeuille etant pleinement deploye sur huit positions solides toutes en tendance HAUSSE_CONFIRMEE et fidele a leurs objectifs, la bonne conduite consiste a conserver l integralite des lignes sans forcer de rotation.",
  "signaux": [
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Euronext cloture sur son plus haut 52 semaines a 165,80 EUR (+1,34 % sur 1j) en tendance HAUSSE_CONFIRMEE (pente SMA 200 +2,42 %, ecart SMA 200 +15,57 %, chg126d +12,48 %). La dynamique reste puissante avec un PnL positif de +2,6 % et un stop a 149 EUR pleinement securise.",
-   "prix_entree": 165.8,
-   "stop_perte": 149,
+   "justification": "Euronext touche un nouveau plus haut sur 52 semaines a 167,10 EUR (+2,14 % ce jour, +13,36 % sur 126j) en tendance HAUSSE_CONFIRMEE (pente +2,42 %). Malgre un RSI14 a 72,5 en surachat, la force relative reste intacte au-dessus de la SMA50 a 160,82 EUR et la position en gain de +3,4 % reste pleinement protegee par le stop a 149 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 11,
-   "invalidation": "Cassure confirmee sous le support des 155 EUR"
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Safran teste avec succes le support majeur de sa SMA 200 a 317,62 EUR (ecart -0,07 %, cours a 317,40 EUR) avec un RSI 14 assaini a 35,5 en tendance HAUSSE_CONFIRMEE (chg126d +6,44 %). Les actualites confirment l'acceleration industrielle du groupe au Maroc et le stop a 298 EUR est preserve.",
-   "prix_entree": 317.4,
-   "stop_perte": 298,
+   "justification": "Safran stabilise ses cours a 318,60 EUR (+0,76 % sur 1 jour) et confirme le support clef de sa SMA200 a 317,62 EUR (ecart +0,31 %) en tendance de fond HAUSSE_CONFIRMEE. Avec un RSI14 assaini a 37,0 et des actualites favorables sur l expansion industrielle au Maroc, la these de rebond reste valable au-dessus du stop a 298 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Rupture confirmee sous le seuil technique des 298 EUR"
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Eurofins Scientific maintient sa trajectoire a 77,46 EUR (+0,44 % sur 1j, +7,34 % sur 20j), a proximite immediate de son sommet annuel (dist_plus_haut_52s_pct -1,90 %). Le dossier evolue nettement au-dessus de sa SMA 200 a 67,51 EUR (+14,74 %) en tendance HAUSSE_CONFIRMEE avec un RSI sain a 44,9.",
-   "prix_entree": 77.46,
-   "stop_perte": 68.5,
+   "justification": "Eurofins Scientific progresse a 78,18 EUR (+1,37 % ce jour, +8,34 % sur 20j), se positionnant a seulement 0,99 % de son plus haut 52 semaines. La tendance reste puissamment HAUSSE_CONFIRMEE (+15,80 % au-dessus de la SMA200) avec un RSI14 equilibre a 47,5 qui laisse une belle marge d appreciation vers l objectif de 85,74 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 11,
-   "invalidation": "Cloture sous la SMA 50 a 73,36 EUR"
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "JCDecaux conforte sa structure haussiere a 24,80 EUR (+0,81 % sur 1j, chg126d +25,00 %) avec une avancee marquee de +24,52 % sur sa SMA 200 a 19,92 EUR. La valeur beneficie d'un catalyseur fort annonce ce jour avec le lancement d'un programme de rachat d'actions (L'Agefi).",
-   "prix_entree": 24.8,
-   "stop_perte": 22.2,
+   "justification": "JCDecaux montre une belle tenue a 24,96 EUR (+1,46 % ce jour, +25,81 % sur 126j) en tendance HAUSSE_CONFIRMEE avec une pente vigoureuse de +4,95 %. Le titre evolue solidement au-dessus de sa SMA50 a 24,32 EUR et le RSI14 a 47,7 confirme l absence de surchauffe.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Enfoncement des 23,00 EUR invalidant la dynamique de moyen terme"
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "ITP.PA",
    "action": "CONSERVER",
-   "confiance": 84,
-   "justification": "Interparfums confirme sa tres forte vigueur relative a 30,74 EUR, a seulement 0,65 % de son plus haut 52 semaines (30,94 EUR), avec une performance sur six mois remarquable (chg126d +34,04 %). La tendance HAUSSE_CONFIRMEE reste intacte au-dessus de la SMA 50 a 27,97 EUR et du stop a 27 EUR.",
-   "prix_entree": 30.74,
-   "stop_perte": 27,
+   "confiance": 85,
+   "justification": "Interparfums inscrit un nouveau plus haut a 31,16 EUR (+1,96 % sur la seance, +35,87 % sur 126j) en tendance HAUSSE_CONFIRMEE. Les moyennes mobiles sont idealement orientees (SMA50 a 27,98 EUR, SMA200 a 24,64 EUR) et le RSI14 a 51,9 valide la continuation vers l objectif de 34,43 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 9,
-   "invalidation": "Cassure baissiere sous les 27,50 EUR"
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Air Liquide consolide a 169,28 EUR mais preserve son socle technique au-dessus des SMA 20 (167,87 EUR), SMA 50 (168,92 EUR) et SMA 200 (163,07 EUR, ecart +3,81 %). Le titre dispose d'un soutien fondamental confirme par l'optimisme de Bernstein cite dans les actualites, avec un stop a 161,50 EUR intact.",
-   "prix_entree": 169.28,
-   "stop_perte": 161.5,
+   "justification": "Air Liquide poursuit sa reprise a 170,02 EUR (+0,20 % sur 1 jour, +1,88 % sur 20j) repassant au-dessus de sa SMA20 a 167,90 EUR et SMA50 a 168,94 EUR. La tendance reste HAUSSE_CONFIRMEE (+4,26 % sur SMA200) confortee par les investissements annonces dans les puces IA et la hausse de capacite a Montoir.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 9,
-   "invalidation": "Perte du support graphique des 161,50 EUR"
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Getlink poursuit son ascension a 18,94 EUR (+1,07 % sur 1j, +3,10 % sur 20j) avec une volatilite annualisee tres faible de 13,4 %. Le flux acheteur est confirme par l'actualite technique (Boursorama), le titre evoluant confortablement au-dessus de sa SMA 200 a 18,21 EUR (+4,01 %).",
-   "prix_entree": 18.94,
-   "stop_perte": 17.5,
+   "justification": "Getlink fait preuve d une remarquable solidite a 18,97 EUR (+1,23 % ce jour, +3,27 % sur 20j) en tendance HAUSSE_CONFIRMEE avec une volatilite tres contenue a 13,6 %. Le titre se maintient au-dessus de sa SMA50 a 18,66 EUR et de sa SMA200 a 18,21 EUR avec un RSI14 sain a 60,3.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 9,
-   "invalidation": "Cloture sous la SMA 200 a 18,20 EUR"
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "TTE.PA",
    "action": "CONSERVER",
-   "confiance": 84,
-   "justification": "TotalEnergies enregistre une progression de +4,06 % sur 5 jours a 78,88 EUR, a seulement 2,68 % de son sommet annuel (81,05 EUR). La tendance HAUSSE_CONFIRMEE s'appuie sur une pente de +3,15 % et un ecart de +9,19 % a la SMA 200 (72,24 EUR), soutenue par la fermete des cours petroliers.",
-   "prix_entree": 78.88,
-   "stop_perte": 70.5,
+   "confiance": 85,
+   "justification": "TotalEnergies continue d avancer a 79,18 EUR (+0,83 % sur la seance, +4,46 % sur 5j) en tendance HAUSSE_CONFIRMEE (pente SMA200 +3,15 %, ecart +9,60 %). Le partenariat solaire de 700 MW avec KKR aux Etats-Unis confirme les catalyseurs fondamentaux tandis que le RSI14 reste neutre a 53,4.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 9,
-   "invalidation": "Retour sous la SMA 50 a 77,09 EUR"
+   "taille_pct": null,
+   "invalidation": null
   }
  ],
  "signaux_ecartes": [],
@@ -102,14 +102,14 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 28,
-  "nbPassages": 79,
-  "equity": 9679.86,
-  "perfPct": -3.2,
-  "cacPerfPct": -3.58,
-  "alphaPct": 0.38,
+  "nbPassages": 80,
+  "equity": 9715.79,
+  "perfPct": -2.84,
+  "cacPerfPct": -3.1,
+  "alphaPct": 0.26,
   "maxDrawdownPct": -4.2,
-  "sharpe": -6.17,
-  "expositionPct": 55.4,
+  "sharpe": -5.1,
+  "expositionPct": 55.6,
   "trades": {
    "nbAchats": 14,
    "nbSolde": 6,
@@ -160,7 +160,7 @@
   }
  },
  "stats": {
-  "equity": 9679.86,
+  "equity": 9715.79,
   "cash": 4312.62,
   "nbPositions": 8
  }
