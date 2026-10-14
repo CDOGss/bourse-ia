@@ -1,17 +1,17 @@
 {
- "date": "2026-10-14T07:20:42.273Z",
- "dureeS": 47,
+ "date": "2026-10-14T09:20:40.242Z",
+ "dureeS": 79,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 progresse moderement de 0,46 % a 7863,68 points, mais la largeur de marche demeure degradee avec seulement 34,4 % des valeurs de l univers au-dessus de leur moyenne mobile 200 jours, justifiant le maintien d un regime PRUDENT. Le portefeuille compte actuellement 8 positions ouvertes sur un plafond reglementaire de 8, representant une part investie de 55,6 %. L ensemble des theses fondamentales et techniques etant preserve sans franchissement de seuil d invalidation, la conservation integrale des positions est appliquee sans arbitrage.",
+ "resume_marche": "Le CAC 40 progresse moderement de +0,65 % a 7 878,90 points, mais la largeur de marche demeure FAIBLE avec seulement 34,4 % des valeurs au-dessus de leur SMA 200 jours. Dans un contexte de prudence avant la publication de l inflation americaine, l environnement reste selectif et fragile. Le portefeuille etant deja investi a 55,6 % sur 8 positions conformes aux limites reglementaires, la discipline commande de conserver l integralite des lignes dont les configurations techniques et les catalyseurs restent valides.",
  "signaux": [
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Euronext consolide sur des niveaux eleves a 165,40 EUR, a seulement -0,18 % de son plus haut annuel a 165,70 EUR. La tendance reste HAUSSE_CONFIRMEE avec une pente a +2,46 % et un cours nettement au-dessus de la SMA200 a 143,65 EUR (+15,14 %) et de la SMA50 a 160,96 EUR (+2,76 %).",
+   "justification": "Euronext cote 164,50 EUR en seance (+1,17 % sur 5j) a proximite immediate de son plus haut annuel de 166,00 EUR (-0,90 %). La tendance reste HAUSSE_CONFIRMEE au-dessus de sa SMA200 a 143,84 EUR (+14,37 %) avec une volatilite moderee de 14,1 %.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -21,8 +21,8 @@
   {
    "symbole": "SAF.PA",
    "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "Safran cote 313,40 EUR (-3,0 % de pnl) en se maintenant au-dessus de son stop a 298 EUR. La valeur est survendue a court terme avec un RSI a 28,4 au contact de la SMA200 a 317,70 EUR, tandis que les annonces industrielles sur les bancs d essais moteurs Rafale a Istres soutiennent les perspectives de moyen terme.",
+   "confiance": 83,
+   "justification": "Safran rebondit de +1,34 % a 317,00 EUR et teste son support SMA200 a 317,80 EUR (-0,25 %) avec un RSI14 assaini a 34,4. Le dossier beneficie de l extension industrielle de son site de Temara annoncee ce jour dans les actualites en tendance HAUSSE_CONFIRMEE.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -33,7 +33,7 @@
    "symbole": "ERF.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Eurofins Scientific s apprete a tester son plus haut a 78,96 EUR (cours actuel 78,40 EUR, soit -0,71 %) avec un gain latent de 4,7 %. La tendance est HAUSSE_CONFIRMEE avec une pente a +2,57 %, un ecart SMA200 de +16,0 % et un RSI parfaitement equilibre a 58,6.",
+   "justification": "Eurofins Scientific consolide a 77,06 EUR (-1,78 % ce jour, +3,16 % sur 20j) au-dessus de ses moyennes SMA50 a 73,70 EUR (+4,56 %) et SMA200 a 67,66 EUR (+13,89 %). En tendance HAUSSE_CONFIRMEE avec un RSI14 a 47,4, la position est maintenue.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -44,7 +44,7 @@
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "JCDecaux s etablit a 24,96 EUR (+2,0 % de gain latent), tout proche de son sommet annuel de 25,26 EUR (-1,19 %). La configuration demeure solide en HAUSSE_CONFIRMEE avec une pente de +4,94 %, un ecart a la SMA200 de +25,02 % et un RSI modere a 47,7.",
+   "justification": "JCDecaux avance a 25,14 EUR (+0,40 % ce jour, +3,63 % sur 5j), a seulement -0,48 % de son plus haut 52 semaines (25,26 EUR). La dynamique HAUSSE_CONFIRMEE (pente +4,95 %, ecart SMA200 +25,61 %) demeure intacte avec un RSI14 equilibre a 58,9.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -55,7 +55,7 @@
    "symbole": "ITP.PA",
    "action": "CONSERVER",
    "confiance": 86,
-   "justification": "Interparfums signe un nouveau plus haut a 31,56 EUR (+2,80 % sur la seance et +5,0 % de pnl) en tendance HAUSSE_CONFIRMEE (ecart SMA200 a +27,89 %). Les catalyseurs restent favorables d apres les actualites recentes et le RSI14 a 57,6 temoigne d une dynamique reguliere sans surchauffe.",
+   "justification": "Interparfums inscrit un nouveau sommet 52 semaines a 31,78 EUR (+1,15 % ce jour, +10,42 % sur 20j), confortant le franchissement de resistance cite dans les actualites. En tendance HAUSSE_CONFIRMEE (ecart SMA200 +28,58 %) sans surachat (RSI14 a 60,1), la trajectoire reste excellente.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -65,8 +65,8 @@
   {
    "symbole": "AI.PA",
    "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "Air Liquide cote 169,74 EUR (+0,62 % ce jour), se tenant bien au-dessus de son niveau d invalidation a 161,50 EUR et de sa SMA200 a 163,19 EUR (+4,01 %). La tendance de fond demeure HAUSSE_CONFIRMEE (pente +1,38 %) et le titre beneficie d annonces industrielles majeures comme l extension de 50 % de sa production d azote a Saint-Nazaire.",
+   "confiance": 84,
+   "justification": "Air Liquide progresse a 169,56 EUR (+0,33 %), soutenu par la presentation d objectifs chiffres et le renforcement du retour aux actionnaires rapporte dans les actualites. Le cours evolue au-dessus de sa SMA50 a 168,77 EUR et de sa SMA200 a 163,31 EUR (+3,83 %).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -77,7 +77,7 @@
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Getlink cote 19,01 EUR (+1,4 % de plus-value latente) au-dessus de sa SMA20 a 18,62 EUR et de sa SMA200 a 18,23 EUR (+4,30 %). La valeur combine une tendance HAUSSE_CONFIRMEE, une faible volatilite annualisee (13,6 %) et un RSI equilibre a 58,8.",
+   "justification": "Getlink poursuit sa consolidation haussiere a 19,10 EUR (+0,26 % ce jour, +3,24 % sur 5j) en tendance HAUSSE_CONFIRMEE avec une volatilite tres faible de 13,6 %. Le titre conserve une assise solide sur sa SMA200 a 18,24 EUR (+4,70 %).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -87,8 +87,8 @@
   {
    "symbole": "TTE.PA",
    "action": "CONSERVER",
-   "confiance": 85,
-   "justification": "TotalEnergies se situe a 79,77 EUR (+1,0 % ce jour, gain latent de 4,0 %), a -1,58 % de son plus haut a 81,05 EUR. Le titre evolue en HAUSSE_CONFIRMEE (pente SMA200 a +3,15 %, cours au-dessus de la SMA200 a 72,36 EUR soit +10,24 %) avec un RSI neutre a 50,5.",
+   "confiance": 86,
+   "justification": "TotalEnergies cote 79,73 EUR a seulement -1,63 % de son plus haut 52 semaines, renforce par la decouverte de petrole et de gaz en mer du Nord avec Equinor relayee ce jour. La tendance reste HAUSSE_CONFIRMEE (pente +3,15 %, ecart SMA200 +10,00 %) avec un RSI14 a 44,9.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -101,12 +101,12 @@
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
-  "ageJours": 29,
-  "nbPassages": 85,
-  "equity": 9721.58,
+  "ageJours": 30,
+  "nbPassages": 86,
+  "equity": 9721.51,
   "perfPct": -2.78,
-  "cacPerfPct": -3.13,
-  "alphaPct": 0.35,
+  "cacPerfPct": -2.94,
+  "alphaPct": 0.16,
   "maxDrawdownPct": -4.2,
   "sharpe": -4.87,
   "expositionPct": 55.6,
@@ -147,7 +147,7 @@
   "verdict": {
    "etat": "PAS_ENCORE_CONCLUANT",
    "raisons": [
-    "il faut 90 jours de recul (actuellement 29)",
+    "il faut 90 jours de recul (actuellement 30)",
     "il faut 20 positions soldees (actuellement 6)"
    ],
    "criteres": {
@@ -160,7 +160,7 @@
   }
  },
  "stats": {
-  "equity": 9721.58,
+  "equity": 9721.51,
   "cash": 4312.62,
   "nbPositions": 8
  }
