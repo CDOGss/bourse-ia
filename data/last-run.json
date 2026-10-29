@@ -1,125 +1,104 @@
 {
- "date": "2026-10-29T08:20:41.948Z",
- "dureeS": 64,
+ "date": "2026-10-29T10:20:39.215Z",
+ "dureeS": 90,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 progresse de 0,71 % à 7943,04 points, mais la largeur de marché demeure fragile avec seulement 36,9 % des valeurs de l'univers au-dessus de leur SMA200 (état FAIBLE). Dans cet environnement d'ampleur limitée, la prudence s'impose : les positions existantes bien orientées sont maintenues et les nouveaux achats sont réservés à des dossiers démontrant une force relative indiscutable et des catalyseurs tangibles, avec des tailles de position réduites.",
+ "resume_marche": "Le CAC 40 rebondit de +1,07 % à 7 971,22 points, tiré par les publications trimestrielles de poids lourds comme TotalEnergies et Air Liquide. Toutefois, la largeur de marché reste FAIBLE avec seulement 36,1 % des 122 valeurs au-dessus de leur SMA 200, signalant une participation encore très sélective. Dans ce contexte d'écartement entre les indices et la santé globale de la cote, la gestion maintient une réserve de cash prudente (50,5 %) et conserve ses sept positions ouvertes dont les thèses fondamentales et techniques restent vigoureuses.",
  "signaux": [
-  {
-   "symbole": "AMUN.PA",
-   "action": "ACHAT",
-   "confiance": 84,
-   "justification": "Amundi bénéficie d'un catalyseur fondamental direct avec l'annonce ce jour de résultats T3 solides et d'un niveau record de 2600 MdEUR d'actifs sous gestion. Techniquement, le titre s'inscrit en tendance HAUSSE_CONFIRMEE (pente SMA200 à +2,02 %, chg126d +7,02 %) et consolide sainement au contact de sa SMA20 à 88,38 EUR avec un RSI14 non saturé à 61,6 et une volatilité maîtrisée à 21,9 %.",
-   "prix_entree": 89.2,
-   "stop_perte": 83.5,
-   "prise_profit": null,
-   "taille_pct": 8,
-   "invalidation": "Clôture sous la moyenne mobile 200 jours à 84,38 EUR invalidant la tendance haussière de fond."
-  },
-  {
-   "symbole": "MRN.PA",
-   "action": "ACHAT",
-   "confiance": 82,
-   "justification": "Mersen a relevé son objectif de croissance organique pour la deuxième fois de l'année, propulsant le cours de +13,79 % ce jour. La tendance est résolument HAUSSE_CONFIRMEE (pente +4,89 %, chg126d +22,01 %, cours à +24,09 % de la SMA200) avec un RSI14 remarquablement équilibré à 57,3 ; la taille est calibrée à 6 % compte tenu d'une volatilité annualisée de 69,4 %.",
-   "prix_entree": 42.58,
-   "stop_perte": 38,
-   "prise_profit": null,
-   "taille_pct": 6,
-   "invalidation": "Cassure en clôture du support technique formé par la zone des SMA20 et SMA50 sous 38,50 EUR."
-  },
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 86,
-   "justification": "Euronext affiche une performance latente de +9,6 % et évolue à 177,20 EUR, à proximité immédiate de son plus haut 52 semaines (178,10 EUR). La dynamique reste pleinement haussière en HAUSSE_CONFIRMEE (pente +3,04 %, chg126d +22,97 %), justifiant de laisser courir le gain vers la cible de 185,15 EUR.",
-   "prix_entree": 177.2,
+   "justification": "Euronext progresse de +1,02 % à 177,90 EUR, à quelques centimes de son plus haut à 52 semaines (178,10 EUR, dist -0,11 %). La tendance HAUSSE_CONFIRMEE demeure robuste (pente SMA 200 à +3,11 %, chg126d à +24,75 %), justifiant le maintien de la position vers l'objectif de 185,15 EUR.",
+   "prix_entree": 177.9,
    "stop_perte": 149,
-   "prise_profit": 185.15,
-   "taille_pct": 10,
-   "invalidation": "null"
+   "prise_profit": null,
+   "taille_pct": 8,
+   "invalidation": "Cassure en clôture sous le support des 169 EUR (SMA 20)"
   },
   {
    "symbole": "TTE.PA",
    "action": "CONSERVER",
-   "confiance": 87,
-   "justification": "TotalEnergies inscrit un nouveau plus haut 52 semaines à 84,14 EUR (+1,37 % en séance, +9,7 % de PnL) soutenu par la publication matinale de bénéfices records dopés par la conjoncture énergétique. La configuration est optimale en tendance HAUSSE_CONFIRMEE (+3,32 % de pente, +14,03 % au-dessus de la SMA200), guidant le titre vers son objectif de 87,87 EUR.",
-   "prix_entree": 84.14,
+   "confiance": 88,
+   "justification": "TotalEnergies gagne +1,61 % à 84,95 EUR, inscrivant un nouveau plus haut annuel grâce à des résultats T3 records (+124 % sur un an). La tendance HAUSSE_CONFIRMEE est particulièrement forte (pente +3,38 %, chg126d +10,68 %, écart SMA 200 +14,90 %), validant la poursuite vers l'objectif de 87,87 EUR.",
+   "prix_entree": 84.95,
    "stop_perte": 70.5,
-   "prise_profit": 87.87,
-   "taille_pct": 10,
-   "invalidation": "null"
+   "prise_profit": null,
+   "taille_pct": 8,
+   "invalidation": "Clôture sous les 78,60 EUR (SMA 50)"
   },
   {
    "symbole": "AI.PA",
    "action": "CONSERVER",
-   "confiance": 85,
-   "justification": "Air Liquide progresse de +2,29 % à 178,44 EUR, à seulement 1,03 % de son plus haut 52 semaines (180,30 EUR), confirmant la vigueur de ses ventes trimestrielles mentionnées dans les actualités. La tendance de fond HAUSSE_CONFIRMEE (pente +1,67 %, chg126d +9,39 %, écart SMA200 +8,26 %) valide le maintien rigoureux de la ligne.",
-   "prix_entree": 178.44,
+   "confiance": 86,
+   "justification": "Air Liquide accélère de +3,10 % à 179,64 EUR, salué par l'annonce de ventes soutenues par l'IA et d'un portefeuille de projets de 4 MdEUR. La dynamique haussière est pleinement validée en tendance HAUSSE_CONFIRMEE (chg126d +9,61 %, cours au-dessus de la SMA 50 à 169,84 EUR et SMA 200 à 164,99 EUR).",
+   "prix_entree": 179.64,
    "stop_perte": 161.5,
-   "prise_profit": 202.1,
-   "taille_pct": 10,
-   "invalidation": "null"
+   "prise_profit": null,
+   "taille_pct": 8,
+   "invalidation": "Retour sous le seuil technique des 172 EUR (SMA 20)"
   },
   {
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Getlink cote sur son plus haut annuel à 19,92 EUR (+6,3 % de gain) avec une volatilité très contenue (12,4 %). La tendance demeure HAUSSE_CONFIRMEE (+1,78 % de pente, cours +8,20 % au-dessus de la SMA200) et la reprise progressive du trafic transmanche confirme la validité de la thèse d'investissement.",
-   "prix_entree": 19.92,
+   "justification": "Getlink avance de +0,40 % à 19,86 EUR, frôlant son plus haut de 19,90 EUR (dist -0,20 %) avec une volatilité annuelle remarquable de seulement 11,5 %. La tendance HAUSSE_CONFIRMEE (pente +1,81 %, écart SMA 200 +7,77 %) conforte le cap fixé à 21,47 EUR.",
+   "prix_entree": 19.86,
    "stop_perte": 17.5,
-   "prise_profit": 21.47,
-   "taille_pct": 10,
-   "invalidation": "null"
+   "prise_profit": null,
+   "taille_pct": 8,
+   "invalidation": "Rupture de la SMA 50 à 18,84 EUR"
   },
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 80,
-   "justification": "Malgré un recul ponctuel à 24,22 EUR (-3,89 % sur la séance), JCDecaux conserve une marge substantielle au-dessus de son stop à 22,20 EUR et de sa SMA200 à 20,48 EUR (+18,25 %). La tendance de fond demeure solidement orientée en HAUSSE_CONFIRMEE (pente +4,76 %, chg126d +28,15 %) avec un RSI14 revenu à un niveau neutre de 52,6, ne remettant pas en cause la thèse.",
-   "prix_entree": 24.22,
+   "justification": "JCDecaux stabilise son cours à 24,24 EUR (+0,08 % ce jour) après les prises de bénéfices de la veille, restant confortablement ancré au-dessus de sa SMA 200 à 20,52 EUR (+18,11 %). La tendance HAUSSE_CONFIRMEE (pente +4,72 %, chg126d +29,63 %) et le RSI équilibré à 46,2 justifient la conservation au-dessus du stop de 22,20 EUR.",
+   "prix_entree": 24.24,
    "stop_perte": 22.2,
-   "prise_profit": 28.04,
-   "taille_pct": 10,
-   "invalidation": "null"
-  }
- ],
- "signaux_ecartes": [],
- "appliques": [
+   "prise_profit": null,
+   "taille_pct": 8,
+   "invalidation": "Clôture sous les 23,00 EUR"
+  },
   {
    "symbole": "AMUN.PA",
-   "nom": "Amundi",
-   "action": "ACHAT",
-   "shares": 8,
-   "prix": 89.2,
-   "montant": 716.45,
-   "motif": "Amundi bénéficie d'un catalyseur fondamental direct avec l'annonce ce jour de résultats T3 solides et d'un niveau record de 2600 MdEUR d'actifs sous gestion. Techniquement, le titre s'inscrit en tendance HAUSSE_CONFIRMEE (pente SMA200 à +2,02 %, chg126d +7,02 %) et consolide sainement au contact de sa SMA20 à 88,38 EUR avec un RSI14 non saturé à 61,6 et une volatilité maîtrisée à 21,9 %.",
-   "confiance": 84
+   "action": "CONSERVER",
+   "confiance": 84,
+   "justification": "Amundi valide sa dynamique d'entrée à 90,10 EUR (+0,90 % ce jour) dans le sillage de résultats T3 montrant une collecte soutenue et un record de 2 600 MdEUR d'encours. La tendance HAUSSE_CONFIRMEE (pente +2,00 %, chg126d +7,33 %, cours au-dessus de la SMA 200 à 84,46 EUR) reste pleinement directrice.",
+   "prix_entree": 90.1,
+   "stop_perte": 83.5,
+   "prise_profit": null,
+   "taille_pct": 8,
+   "invalidation": "Enfoncement des 84,00 EUR en clôture"
   },
   {
    "symbole": "MRN.PA",
-   "nom": "Mersen",
-   "action": "ACHAT",
-   "shares": 13,
-   "prix": 42.58,
-   "montant": 555.75,
-   "motif": "Mersen a relevé son objectif de croissance organique pour la deuxième fois de l'année, propulsant le cours de +13,79 % ce jour. La tendance est résolument HAUSSE_CONFIRMEE (pente +4,89 %, chg126d +22,01 %, cours à +24,09 % de la SMA200) avec un RSI14 remarquablement équilibré à 57,3 ; la taille est calibrée à 6 % compte tenu d'une volatilité annualisée de 69,4 %.",
-   "confiance": 82
+   "action": "CONSERVER",
+   "confiance": 83,
+   "justification": "Mersen consolide à 42,48 EUR après une envolée de +8,15 % consécutive au second relèvement de son objectif de croissance organique 2026. L'assise technique en tendance HAUSSE_CONFIRMEE (pente +4,80 %, chg126d +21,79 %, avance de +23,53 % sur la SMA 200) appuie la thèse haussière vers 48,97 EUR.",
+   "prix_entree": 42.48,
+   "stop_perte": 38,
+   "prise_profit": null,
+   "taille_pct": 8,
+   "invalidation": "Clôture sous les 39,00 EUR (SMA 50)"
   }
  ],
+ "signaux_ecartes": [],
+ "appliques": [],
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 45,
-  "nbPassages": 90,
-  "equity": 9965.42,
-  "perfPct": -0.35,
-  "cacPerfPct": -2.15,
-  "alphaPct": 1.81,
+  "nbPassages": 91,
+  "equity": 9984.75,
+  "perfPct": -0.15,
+  "cacPerfPct": -1.81,
+  "alphaPct": 1.65,
   "maxDrawdownPct": -4.2,
-  "sharpe": -0.2,
-  "expositionPct": 49.4,
+  "sharpe": -0.01,
+  "expositionPct": 49.5,
   "trades": {
    "nbAchats": 16,
    "nbSolde": 9,
@@ -170,7 +149,7 @@
   }
  },
  "stats": {
-  "equity": 9965.42,
+  "equity": 9984.75,
   "cash": 5046.22,
   "nbPositions": 7
  }
