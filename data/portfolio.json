@@ -14,7 +14,7 @@
    "nom": "Euronext",
    "shares": 4,
    "pmc": 161.64,
-   "price": 177.1,
+   "price": 176.8,
    "stop": 149,
    "target": 185.15,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -38,7 +38,7 @@
    "nom": "Air Liquide",
    "shares": 4,
    "pmc": 176.44,
-   "price": 178.3,
+   "price": 177.4,
    "stop": 161.5,
    "target": 202.1,
    "dateAchat": "2026-10-05T07:20:38.130Z",
@@ -62,7 +62,7 @@
    "nom": "TotalEnergies",
    "shares": 9,
    "pmc": 76.72,
-   "price": 84.73,
+   "price": 84.52,
    "stop": 70.5,
    "target": 87.87,
    "dateAchat": "2026-10-08T09:20:41.913Z",
@@ -74,7 +74,7 @@
    "nom": "Amundi",
    "shares": 8,
    "pmc": 89.56,
-   "price": 90.7,
+   "price": 90.9,
    "stop": 83.5,
    "target": 102.58,
    "dateAchat": "2026-10-29T08:20:41.948Z",
@@ -86,7 +86,7 @@
    "nom": "Mersen",
    "shares": 13,
    "pmc": 42.75,
-   "price": 42.44,
+   "price": 43.5,
    "stop": 38,
    "target": 48.97,
    "dateAchat": "2026-10-29T08:20:41.948Z",
@@ -936,6 +936,11 @@
    "date": "2026-10-29T14:20:40.911Z",
    "equity": 9968.59,
    "cac": 7993.66
+  },
+  {
+   "date": "2026-10-29T16:20:43.139Z",
+   "equity": 9977.28,
+   "cac": 7987.88
   }
  ],
  "signaux": [
@@ -7504,7 +7509,14 @@
     "cacChgPct": -2.4,
     "alphaPct": 0.29
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-10-29T16:20:43.139Z",
+    "jours": 30,
+    "prix": 281.3,
+    "chgPct": -16.45,
+    "cacChgPct": -0.81,
+    "alphaPct": -15.65
+   },
    "solde": null
   },
   {
@@ -7527,7 +7539,14 @@
     "cacChgPct": -2.4,
     "alphaPct": 1.51
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-10-29T16:20:43.139Z",
+    "jours": 30,
+    "prix": 86.78,
+    "chgPct": 13.14,
+    "cacChgPct": -0.81,
+    "alphaPct": 13.95
+   },
    "solde": null
   },
   {
@@ -7550,7 +7569,14 @@
     "cacChgPct": -2.4,
     "alphaPct": 0.15
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-10-29T16:20:43.139Z",
+    "jours": 30,
+    "prix": 24.04,
+    "chgPct": -3.53,
+    "cacChgPct": -0.81,
+    "alphaPct": -2.72
+   },
    "solde": null
   },
   {
@@ -7573,7 +7599,14 @@
     "cacChgPct": -2.4,
     "alphaPct": 4.64
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-10-29T16:20:43.139Z",
+    "jours": 30,
+    "prix": 176.8,
+    "chgPct": 9.95,
+    "cacChgPct": -0.81,
+    "alphaPct": 10.76
+   },
    "solde": null
   },
   {
@@ -7596,7 +7629,14 @@
     "cacChgPct": -2.4,
     "alphaPct": 1.09
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-10-29T16:20:43.139Z",
+    "jours": 30,
+    "prix": 99.4,
+    "chgPct": 3.46,
+    "cacChgPct": -0.81,
+    "alphaPct": 4.26
+   },
    "solde": null
   },
   {
@@ -7619,7 +7659,14 @@
     "cacChgPct": -2.4,
     "alphaPct": -1.69
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-10-29T16:20:43.139Z",
+    "jours": 30,
+    "prix": 58,
+    "chgPct": 3.02,
+    "cacChgPct": -0.81,
+    "alphaPct": 3.83
+   },
    "solde": null
   },
   {
@@ -7642,7 +7689,14 @@
     "cacChgPct": -2.4,
     "alphaPct": -0.29
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-10-29T16:20:43.139Z",
+    "jours": 30,
+    "prix": 239.5,
+    "chgPct": 5.55,
+    "cacChgPct": -0.81,
+    "alphaPct": 6.36
+   },
    "solde": null
   },
   {
@@ -7665,7 +7719,14 @@
     "cacChgPct": -2.4,
     "alphaPct": -3
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-10-29T16:20:43.139Z",
+    "jours": 30,
+    "prix": 63.13,
+    "chgPct": -11.05,
+    "cacChgPct": -0.81,
+    "alphaPct": -10.24
+   },
    "solde": null
   },
   {
@@ -17611,6 +17672,118 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "JCDecaux cote 24,04 EUR (-0,74 % ce jour) et stabilise sa respiration apres le reflux de la veille (-3,89 %). Le titre demeure tres nettement au-dessus de sa SMA200 a 20,52 EUR (+17,15 %) au sein d une tendance HAUSSE_CONFIRMEE robuste (pente +4,71 %, chg126d +28,56 %) avec un seuil d invalidation a",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-291620-TTE.PA-0",
+   "date": "2026-10-29T16:20:43.139Z",
+   "symbole": "TTE.PA",
+   "nom": "TotalEnergies",
+   "action": "CONSERVER",
+   "confiance": 88,
+   "prixSignal": 84.52,
+   "cacAuSignal": 7987.88,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "TotalEnergies progresse a 84,52 EUR (+1,10 % ce jour, +13,43 % sur 20j, +10,12 % sur 126j) sur son plus haut 52 semaines en tendance HAUSSE_CONFIRMEE (pente +3,38 %). Les ambitions gazières aux USA rapportees par Boursier.com confortent la marche vers l objectif de 87,87 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-291620-ENX.PA-1",
+   "date": "2026-10-29T16:20:43.139Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "CONSERVER",
+   "confiance": 86,
+   "prixSignal": 176.8,
+   "cacAuSignal": 7987.88,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Euronext cote 176,80 EUR (+0,40 % ce jour, +23,98 % sur 126j) en tendance HAUSSE_CONFIRMEE avec un ecart SMA200 de +20,61 % et une pente de +3,11 %. La ligne affiche +9,4 % de gain et s approche de l objectif fixe a 185,15 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-291620-AI.PA-2",
+   "date": "2026-10-29T16:20:43.139Z",
+   "symbole": "AI.PA",
+   "nom": "Air Liquide",
+   "action": "CONSERVER",
+   "confiance": 86,
+   "prixSignal": 177.4,
+   "cacAuSignal": 7987.88,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Air Liquide cote 177,40 EUR (+1,81 % ce jour, +8,24 % sur 126j) en tendance HAUSSE_CONFIRMEE au-dessus de sa SMA200 a 164,98 EUR (+7,53 %). Le demarrage effectif du rachat d actions pour 1 MdEUR rapporte par Les Echos consolide le dossier.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-291620-GET.PA-3",
+   "date": "2026-10-29T16:20:43.139Z",
+   "symbole": "GET.PA",
+   "nom": "Getlink",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "prixSignal": 19.76,
+   "cacAuSignal": 7987.88,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Getlink cote 19,76 EUR (-0,10 % ce jour, +8,57 % sur 20j) en tendance HAUSSE_CONFIRMEE (pente +1,80 %, ecart SMA200 +7,23 %) avec une volatilite tres faible de 11,7 %. La trajectoire vers l objectif de 21,47 EUR reste intacte.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-291620-AMUN.PA-4",
+   "date": "2026-10-29T16:20:43.139Z",
+   "symbole": "AMUN.PA",
+   "nom": "Amundi",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "prixSignal": 90.9,
+   "cacAuSignal": 7987.88,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Amundi est a 90,90 EUR (+1,79 % ce jour, +8,28 % sur 126j) en tendance HAUSSE_CONFIRMEE (pente +2,00 %). Le resultat net T3 en progression de 20 % confirme par Boursorama appuie la dynamique vers l objectif de 102,58 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-291620-MRN.PA-5",
+   "date": "2026-10-29T16:20:43.139Z",
+   "symbole": "MRN.PA",
+   "nom": "Mersen",
+   "action": "CONSERVER",
+   "confiance": 83,
+   "prixSignal": 43.5,
+   "cacAuSignal": 7987.88,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Mersen cote 43,50 EUR (+10,74 % ce jour, +24,71 % sur 126j) en tendance HAUSSE_CONFIRMEE (pente +4,82 %, ecart SMA200 +26,48 %). Le relevement d objectif de chiffre d affaires salue par BFM Bourse justifie pleinement de viser 48,97 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-10-291620-DEC.PA-6",
+   "date": "2026-10-29T16:20:43.139Z",
+   "symbole": "DEC.PA",
+   "nom": "JCDecaux",
+   "action": "CONSERVER",
+   "confiance": 80,
+   "prixSignal": 24.04,
+   "cacAuSignal": 7987.88,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "JCDecaux cote 24,04 EUR (-0,74 % ce jour, +28,56 % sur 126j) en conservant sa tendance HAUSSE_CONFIRMEE (pente +4,71 %, ecart SMA200 +17,15 %). Le repli recent reste une saine respiration technique bien au-dessus du stop a 22,20 EUR.",
    "h1s": null,
    "h1m": null,
    "solde": null
