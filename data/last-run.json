@@ -1,17 +1,17 @@
 {
- "date": "2026-11-02T14:20:43.443Z",
- "dureeS": 148,
+ "date": "2026-11-02T16:20:43.530Z",
+ "dureeS": 92,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 progresse moderement de +0,41 % a 8 001,84 points dans un climat d'accalmie geopolitique pesant sur les cours du petrole. La largeur de marche reste toutefois FAIBLE avec seulement 41 % des 122 valeurs de l'univers au-dessus de leur moyenne mobile a 200 jours, justifiant le maintien d'un regime PRUDENT. La dispersion demeure elevee et impose de conserver rigoureusement les positions en tendance haussiere averee.",
+ "resume_marche": "Le CAC 40 progresse de +1,00 % à 8049,46 points ce jour, mais la largeur de marché demeure dégradée avec seulement 40,2 % des valeurs de l'univers au-dessus de leur moyenne mobile 200 jours, classant l'environnement en régime PRUDENT. La séance est marquée par une forte dispersion et de violentes sanctions spécifiques, à l'image du plongeon d'Alstom (-26,53 %) suite à son avertissement sur résultats et du décrochage d'Ubisoft (-5,12 %). Dans ce contexte incertain, la priorité absolue est accordée à la préservation du capital et au maintien rigoureux des huit positions en portefeuille, toutes ancrées en HAUSSE_CONFIRMEE au-dessus de leurs supports majeurs.",
  "signaux": [
   {
    "symbole": "TTE.PA",
    "action": "CONSERVER",
    "confiance": 88,
-   "justification": "TotalEnergies cede -1,98 % a 83,74 EUR avec le repli du brut mais conserve une tendance HAUSSE_CONFIRMEE (pente SMA200 a +3,48 %, ecart SMA200 a +12,85 %, chg126d +10,47 %). Le groupe ecarte tout risque de penurie de gaz cet hiver et la plus-value latente de +9,2 % reste protegee au-dessus du stop a 70,50 EUR.",
+   "justification": "TotalEnergies consolide de -2,43 % à 83,35 EUR après un gain de +9,96 % sur 20 jours, restant fermement en tendance HAUSSE_CONFIRMEE avec une pente de SMA200 de +3,47 % et un cours situé à +12,33 % au-dessus de la SMA200 (74,20 EUR). Le titre bénéficie d'une visibilité réaffirmée sur sa stratégie énergétique mondiale citée par Zonebourse et Boursorama, avec un RSI14 équilibré à 63,6. La position a",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -22,7 +22,7 @@
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 87,
-   "justification": "Air Liquide consolide a 180,42 EUR (-0,27 %) a proximite immediate de son plus haut 52 semaines a 180,90 EUR (ecart -0,27 %) en tendance HAUSSE_CONFIRMEE (pente +1,77 %, ecart SMA200 +9,10 %, chg126d +13,33 %). Le titre beneficie d'un statut de valeur de premier plan dispute avec Airbus et la position affiche +2,3 % de gain.",
+   "justification": "Air Liquide touche un nouveau plus haut sur 52 semaines à 181,22 EUR (+0,18 % ce jour, +6,13 % sur 20 jours), confirmant sa tendance HAUSSE_CONFIRMEE avec un chg126d de +13,83 % et une pente SMA200 de +1,78 %. Les actualités soulignent son accession à la 3e place du CAC 40 en termes de capitalisation boursière. Malgré un RSI14 à 86,3 en surachat, la dynamique de fond reste excellente et justifie l",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -33,7 +33,7 @@
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 86,
-   "justification": "Getlink touche son plus haut 52 semaines a 19,93 EUR (+0,76 % ce jour, +7,61 % sur 20 jours) avec une tres faible volatilite de 11,4 %. La tendance HAUSSE_CONFIRMEE (pente +1,83 %, ecart SMA200 +7,93 %) valide pleinement la these et procure +6,4 % de gain.",
+   "justification": "Getlink culmine sur son plus haut annuel à 19,92 EUR (+0,71 % ce jour, +7,56 % sur 20 jours) en tendance HAUSSE_CONFIRMEE (pente +1,83 %, écart SMA200 +7,88 %). Avec une volatilité annualisée très faible de 11,3 % et une surperformance régulière, la position enregistre +6,3 % de gain et reste maintenue en portefeuille avec un stop à 17,50 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -44,7 +44,7 @@
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Euronext recule de -2,20 % a 173,70 EUR suite a l'annonce du plan de succession de Stephane Boujnah et du partenariat Nordic Compass, tout en restant solidement ancre en tendance HAUSSE_CONFIRMEE (pente +3,21 %, SMA200 a 147,11 EUR soit +18,07 %, chg126d +23,72 %). La position conserve un gain solide de +7,5 %.",
+   "justification": "Euronext subit un recul de -2,87 % à 172,50 EUR dans le sillage de l'annonce de la future succession à sa direction générale, mais préserve une solide structure en HAUSSE_CONFIRMEE (pente +3,21 %, chg126d +22,86 %, écart SMA200 +17,26 %). Le groupe étend par ailleurs son écosystème via un partenariat avec Nordic Compass. La position conserve une plus-value de +6,7 % avec un stop protecteur à 149,0",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -55,7 +55,7 @@
    "symbole": "AMUN.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Amundi progresse de +1,43 % a 92,45 EUR en tendance HAUSSE_CONFIRMEE (pente +1,99 %, ecart SMA200 +9,21 %, chg126d +9,28 %) avec un RSI equilibre a 65,8. Le titre capitalise sur ses encours records et la notification de participation dans flatexDEGIRO, affichant +3,2 % de gain.",
+   "justification": "Amundi poursuit son avancée (+2,30 % à 93,25 EUR, +5,25 % sur 5 jours) dans le prolongement de résultats trimestriels records avec 2 600 MdEUR d'actifs sous gestion. Le titre s'établit en HAUSSE_CONFIRMEE (pente +1,99 %, écart SMA200 +10,15 %, RSI14 à 68,0). La position enregistre un gain de +4,1 % et est maintenue vers l'objectif de 102,58 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -66,7 +66,7 @@
    "symbole": "SCR.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "SCOR cote a 34,14 EUR (-1,22 % ce jour, +3,52 % sur 5 jours) en tendance HAUSSE_CONFIRMEE (pente +1,57 %, ecart SMA200 +7,76 %, chg126d +10,20 %). Le titre beneficie du relevement de prevision du BPA 2026 de +6,2 % rapporte dans les actualites, maintenant la position a -1,3 % a bonne distance du stop a 31,70 EUR.",
+   "justification": "SCOR consolide modérément à 34,28 EUR (-0,81 % ce jour, +3,94 % sur 5 jours) après l'annonce d'un relèvement de son bénéfice par action 2026 de +6,2 % rapporté par Zonebourse. La configuration technique demeure bien orientée en HAUSSE_CONFIRMEE (pente +1,57 %, chg126d +10,65 %, cours au-dessus de la SMA200 à 31,68 EUR) avec un RSI14 sain à 63,6, justifiant la conservation de la ligne.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -77,7 +77,7 @@
    "symbole": "MRN.PA",
    "action": "CONSERVER",
    "confiance": 81,
-   "justification": "Mersen poursuit son net redressement avec +1,53 % ce jour et +10,23 % sur 5 jours a 39,86 EUR, repassant au-dessus de sa SMA20 a 39,36 EUR. La tendance reste HAUSSE_CONFIRMEE (pente +4,63 %, ecart SMA200 +15,38 %, chg126d +16,62 %) et le stop a 38,00 EUR demeure parfaitement preserve face a la perte ramenee a -6,8 %.",
+   "justification": "Mersen confirme son net rebond (+1,88 % à 40,00 EUR, +10,62 % sur 5 jours) après avoir relevé son objectif de croissance organique, comme relayé par Idéal Investisseur et BFM. Le titre évolue en HAUSSE_CONFIRMEE (pente SMA200 de +4,63 %, écart SMA200 +15,79 %) avec un RSI14 normalisé à 49,4. Le niveau de stop à 38,00 EUR est préservé, validant la conservation du dossier.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -88,7 +88,7 @@
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 80,
-   "justification": "JCDecaux cote a 24,24 EUR (-0,16 % ce jour) et consolide au-dessus de sa SMA200 a 20,60 EUR (+17,69 %) en tendance HAUSSE_CONFIRMEE (pente +4,61 %, chg126d +30,89 %). L'avis neutre emis par Bernstein ne remet pas en cause la configuration de fond, le stop a 22,20 EUR restant protege.",
+   "justification": "JCDecaux termine stable à 24,42 EUR (+0,58 % ce jour) et reste confortablement installé en HAUSSE_CONFIRMEE (pente SMA200 de +4,61 %, chg126d de +31,86 %, cours supérieur de +18,56 % à sa SMA200 de 20,60 EUR). Bernstein adopte un avis neutre et le RSI14 à 43,5 reflète une saine consolidation, sans remise en cause de la thèse d'investissement.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -102,13 +102,13 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 49,
-  "nbPassages": 103,
-  "equity": 9938.21,
-  "perfPct": -0.62,
-  "cacPerfPct": -1.43,
-  "alphaPct": 0.81,
+  "nbPassages": 104,
+  "equity": 9949.53,
+  "perfPct": -0.5,
+  "cacPerfPct": -0.84,
+  "alphaPct": 0.34,
   "maxDrawdownPct": -4.2,
-  "sharpe": -0.45,
+  "sharpe": -0.35,
   "expositionPct": 56.2,
   "trades": {
    "nbAchats": 17,
@@ -140,7 +140,7 @@
     "nbEvalues": 4,
     "tauxReussitePct": 50,
     "alphaMoyen1mPct": -0.95,
-    "alphaMoyen1sPct": -1.32
+    "alphaMoyen1sPct": -0.79
    },
    "calibration": [
     {
@@ -173,7 +173,7 @@
   }
  },
  "stats": {
-  "equity": 9938.21,
+  "equity": 9949.53,
   "cash": 4354.26,
   "nbPositions": 8
  }
