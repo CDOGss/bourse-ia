@@ -1,99 +1,99 @@
 {
- "date": "2026-11-02T10:20:40.697Z",
- "dureeS": 60,
+ "date": "2026-11-02T12:20:38.618Z",
+ "dureeS": 90,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 progresse moderement de +0,41 % a 8001,82 points dans un climat attentiste a la veille des echeances electorales americaines. Cependant, la largeur de marche demeure degradee avec seulement 39,3 % des valeurs au-dessus de leur SMA 200 (etat FAIBLE), justifiant le maintien strict d'une posture prudente. Les 8 positions en portefeuille continuent d'evoluer conformement a leurs theses haussieres respectives, avec un cash disponible de 43,7 % preservant notre flexibilite.",
+ "resume_marche": "Le CAC 40 progresse moderement de +0,21 % a 7 986,08 points, mais la largeur de marche demeure FAIBLE avec seulement 39,3 % des valeurs de l'univers au-dessus de leur SMA 200. La seance est marquee par une forte dispersion sectorielle et par la defaillance spectaculaire d'Alstom (-25,05 %) apres un nouvel avertissement sur ses contrats ferroviaires. Dans ce contexte incertain et avec un portefeuille deja engage a 56,2 % sur 8 positions solides, la posture demeure prudente avec maintien integral des lignes.",
  "signaux": [
   {
    "symbole": "TTE.PA",
    "action": "CONSERVER",
    "confiance": 88,
-   "justification": "Position en gain de +10,6 % a 84,87 EUR en tendance HAUSSE_CONFIRMEE (pente SMA200 +3,49 %, cours a +14,37 % de la SMA200 a 74,21 EUR). Le dossier est renforce par des actualites porteuses ce matin (partenariats gaziers et detection de methane en Malaisie), soutenant la poursuite vers l'objectif de 87,87 EUR.",
-   "prix_entree": 84.87,
-   "stop_perte": 70.5,
+   "justification": "TotalEnergies consolide a 84,39 EUR (-1,22 % ce jour, +11,33 % sur 20j) en tendance HAUSSE_CONFIRMEE au-dessus de sa SMA 200 a 74,21 EUR (+13,73 %). Le titre beneficie de la signature de deux champs gaziers en Malaisie confirmee par les actualites, maintenant une dynamique solide vers l'objectif de 87,87 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Cassure en cloture sous le stop de 70,50 EUR."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 87,
-   "justification": "Air Liquide consolide a 180,80 EUR (+2,5 % de gain) en tendance HAUSSE_CONFIRMEE (pente SMA200 +1,78 %, ecart SMA200 +9,33 %). La dynamique demeure tres forte (chg5d +3,10 %, RSI 85,5) avec une faible volatilite annualisee de 13,2 %, justifiant la poursuite vers la cible a 202,10 EUR.",
-   "prix_entree": 180.8,
-   "stop_perte": 161.5,
+   "justification": "Air Liquide se maintient a proximite immediate de son plus haut sur 52 semaines (cours 180,56 EUR contre 180,90 EUR) avec une volatilite tres basse de 13,2 % et un chg126d a +13,42 %. La tendance HAUSSE_CONFIRMEE reste parfaitement intacte au-dessus de la SMA 50 a 170,33 EUR, justifiant le maintien de la position vers 202,10 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Retour sous le stop de protection a 161,50 EUR."
-  },
-  {
-   "symbole": "ENX.PA",
-   "action": "CONSERVER",
-   "confiance": 86,
-   "justification": "Euronext affiche une plus-value de +8,6 % a 175,50 EUR, en tendance HAUSSE_CONFIRMEE solide (pente SMA200 +3,22 %, chg126d +25,00 %, ecart SMA200 +19,29 %). La nomination confirmee ce jour de David Knibbe en tant que prochain directeur general assure une continuite manageriale claire.",
-   "prix_entree": 175.5,
-   "stop_perte": 149,
-   "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Enfoncement en cloture du seuil des 149,00 EUR."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "GET.PA",
    "action": "CONSERVER",
-   "confiance": 85,
-   "justification": "Getlink avance a 19,84 EUR (+5,9 % de plus-value), a proximite immediate de son plus haut sur 52 semaines (19,90 EUR, ecart de -0,30 %). La configuration reste impeccable en HAUSSE_CONFIRMEE (pente +1,83 %, ecart SMA200 +7,45 %) avec une volatilite remarquable de 11,3 %.",
-   "prix_entree": 19.84,
-   "stop_perte": 17.5,
+   "confiance": 86,
+   "justification": "Getlink teste son plus haut annuel a 19,89 EUR (+0,56 % ce jour, +7,40 % sur 20j) avec une volatilite remarquable de seulement 11,3 %. La structure haussiere reste irreprochable en HAUSSE_CONFIRMEE au-dessus de la SMA 50 a 18,86 EUR, validant pleinement la conservation du titre.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Cassure du support technique valide par le stop a 17,50 EUR."
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "ENX.PA",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "justification": "Euronext replie moderement a 175,10 EUR (-1,41 %) suite a l'annonce du futur depart de Stephane Boujnah, mais preserve son ecart positif de +19,02 % sur la SMA 200 et sa tendance HAUSSE_CONFIRMEE (chg126d +24,72 %). Le gain latent de +8,3 % et les fondamentaux demeurent solides pour viser 185,15 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "AMUN.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Amundi progresse de +0,93 % ce jour a 92,00 EUR (+3,84 % sur 5 jours, pnl +2,7 %) en tendance HAUSSE_CONFIRMEE (pente SMA200 +1,99 %, ecart SMA200 +8,68 %). L'impulsion consécutive aux résultats record du T3 se poursuit avec un RSI equilibre a 64,4.",
-   "prix_entree": 92,
-   "stop_perte": 83.5,
+   "justification": "Amundi progresse a 92,05 EUR (+0,99 % ce jour, +3,89 % sur 5j) en tendance HAUSSE_CONFIRMEE au-dessus de sa SMA 50 (91,30 EUR) et SMA 200 (84,65 EUR). Porte par des actifs records annonces au T3 et un RSI equilibre a 64,6, le dossier confirme sa trajectoire vers l'objectif de 102,58 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Cloture sous le seuil d'invalidation fixe a 83,50 EUR."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "SCR.PA",
    "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "SCOR consolide sainement a 34,42 EUR (-0,41 % ce jour mais +4,37 % sur 5 jours) apres ses publications trimestrielles favorables citees dans la presse. La valeur s'inscrit en tendance HAUSSE_CONFIRMEE (pente +1,58 %, ecart SMA200 +8,64 %, RSI 66,0).",
-   "prix_entree": 34.42,
-   "stop_perte": 31.7,
+   "confiance": 83,
+   "justification": "SCOR consolide a 34,34 EUR (+4,12 % sur 5j) en tendance HAUSSE_CONFIRMEE (+8,39 % sur la SMA 200 a 31,68 EUR). Le titre beneficie du relevement de prevision de BPA 2026 (+6,2 %) mentionne par Zonebourse, confortant la these haussiere vers 39,63 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Rupture du support et du stop positionne a 31,70 EUR."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "MRN.PA",
    "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "Mersen poursuit son vif redressement (+1,07 % a 39,68 EUR, soit +9,73 % sur 5 jours) en HAUSSE_CONFIRMEE (pente SMA200 +4,62 %, ecart SMA200 +14,87 %, chg126d +16,09 %). Le titre se maintient confortablement au-dessus de son stop a 38,00 EUR et beneficie d'une presence reaffirmee dans les selections de portefeuilles ce jour.",
-   "prix_entree": 39.68,
-   "stop_perte": 38,
+   "confiance": 81,
+   "justification": "Mersen prolonge son rebond technique (+0,92 % ce jour a 39,62 EUR, +9,57 % sur 5j) et repasse au-dessus de sa SMA 20 a 39,34 EUR et SMA 50 a 39,15 EUR. Le cours reste bien au-dessus du stop a 38,00 EUR et conserve une tendance de fond HAUSSE_CONFIRMEE (pente +4,62 %, ecart SMA 200 +14,69 %).",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Cassure confirmee sous le stop technique de 38,00 EUR."
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 80,
-   "justification": "JCDecaux reste stable a 24,34 EUR (+0,25 % ce jour) dans une structure de fond robuste en HAUSSE_CONFIRMEE (pente SMA200 +4,61 %, chg126d +31,43 %, cours au-dessus de la SMA200 de +18,17 %). Le RSI de 42,5 laisse une reserve d'appreciation importante et le stop a 22,20 EUR n'est nullement menace.",
-   "prix_entree": 24.34,
-   "stop_perte": 22.2,
+   "justification": "JCDecaux cote 24,22 EUR, preservant une marge confortable de +17,59 % au-dessus de sa SMA 200 (20,60 EUR) et nettement au-dessus du stop d'invalidation a 22,20 EUR. La tendance de fond demeure resolument haussiere (pente +4,61 %, chg126d +30,78 %), justifiant le maintien en portefeuille.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 10,
-   "invalidation": "Enfoncement de la zone support sous 22,20 EUR."
+   "taille_pct": null,
+   "invalidation": null
   }
  ],
  "signaux_ecartes": [],
@@ -102,14 +102,14 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 49,
-  "nbPassages": 101,
-  "equity": 9956.81,
-  "perfPct": -0.43,
-  "cacPerfPct": -1.43,
-  "alphaPct": 1,
+  "nbPassages": 102,
+  "equity": 9945.86,
+  "perfPct": -0.54,
+  "cacPerfPct": -1.62,
+  "alphaPct": 1.08,
   "maxDrawdownPct": -4.2,
-  "sharpe": -0.28,
-  "expositionPct": 56.3,
+  "sharpe": -0.38,
+  "expositionPct": 56.2,
   "trades": {
    "nbAchats": 17,
    "nbSolde": 9,
@@ -173,7 +173,7 @@
   }
  },
  "stats": {
-  "equity": 9956.81,
+  "equity": 9945.86,
   "cash": 4354.26,
   "nbPositions": 8
  }
