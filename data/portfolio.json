@@ -14,7 +14,7 @@
    "nom": "Euronext",
    "shares": 4,
    "pmc": 161.64,
-   "price": 177.4,
+   "price": 174.9,
    "stop": 149,
    "target": 185.15,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -26,7 +26,7 @@
    "nom": "JCDecaux",
    "shares": 32,
    "pmc": 24.48,
-   "price": 24.38,
+   "price": 24.26,
    "stop": 22.2,
    "target": 28.04,
    "dateAchat": "2026-09-16T16:55:20.995Z",
@@ -38,7 +38,7 @@
    "nom": "Air Liquide",
    "shares": 4,
    "pmc": 176.44,
-   "price": 180.58,
+   "price": 180.28,
    "stop": 161.5,
    "target": 202.1,
    "dateAchat": "2026-10-05T07:20:38.130Z",
@@ -50,7 +50,7 @@
    "nom": "Getlink",
    "shares": 35,
    "pmc": 18.74,
-   "price": 19.79,
+   "price": 19.76,
    "stop": 17.5,
    "target": 21.47,
    "dateAchat": "2026-10-08T07:20:41.027Z",
@@ -62,7 +62,7 @@
    "nom": "TotalEnergies",
    "shares": 9,
    "pmc": 76.72,
-   "price": 85.47,
+   "price": 84.61,
    "stop": 70.5,
    "target": 87.87,
    "dateAchat": "2026-10-08T09:20:41.913Z",
@@ -74,7 +74,7 @@
    "nom": "Amundi",
    "shares": 8,
    "pmc": 89.56,
-   "price": 90.9,
+   "price": 91.5,
    "stop": 83.5,
    "target": 102.58,
    "dateAchat": "2026-10-29T08:20:41.948Z",
@@ -86,7 +86,7 @@
    "nom": "Mersen",
    "shares": 13,
    "pmc": 42.75,
-   "price": 39.46,
+   "price": 39.5,
    "stop": 38,
    "target": 48.97,
    "dateAchat": "2026-10-29T08:20:41.948Z",
@@ -98,7 +98,7 @@
    "nom": "Scor",
    "shares": 20,
    "pmc": 34.6,
-   "price": 34.92,
+   "price": 34.22,
    "stop": 31.7,
    "target": 39.63,
    "dateAchat": "2026-10-30T10:20:41.725Z",
@@ -993,6 +993,11 @@
    "date": "2026-10-30T16:20:42.630Z",
    "equity": 9966.8,
    "cac": 7955.11
+  },
+  {
+   "date": "2026-11-02T08:20:40.221Z",
+   "equity": 9934.29,
+   "cac": 7947.99
   }
  ],
  "signaux": [
@@ -8911,7 +8916,14 @@
     "cacChgPct": -2.7,
     "alphaPct": -5.39
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 276.3,
+    "chgPct": -18.06,
+    "cacChgPct": 0.38,
+    "alphaPct": -18.44
+   },
    "solde": null
   },
   {
@@ -8934,7 +8946,14 @@
     "cacChgPct": -2.7,
     "alphaPct": -2.6
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 234.7,
+    "chgPct": 3.76,
+    "cacChgPct": 0.38,
+    "alphaPct": 3.38
+   },
    "solde": null
   },
   {
@@ -8957,7 +8976,14 @@
     "cacChgPct": -2.7,
     "alphaPct": 1.72
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 24.26,
+    "chgPct": -0.33,
+    "cacChgPct": 0.38,
+    "alphaPct": -0.71
+   },
    "solde": null
   },
   {
@@ -8980,7 +9006,14 @@
     "cacChgPct": -2.7,
     "alphaPct": 5.4
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 87.42,
+    "chgPct": 17.69,
+    "cacChgPct": 0.38,
+    "alphaPct": 17.31
+   },
    "solde": null
   },
   {
@@ -9003,7 +9036,14 @@
     "cacChgPct": -2.7,
     "alphaPct": 4.86
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 174.9,
+    "chgPct": 10.77,
+    "cacChgPct": 0.38,
+    "alphaPct": 10.39
+   },
    "solde": null
   },
   {
@@ -9026,7 +9066,14 @@
     "cacChgPct": -2.7,
     "alphaPct": 2.34
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 58.8,
+    "chgPct": 7.2,
+    "cacChgPct": 0.38,
+    "alphaPct": 6.82
+   },
    "solde": null
   },
   {
@@ -9049,7 +9096,14 @@
     "cacChgPct": -2.7,
     "alphaPct": -5.41
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 61.19,
+    "chgPct": -10.88,
+    "cacChgPct": 0.38,
+    "alphaPct": -11.26
+   },
    "solde": null
   },
   {
@@ -9072,7 +9126,14 @@
     "cacChgPct": -2.02,
     "alphaPct": -3.97
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 61.19,
+    "chgPct": -8.82,
+    "cacChgPct": 1.09,
+    "alphaPct": -9.91
+   },
    "solde": null
   },
   {
@@ -9095,7 +9156,14 @@
     "cacChgPct": -2.02,
     "alphaPct": -4.86
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 276.3,
+    "chgPct": -16.98,
+    "cacChgPct": 1.09,
+    "alphaPct": -18.06
+   },
    "solde": null
   },
   {
@@ -9118,7 +9186,14 @@
     "cacChgPct": -2.02,
     "alphaPct": -0.25
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 24.26,
+    "chgPct": -1.62,
+    "cacChgPct": 1.09,
+    "alphaPct": -2.71
+   },
    "solde": null
   },
   {
@@ -9141,7 +9216,14 @@
     "cacChgPct": -2.02,
     "alphaPct": 3.97
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 87.42,
+    "chgPct": 16.84,
+    "cacChgPct": 1.09,
+    "alphaPct": 15.75
+   },
    "solde": null
   },
   {
@@ -9164,7 +9246,14 @@
     "cacChgPct": -2.02,
     "alphaPct": 3.85
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 174.9,
+    "chgPct": 10.42,
+    "cacChgPct": 1.09,
+    "alphaPct": 9.33
+   },
    "solde": null
   },
   {
@@ -9187,7 +9276,14 @@
     "cacChgPct": -2.02,
     "alphaPct": -2.78
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 234.7,
+    "chgPct": 4.31,
+    "cacChgPct": 1.09,
+    "alphaPct": 3.22
+   },
    "solde": null
   },
   {
@@ -9210,7 +9306,14 @@
     "cacChgPct": -2.02,
     "alphaPct": 0.93
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 58.8,
+    "chgPct": 6.43,
+    "cacChgPct": 1.09,
+    "alphaPct": 5.34
+   },
    "solde": null
   },
   {
@@ -9233,7 +9336,14 @@
     "cacChgPct": -2.65,
     "alphaPct": -5.3
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 276.3,
+    "chgPct": -17.37,
+    "cacChgPct": 0.47,
+    "alphaPct": -17.84
+   },
    "solde": null
   },
   {
@@ -9256,7 +9366,14 @@
     "cacChgPct": -2.65,
     "alphaPct": -0.25
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 24.26,
+    "chgPct": -2.41,
+    "cacChgPct": 0.47,
+    "alphaPct": -2.88
+   },
    "solde": null
   },
   {
@@ -9279,7 +9396,14 @@
     "cacChgPct": -2.65,
     "alphaPct": 4.09
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 87.42,
+    "chgPct": 16.47,
+    "cacChgPct": 0.47,
+    "alphaPct": 16
+   },
    "solde": null
   },
   {
@@ -9302,7 +9426,14 @@
     "cacChgPct": -2.65,
     "alphaPct": 3.15
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 174.9,
+    "chgPct": 8.97,
+    "cacChgPct": 0.47,
+    "alphaPct": 8.5
+   },
    "solde": null
   },
   {
@@ -9325,7 +9456,14 @@
     "cacChgPct": -2.65,
     "alphaPct": -2.23
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 234.7,
+    "chgPct": 4.03,
+    "cacChgPct": 0.47,
+    "alphaPct": 3.57
+   },
    "solde": null
   },
   {
@@ -9348,7 +9486,14 @@
     "cacChgPct": -2.65,
     "alphaPct": 2.38
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 58.8,
+    "chgPct": 7.2,
+    "cacChgPct": 0.47,
+    "alphaPct": 6.73
+   },
    "solde": null
   },
   {
@@ -9371,7 +9516,14 @@
     "cacChgPct": -2.01,
     "alphaPct": -3.79
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 276.3,
+    "chgPct": -16.5,
+    "cacChgPct": 0.48,
+    "alphaPct": -16.98
+   },
    "solde": null
   },
   {
@@ -9394,7 +9546,14 @@
     "cacChgPct": -2.01,
     "alphaPct": -0.64
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 24.26,
+    "chgPct": -2.57,
+    "cacChgPct": 0.48,
+    "alphaPct": -3.05
+   },
    "solde": null
   },
   {
@@ -9417,7 +9576,14 @@
     "cacChgPct": -2.01,
     "alphaPct": 3.12
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 87.42,
+    "chgPct": 15.73,
+    "cacChgPct": 0.48,
+    "alphaPct": 15.25
+   },
    "solde": null
   },
   {
@@ -9440,7 +9606,14 @@
     "cacChgPct": -2.01,
     "alphaPct": 2.57
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 174.9,
+    "chgPct": 8.97,
+    "cacChgPct": 0.48,
+    "alphaPct": 8.5
+   },
    "solde": null
   },
   {
@@ -9463,7 +9636,14 @@
     "cacChgPct": -2.01,
     "alphaPct": -1.85
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 234.7,
+    "chgPct": 4.26,
+    "cacChgPct": 0.48,
+    "alphaPct": 3.79
+   },
    "solde": null
   },
   {
@@ -9486,7 +9666,14 @@
     "cacChgPct": -2.01,
     "alphaPct": 1.83
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 58.8,
+    "chgPct": 7.2,
+    "cacChgPct": 0.48,
+    "alphaPct": 6.73
+   },
    "solde": null
   },
   {
@@ -9509,7 +9696,14 @@
     "cacChgPct": -1.39,
     "alphaPct": 3.16
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 58.8,
+    "chgPct": 9.4,
+    "cacChgPct": 1.33,
+    "alphaPct": 8.06
+   },
    "solde": null
   },
   {
@@ -9532,7 +9726,14 @@
     "cacChgPct": -1.39,
     "alphaPct": -4.32
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 276.3,
+    "chgPct": -16.12,
+    "cacChgPct": 1.33,
+    "alphaPct": -17.45
+   },
    "solde": null
   },
   {
@@ -9555,7 +9756,14 @@
     "cacChgPct": -1.39,
     "alphaPct": -1.05
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 24.26,
+    "chgPct": -1.3,
+    "cacChgPct": 1.33,
+    "alphaPct": -2.63
+   },
    "solde": null
   },
   {
@@ -9578,7 +9786,14 @@
     "cacChgPct": -1.39,
     "alphaPct": 2.62
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 87.42,
+    "chgPct": 16.75,
+    "cacChgPct": 1.33,
+    "alphaPct": 15.42
+   },
    "solde": null
   },
   {
@@ -9601,7 +9816,14 @@
     "cacChgPct": -1.39,
     "alphaPct": 2.33
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 174.9,
+    "chgPct": 9.72,
+    "cacChgPct": 1.33,
+    "alphaPct": 8.39
+   },
    "solde": null
   },
   {
@@ -9624,7 +9846,14 @@
     "cacChgPct": -1.39,
     "alphaPct": -2.87
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 32,
+    "prix": 234.7,
+    "chgPct": 4.22,
+    "cacChgPct": 1.33,
+    "alphaPct": 2.89
+   },
    "solde": null
   },
   {
@@ -9647,7 +9876,14 @@
     "cacChgPct": -0.75,
     "alphaPct": -2.94
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 276.3,
+    "chgPct": -15.61,
+    "cacChgPct": 1.17,
+    "alphaPct": -16.78
+   },
    "solde": null
   },
   {
@@ -9670,7 +9906,14 @@
     "cacChgPct": -0.75,
     "alphaPct": -1.03
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 24.26,
+    "chgPct": -1.94,
+    "cacChgPct": 1.17,
+    "alphaPct": -3.11
+   },
    "solde": null
   },
   {
@@ -9693,7 +9936,14 @@
     "cacChgPct": -0.75,
     "alphaPct": 3.84
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 87.42,
+    "chgPct": 18.29,
+    "cacChgPct": 1.17,
+    "alphaPct": 17.12
+   },
    "solde": null
   },
   {
@@ -9716,7 +9966,14 @@
     "cacChgPct": -0.75,
     "alphaPct": 3.51
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 174.9,
+    "chgPct": 9.52,
+    "cacChgPct": 1.17,
+    "alphaPct": 8.34
+   },
    "solde": null
   },
   {
@@ -9739,7 +9996,14 @@
     "cacChgPct": -0.75,
     "alphaPct": -4.4
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 234.7,
+    "chgPct": 3.35,
+    "cacChgPct": 1.17,
+    "alphaPct": 2.17
+   },
    "solde": null
   },
   {
@@ -9762,7 +10026,14 @@
     "cacChgPct": -1.54,
     "alphaPct": 3.79
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 174.9,
+    "chgPct": 9.04,
+    "cacChgPct": 0.55,
+    "alphaPct": 8.49
+   },
    "solde": null
   },
   {
@@ -9785,7 +10056,14 @@
     "cacChgPct": -1.54,
     "alphaPct": -4.06
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 276.3,
+    "chgPct": -16.85,
+    "cacChgPct": 0.55,
+    "alphaPct": -17.4
+   },
    "solde": null
   },
   {
@@ -9808,7 +10086,14 @@
     "cacChgPct": -1.54,
     "alphaPct": -3.39
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 234.7,
+    "chgPct": 3.35,
+    "cacChgPct": 0.55,
+    "alphaPct": 2.8
+   },
    "solde": null
   },
   {
@@ -9831,7 +10116,14 @@
     "cacChgPct": -1.54,
     "alphaPct": 3.55
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 87.42,
+    "chgPct": 16.97,
+    "cacChgPct": 0.55,
+    "alphaPct": 16.41
+   },
    "solde": null
   },
   {
@@ -9854,7 +10146,14 @@
     "cacChgPct": -1.54,
     "alphaPct": 0.1
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 24.26,
+    "chgPct": -2.57,
+    "cacChgPct": 0.55,
+    "alphaPct": -3.12
+   },
    "solde": null
   },
   {
@@ -9877,7 +10176,14 @@
     "cacChgPct": -1.54,
     "alphaPct": 3.14
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 34.42,
+    "chgPct": 14.96,
+    "cacChgPct": 0.55,
+    "alphaPct": 14.41
+   },
    "solde": {
     "date": "2026-10-26T14:35:08.800Z",
     "prix": 34.96,
@@ -9905,7 +10211,14 @@
     "cacChgPct": -1.43,
     "alphaPct": -4.37
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 276.3,
+    "chgPct": -17.03,
+    "cacChgPct": 0.67,
+    "alphaPct": -17.69
+   },
    "solde": null
   },
   {
@@ -9928,7 +10241,14 @@
     "cacChgPct": -1.43,
     "alphaPct": -3.34
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 234.7,
+    "chgPct": 3.53,
+    "cacChgPct": 0.67,
+    "alphaPct": 2.86
+   },
    "solde": null
   },
   {
@@ -9951,7 +10271,14 @@
     "cacChgPct": -1.43,
     "alphaPct": 0.54
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 24.26,
+    "chgPct": -2.02,
+    "cacChgPct": 0.67,
+    "alphaPct": -2.69
+   },
    "solde": null
   },
   {
@@ -9974,7 +10301,14 @@
     "cacChgPct": -1.43,
     "alphaPct": 2.62
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 87.42,
+    "chgPct": 16.03,
+    "cacChgPct": 0.67,
+    "alphaPct": 15.37
+   },
    "solde": null
   },
   {
@@ -9997,7 +10331,14 @@
     "cacChgPct": -1.43,
     "alphaPct": 3.67
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 174.9,
+    "chgPct": 9.04,
+    "cacChgPct": 0.67,
+    "alphaPct": 8.37
+   },
    "solde": null
   },
   {
@@ -10020,7 +10361,14 @@
     "cacChgPct": -1.43,
     "alphaPct": 3.65
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 34.42,
+    "chgPct": 15.66,
+    "cacChgPct": 0.67,
+    "alphaPct": 14.99
+   },
    "solde": null
   },
   {
@@ -10043,7 +10391,14 @@
     "cacChgPct": -1.13,
     "alphaPct": -4.85
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 276.3,
+    "chgPct": -17.72,
+    "cacChgPct": 0.61,
+    "alphaPct": -18.33
+   },
    "solde": null
   },
   {
@@ -10066,7 +10421,14 @@
     "cacChgPct": -1.13,
     "alphaPct": 0.65
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 24.26,
+    "chgPct": -1.38,
+    "cacChgPct": 0.61,
+    "alphaPct": -1.99
+   },
    "solde": null
   },
   {
@@ -10089,7 +10451,14 @@
     "cacChgPct": -1.13,
     "alphaPct": 3.4
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 87.42,
+    "chgPct": 16.47,
+    "cacChgPct": 0.61,
+    "alphaPct": 15.86
+   },
    "solde": null
   },
   {
@@ -10112,7 +10481,14 @@
     "cacChgPct": -1.13,
     "alphaPct": 2.43
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 174.9,
+    "chgPct": 8.36,
+    "cacChgPct": 0.61,
+    "alphaPct": 7.76
+   },
    "solde": null
   },
   {
@@ -10135,7 +10511,14 @@
     "cacChgPct": -1.13,
     "alphaPct": 3
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 34.42,
+    "chgPct": 14.96,
+    "cacChgPct": 0.61,
+    "alphaPct": 14.36
+   },
    "solde": null
   },
   {
@@ -10158,7 +10541,14 @@
     "cacChgPct": -1.13,
     "alphaPct": -3.46
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 234.7,
+    "chgPct": 3.67,
+    "cacChgPct": 0.61,
+    "alphaPct": 3.06
+   },
    "solde": null
   },
   {
@@ -10181,7 +10571,14 @@
     "cacChgPct": -1.28,
     "alphaPct": -3.26
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 276.3,
+    "chgPct": -16.37,
+    "cacChgPct": 0.54,
+    "alphaPct": -16.92
+   },
    "solde": null
   },
   {
@@ -10204,7 +10601,14 @@
     "cacChgPct": -1.28,
     "alphaPct": 2.18
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 24.26,
+    "chgPct": -0.74,
+    "cacChgPct": 0.54,
+    "alphaPct": -1.28
+   },
    "solde": null
   },
   {
@@ -10227,7 +10631,14 @@
     "cacChgPct": -1.28,
     "alphaPct": 3.67
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 87.42,
+    "chgPct": 16.44,
+    "cacChgPct": 0.54,
+    "alphaPct": 15.89
+   },
    "solde": null
   },
   {
@@ -10250,7 +10661,14 @@
     "cacChgPct": -1.28,
     "alphaPct": 3.27
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 174.9,
+    "chgPct": 9.11,
+    "cacChgPct": 0.54,
+    "alphaPct": 8.57
+   },
    "solde": null
   },
   {
@@ -10273,7 +10691,14 @@
     "cacChgPct": -1.28,
     "alphaPct": 3.54
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 34.42,
+    "chgPct": 14.73,
+    "cacChgPct": 0.54,
+    "alphaPct": 14.19
+   },
    "solde": null
   },
   {
@@ -10296,7 +10721,14 @@
     "cacChgPct": -1.28,
     "alphaPct": -2.19
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 234.7,
+    "chgPct": 4.45,
+    "cacChgPct": 0.54,
+    "alphaPct": 3.91
+   },
    "solde": null
   },
   {
@@ -10319,7 +10751,14 @@
     "cacChgPct": -1.28,
     "alphaPct": -4.48
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-02T08:20:40.221Z",
+    "jours": 31,
+    "prix": 119.9,
+    "chgPct": -12.61,
+    "cacChgPct": 0.54,
+    "alphaPct": -13.15
+   },
    "solde": {
     "date": "2026-10-07T13:20:43.608Z",
     "prix": 128.5,
@@ -18719,6 +19158,134 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "JCDecaux progresse de +1,25 % à 24,38 EUR (+30,37 % sur 126j) et se maintient nettement au-dessus de sa SMA200 à 20,56 EUR (+18,58 %). Avec un RSI équilibré à 46 et une tendance HAUSSE_CONFIRMEE (pente +4,66 %), la dynamique swing vers l'objectif de 28,04 EUR demeure valide.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-020820-TTE.PA-0",
+   "date": "2026-11-02T08:20:40.221Z",
+   "symbole": "TTE.PA",
+   "nom": "TotalEnergies",
+   "action": "CONSERVER",
+   "confiance": 88,
+   "prixSignal": 84.61,
+   "cacAuSignal": 7947.99,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "TotalEnergies cote 84,61 EUR (-0,96 % sur 1j mais +11,62 % sur 20j), restant solidement installee en tendance HAUSSE_CONFIRMEE avec une pente SMA200 a +3,48 % et un cours a +14,02 % au-dessus de sa SMA200 a 74,21 EUR. Le titre est soutenu ce matin par l'annonce d'accords elargis de detection du meth",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-020820-AI.PA-1",
+   "date": "2026-11-02T08:20:40.221Z",
+   "symbole": "AI.PA",
+   "nom": "Air Liquide",
+   "action": "CONSERVER",
+   "confiance": 87,
+   "prixSignal": 180.28,
+   "cacAuSignal": 7947.99,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Air Liquide se maintient a 180,28 EUR (-0,34 % sur 1j, +5,58 % sur 20j), a proximite immediate de son sommet annuel de 180,90 EUR (dist_plus_haut_52s_pct a -0,34 %) en tendance HAUSSE_CONFIRMEE (pente +1,77 %, ecart SMA200 +9,02 %). La volatilite annualisee tres faible de 13,3 % et l'ancrage au-dess",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-020820-ENX.PA-2",
+   "date": "2026-11-02T08:20:40.221Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "CONSERVER",
+   "confiance": 86,
+   "prixSignal": 174.9,
+   "cacAuSignal": 7947.99,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Euronext s'affiche a 174,90 EUR (-1,52 % sur 1j, +8,10 % sur 20j, +24,57 % sur 126j), conservant une nette avance sur sa SMA50 a 164,43 EUR (+6,37 %) et sa SMA200 a 147,12 EUR (+18,88 %) en tendance HAUSSE_CONFIRMEE (pente +3,21 %). La valeur figure parmi les valeurs a suivre ce lundi selon Les Echo",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-020820-GET.PA-3",
+   "date": "2026-11-02T08:20:40.221Z",
+   "symbole": "GET.PA",
+   "nom": "Getlink",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "prixSignal": 19.76,
+   "cacAuSignal": 7947.99,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Getlink evolue a 19,76 EUR (-0,10 % sur 1j, +6,70 % sur 20j) a seulement 0,70 % de son plus haut sur 52 semaines a 19,90 EUR, en tendance HAUSSE_CONFIRMEE (pente +1,83 %, ecart SMA200 +7,02 %). Avec une volatilite exemplaire de 11,4 % et une progression trimestrielle reguliere (chg63d +6,58 %), le p",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-020820-AMUN.PA-4",
+   "date": "2026-11-02T08:20:40.221Z",
+   "symbole": "AMUN.PA",
+   "nom": "Amundi",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "prixSignal": 91.5,
+   "cacAuSignal": 7947.99,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Amundi progresse a 91,50 EUR (+0,38 % sur 1j, +3,27 % sur 5j) en tendance HAUSSE_CONFIRMEE (pente +1,98 %, ecart SMA200 +8,10 % a 84,65 EUR). La these fondee sur des resultats T3 solides et des encours records publies recemment reste entierement valide, avec un RSI14 calibre a 62,7 soutenant l'achem",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-020820-MRN.PA-5",
+   "date": "2026-11-02T08:20:40.221Z",
+   "symbole": "MRN.PA",
+   "nom": "Mersen",
+   "action": "CONSERVER",
+   "confiance": 82,
+   "prixSignal": 39.5,
+   "cacAuSignal": 7947.99,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Mersen s'etablit a 39,50 EUR (+0,61 % ce jour, +9,24 % sur 5j), amorcant un net rebond au-dessus de sa SMA20 a 39,34 EUR (+0,41 %) et de sa SMA50 a 39,15 EUR (+0,89 %). La tendance de fond reste HAUSSE_CONFIRMEE avec une pente vigoureuse de +4,62 % et un ecart a la SMA200 de +14,35 %, tandis que le ",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-020820-SCR.PA-6",
+   "date": "2026-11-02T08:20:40.221Z",
+   "symbole": "SCR.PA",
+   "nom": "Scor",
+   "action": "CONSERVER",
+   "confiance": 82,
+   "prixSignal": 34.22,
+   "cacAuSignal": 7947.99,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "SCOR se traite a 34,22 EUR (-0,98 % sur 1j, +3,76 % sur 5j, +7,27 % sur 20j) en tendance HAUSSE_CONFIRMEE (pente +1,57 %, ecart SMA200 +8,01 % a 31,68 EUR). Le dossier figure dans les revues d'analystes positives recensees ce matin par Les Echos et capitalise sur ses comptes trimestriels resilients ",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-020820-DEC.PA-7",
+   "date": "2026-11-02T08:20:40.221Z",
+   "symbole": "DEC.PA",
+   "nom": "JCDecaux",
+   "action": "CONSERVER",
+   "confiance": 80,
+   "prixSignal": 24.26,
+   "cacAuSignal": 7947.99,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "JCDecaux cote 24,26 EUR (-0,08 % sur 1j, +30,99 % sur 126j) en tendance HAUSSE_CONFIRMEE soutenue par une pente elevee de +4,61 % et un positionnement confortable au-dessus de la SMA200 a 20,60 EUR (+17,79 %). Le RSI14 a 41,6 offre une marge de rebond technique sans saturation et le cours evolue net",
    "h1s": null,
    "h1m": null,
    "solde": null
