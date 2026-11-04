@@ -14,7 +14,7 @@
    "nom": "Euronext",
    "shares": 4,
    "pmc": 161.64,
-   "price": 168.5,
+   "price": 166.7,
    "stop": 149,
    "target": 185.15,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -26,7 +26,7 @@
    "nom": "JCDecaux",
    "shares": 32,
    "pmc": 24.48,
-   "price": 24.94,
+   "price": 25,
    "stop": 22.2,
    "target": 28.04,
    "dateAchat": "2026-09-16T16:55:20.995Z",
@@ -38,7 +38,7 @@
    "nom": "Air Liquide",
    "shares": 4,
    "pmc": 176.44,
-   "price": 182.82,
+   "price": 183.76,
    "stop": 161.5,
    "target": 202.1,
    "dateAchat": "2026-10-05T07:20:38.130Z",
@@ -50,7 +50,7 @@
    "nom": "Getlink",
    "shares": 35,
    "pmc": 18.74,
-   "price": 20.1,
+   "price": 20.12,
    "stop": 17.5,
    "target": 21.47,
    "dateAchat": "2026-10-08T07:20:41.027Z",
@@ -62,7 +62,7 @@
    "nom": "TotalEnergies",
    "shares": 9,
    "pmc": 76.72,
-   "price": 83.25,
+   "price": 82.55,
    "stop": 70.5,
    "target": 87.87,
    "dateAchat": "2026-10-08T09:20:41.913Z",
@@ -74,7 +74,7 @@
    "nom": "Amundi",
    "shares": 8,
    "pmc": 89.56,
-   "price": 93.28,
+   "price": 93.7,
    "stop": 83.5,
    "target": 102.58,
    "dateAchat": "2026-10-29T08:20:41.948Z",
@@ -86,7 +86,7 @@
    "nom": "Mersen",
    "shares": 13,
    "pmc": 42.75,
-   "price": 40.06,
+   "price": 39.3,
    "stop": 38,
    "target": 48.97,
    "dateAchat": "2026-10-29T08:20:41.948Z",
@@ -98,7 +98,7 @@
    "nom": "Scor",
    "shares": 20,
    "pmc": 34.6,
-   "price": 34.4,
+   "price": 34.26,
    "stop": 31.7,
    "target": 39.63,
    "dateAchat": "2026-10-30T10:20:41.725Z",
@@ -1048,6 +1048,11 @@
    "date": "2026-11-04T08:20:36.782Z",
    "equity": 9965.39,
    "cac": 8044.61
+  },
+  {
+   "date": "2026-11-04T10:20:38.132Z",
+   "equity": 9948.95,
+   "cac": 8107.09
   }
  ],
  "signaux": [
@@ -11076,7 +11081,14 @@
     "cacChgPct": -0.18,
     "alphaPct": -3.29
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-04T10:20:38.132Z",
+    "jours": 30,
+    "prix": 290.4,
+    "chgPct": -11.71,
+    "cacChgPct": 3.59,
+    "alphaPct": -15.3
+   },
    "solde": null
   },
   {
@@ -11099,7 +11111,14 @@
     "cacChgPct": -0.18,
     "alphaPct": -0.23
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-04T10:20:38.132Z",
+    "jours": 30,
+    "prix": 25,
+    "chgPct": 2.21,
+    "cacChgPct": 3.59,
+    "alphaPct": -1.38
+   },
    "solde": null
   },
   {
@@ -11122,7 +11141,14 @@
     "cacChgPct": -0.18,
     "alphaPct": 3.03
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-04T10:20:38.132Z",
+    "jours": 30,
+    "prix": 166.7,
+    "chgPct": 3.28,
+    "cacChgPct": 3.59,
+    "alphaPct": -0.31
+   },
    "solde": null
   },
   {
@@ -11145,7 +11171,14 @@
     "cacChgPct": -0.18,
     "alphaPct": 2.37
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-04T10:20:38.132Z",
+    "jours": 30,
+    "prix": 87.76,
+    "chgPct": 15.63,
+    "cacChgPct": 3.59,
+    "alphaPct": 12.03
+   },
    "solde": null
   },
   {
@@ -11168,7 +11201,14 @@
     "cacChgPct": -0.18,
     "alphaPct": -2.44
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-04T10:20:38.132Z",
+    "jours": 30,
+    "prix": 183.76,
+    "chgPct": 6.08,
+    "cacChgPct": 3.59,
+    "alphaPct": 2.49
+   },
    "solde": null
   },
   {
@@ -11191,7 +11231,14 @@
     "cacChgPct": -0.18,
     "alphaPct": 1.98
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-04T10:20:38.132Z",
+    "jours": 30,
+    "prix": 34.4,
+    "chgPct": 14.51,
+    "cacChgPct": 3.59,
+    "alphaPct": 10.92
+   },
    "solde": null
   },
   {
@@ -11214,7 +11261,14 @@
     "cacChgPct": -0.18,
     "alphaPct": -0.72
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-04T10:20:38.132Z",
+    "jours": 30,
+    "prix": 121.9,
+    "chgPct": -8.55,
+    "cacChgPct": 3.59,
+    "alphaPct": -12.14
+   },
    "solde": null
   },
   {
@@ -11237,7 +11291,14 @@
     "cacChgPct": -0.18,
     "alphaPct": -2.25
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-04T10:20:38.132Z",
+    "jours": 30,
+    "prix": 225.8,
+    "chgPct": -0.31,
+    "cacChgPct": 3.59,
+    "alphaPct": -3.9
+   },
    "solde": null
   },
   {
@@ -20728,6 +20789,134 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Mersen rebondit a 40,06 EUR (+7,06 % sur 5j) et repasse au-dessus de sa SMA20 et SMA50 (39,20 EUR) comme releve par Ideal Investisseur. La tendance de fond reste HAUSSE_CONFIRMEE (pente +4,53 %, ecart SMA200 +15,71 %) bien au-dessus du stop a 38,00 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-041020-TTE.PA-0",
+   "date": "2026-11-04T10:20:38.132Z",
+   "symbole": "TTE.PA",
+   "nom": "TotalEnergies",
+   "action": "CONSERVER",
+   "confiance": 88,
+   "prixSignal": 82.55,
+   "cacAuSignal": 8107.09,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "TotalEnergies consolide a 82,55 EUR (-0,19 % sur 1j, +9,45 % sur 20j) en tendance HAUSSE_CONFIRMEE avec une pente SMA 200 a +3,54 % et un ecart SMA 200 a +10,88 %. Le dossier beneficie de solides catalyseurs avec un contrat GNL de 900 000 tonnes par an en Chine et la confirmation d'opinion positive ",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-041020-AI.PA-1",
+   "date": "2026-11-04T10:20:38.132Z",
+   "symbole": "AI.PA",
+   "nom": "Air Liquide",
+   "action": "CONSERVER",
+   "confiance": 87,
+   "prixSignal": 183.76,
+   "cacAuSignal": 8107.09,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Air Liquide atteint son plus haut 52 semaines a 183,76 EUR (+0,66 % sur 1j, +8,98 % sur 20j), etablissant un record historique confirme par les actualites. Le titre affiche une tendance HAUSSE_CONFIRMEE (ecart SMA 200 a +10,85 %, pente +1,88 %) malgre un RSI a 85 en surachat qui traduit une forte im",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-041020-GET.PA-2",
+   "date": "2026-11-04T10:20:38.132Z",
+   "symbole": "GET.PA",
+   "nom": "Getlink",
+   "action": "CONSERVER",
+   "confiance": 86,
+   "prixSignal": 20.12,
+   "cacAuSignal": 8107.09,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Getlink teste son plus haut a 20,12 EUR (+0,20 % sur 1j, +8,76 % sur 20j) avec une volatilite annualisee particulierement defensive a 10,4 %. La tendance de fond est HAUSSE_CONFIRMEE avec un cours au-dessus de la SMA 50 a 18,90 EUR (+6,45 %) et de la SMA 200 a 18,51 EUR (+8,72 %). La ligne est en pl",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-041020-ENX.PA-3",
+   "date": "2026-11-04T10:20:38.132Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "prixSignal": 166.7,
+   "cacAuSignal": 8107.09,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Euronext replie moderement a 166,70 EUR (-1,65 % sur 1j, +19,41 % sur 126j) tout en preservant sa tendance HAUSSE_CONFIRMEE (pente SMA 200 de +3,26 %). Le cours evolue nettement au-dessus de sa SMA 200 a 147,57 EUR (+12,96 %) et de sa SMA 50 a 164,53 EUR avec un RSI equilibre a 51,6. La position est",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-041020-AMUN.PA-4",
+   "date": "2026-11-04T10:20:38.132Z",
+   "symbole": "AMUN.PA",
+   "nom": "Amundi",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "prixSignal": 93.7,
+   "cacAuSignal": 8107.09,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Amundi gagne +1,19 % a 93,70 EUR (+6,36 % sur 20j, +10,95 % sur 126j) en tendance HAUSSE_CONFIRMEE (pente SMA 200 a +1,99 %). Les actualites soulignent une orientation haussiere claire et le titre se maintient au-dessus de ses moyennes SMA 50 a 91,26 EUR (+2,67 %) et SMA 200 a 84,84 EUR (+10,44 %). ",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-041020-SCR.PA-5",
+   "date": "2026-11-04T10:20:38.132Z",
+   "symbole": "SCR.PA",
+   "nom": "Scor",
+   "action": "CONSERVER",
+   "confiance": 83,
+   "prixSignal": 34.26,
+   "cacAuSignal": 8107.09,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "SCOR cote a 34,26 EUR (-0,29 % sur 1j, +7,20 % sur 20j et +10,37 % sur 126j), tout pres de son plus haut 52 semaines a 34,68 EUR. La configuration technique reste HAUSSE_CONFIRMEE avec une pente SMA 200 a +1,69 % et un ecart SMA 200 de +7,89 %, pour un RSI neutre a 60,5. Le titre est proche de l'equ",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-041020-DEC.PA-6",
+   "date": "2026-11-04T10:20:38.132Z",
+   "symbole": "DEC.PA",
+   "nom": "JCDecaux",
+   "action": "CONSERVER",
+   "confiance": 82,
+   "prixSignal": 25,
+   "cacAuSignal": 8107.09,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "JCDecaux avance de +0,81 % a 25,00 EUR (+3,05 % sur 20j, +33,62 % sur 126j) en tendance HAUSSE_CONFIRMEE avec une pente SMA 200 robuste de +4,55 %. Le titre evolue au-dessus de sa SMA 50 a 24,60 EUR (+1,63 %) et SMA 200 a 20,68 EUR (+20,89 %) avec un RSI non sature a 42,0. La ligne reste en gain de ",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-041020-MRN.PA-7",
+   "date": "2026-11-04T10:20:38.132Z",
+   "symbole": "MRN.PA",
+   "nom": "Mersen",
+   "action": "CONSERVER",
+   "confiance": 80,
+   "prixSignal": 39.3,
+   "cacAuSignal": 8107.09,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Mersen cote a 39,30 EUR (-2,82 % sur 1j, +12,29 % sur 126j), rebondissant selon l'actualite de 12,5 % sur une semaine pour repasser au-dessus de sa SMA 20 a 39,16 EUR et SMA 50 a 39,24 EUR. La tendance reste HAUSSE_CONFIRMEE (pente SMA 200 a +4,47 %, ecart SMA 200 a +13,28 %). Le cours se situe au-d",
    "h1s": null,
    "h1m": null,
    "solde": null
