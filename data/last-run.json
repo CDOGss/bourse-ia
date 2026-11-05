@@ -1,17 +1,17 @@
 {
- "date": "2026-11-04T16:20:35.000Z",
- "dureeS": 146,
+ "date": "2026-11-05T08:20:36.204Z",
+ "dureeS": 137,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "NORMAL",
  "regimeApplique": "NORMAL",
- "resume_marche": "Le CAC 40 bondit de +2,33 % a 8 207,24 points, porte par un fort soulagement sur les marches actions suite aux resultats des elections americaines. La largeur de marche demeure neanmoins PARTAGEE avec 45,9 % des valeurs de l univers au-dessus de leur moyenne mobile a 200 jours sur 122 titres suivis. Le portefeuille conserve l integralite de ses 8 positions existantes, toutes orientees en tendance haussiere confirmee et adossees a des fondamentaux solides.",
+ "resume_marche": "Le CAC 40 s'inscrit en nette hausse de +1,07 % à 8 265,16 points, porté par l'embellie sur les marchés mondiaux et de solides publications de résultats trimestriels. La largeur de marché s'établit à 46,7 % des valeurs au-dessus de leur SMA 200, traduisant un état de santé PARTAGEE qui impose la sélectivité. Le portefeuille compte déjà 8 positions actives (part investie de 56,7 %), et les dossiers en place continuent de valider leurs thèses respectives sans qu'aucun arbitrage ne soit requis.",
  "signaux": [
   {
-   "symbole": "TTE.PA",
+   "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 88,
-   "justification": "TotalEnergies evolue en tendance HAUSSE_CONFIRMEE avec une pente SMA200 de +3,54 % et un cours a 81,91 EUR (+10,02 % au-dessus de la SMA200 a 74,45 EUR). Le titre est soutenu par des contrats majeurs recents, dont un accord preliminaire de livraison de 900 000 t de GNL par an en Chine et jusqu a 1,6 Mt sur 5 ans aux Emirats.",
+   "justification": "JCDecaux bondit de +10,08 % à 27,30 EUR (plus haut 52 semaines) après une croissance organique trimestrielle supérieure aux attentes confirmée par ABC Bourse et Zonebourse. La dynamique reste résolument HAUSSE_CONFIRMEE (pente SMA200 +4,61 %, chg126d +45,91 %, cours à +31,94 % au-dessus de la SMA200 à 20,69 EUR), à proximité immédiate de notre objectif de 28,04 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -21,8 +21,8 @@
   {
    "symbole": "AI.PA",
    "action": "CONSERVER",
-   "confiance": 87,
-   "justification": "Air Liquide cote a 188,46 EUR (+3,23 % ce jour), touchant son plus haut sur 52 semaines en tendance HAUSSE_CONFIRMEE (pente +1,89 %, ecart SMA200 +13,66 %). La dynamique semestrielle (+17,91 % sur 126j) reste solide et le soutien des acheteurs se renforce au-dessus de 181,03 EUR.",
+   "confiance": 86,
+   "justification": "Air Liquide inscrit un nouveau sommet annuel à 190,00 EUR (+4,08 % sur 1j, +9,04 % sur 5j) en tendance HAUSSE_CONFIRMEE (chg126d +18,87 %, pente SMA200 +1,90 %). Bien que le RSI14 atteigne 89,3 en surachat, la force relative du titre demeure remarquable en direction de l'objectif de 202,10 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -33,7 +33,18 @@
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 86,
-   "justification": "Getlink se hisse a son plus haut 52 semaines a 20,20 EUR (+9,19 % sur 20 jours) en tendance HAUSSE_CONFIRMEE (+1,88 % de pente, +9,15 % sur la SMA200 a 18,51 EUR). La volatilite annualisee tres contenue a 10,4 % confirme la solidite de la marche vers l objectif de 21,47 EUR.",
+   "justification": "Getlink culmine sur son plus haut 52 semaines à 20,26 EUR (+0,90 % sur 1j, +9,51 % sur 20j) avec une volatilité très maîtrisée de 10,5 %. La tendance HAUSSE_CONFIRMEE est intacte (pente SMA200 +1,88 %, cours à +9,47 % de la SMA200 à 18,51 EUR), justifiant le maintien vers l'objectif de 21,47 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "TTE.PA",
+   "action": "CONSERVER",
+   "confiance": 86,
+   "justification": "TotalEnergies consolide à 79,59 EUR (-3,77 % sur 1j) mais préserve sa tendance de fond HAUSSE_CONFIRMEE (pente SMA200 +3,52 %, cours à +6,92 % de la SMA200 à 74,44 EUR). Investing.com évoque un seuil d'achat technique suite à cette correction, tandis que le RSI14 à 48,1 reste neutre et non dégradé.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -44,7 +55,7 @@
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Euronext affiche 170,40 EUR en tendance HAUSSE_CONFIRMEE avec une pente SMA200 solide de +3,27 % et un ecart de +15,46 % par rapport a la SMA200 (147,59 EUR). Le RSI14 se maintient a un niveau sain de 58,8 et la progression sur 126 jours atteint +22,06 %.",
+   "justification": "Euronext progresse de +1,24 % à 171,60 EUR, confortant son gain latent (+6,2 %) en tendance HAUSSE_CONFIRMEE (pente SMA200 +3,28 %, chg126d +22,92 %, cours à +16,27 % de la SMA200 à 147,59 EUR). Le RSI14 à 60,6 laisse une marge de progression appréciable vers l'objectif de 185,15 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -55,7 +66,7 @@
    "symbole": "AMUN.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Amundi progresse de +2,05 % a 94,50 EUR en tendance HAUSSE_CONFIRMEE avec une pente SMA200 de +1,99 % et un cours situe +11,38 % au-dessus de la SMA200 a 84,85 EUR. Les actualites confirment une tendance de fond haussiere soutenue par des encours sous gestion records.",
+   "justification": "Amundi accélère à 95,15 EUR (+2,75 % sur 1j, +6,55 % sur 5j), soutenu par Morgan Stanley qui a relevé son objectif de cours à 99,30 EUR. La tendance HAUSSE_CONFIRMEE est vigoureuse (pente SMA200 +1,99 %, cours à +12,14 % de la SMA200 à 84,85 EUR) vers notre cible de 102,58 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -65,19 +76,8 @@
   {
    "symbole": "SCR.PA",
    "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "SCOR atteint son plus haut sur 52 semaines a 34,68 EUR en tendance HAUSSE_CONFIRMEE (pente +1,69 %, +9,20 % sur la SMA200 a 31,76 EUR). Le dossier beneficie de la reitération de ses guidances et d un plan de restructuration ciblant 20 a 25 millions de dollars d economies annuelles.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "DEC.PA",
-   "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "JCDecaux cote 25,26 EUR, proche de son plus haut annuel a 25,86 EUR (-2,32 %), en tendance HAUSSE_CONFIRMEE avec une pente SMA200 soutenue de +4,56 % et un ecart de +22,14 % a la SMA200 (20,68 EUR). Le RSI14 neutre a 45,5 laisse un potentiel d appreciation intact vers l objectif de 28,04 EUR.",
+   "confiance": 84,
+   "justification": "SCOR s'octroie +2,50 % à 35,22 EUR, touchant un plus haut 52 semaines grâce au relèvement d'objectif de cours de Jefferies à 37 EUR. Le titre est solidement orienté en tendance HAUSSE_CONFIRMEE (pente SMA200 +1,70 %, cours à +10,89 % de la SMA200 à 31,76 EUR, RSI14 à 68,7).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -87,8 +87,8 @@
   {
    "symbole": "MRN.PA",
    "action": "CONSERVER",
-   "confiance": 80,
-   "justification": "Mersen cede -5,64 % a 38,16 EUR mais preserve son seuil de stop fixe a 38,00 EUR. La tendance de fond demeure HAUSSE_CONFIRMEE avec une pente SMA200 de +4,45 %, un cours qui reste superieur de +10,01 % a la SMA200 (34,69 EUR) et un RSI14 a 46,0 sans signal de survente.",
+   "confiance": 75,
+   "justification": "Mersen reflue de -5,98 % à 38,02 EUR et teste son seuil de stop fixé à 38,00 EUR dans une volatilité de 77,4 %. Conformément à la discipline technique, la position est maintenue tant que le support de 38,00 EUR n'est pas cassé en clôture, la tendance de long terme restant HAUSSE_CONFIRMEE (pente SMA200 +4,45 %, cours à +9,61 % au-dessus de la SMA200 à 34,69 EUR).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -101,15 +101,15 @@
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
-  "ageJours": 51,
-  "nbPassages": 114,
-  "equity": 9987.89,
-  "perfPct": -0.12,
-  "cacPerfPct": 1.1,
+  "ageJours": 52,
+  "nbPassages": 115,
+  "equity": 10059.53,
+  "perfPct": 0.6,
+  "cacPerfPct": 1.82,
   "alphaPct": -1.22,
   "maxDrawdownPct": -4.2,
-  "sharpe": 0.02,
-  "expositionPct": 56.4,
+  "sharpe": 0.66,
+  "expositionPct": 56.7,
   "trades": {
    "nbAchats": 17,
    "nbSolde": 9,
@@ -160,7 +160,7 @@
   "verdict": {
    "etat": "PAS_ENCORE_CONCLUANT",
    "raisons": [
-    "il faut 90 jours de recul (actuellement 51)",
+    "il faut 90 jours de recul (actuellement 52)",
     "il faut 20 positions soldees (actuellement 9)"
    ],
    "criteres": {
@@ -173,7 +173,7 @@
   }
  },
  "stats": {
-  "equity": 9987.89,
+  "equity": 10059.53,
   "cash": 4354.26,
   "nbPositions": 8
  }
