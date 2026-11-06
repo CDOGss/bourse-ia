@@ -1,126 +1,115 @@
 {
- "date": "2026-11-06T10:20:39.692Z",
- "dureeS": 60,
+ "date": "2026-11-06T12:20:43.837Z",
+ "dureeS": 105,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 cède -1,24 % à 8 103,69 points, pénalisé par le net décrochage des valeurs technologiques mondiales et les doutes sur l'IA. La largeur du marché est FAIBLE avec seulement 44,3 % des composants au-dessus de leur SMA 200, incitant à une stricte modération dans les prises de risque. Dans ce contexte heurté, la sélection privilégie la préservation des gains acquis et des dossiers résilients à catalyseurs fondamentaux vérifiés.",
+ "resume_marche": "Le CAC 40 subit un net recul de -1,79 % à 8 058,24 points, plombé par les craintes sur la rentabilité de l'IA américaine et la chute brutale de Teleperformance (-16,31 %). La largeur de marché ressort à l'état FAIBLE avec seulement 42,6 % des valeurs de l'univers évoluant au-dessus de leur SMA200, imposant d'adopter un régime PRUDENT. Le portefeuille est à sa capacité maximale avec 8 positions ouvertes, toutes ancrées en tendance HAUSSE_CONFIRMEE et préservant leurs supports respectifs.",
  "signaux": [
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 88,
-   "justification": "JCDecaux consolide à 26,44 EUR (-1,20 %) tout en affichant une remarquable tendance HAUSSE_CONFIRMEE (chg126d +42,38 %, pente +4,60 %) au-dessus de sa SMA50 à 24,71 EUR. La thèse est renforcée par BNP Paribas qui a relevé son objectif de cours à 29,50 EUR avec une recommandation maintenue à surperformance.",
+   "justification": "JCDecaux consolide à 26,15 EUR (-2,28 %) après une progression de +7,70 % sur 5 jours, restant solidement installé au-dessus de sa SMA50 (24,70 EUR) et SMA200 (20,78 EUR, +25,83 %) en tendance HAUSSE_CONFIRMEE (+4,60 %). La dynamique fondamentale est confirmée par le relèvement d'objectif de BNP Paribas à 29,50 EUR en surperformance ce matin.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Cassure en clôture sous le support des 23,50 EUR ou rupture de la SMA50 à 24,71 EUR."
-  },
-  {
-   "symbole": "ENX.PA",
-   "action": "CONSERVER",
-   "confiance": 87,
-   "justification": "Euronext reste fermement ancré en tendance HAUSSE_CONFIRMEE (pente +3,38 %, chg126d +23,67 %) et évolue largement au-dessus de sa SMA200 à 148,11 EUR (+16,06 %). Le repli à 171,90 EUR ramène le RSI14 à un niveau équilibré de 54,5 sans altérer la tendance de fond.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": "Rupture de la SMA50 à 164,93 EUR."
+   "invalidation": null
   },
   {
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 87,
-   "justification": "Getlink fait preuve d'une excellente résilience relative (-0,69 % à 20,26 EUR) avec une volatilité basse à 13,2 % et un chg126d de +9,28 %. Les publications du matin confirment une solide progression des trafics passagers et navettes en octobre, validant la poursuite vers l'objectif.",
+   "justification": "Getlink fait preuve de résilience à 20,18 EUR (-1,08 %) en tendance HAUSSE_CONFIRMEE (pente +1,89 %, écart SMA200 +9,03 %) avec une volatilité basse de 13,7 %. Les publications de la matinée confirment l'accélération du trafic passagers et poids lourds au mois d'octobre.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Clôture sous la SMA50 à 18,91 EUR."
+   "invalidation": null
+  },
+  {
+   "symbole": "ENX.PA",
+   "action": "CONSERVER",
+   "confiance": 87,
+   "justification": "Euronext respire à 171,80 EUR (-1,43 %) au contact immédiat de sa SMA20 (172,08 EUR) tout en conservant une forte avance sur sa SMA200 (148,11 EUR, +15,99 %). La tendance HAUSSE_CONFIRMEE (pente +3,38 %, chg126d +23,60 %) et le RSI équilibré à 54,3 militent pour le maintien intégral de la ligne.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
   },
   {
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Air Liquide cède -1,36 % à 187,14 EUR en phase de consolidation saine sous ses sommets (dist_plus_haut_52s_pct -1,36 %), en tendance HAUSSE_CONFIRMEE (chg126d +15,03 %). L'annonce d'un investissement industriel de 50 millions d'euros à Montoir-de-Bretagne appuie la thèse de croissance séculaire.",
+   "justification": "Air Liquide se maintient à 186,80 EUR (-1,54 %) après un gain de +10,09 % sur 20 jours, surperformant largement ses moyennes (SMA50 à 171,83 EUR, SMA200 à 166,25 EUR) en tendance HAUSSE_CONFIRMEE. Le dossier est appuyé par l'annonce d'un investissement industriel de 50 M€ à Montoir-de-Bretagne pour accroître de 50 % sa production d'azote.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Enfoncement net sous 171,80 EUR (SMA50)."
+   "invalidation": null
   },
   {
    "symbole": "AMUN.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Amundi résiste parfaitement à la baisse du marché (0,00 % ce jour à 94,25 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,01 %, écart SMA200 +10,83 %). Le titre reste porté par ses encours records et sa dynamique d'innovation produit (tokenisation annoncée ce jour).",
+   "justification": "Amundi résiste bien à 93,55 EUR (-0,74 %) au-dessus de sa SMA20 (89,98 EUR, +3,96 %) et de sa SMA200 (85,04 EUR, +10,01 %) en tendance HAUSSE_CONFIRMEE (pente +2,01 %). La valeur continue de capitaliser sur ses encours records et l'annonce novatrice de tokenisation d'un fonds STOXX Europe 600 sur Ethereum.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Cassure du support technique à 88,00 EUR."
+   "invalidation": null
   },
   {
    "symbole": "TTE.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "TotalEnergies recule de -1,80 % à 79,25 EUR sur le support de sa SMA50 (79,42 EUR), tout en conservant une tendance HAUSSE_CONFIRMEE avec une pente de +3,50 %. Morgan Stanley a relevé son objectif à 82 EUR ce matin, confirmant la valeur fondamentale du dossier.",
+   "justification": "TotalEnergies recule à 78,97 EUR (-2,14 %) sous l'effet du repli général des indices mais conserve son ancrage technique au-dessus de la SMA200 (74,65 EUR, +5,78 %) avec une pente positive de +3,50 %. La recommandation positive réitérée ce matin par UBS conforte la thèse à moyen terme au-dessus du stop à 70,50 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Rupture de la SMA200 à 74,66 EUR."
+   "invalidation": null
   },
   {
    "symbole": "SCR.PA",
    "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "SCOR subit des prises de bénéfices (-2,36 % à 34,76 EUR) mais demeure bien installé au-dessus de sa SMA200 à 31,84 EUR (+9,17 %) en tendance HAUSSE_CONFIRMEE (pente +1,85 %). La publication récente des résultats T3 solides soutient la préservation de la position.",
+   "confiance": 82,
+   "justification": "SCOR subit un reflux technique à 34,44 EUR (-3,26 %) mais se maintient au-dessus de ses moyennes SMA20 (33,66 EUR) et SMA200 (31,84 EUR, +8,17 %). La configuration reste haussière (tendance HAUSSE_CONFIRMEE, pente +1,85 %) et le stop à 31,70 EUR n'est nullement compromis.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Clôture sous 32,50 EUR invalidant le breakout post-résultats."
+   "invalidation": null
   },
   {
    "symbole": "PUB.PA",
-   "action": "ACHAT",
-   "confiance": 78,
-   "justification": "Publicis s'inscrit en tendance HAUSSE_CONFIRMEE (pente +1,60 %, chg126d +31,35 %) et son repli de séance (-2,81 % à 101,95 EUR) ramène le cours sur sa SMA20 (101,09 EUR) avec un RSI14 détendu à 51,4. Le dossier bénéficie d'un flux d'actualité favorable confirmé ce matin par des avis d'analystes séduits.",
-   "prix_entree": 101.95,
-   "stop_perte": 94.5,
+   "action": "CONSERVER",
+   "confiance": 80,
+   "justification": "Publicis Groupe teste son support SMA20 à 101,06 EUR (cours actuel 101,20 EUR, -3,53 %) en tendance HAUSSE_CONFIRMEE (+1,60 %, chg126d +30,38 %). Si UBS a abaissé son avis à neutre, JP Morgan a parallèlement relevé son objectif de cours de 133 à 145 EUR en surpondérer, confirmant le potentiel du titre bien au-dessus du stop à 94,50 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
    "prise_profit": null,
-   "taille_pct": 7,
-   "invalidation": "Clôture sous la SMA50 à 98,90 EUR ou rupture des 95,00 EUR."
+   "taille_pct": null,
+   "invalidation": null
   }
  ],
  "signaux_ecartes": [],
- "appliques": [
-  {
-   "symbole": "PUB.PA",
-   "nom": "Publicis Groupe",
-   "action": "ACHAT",
-   "shares": 6,
-   "prix": 101.95,
-   "montant": 614.15,
-   "motif": "Publicis s'inscrit en tendance HAUSSE_CONFIRMEE (pente +1,60 %, chg126d +31,35 %) et son repli de séance (-2,81 % à 101,95 EUR) ramène le cours sur sa SMA20 (101,09 EUR) avec un RSI14 détendu à 51,4. Le dossier bénéficie d'un flux d'actualité favorable confirmé ce matin par des avis d'analystes séduits.",
-   "confiance": 78
-  }
- ],
+ "appliques": [],
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 53,
-  "nbPassages": 121,
-  "equity": 9967.42,
-  "perfPct": -0.33,
-  "cacPerfPct": -0.17,
-  "alphaPct": -0.15,
+  "nbPassages": 122,
+  "equity": 9934.56,
+  "perfPct": -0.65,
+  "cacPerfPct": -0.73,
+  "alphaPct": 0.08,
   "maxDrawdownPct": -4.2,
-  "sharpe": -0.15,
-  "expositionPct": 57.8,
+  "sharpe": -0.43,
+  "expositionPct": 57.7,
   "trades": {
    "nbAchats": 18,
    "nbSolde": 10,
@@ -144,13 +133,13 @@
     "nbEvalues": 12,
     "tauxReussitePct": 66.7,
     "alphaMoyen1mPct": 1.3,
-    "alphaMoyen1sPct": -0.85
+    "alphaMoyen1sPct": -0.87
    },
    "ventes": {
     "nb": 7,
-    "nbEvalues": 4,
-    "tauxReussitePct": 50,
-    "alphaMoyen1mPct": -0.95,
+    "nbEvalues": 5,
+    "tauxReussitePct": 60,
+    "alphaMoyen1mPct": -1.29,
     "alphaMoyen1sPct": -0.79
    },
    "calibration": [
@@ -184,7 +173,7 @@
   }
  },
  "stats": {
-  "equity": 9967.42,
+  "equity": 9934.56,
   "cash": 4201.93,
   "nbPositions": 8
  }
