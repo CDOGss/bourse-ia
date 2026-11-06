@@ -14,7 +14,7 @@
    "nom": "Euronext",
    "shares": 4,
    "pmc": 161.64,
-   "price": 171.8,
+   "price": 170.5,
    "stop": 149,
    "target": 185.15,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -26,7 +26,7 @@
    "nom": "JCDecaux",
    "shares": 32,
    "pmc": 24.48,
-   "price": 26.15,
+   "price": 26.2,
    "stop": 22.2,
    "target": 28.04,
    "dateAchat": "2026-09-16T16:55:20.995Z",
@@ -38,7 +38,7 @@
    "nom": "Air Liquide",
    "shares": 4,
    "pmc": 176.44,
-   "price": 186.8,
+   "price": 187.2,
    "stop": 161.5,
    "target": 202.1,
    "dateAchat": "2026-10-05T07:20:38.130Z",
@@ -62,7 +62,7 @@
    "nom": "TotalEnergies",
    "shares": 9,
    "pmc": 76.72,
-   "price": 78.97,
+   "price": 78.64,
    "stop": 70.5,
    "target": 87.87,
    "dateAchat": "2026-10-08T09:20:41.913Z",
@@ -74,7 +74,7 @@
    "nom": "Amundi",
    "shares": 8,
    "pmc": 89.56,
-   "price": 93.55,
+   "price": 93.35,
    "stop": 83.5,
    "target": 102.58,
    "dateAchat": "2026-10-29T08:20:41.948Z",
@@ -86,7 +86,7 @@
    "nom": "Scor",
    "shares": 20,
    "pmc": 34.6,
-   "price": 34.44,
+   "price": 34.4,
    "stop": 31.7,
    "target": 39.63,
    "dateAchat": "2026-10-30T10:20:41.725Z",
@@ -98,7 +98,7 @@
    "nom": "Publicis Groupe",
    "shares": 6,
    "pmc": 102.36,
-   "price": 101.2,
+   "price": 101.55,
    "stop": 94.5,
    "target": 117.24,
    "dateAchat": "2026-11-06T10:20:39.692Z",
@@ -1138,6 +1138,11 @@
    "date": "2026-11-06T12:20:43.837Z",
    "equity": 9934.56,
    "cac": 8058.24
+  },
+  {
+   "date": "2026-11-06T14:20:37.140Z",
+   "equity": 9929.29,
+   "cac": 8052.87
   }
  ],
  "signaux": [
@@ -14046,7 +14051,14 @@
     "cacChgPct": 1.24,
     "alphaPct": -10.11
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-06T14:20:37.140Z",
+    "jours": 30,
+    "prix": 122.5,
+    "chgPct": -4.67,
+    "cacChgPct": 3.55,
+    "alphaPct": -8.22
+   },
    "solde": null
   },
   {
@@ -14069,7 +14081,14 @@
     "cacChgPct": 1.24,
     "alphaPct": 8.32
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-06T14:20:37.140Z",
+    "jours": 30,
+    "prix": 170.5,
+    "chgPct": 5.12,
+    "cacChgPct": 3.55,
+    "alphaPct": 1.57
+   },
    "solde": null
   },
   {
@@ -14092,7 +14111,14 @@
     "cacChgPct": 1.24,
     "alphaPct": 11.04
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-06T14:20:37.140Z",
+    "jours": 30,
+    "prix": 87.12,
+    "chgPct": 13.79,
+    "cacChgPct": 3.55,
+    "alphaPct": 10.24
+   },
    "solde": null
   },
   {
@@ -14115,7 +14141,14 @@
     "cacChgPct": 1.24,
     "alphaPct": -15.79
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-06T14:20:37.140Z",
+    "jours": 30,
+    "prix": 289.4,
+    "chgPct": -9.82,
+    "cacChgPct": 3.55,
+    "alphaPct": -13.36
+   },
    "solde": null
   },
   {
@@ -14138,7 +14171,14 @@
     "cacChgPct": 1.24,
     "alphaPct": 1.12
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-06T14:20:37.140Z",
+    "jours": 30,
+    "prix": 26.2,
+    "chgPct": 6.68,
+    "cacChgPct": 3.55,
+    "alphaPct": 3.13
+   },
    "solde": null
   },
   {
@@ -14161,7 +14201,14 @@
     "cacChgPct": 1.24,
     "alphaPct": 14.37
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-06T14:20:37.140Z",
+    "jours": 30,
+    "prix": 36.62,
+    "chgPct": 21.1,
+    "cacChgPct": 3.55,
+    "alphaPct": 17.55
+   },
    "solde": null
   },
   {
@@ -14184,7 +14231,14 @@
     "cacChgPct": 1.24,
     "alphaPct": 2.76
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-06T14:20:37.140Z",
+    "jours": 30,
+    "prix": 187.2,
+    "chgPct": 10.97,
+    "cacChgPct": 3.55,
+    "alphaPct": 7.42
+   },
    "solde": null
   },
   {
@@ -23421,6 +23475,134 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Publicis Groupe teste son support SMA20 à 101,06 EUR (cours actuel 101,20 EUR, -3,53 %) en tendance HAUSSE_CONFIRMEE (+1,60 %, chg126d +30,38 %). Si UBS a abaissé son avis à neutre, JP Morgan a parallèlement relevé son objectif de cours de 133 à 145 EUR en surpondérer, confirmant le potentiel du tit",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-061420-DEC.PA-0",
+   "date": "2026-11-06T14:20:37.140Z",
+   "symbole": "DEC.PA",
+   "nom": "JCDecaux",
+   "action": "CONSERVER",
+   "confiance": 88,
+   "prixSignal": 26.2,
+   "cacAuSignal": 8052.87,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "JCDecaux cote 26,20 EUR en repli de séance (-2,09 %) mais conserve une solide tendance HAUSSE_CONFIRMEE (pente +4,60 %, chg126d +41,09 %) au-dessus de sa SMA200 (20,78 EUR, écart +26,07 %). Le dossier est conforté par le relèvement d'objectif de BNP Paribas à 29,50 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-061420-ENX.PA-1",
+   "date": "2026-11-06T14:20:37.140Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "CONSERVER",
+   "confiance": 87,
+   "prixSignal": 170.5,
+   "cacAuSignal": 8052.87,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Euronext s'établit à 170,50 EUR (-2,18 % ce jour) dans une tendance HAUSSE_CONFIRMEE saine (pente +3,38 %, chg126d +22,66 %) bien au-dessus de la SMA200 à 148,11 EUR (+15,12 %). Le RSI14 à 52 reste parfaitement équilibré sans aucun signal de retournement baissier.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-061420-GET.PA-2",
+   "date": "2026-11-06T14:20:37.140Z",
+   "symbole": "GET.PA",
+   "nom": "Getlink",
+   "action": "CONSERVER",
+   "confiance": 87,
+   "prixSignal": 20.18,
+   "cacAuSignal": 8052.87,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Getlink s'établit à 20,18 EUR (+7,7 % de gain latent) en tendance HAUSSE_CONFIRMEE (pente +1,89 %, écart SMA200 +9,03 %) avec une faible volatilité de 13,7 %. Les fondamentaux sont confortés par l'annonce d'une hausse du trafic passagers et poids lourds en octobre.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-061420-AI.PA-3",
+   "date": "2026-11-06T14:20:37.140Z",
+   "symbole": "AI.PA",
+   "nom": "Air Liquide",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "prixSignal": 187.2,
+   "cacAuSignal": 8052.87,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Air Liquide cote 187,20 EUR (+6,1 % de performance latente), proche de ses plus hauts annuels (-1,33 %) en tendance HAUSSE_CONFIRMEE (pente +2,02 %, écart SMA200 +12,60 %). Le catalyseur industriel se poursuit avec l'investissement de 50 M€ annoncé à Montoir-de-Bretagne.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-061420-AMUN.PA-4",
+   "date": "2026-11-06T14:20:37.140Z",
+   "symbole": "AMUN.PA",
+   "nom": "Amundi",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "prixSignal": 93.35,
+   "cacAuSignal": 8052.87,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Amundi se maintient à 93,35 EUR (+4,2 % de plus-value latente) en tendance HAUSSE_CONFIRMEE (pente +2,01 %, chg126d +8,74 %, écart SMA200 +9,78 %). La thèse demeure étayée par les résultats T3 récents et la solidité de la collecte d'actifs.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-061420-TTE.PA-5",
+   "date": "2026-11-06T14:20:37.140Z",
+   "symbole": "TTE.PA",
+   "nom": "TotalEnergies",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "prixSignal": 78.64,
+   "cacAuSignal": 8052.87,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "TotalEnergies cote 78,64 EUR (+2,5 % de gain latent) en tendance HAUSSE_CONFIRMEE (pente SMA200 à +3,50 %, écart +5,34 %). Malgré le repli du jour (-2,55 %), le RSI14 à 44,2 est assaini et la valeur conserve son socle au-dessus de la SMA200 (74,65 EUR).",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-061420-SCR.PA-6",
+   "date": "2026-11-06T14:20:37.140Z",
+   "symbole": "SCR.PA",
+   "nom": "Scor",
+   "action": "CONSERVER",
+   "confiance": 82,
+   "prixSignal": 34.4,
+   "cacAuSignal": 8052.87,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "SCOR cote 34,40 EUR (-3,37 % en séance, proche du PMC de 34,60 EUR) au sein d'une tendance HAUSSE_CONFIRMEE (pente +1,85 %, écart SMA200 +8,04 %). La correction intraday est conforme au mouvement de marché général sans remise en cause des solides chiffres T3.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-061420-PUB.PA-7",
+   "date": "2026-11-06T14:20:37.140Z",
+   "symbole": "PUB.PA",
+   "nom": "Publicis Groupe",
+   "action": "CONSERVER",
+   "confiance": 80,
+   "prixSignal": 101.55,
+   "cacAuSignal": 8052.87,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Publicis s'établit à 101,55 EUR (-3,19 % ce jour) et s'appuie sur sa SMA20 à 101,07 EUR dans une tendance HAUSSE_CONFIRMEE intacte (pente +1,60 %, chg126d +30,83 %). Le titre bénéficie du relèvement d'objectif de JP Morgan à 145 EUR malgré la dégradation d'UBS.",
    "h1s": null,
    "h1m": null,
    "solde": null
