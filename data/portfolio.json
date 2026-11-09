@@ -14,7 +14,7 @@
    "nom": "Euronext",
    "shares": 4,
    "pmc": 161.64,
-   "price": 170.4,
+   "price": 167.9,
    "stop": 149,
    "target": 185.15,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -26,7 +26,7 @@
    "nom": "JCDecaux",
    "shares": 32,
    "pmc": 24.48,
-   "price": 26.54,
+   "price": 26.76,
    "stop": 22.2,
    "target": 28.04,
    "dateAchat": "2026-09-16T16:55:20.995Z",
@@ -38,7 +38,7 @@
    "nom": "Air Liquide",
    "shares": 4,
    "pmc": 176.44,
-   "price": 188.36,
+   "price": 187.18,
    "stop": 161.5,
    "target": 202.1,
    "dateAchat": "2026-10-05T07:20:38.130Z",
@@ -50,7 +50,7 @@
    "nom": "Getlink",
    "shares": 35,
    "pmc": 18.74,
-   "price": 20.3,
+   "price": 20.22,
    "stop": 17.5,
    "target": 21.47,
    "dateAchat": "2026-10-08T07:20:41.027Z",
@@ -62,7 +62,7 @@
    "nom": "TotalEnergies",
    "shares": 9,
    "pmc": 76.72,
-   "price": 79.26,
+   "price": 79.21,
    "stop": 70.5,
    "target": 87.87,
    "dateAchat": "2026-10-08T09:20:41.913Z",
@@ -74,7 +74,7 @@
    "nom": "Amundi",
    "shares": 8,
    "pmc": 89.56,
-   "price": 94.15,
+   "price": 93.7,
    "stop": 83.5,
    "target": 102.58,
    "dateAchat": "2026-10-29T08:20:41.948Z",
@@ -86,7 +86,7 @@
    "nom": "Scor",
    "shares": 20,
    "pmc": 34.6,
-   "price": 34.54,
+   "price": 34.38,
    "stop": 31.7,
    "target": 39.63,
    "dateAchat": "2026-10-30T10:20:41.725Z",
@@ -98,7 +98,7 @@
    "nom": "Publicis Groupe",
    "shares": 6,
    "pmc": 102.36,
-   "price": 103.05,
+   "price": 103.55,
    "stop": 94.5,
    "target": 117.24,
    "dateAchat": "2026-11-06T10:20:39.692Z",
@@ -1148,6 +1148,11 @@
    "date": "2026-11-06T16:20:35.676Z",
    "equity": 9972.39,
    "cac": 8127.91
+  },
+  {
+   "date": "2026-11-09T08:20:40.645Z",
+   "equity": 9957.66,
+   "cac": 8124.16
   }
  ],
  "signaux": [
@@ -14446,7 +14451,14 @@
     "cacChgPct": 2.13,
     "alphaPct": 3.12
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 20.22,
+    "chgPct": 8.3,
+    "cacChgPct": 5.39,
+    "alphaPct": 2.92
+   },
    "solde": null
   },
   {
@@ -14469,7 +14481,14 @@
     "cacChgPct": 2.13,
     "alphaPct": 8.31
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 167.9,
+    "chgPct": 4.35,
+    "cacChgPct": 5.39,
+    "alphaPct": -1.04
+   },
    "solde": null
   },
   {
@@ -14492,7 +14511,14 @@
     "cacChgPct": 2.13,
     "alphaPct": -14.61
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 296.9,
+    "chgPct": -5.23,
+    "cacChgPct": 5.39,
+    "alphaPct": -10.62
+   },
    "solde": null
   },
   {
@@ -14515,7 +14541,14 @@
     "cacChgPct": 2.13,
     "alphaPct": 10.89
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 88.76,
+    "chgPct": 16.7,
+    "cacChgPct": 5.39,
+    "alphaPct": 11.31
+   },
    "solde": null
   },
   {
@@ -14538,7 +14571,14 @@
     "cacChgPct": 2.13,
     "alphaPct": 2.1
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 26.76,
+    "chgPct": 10.95,
+    "cacChgPct": 5.39,
+    "alphaPct": 5.56
+   },
    "solde": null
   },
   {
@@ -14561,7 +14601,14 @@
     "cacChgPct": 2.13,
     "alphaPct": 13.71
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 36.66,
+    "chgPct": 21.47,
+    "cacChgPct": 5.39,
+    "alphaPct": 16.09
+   },
    "solde": null
   },
   {
@@ -14584,7 +14631,14 @@
     "cacChgPct": 2.13,
     "alphaPct": 2.24
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 187.18,
+    "chgPct": 11.35,
+    "cacChgPct": 5.39,
+    "alphaPct": 5.96
+   },
    "solde": null
   },
   {
@@ -14607,7 +14661,14 @@
     "cacChgPct": 2.2,
     "alphaPct": 6.72
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 79.21,
+    "chgPct": 3.66,
+    "cacChgPct": 5.45,
+    "alphaPct": -1.79
+   },
    "solde": null
   },
   {
@@ -14630,7 +14691,14 @@
     "cacChgPct": 2.2,
     "alphaPct": 7.97
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 167.9,
+    "chgPct": 4.09,
+    "cacChgPct": 5.45,
+    "alphaPct": -1.36
+   },
    "solde": null
   },
   {
@@ -14653,7 +14721,14 @@
     "cacChgPct": 2.2,
     "alphaPct": -13.72
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 296.9,
+    "chgPct": -4.19,
+    "cacChgPct": 5.45,
+    "alphaPct": -9.65
+   },
    "solde": null
   },
   {
@@ -14676,7 +14751,14 @@
     "cacChgPct": 2.2,
     "alphaPct": 10.49
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 88.76,
+    "chgPct": 16.36,
+    "cacChgPct": 5.45,
+    "alphaPct": 10.91
+   },
    "solde": null
   },
   {
@@ -14699,7 +14781,14 @@
     "cacChgPct": 2.2,
     "alphaPct": 2.12
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 26.76,
+    "chgPct": 11.04,
+    "cacChgPct": 5.45,
+    "alphaPct": 5.58
+   },
    "solde": null
   },
   {
@@ -14722,7 +14811,14 @@
     "cacChgPct": 2.2,
     "alphaPct": 13.26
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 36.66,
+    "chgPct": 21.07,
+    "cacChgPct": 5.45,
+    "alphaPct": 15.62
+   },
    "solde": null
   },
   {
@@ -14745,7 +14841,14 @@
     "cacChgPct": 2.2,
     "alphaPct": 2.91
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 187.18,
+    "chgPct": 12.14,
+    "cacChgPct": 5.45,
+    "alphaPct": 6.68
+   },
    "solde": null
   },
   {
@@ -14768,7 +14871,14 @@
     "cacChgPct": 2.2,
     "alphaPct": 2.66
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 20.22,
+    "chgPct": 7.9,
+    "cacChgPct": 5.45,
+    "alphaPct": 2.44
+   },
    "solde": null
   },
   {
@@ -14791,7 +14901,14 @@
     "cacChgPct": 2.23,
     "alphaPct": 7.94
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 167.9,
+    "chgPct": 4.09,
+    "cacChgPct": 5.49,
+    "alphaPct": -1.4
+   },
    "solde": null
   },
   {
@@ -14814,7 +14931,14 @@
     "cacChgPct": 2.23,
     "alphaPct": -13.15
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 296.9,
+    "chgPct": -3.54,
+    "cacChgPct": 5.49,
+    "alphaPct": -9.03
+   },
    "solde": null
   },
   {
@@ -14837,7 +14961,14 @@
     "cacChgPct": 2.23,
     "alphaPct": 10.67
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 88.76,
+    "chgPct": 16.57,
+    "cacChgPct": 5.49,
+    "alphaPct": 11.08
+   },
    "solde": null
   },
   {
@@ -14860,7 +14991,14 @@
     "cacChgPct": 2.23,
     "alphaPct": 1.91
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 26.76,
+    "chgPct": 10.85,
+    "cacChgPct": 5.49,
+    "alphaPct": 5.36
+   },
    "solde": null
   },
   {
@@ -14883,7 +15021,14 @@
     "cacChgPct": 2.23,
     "alphaPct": 13.53
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 36.66,
+    "chgPct": 21.39,
+    "cacChgPct": 5.49,
+    "alphaPct": 15.9
+   },
    "solde": null
   },
   {
@@ -14906,7 +15051,14 @@
     "cacChgPct": 2.23,
     "alphaPct": 3.49
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 187.18,
+    "chgPct": 12.8,
+    "cacChgPct": 5.49,
+    "alphaPct": 7.31
+   },
    "solde": null
   },
   {
@@ -14929,7 +15081,14 @@
     "cacChgPct": 2.23,
     "alphaPct": 2.96
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 20.22,
+    "chgPct": 8.24,
+    "cacChgPct": 5.49,
+    "alphaPct": 2.75
+   },
    "solde": null
   },
   {
@@ -14952,7 +15111,14 @@
     "cacChgPct": 2.23,
     "alphaPct": 5.64
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 79.21,
+    "chgPct": 2.67,
+    "cacChgPct": 5.49,
+    "alphaPct": -2.82
+   },
    "solde": null
   },
   {
@@ -14975,7 +15141,14 @@
     "cacChgPct": 1.57,
     "alphaPct": 8.53
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 167.9,
+    "chgPct": 4.03,
+    "cacChgPct": 4.81,
+    "alphaPct": -0.78
+   },
    "solde": null
   },
   {
@@ -14998,7 +15171,14 @@
     "cacChgPct": 1.57,
     "alphaPct": -13.6
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 296.9,
+    "chgPct": -4.75,
+    "cacChgPct": 4.81,
+    "alphaPct": -9.56
+   },
    "solde": null
   },
   {
@@ -15021,7 +15201,14 @@
     "cacChgPct": 1.57,
     "alphaPct": 10.97
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 88.76,
+    "chgPct": 16.21,
+    "cacChgPct": 4.81,
+    "alphaPct": 11.4
+   },
    "solde": null
   },
   {
@@ -15044,7 +15231,14 @@
     "cacChgPct": 1.57,
     "alphaPct": 2.14
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 26.76,
+    "chgPct": 10.4,
+    "cacChgPct": 4.81,
+    "alphaPct": 5.58
+   },
    "solde": null
   },
   {
@@ -15067,7 +15261,14 @@
     "cacChgPct": 1.57,
     "alphaPct": 13.96
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 36.66,
+    "chgPct": 21.15,
+    "cacChgPct": 4.81,
+    "alphaPct": 16.34
+   },
    "solde": null
   },
   {
@@ -15090,7 +15291,14 @@
     "cacChgPct": 1.57,
     "alphaPct": 3.14
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 187.18,
+    "chgPct": 11.72,
+    "cacChgPct": 4.81,
+    "alphaPct": 6.91
+   },
    "solde": null
   },
   {
@@ -15113,7 +15321,14 @@
     "cacChgPct": 1.57,
     "alphaPct": 2.73
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 20.22,
+    "chgPct": 7.32,
+    "cacChgPct": 4.81,
+    "alphaPct": 2.51
+   },
    "solde": null
   },
   {
@@ -15136,7 +15351,14 @@
     "cacChgPct": 1.57,
     "alphaPct": 5.48
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 79.21,
+    "chgPct": 1.89,
+    "cacChgPct": 4.81,
+    "alphaPct": -2.92
+   },
    "solde": null
   },
   {
@@ -15159,7 +15381,14 @@
     "cacChgPct": 1.79,
     "alphaPct": 8.65
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 167.9,
+    "chgPct": 4.35,
+    "cacChgPct": 5.04,
+    "alphaPct": -0.69
+   },
    "solde": null
   },
   {
@@ -15182,7 +15411,14 @@
     "cacChgPct": 1.79,
     "alphaPct": -13.51
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 296.9,
+    "chgPct": -4.41,
+    "cacChgPct": 5.04,
+    "alphaPct": -9.45
+   },
    "solde": null
   },
   {
@@ -15205,7 +15441,14 @@
     "cacChgPct": 1.79,
     "alphaPct": 11.61
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 88.76,
+    "chgPct": 17.1,
+    "cacChgPct": 5.04,
+    "alphaPct": 12.06
+   },
    "solde": null
   },
   {
@@ -15228,7 +15471,14 @@
     "cacChgPct": 1.79,
     "alphaPct": 3.05
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 26.76,
+    "chgPct": 11.59,
+    "cacChgPct": 5.04,
+    "alphaPct": 6.56
+   },
    "solde": null
   },
   {
@@ -15251,7 +15501,14 @@
     "cacChgPct": 1.79,
     "alphaPct": 14.51
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 36.66,
+    "chgPct": 21.96,
+    "cacChgPct": 5.04,
+    "alphaPct": 16.92
+   },
    "solde": null
   },
   {
@@ -15274,7 +15531,14 @@
     "cacChgPct": 1.79,
     "alphaPct": 2.92
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 187.18,
+    "chgPct": 11.72,
+    "cacChgPct": 5.04,
+    "alphaPct": 6.68
+   },
    "solde": null
   },
   {
@@ -15297,7 +15561,14 @@
     "cacChgPct": 1.79,
     "alphaPct": 2.9
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 20.22,
+    "chgPct": 7.73,
+    "cacChgPct": 5.04,
+    "alphaPct": 2.69
+   },
    "solde": null
   },
   {
@@ -15320,7 +15591,14 @@
     "cacChgPct": 1.79,
     "alphaPct": 5.12
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 32,
+    "prix": 79.21,
+    "chgPct": 1.76,
+    "cacChgPct": 5.04,
+    "alphaPct": -3.28
+   },
    "solde": null
   },
   {
@@ -15343,7 +15621,14 @@
     "cacChgPct": 0.98,
     "alphaPct": 7.31
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 167.9,
+    "chgPct": 2.32,
+    "cacChgPct": 4.2,
+    "alphaPct": -1.88
+   },
    "solde": null
   },
   {
@@ -15366,7 +15651,14 @@
     "cacChgPct": 0.98,
     "alphaPct": -14.01
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 296.9,
+    "chgPct": -5.84,
+    "cacChgPct": 4.2,
+    "alphaPct": -10.03
+   },
    "solde": null
   },
   {
@@ -15389,7 +15681,14 @@
     "cacChgPct": 0.98,
     "alphaPct": 11.86
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 88.76,
+    "chgPct": 16.51,
+    "cacChgPct": 4.2,
+    "alphaPct": 12.32
+   },
    "solde": null
   },
   {
@@ -15412,7 +15711,14 @@
     "cacChgPct": 0.98,
     "alphaPct": 2.48
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 26.76,
+    "chgPct": 10.12,
+    "cacChgPct": 4.2,
+    "alphaPct": 5.92
+   },
    "solde": null
   },
   {
@@ -15435,7 +15741,14 @@
     "cacChgPct": 0.98,
     "alphaPct": 13.49
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 36.66,
+    "chgPct": 20.04,
+    "cacChgPct": 4.2,
+    "alphaPct": 15.84
+   },
    "solde": null
   },
   {
@@ -15458,7 +15771,14 @@
     "cacChgPct": 0.98,
     "alphaPct": 2.96
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 187.18,
+    "chgPct": 10.89,
+    "cacChgPct": 4.2,
+    "alphaPct": 6.69
+   },
    "solde": null
   },
   {
@@ -15481,7 +15801,14 @@
     "cacChgPct": 0.98,
     "alphaPct": 3.38
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 20.22,
+    "chgPct": 7.38,
+    "cacChgPct": 4.2,
+    "alphaPct": 3.18
+   },
    "solde": null
   },
   {
@@ -15504,7 +15831,14 @@
     "cacChgPct": 0.98,
     "alphaPct": 7.25
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 79.21,
+    "chgPct": 3.02,
+    "cacChgPct": 4.2,
+    "alphaPct": -1.18
+   },
    "solde": null
   },
   {
@@ -15527,7 +15861,14 @@
     "cacChgPct": 1.05,
     "alphaPct": 7.11
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 167.9,
+    "chgPct": 2.19,
+    "cacChgPct": 4.27,
+    "alphaPct": -2.08
+   },
    "solde": null
   },
   {
@@ -15550,7 +15891,14 @@
     "cacChgPct": 1.05,
     "alphaPct": -14.2
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 296.9,
+    "chgPct": -5.96,
+    "cacChgPct": 4.27,
+    "alphaPct": -10.23
+   },
    "solde": null
   },
   {
@@ -15573,7 +15921,14 @@
     "cacChgPct": 1.05,
     "alphaPct": 11.4
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 88.76,
+    "chgPct": 16.12,
+    "cacChgPct": 4.27,
+    "alphaPct": 11.84
+   },
    "solde": null
   },
   {
@@ -15596,7 +15951,14 @@
     "cacChgPct": 1.05,
     "alphaPct": 1.56
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 26.76,
+    "chgPct": 9.22,
+    "cacChgPct": 4.27,
+    "alphaPct": 4.95
+   },
    "solde": null
   },
   {
@@ -15619,7 +15981,14 @@
     "cacChgPct": 1.05,
     "alphaPct": 13.35
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 36.66,
+    "chgPct": 19.96,
+    "cacChgPct": 4.27,
+    "alphaPct": 15.69
+   },
    "solde": null
   },
   {
@@ -15642,7 +16011,14 @@
     "cacChgPct": 1.05,
     "alphaPct": 2.49
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 187.18,
+    "chgPct": 10.47,
+    "cacChgPct": 4.27,
+    "alphaPct": 6.2
+   },
    "solde": null
   },
   {
@@ -15665,7 +16041,14 @@
     "cacChgPct": 1.05,
     "alphaPct": 3.69
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 20.22,
+    "chgPct": 7.78,
+    "cacChgPct": 4.27,
+    "alphaPct": 3.51
+   },
    "solde": null
   },
   {
@@ -15688,7 +16071,14 @@
     "cacChgPct": 1.05,
     "alphaPct": 7.37
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 79.21,
+    "chgPct": 3.19,
+    "cacChgPct": 4.27,
+    "alphaPct": -1.08
+   },
    "solde": null
   },
   {
@@ -15711,7 +16101,14 @@
     "cacChgPct": 1.16,
     "alphaPct": 7.19
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 167.9,
+    "chgPct": 2.38,
+    "cacChgPct": 4.39,
+    "alphaPct": -2.01
+   },
    "solde": null
   },
   {
@@ -15734,7 +16131,14 @@
     "cacChgPct": 1.16,
     "alphaPct": -13.75
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 296.9,
+    "chgPct": -5.36,
+    "cacChgPct": 4.39,
+    "alphaPct": -9.74
+   },
    "solde": null
   },
   {
@@ -15757,7 +16161,14 @@
     "cacChgPct": 1.16,
     "alphaPct": 11.59
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 88.76,
+    "chgPct": 16.42,
+    "cacChgPct": 4.39,
+    "alphaPct": 12.03
+   },
    "solde": null
   },
   {
@@ -15780,7 +16191,14 @@
     "cacChgPct": 1.16,
     "alphaPct": 1.28
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 26.76,
+    "chgPct": 9.05,
+    "cacChgPct": 4.39,
+    "alphaPct": 4.66
+   },
    "solde": null
   },
   {
@@ -15803,7 +16221,14 @@
     "cacChgPct": 1.16,
     "alphaPct": 13.76
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 36.66,
+    "chgPct": 20.51,
+    "cacChgPct": 4.39,
+    "alphaPct": 16.12
+   },
    "solde": null
   },
   {
@@ -15826,7 +16251,14 @@
     "cacChgPct": 1.16,
     "alphaPct": 2.41
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 187.18,
+    "chgPct": 10.51,
+    "cacChgPct": 4.39,
+    "alphaPct": 6.12
+   },
    "solde": null
   },
   {
@@ -15849,7 +16281,14 @@
     "cacChgPct": 1.16,
     "alphaPct": 3.3
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 20.22,
+    "chgPct": 7.5,
+    "cacChgPct": 4.39,
+    "alphaPct": 3.11
+   },
    "solde": null
   },
   {
@@ -15872,7 +16311,14 @@
     "cacChgPct": 1.16,
     "alphaPct": 6.52
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 79.21,
+    "chgPct": 2.5,
+    "cacChgPct": 4.39,
+    "alphaPct": -1.89
+   },
    "solde": null
   },
   {
@@ -15895,7 +16341,14 @@
     "cacChgPct": 0.8,
     "alphaPct": 7.88
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 167.9,
+    "chgPct": 2.69,
+    "cacChgPct": 4.02,
+    "alphaPct": -1.32
+   },
    "solde": null
   },
   {
@@ -15918,7 +16371,14 @@
     "cacChgPct": 0.8,
     "alphaPct": -13.95
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 296.9,
+    "chgPct": -5.96,
+    "cacChgPct": 4.02,
+    "alphaPct": -9.97
+   },
    "solde": null
   },
   {
@@ -15941,7 +16401,14 @@
     "cacChgPct": 0.8,
     "alphaPct": 11.18
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 88.76,
+    "chgPct": 15.63,
+    "cacChgPct": 4.02,
+    "alphaPct": 11.62
+   },
    "solde": null
   },
   {
@@ -15964,7 +16431,14 @@
     "cacChgPct": 0.8,
     "alphaPct": 1.89
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 26.76,
+    "chgPct": 9.31,
+    "cacChgPct": 4.02,
+    "alphaPct": 5.3
+   },
    "solde": null
   },
   {
@@ -15987,7 +16461,14 @@
     "cacChgPct": 0.8,
     "alphaPct": 13.82
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 36.66,
+    "chgPct": 20.2,
+    "cacChgPct": 4.02,
+    "alphaPct": 16.18
+   },
    "solde": null
   },
   {
@@ -16010,7 +16491,14 @@
     "cacChgPct": 0.8,
     "alphaPct": 2.57
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 187.18,
+    "chgPct": 10.29,
+    "cacChgPct": 4.02,
+    "alphaPct": 6.27
+   },
    "solde": null
   },
   {
@@ -16033,7 +16521,14 @@
     "cacChgPct": 0.8,
     "alphaPct": 3.28
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 20.22,
+    "chgPct": 7.1,
+    "cacChgPct": 4.02,
+    "alphaPct": 3.08
+   },
    "solde": null
   },
   {
@@ -16056,7 +16551,14 @@
     "cacChgPct": 0.8,
     "alphaPct": 5.96
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 79.21,
+    "chgPct": 1.62,
+    "cacChgPct": 4.02,
+    "alphaPct": -2.4
+   },
    "solde": null
   },
   {
@@ -16079,7 +16581,14 @@
     "cacChgPct": 0.88,
     "alphaPct": 7.8
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 167.9,
+    "chgPct": 2.69,
+    "cacChgPct": 4.1,
+    "alphaPct": -1.41
+   },
    "solde": null
   },
   {
@@ -16102,7 +16611,14 @@
     "cacChgPct": 0.88,
     "alphaPct": -13.95
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 296.9,
+    "chgPct": -5.87,
+    "cacChgPct": 4.1,
+    "alphaPct": -9.97
+   },
    "solde": null
   },
   {
@@ -16125,7 +16641,14 @@
     "cacChgPct": 0.88,
     "alphaPct": 10.93
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 88.76,
+    "chgPct": 15.45,
+    "cacChgPct": 4.1,
+    "alphaPct": 11.35
+   },
    "solde": null
   },
   {
@@ -16148,7 +16671,14 @@
     "cacChgPct": 0.88,
     "alphaPct": 1.06
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 26.76,
+    "chgPct": 8.52,
+    "cacChgPct": 4.1,
+    "alphaPct": 4.42
+   },
    "solde": null
   },
   {
@@ -16171,7 +16701,14 @@
     "cacChgPct": 0.88,
     "alphaPct": 13.07
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 36.66,
+    "chgPct": 19.49,
+    "cacChgPct": 4.1,
+    "alphaPct": 15.39
+   },
    "solde": null
   },
   {
@@ -16194,7 +16731,14 @@
     "cacChgPct": 0.88,
     "alphaPct": 2.37
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 187.18,
+    "chgPct": 10.16,
+    "cacChgPct": 4.1,
+    "alphaPct": 6.06
+   },
    "solde": null
   },
   {
@@ -16217,7 +16761,14 @@
     "cacChgPct": 0.88,
     "alphaPct": 3.58
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 20.22,
+    "chgPct": 7.5,
+    "cacChgPct": 4.1,
+    "alphaPct": 3.4
+   },
    "solde": null
   },
   {
@@ -16240,7 +16791,14 @@
     "cacChgPct": 0.88,
     "alphaPct": 5.05
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 31,
+    "prix": 79.21,
+    "chgPct": 0.83,
+    "cacChgPct": 4.1,
+    "alphaPct": -3.27
+   },
    "solde": null
   },
   {
@@ -20538,7 +21096,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "TotalEnergies clôture à 85,47 EUR (+1,03 % ce jour, +14,79 % sur 20j), sur son plus haut annuel (dist_plus_haut_52s_pct 0 %). Le titre confirme sa tendance HAUSSE_CONFIRMEE (pente +3,44 %, écart SMA200 +15,39 %), portée par la fermeté des cours du pétrole et le record sectoriel de l'énergie.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 10,
+    "prix": 79.21,
+    "chgPct": -7.32,
+    "cacChgPct": 2.13,
+    "alphaPct": -9.45
+   },
    "h1m": null,
    "solde": null
   },
@@ -20554,7 +21119,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Air Liquide termine à 180,58 EUR (+1,80 % ce jour, +6,12 % sur 20j) sur son plus haut 52 semaines (dist_plus_haut_52s_pct 0 %). La tendance HAUSSE_CONFIRMEE (pente +1,73 %, écart SMA200 +9,33 %) est confortée par des avis positifs d'analystes (Berenberg, Deutsche Bank) suite à ses ventes trimestriel",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 10,
+    "prix": 187.18,
+    "chgPct": 3.65,
+    "cacChgPct": 2.13,
+    "alphaPct": 1.53
+   },
    "h1m": null,
    "solde": null
   },
@@ -20570,7 +21142,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Euronext s'établit à 177,40 EUR (+0,28 % ce jour, +10,53 % sur 20j), à -0,39 % de son sommet annuel de 178,10 EUR. La structure technique en HAUSSE_CONFIRMEE (pente +3,17 %, écart SMA200 +20,79 %, chg126d +24,58 %) reste solide en direction de l'objectif à 185,15 EUR.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 10,
+    "prix": 167.9,
+    "chgPct": -5.36,
+    "cacChgPct": 2.13,
+    "alphaPct": -7.48
+   },
    "h1m": null,
    "solde": null
   },
@@ -20586,7 +21165,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Getlink fait preuve d'une grande stabilité à 19,79 EUR (-0,10 % ce jour, +7,38 % sur 20j), à -0,55 % de son plus haut 52 semaines. Sa faible volatilité annualisée (11,2 %) et sa tendance HAUSSE_CONFIRMEE (pente +1,82 %, écart SMA200 +7,28 %) justifient pleinement le maintien de la position.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 10,
+    "prix": 20.22,
+    "chgPct": 2.17,
+    "cacChgPct": 2.13,
+    "alphaPct": 0.05
+   },
    "h1m": null,
    "solde": null
   },
@@ -20602,7 +21188,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Amundi cote à 90,90 EUR (-0,16 % ce jour, +4,24 % sur 5j) en tendance HAUSSE_CONFIRMEE (pente +1,99 %, écart SMA200 +7,51 %). Les fondamentaux restent excellents après l'annonce d'encours records de 2600 MdEUR au T3 et le relèvement d'objectif de cours par Barclays à 94 EUR.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 10,
+    "prix": 93.7,
+    "chgPct": 3.08,
+    "cacChgPct": 2.13,
+    "alphaPct": 0.96
+   },
    "h1m": null,
    "solde": null
   },
@@ -20618,7 +21211,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Mersen connaît un repli technique sain à 39,46 EUR (-10,24 % ce jour) après sa forte hausse, tout en préservant ses moyennes mobiles SMA20 (39,50 EUR) et SMA50 (39,10 EUR), loin du stop à 38,00 EUR. La tendance de fond HAUSSE_CONFIRMEE (pente +4,72 %, écart SMA200 +14,48 %) et le relèvement des prév",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 10,
+    "prix": 36.24,
+    "chgPct": -8.16,
+    "cacChgPct": 2.13,
+    "alphaPct": -10.29
+   },
    "h1m": null,
    "solde": null
   },
@@ -20634,7 +21234,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "SCOR s'adjuge +5,75 % à 34,92 EUR (+10,09 % sur 20j) et clôture sur son plus haut annuel (dist_plus_haut_52s_pct 0 %). Le titre bénéficie d'une tendance HAUSSE_CONFIRMEE (pente +1,52 %, écart SMA200 +10,34 %) et de l'accueil très favorable réservé par le marché à ses résultats T3.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 10,
+    "prix": 34.38,
+    "chgPct": -1.55,
+    "cacChgPct": 2.13,
+    "alphaPct": -3.67
+   },
    "h1m": null,
    "solde": null
   },
@@ -20650,7 +21257,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "JCDecaux progresse de +1,25 % à 24,38 EUR (+30,37 % sur 126j) et se maintient nettement au-dessus de sa SMA200 à 20,56 EUR (+18,58 %). Avec un RSI équilibré à 46 et une tendance HAUSSE_CONFIRMEE (pente +4,66 %), la dynamique swing vers l'objectif de 28,04 EUR demeure valide.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 10,
+    "prix": 26.76,
+    "chgPct": 9.76,
+    "cacChgPct": 2.13,
+    "alphaPct": 7.64
+   },
    "h1m": null,
    "solde": null
   },
@@ -20666,7 +21280,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "TotalEnergies cote 84,61 EUR (-0,96 % sur 1j mais +11,62 % sur 20j), restant solidement installee en tendance HAUSSE_CONFIRMEE avec une pente SMA200 a +3,48 % et un cours a +14,02 % au-dessus de sa SMA200 a 74,21 EUR. Le titre est soutenu ce matin par l'annonce d'accords elargis de detection du meth",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 7,
+    "prix": 79.21,
+    "chgPct": -6.38,
+    "cacChgPct": 2.22,
+    "alphaPct": -8.6
+   },
    "h1m": null,
    "solde": null
   },
@@ -20682,7 +21303,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Air Liquide se maintient a 180,28 EUR (-0,34 % sur 1j, +5,58 % sur 20j), a proximite immediate de son sommet annuel de 180,90 EUR (dist_plus_haut_52s_pct a -0,34 %) en tendance HAUSSE_CONFIRMEE (pente +1,77 %, ecart SMA200 +9,02 %). La volatilite annualisee tres faible de 13,3 % et l'ancrage au-dess",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 7,
+    "prix": 187.18,
+    "chgPct": 3.83,
+    "cacChgPct": 2.22,
+    "alphaPct": 1.61
+   },
    "h1m": null,
    "solde": null
   },
@@ -20698,7 +21326,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Euronext s'affiche a 174,90 EUR (-1,52 % sur 1j, +8,10 % sur 20j, +24,57 % sur 126j), conservant une nette avance sur sa SMA50 a 164,43 EUR (+6,37 %) et sa SMA200 a 147,12 EUR (+18,88 %) en tendance HAUSSE_CONFIRMEE (pente +3,21 %). La valeur figure parmi les valeurs a suivre ce lundi selon Les Echo",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 7,
+    "prix": 167.9,
+    "chgPct": -4,
+    "cacChgPct": 2.22,
+    "alphaPct": -6.22
+   },
    "h1m": null,
    "solde": null
   },
@@ -20714,7 +21349,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Getlink evolue a 19,76 EUR (-0,10 % sur 1j, +6,70 % sur 20j) a seulement 0,70 % de son plus haut sur 52 semaines a 19,90 EUR, en tendance HAUSSE_CONFIRMEE (pente +1,83 %, ecart SMA200 +7,02 %). Avec une volatilite exemplaire de 11,4 % et une progression trimestrielle reguliere (chg63d +6,58 %), le p",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 7,
+    "prix": 20.22,
+    "chgPct": 2.33,
+    "cacChgPct": 2.22,
+    "alphaPct": 0.11
+   },
    "h1m": null,
    "solde": null
   },
@@ -20730,7 +21372,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Amundi progresse a 91,50 EUR (+0,38 % sur 1j, +3,27 % sur 5j) en tendance HAUSSE_CONFIRMEE (pente +1,98 %, ecart SMA200 +8,10 % a 84,65 EUR). La these fondee sur des resultats T3 solides et des encours records publies recemment reste entierement valide, avec un RSI14 calibre a 62,7 soutenant l'achem",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 7,
+    "prix": 93.7,
+    "chgPct": 2.4,
+    "cacChgPct": 2.22,
+    "alphaPct": 0.19
+   },
    "h1m": null,
    "solde": null
   },
@@ -20746,7 +21395,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Mersen s'etablit a 39,50 EUR (+0,61 % ce jour, +9,24 % sur 5j), amorcant un net rebond au-dessus de sa SMA20 a 39,34 EUR (+0,41 %) et de sa SMA50 a 39,15 EUR (+0,89 %). La tendance de fond reste HAUSSE_CONFIRMEE avec une pente vigoureuse de +4,62 % et un ecart a la SMA200 de +14,35 %, tandis que le ",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 7,
+    "prix": 36.24,
+    "chgPct": -8.25,
+    "cacChgPct": 2.22,
+    "alphaPct": -10.47
+   },
    "h1m": null,
    "solde": null
   },
@@ -20762,7 +21418,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "SCOR se traite a 34,22 EUR (-0,98 % sur 1j, +3,76 % sur 5j, +7,27 % sur 20j) en tendance HAUSSE_CONFIRMEE (pente +1,57 %, ecart SMA200 +8,01 % a 31,68 EUR). Le dossier figure dans les revues d'analystes positives recensees ce matin par Les Echos et capitalise sur ses comptes trimestriels resilients ",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 7,
+    "prix": 34.38,
+    "chgPct": 0.47,
+    "cacChgPct": 2.22,
+    "alphaPct": -1.75
+   },
    "h1m": null,
    "solde": null
   },
@@ -20778,7 +21441,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "JCDecaux cote 24,26 EUR (-0,08 % sur 1j, +30,99 % sur 126j) en tendance HAUSSE_CONFIRMEE soutenue par une pente elevee de +4,61 % et un positionnement confortable au-dessus de la SMA200 a 20,60 EUR (+17,79 %). Le RSI14 a 41,6 offre une marge de rebond technique sans saturation et le cours evolue net",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-09T08:20:40.645Z",
+    "jours": 7,
+    "prix": 26.76,
+    "chgPct": 10.31,
+    "cacChgPct": 2.22,
+    "alphaPct": 8.09
+   },
    "h1m": null,
    "solde": null
   },
@@ -23834,6 +24504,134 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Publicis Groupe progresse de +0,7 % en tendance HAUSSE_CONFIRMEE (pente +1,61 %, chg126d +32,76 %) a +18,07 % de sa SMA200 a 87,28 EUR avec un RSI14 detendu a 55,5. La valeur beneficie d un catalyseur favorable avec JP Morgan qui releve sa cible a 145 EUR en maintenant sa surponderation. Position co",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-090820-DEC.PA-0",
+   "date": "2026-11-09T08:20:40.645Z",
+   "symbole": "DEC.PA",
+   "nom": "JCDecaux",
+   "action": "CONSERVER",
+   "confiance": 88,
+   "prixSignal": 26.76,
+   "cacAuSignal": 8124.16,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "JCDecaux cote a 26,76 EUR au plus haut annuel (dist_plus_haut_52s_pct 0,00 %) avec un gain de +9,3 % en portefeuille. Le titre est ancre en HAUSSE_CONFIRMEE (pente +4,60 %, ecart_sma200_pct +28,46 %, chg126d +45,59 %) avec un RSI 14 a 66,8 et le renouvellement de son contrat a Hambourg. La these dem",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-090820-GET.PA-1",
+   "date": "2026-11-09T08:20:40.645Z",
+   "symbole": "GET.PA",
+   "nom": "Getlink",
+   "action": "CONSERVER",
+   "confiance": 87,
+   "prixSignal": 20.22,
+   "cacAuSignal": 8124.16,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Getlink evolue a 20,22 EUR tout pres de son sommet annuel (-0,88 %) avec une plus-value latente de +7,9 %. La tendance reste HAUSSE_CONFIRMEE (pente +1,92 %, ecart_sma200_pct +9,13 %) accompagnee d'une volatilite tres faible a 13,1 % et de la reprise du trafic Eurostar. Maintien confiant vers l'obje",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-090820-ENX.PA-2",
+   "date": "2026-11-09T08:20:40.645Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "CONSERVER",
+   "confiance": 86,
+   "prixSignal": 167.9,
+   "cacAuSignal": 8124.16,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Euronext s'echange a 167,90 EUR (+3,9 % de pnl), consolidant sainement sur sa SMA 50 a 164,99 EUR (+1,76 %) avec un RSI 14 desature a 48,6. La tendance de fond HAUSSE_CONFIRMEE est vigoureuse (pente +3,41 %, ecart_sma200_pct +13,17 %, chg126d +19,25 %). Maintien de la these vers l'objectif de 185,15",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-090820-AI.PA-3",
+   "date": "2026-11-09T08:20:40.645Z",
+   "symbole": "AI.PA",
+   "nom": "Air Liquide",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "prixSignal": 187.18,
+   "cacAuSignal": 8124.16,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Air Liquide affiche 187,18 EUR (+6,1 % de pnl) a -1,34 % de ses plus-hauts annuels en tendance HAUSSE_CONFIRMEE (pente +2,09 %, ecart_sma200_pct +12,43 %, chg126d +16,83 %). Le titre beneficie du soutien confirme par Berenberg et de son partenariat avec Hyundai en Chine, justifiant de laisser courir",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-090820-AMUN.PA-4",
+   "date": "2026-11-09T08:20:40.645Z",
+   "symbole": "AMUN.PA",
+   "nom": "Amundi",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "prixSignal": 93.7,
+   "cacAuSignal": 8124.16,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Amundi s'etablit a 93,70 EUR (+4,6 % de gain), au-dessus de sa SMA 50 (+2,69 %) et de sa SMA 200 (+10,06 %). La dynamique en HAUSSE_CONFIRMEE (pente +2,02 %, chg126d +10,43 %) reflete la solidite des resultats T3 et un niveau record d'encours. La position est conservee vers 102,58 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-090820-TTE.PA-5",
+   "date": "2026-11-09T08:20:40.645Z",
+   "symbole": "TTE.PA",
+   "nom": "TotalEnergies",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "prixSignal": 79.21,
+   "cacAuSignal": 8124.16,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "TotalEnergies se replie legerement a 79,21 EUR (+3,2 % de pnl) sur sa SMA 50 (-0,37 %) avec un RSI 14 detendu a 47,6. La tendance HAUSSE_CONFIRMEE demeure saine (pente +3,48 %, ecart_sma200_pct +5,96 %) et Deutsche Bank souligne l'impact moteur des resultats T3 du groupe. La these reste entiere vers",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-090820-PUB.PA-6",
+   "date": "2026-11-09T08:20:40.645Z",
+   "symbole": "PUB.PA",
+   "nom": "Publicis Groupe",
+   "action": "CONSERVER",
+   "confiance": 82,
+   "prixSignal": 103.55,
+   "cacAuSignal": 8124.16,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Publicis se maintient a 103,55 EUR (+1,2 % de pnl), a seulement -1,29 % de son plus haut 52 semaines. Le dossier confirme son elan en HAUSSE_CONFIRMEE (pente +1,67 %, ecart_sma200_pct +18,51 %, chg126d +34,31 %) et prend appui sur sa SMA 20 (+2,14 %) avec un RSI 14 neutre a 59,4. Conservation confir",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-090820-SCR.PA-7",
+   "date": "2026-11-09T08:20:40.645Z",
+   "symbole": "SCR.PA",
+   "nom": "Scor",
+   "action": "CONSERVER",
+   "confiance": 82,
+   "prixSignal": 34.38,
+   "cacAuSignal": 8124.16,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "SCOR cote a 34,38 EUR (-0,6 % de pnl), en marge de fluctuation normale au-dessus de sa SMA 50 (+3,85 %) et de sa SMA 200 (+7,85 %). La tendance HAUSSE_CONFIRMEE est validee (pente +1,90 %, chg126d +7,91 %) avec un RSI 14 a 57,8. La position reste eloignee du stop de protection fixe a 31,70 EUR.",
    "h1s": null,
    "h1m": null,
    "solde": null
