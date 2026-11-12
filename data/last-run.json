@@ -1,99 +1,99 @@
 {
- "date": "2026-11-12T12:20:41.610Z",
- "dureeS": 147,
+ "date": "2026-11-12T14:20:42.280Z",
+ "dureeS": 101,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 progresse de +0,67 % à 8 388,65 points au cours d'une séance bien orientée, soutenue par les grandes capitalisations industrielles et le luxe. La largeur de marché demeure toutefois dans un état PARTAGEE avec 49,2 % des 122 valeurs de l'univers au-dessus de leur moyenne mobile à 200 jours, ce qui impose de conserver une attitude sélective. Le portefeuille ayant atteint sa limite maximale de 8 positions ouvertes (part investie à 58,3 % pour une valorisation de 10 076,39 EUR), la discipline commande de conserver l'ensemble des lignes dont les tendances haussières restent rigoureusement intactes.",
+ "resume_marche": "Le CAC 40 progresse moderement de +0,43 % a 8368,60 points mais la largeur de marche demeure PARTAGEE avec 48,4 % des 122 valeurs au-dessus de leur SMA200. La seance est marquee par des tensions geopolitiques accrues entre les Etats-Unis et l Iran et par le choc sectoriel tech lie au depart inattendu du dirigeant de Nvidia signale dans les actualites. Avec un portefeuille deja sature a 8 lignes toutes en gain et solidement orientees, la conservation integrale des positions est la strategie optimale.",
  "signaux": [
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 88,
-   "justification": "JCDecaux inscrit un sommet inédit depuis le Covid à 27,86 EUR selon les actualités et s'établit à 27,80 EUR (+0,72 % ce jour, +8,42 % sur 20 jours). Le titre conforte sa tendance HAUSSE_CONFIRMEE avec une pente SMA200 de +4,63 % et un écart à la SMA200 de +32,43 %, justifiant la conservation de la ligne vers son objectif.",
+   "justification": "JCDecaux cote 27,80 EUR (+13,6 % vs PMC 24,48 EUR) en tendance HAUSSE_CONFIRMEE avec une pente de +4,63 % et un gain semestriel de +48,35 %. Le titre inscrit un sommet historique post-Covid signale dans les actualites a 27,86 EUR, survolant sa SMA50 de +11,20 % avec un RSI14 vigoureux a 77,2.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Clôture journalière sous le support de la SMA50 à 25,00 EUR."
+   "invalidation": null
   },
   {
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 87,
-   "justification": "Getlink évolue à 20,30 EUR (+0,10 % ce jour, +6,56 % sur 20 jours), tout près de son plus haut 52 semaines (20,40 EUR, soit -0,49 %). Le titre bénéficie d'une tendance HAUSSE_CONFIRMEE (pente +1,99 %, écart SMA200 de +9,20 %) avec une volatilité très basse de 12,7 %, militant pour la conservation.",
+   "justification": "Getlink cote 20,36 EUR (+8,6 % vs PMC 18,74 EUR) a seulement -0,20 % de son plus haut sur 52 semaines (20,40 EUR). Le titre est solidement ancre en tendance HAUSSE_CONFIRMEE (+2,00 % de pente, +9,52 % sur la SMA200) avec une volatilite tres faible de 12,7 %.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Rupture en clôture sous la SMA50 située à 19,04 EUR."
+   "invalidation": null
   },
   {
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 86,
-   "justification": "Air Liquide a signé un record historique en séance à 194,32 EUR selon la presse et se maintient à 193,28 EUR (+0,58 % ce jour, +11,70 % sur 20 jours). Le titre est en tendance HAUSSE_CONFIRMEE (pente +2,29 %, écart SMA200 de +15,59 %) avec une faible volatilité de 14,1 %, justifiant le maintien de la position vers 202,10 EUR.",
+   "justification": "Air Liquide cote 193,52 EUR (+9,7 % vs PMC 176,44 EUR) et signe un record historique absolu confirme par la presse. Le dossier maintient une tendance HAUSSE_CONFIRMEE robuste (pente +2,29 %, ecart SMA200 +15,73 %) sans aucun signe d invalidation technique.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Cassure en clôture du support technique de la SMA20 à 180,88 EUR."
+   "invalidation": null
   },
   {
    "symbole": "AMUN.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Amundi consolide à 97,45 EUR à proximité immédiate de son plus haut annuel de 97,60 EUR (-0,15 %), après un gain de +10,49 % sur 20 jours. La configuration reste en tendance HAUSSE_CONFIRMEE (pente +2,10 %, cours à +14,02 % de la SMA200) avec une volatilité modérée de 17,8 %, validant la poursuite de la stratégie vers 102,58 EUR.",
+   "justification": "Amundi se negocie a 97,15 EUR (+8,5 % vs PMC 89,56 EUR), a -0,46 % de son sommet annuel de 97,60 EUR. La tendance reste HAUSSE_CONFIRMEE (+2,10 % de pente, chg126d +12,90 %) au-dessus de la SMA50 a 91,41 EUR (+6,28 %).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Cassure confirmée de la SMA20 à 91,68 EUR."
+   "invalidation": null
   },
   {
    "symbole": "SCR.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "SCOR progresse de +1,02 % à 35,56 EUR, franchissant sa résistance pour signer un plus haut de six ans à 35,76 EUR rapporté par Idéal Investisseur. En tendance HAUSSE_CONFIRMEE (pente +2,04 %, cours à +11,15 % de la SMA200) avec un RSI équilibré à 70,3, le titre reste idéalement orienté pour atteindre son objectif de 39,63 EUR.",
+   "justification": "SCOR progresse a 35,60 EUR (+2,9 % vs PMC 34,60 EUR, +1,14 % ce jour) et franchit sa resistance majeure pour signer un plus haut de six ans a 35,76 EUR relaye par les actualites. La tendance HAUSSE_CONFIRMEE s amplifie (+2,04 % de pente, ecart SMA50 +7,34 %, RSI14 a 70,5).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Retour et clôture sous le support des 33,17 EUR (SMA50)."
+   "invalidation": null
   },
   {
    "symbole": "PUB.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Publicis s'établit à 104,90 EUR (+0,29 % ce jour, +25,84 % sur 126 jours), sur son plus haut annuel (distance 0 %). La tendance est HAUSSE_CONFIRMEE avec une pente de +1,79 % et un écart de +19,64 % sur la SMA200 (87,68 EUR), avec un RSI non suracheté à 64,8, justifiant le maintien de la ligne vers 117,24 EUR.",
+   "justification": "Publicis cote a 105,15 EUR (+2,7 % vs PMC 102,36 EUR), touchant son plus haut sur 52 semaines a 105,15 EUR. Le titre evolue nettement au-dessus de sa SMA50 a 99,23 EUR (+5,96 %) et de sa SMA200 a 87,68 EUR (+19,92 %) avec un RSI14 maitrise a 65,5.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Cassure en clôture sous la SMA20 à 101,81 EUR."
+   "invalidation": null
   },
   {
    "symbole": "TTE.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "TotalEnergies reprend +0,49 % à 79,76 EUR et rebondit directement au contact de sa SMA50 (79,57 EUR, écart +0,24 %). Sa tendance HAUSSE_CONFIRMEE est intacte (pente SMA200 à +3,33 %, cours +6,31 % au-dessus de la SMA200) et son RSI14 détendu à 35,2 écarte tout risque de surchauffe.",
+   "justification": "TotalEnergies rebondit de +1,07 % ce jour a 80,22 EUR (+4,6 % vs PMC 76,72 EUR) en tendance HAUSSE_CONFIRMEE (pente +3,34 %, cours a +6,92 % de la SMA200 a 75,03 EUR). La valeur tire parti du regain de prime de risque petroliere lie aux tensions Etats-Unis/Iran avec un RSI14 detendu a 37,5.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Cassure nette en clôture sous les 75,02 EUR (SMA200)."
+   "invalidation": null
   },
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Euronext consolide à 165,80 EUR (-0,96 % ce jour), venant tester le support de sa SMA50 (165,17 EUR). La tendance de long terme reste HAUSSE_CONFIRMEE (pente +3,46 %, écart SMA200 de +11,25 %) et le RSI14 à 32,9 traduit une décompression saine plutôt qu'une dégradation structurelle.",
+   "justification": "Euronext s etablit a 166,20 EUR (+2,8 % vs PMC 161,64 EUR) en tendance HAUSSE_CONFIRMEE (pente +3,46 %, chg126d +18,46 %). Le repli technique a ramene les cours au contact immediat du support de la SMA50 (165,18 EUR, ecart +0,62 %) avec un RSI14 desenfle a 33,2 et des declarations rassurantes de son DG.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": "Clôture journalière sous le stop de protection de 149,00 EUR (niveau de la SMA200)."
+   "invalidation": null
   }
  ],
  "signaux_ecartes": [],
@@ -102,13 +102,13 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 59,
-  "nbPassages": 142,
-  "equity": 10076.39,
-  "perfPct": 0.76,
-  "cacPerfPct": 3.34,
-  "alphaPct": -2.57,
+  "nbPassages": 143,
+  "equity": 10085.09,
+  "perfPct": 0.85,
+  "cacPerfPct": 3.09,
+  "alphaPct": -2.24,
   "maxDrawdownPct": -4.2,
-  "sharpe": 0.73,
+  "sharpe": 0.8,
   "expositionPct": 58.3,
   "trades": {
    "nbAchats": 18,
@@ -173,7 +173,7 @@
   }
  },
  "stats": {
-  "equity": 10076.39,
+  "equity": 10085.09,
   "cash": 4201.93,
   "nbPositions": 8
  }
