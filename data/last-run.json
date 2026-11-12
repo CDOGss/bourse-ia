@@ -1,17 +1,17 @@
 {
- "date": "2026-11-11T16:20:41.066Z",
- "dureeS": 287,
+ "date": "2026-11-12T08:20:45.366Z",
+ "dureeS": 288,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
- "regime": "NORMAL",
- "regimeApplique": "NORMAL",
- "resume_marche": "Le CAC 40 progresse de +0,55 % a 8 324,16 points dans une seance marquee par un regain d appetit pour le risque impulse par les valeurs technologiques et de semi-conducteurs. La largeur du marche ressort PARTAGEE avec exactement 50 % des 122 valeurs de l univers au-dessus de leur SMA200, illustrant un marche selectif qui recompense la qualite technique et fondamentale. Le portefeuille est valorise a 10 045,30 EUR avec 58,2 % investis sur 8 positions toutes en plus-value latente, dont les theses de fond demeurent parfaitement valides.",
+ "regime": "PRUDENT",
+ "regimeApplique": "PRUDENT",
+ "resume_marche": "Le CAC 40 s'inscrit en hausse de +0,65 % a 8387,16 points, soutenu par un rebond matinal des indices europeens. La largeur de marche reste toutefois partagee avec 49,2 % des composantes au-dessus de leur SMA200 (etat PARTAGEE), ce qui temoigne d'une participation selective. Le portefeuille etant a son plafond de 8 positions sur 8, toutes en plus-value et en tendance haussiere confirmee, la discipline impose de conserver l'integralite des lignes sans rotation forcee.",
  "signaux": [
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 88,
-   "justification": "Cours a 27,40 EUR affichant +11,9 % de PnL a proximite immediate de l objectif des 28,04 EUR. Tendance HAUSSE_CONFIRMEE tres robuste (pente +4,62 %, chg126d +46,92 %, ecart SMA200 +30,87 %) confortee par la confirmation de la recommandation d achat de JP Morgan ce jour.",
+   "justification": "JCDecaux cote a 27,68 EUR (+0,44 % ce jour, +13,1 % vs PMC 24,48 EUR) sur son plus haut 52 semaines, solidement ancre en tendance HAUSSE_CONFIRMEE (pente +4,63 %, ecart SMA200 +32,20 %). Le RSI14 a 74,6 temoigne d'une forte impulsion justifiant de viser le ralliement de l'objectif a 28,04 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -22,7 +22,7 @@
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 87,
-   "justification": "Cours a 20,28 EUR (+8,2 % de PnL) en direction de l objectif a 21,47 EUR avec une progression constante (+0,20 % ce jour, +6,74 % sur 20j). Tendance HAUSSE_CONFIRMEE au-dessus de la SMA200 a 18,57 EUR (+9,20 %) avec une volatilite remarquable de 12,7 %.",
+   "justification": "Getlink cote a 20,38 EUR (+0,69 % ce jour, +8,8 % vs PMC 18,74 EUR), a -0,10 % de son plus haut 52 semaines en tendance HAUSSE_CONFIRMEE (+1,98 % de pente, ecart SMA50 +7,23 %). Sa faible volatilite de 12,7 % confirme la stabilite de la progression vers la cible de 21,47 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -33,7 +33,7 @@
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 86,
-   "justification": "Nouveau plus haut annuel atteint a 192,46 EUR (+1,11 % ce jour, +9,1 % de PnL) en route vers l objectif des 202,10 EUR. Tendance HAUSSE_CONFIRMEE (chg126d +21,60 %, ecart SMA200 +15,27 %) renforcee par l opinion positive de Jefferies parue ce matin.",
+   "justification": "Air Liquide atteint 194,10 EUR (+1,98 % ce jour, +10,0 % vs PMC 176,44 EUR) au plus haut 52 semaines en tendance HAUSSE_CONFIRMEE (pente +2,24 %, chg126d +22,64 %). Malgre un RSI14 eleve a 88,5, la dynamique reste puissante et preserve l'objectif de 202,10 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -44,7 +44,7 @@
    "symbole": "AMUN.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Cours sur son plus haut 52 semaines a 97,75 EUR (+9,1 % de PnL, +0,67 % ce jour) vers l objectif des 102,58 EUR. Tendance HAUSSE_CONFIRMEE (pente +2,08 %, chg126d +15,14 %, ecart SMA200 +14,50 %) confirmant la surperformance du titre post-resultats.",
+   "justification": "Amundi s'etablit a 97,30 EUR (+8,6 % vs PMC 89,56 EUR) a seulement -0,26 % de son plus haut annuel, en tendance HAUSSE_CONFIRMEE (pente +2,08 %, ecart SMA200 +13,98 %). La solidite des encours records continue de soutenir l'acheminement vers l'objectif de 102,58 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -55,7 +55,7 @@
    "symbole": "SCR.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Cours a 34,96 EUR (+1,0 % de PnL) consolidant sainement avec un RSI14 non sature a 62,5 vers l objectif des 39,63 EUR. Tendance HAUSSE_CONFIRMEE (pente +1,99 %, ecart SMA200 +9,41 %) appuyee par l analyse Boursorama validant la poursuite de la hausse.",
+   "justification": "SCOR progresse de +1,03 % a 35,42 EUR (+2,4 % vs PMC 34,60 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,00 %, ecart SMA50 +6,86 %, ecart SMA200 +10,84 %). Le RSI14 a 65,7 reste equilibre et offre du potentiel technique vers l'objectif de 39,63 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -66,7 +66,7 @@
    "symbole": "PUB.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Cours a 104,75 EUR (+2,3 % de PnL, +0,77 % ce jour) a seulement 0,14 % de son plus haut 52 semaines. Tendance HAUSSE_CONFIRMEE puissante (chg126d +25,15 %, ecart SMA200 +19,60 %) avec un RSI14 equilibre a 61,5 et un article elogieux d Investir Les Echos ce jour.",
+   "justification": "Publicis s'affiche a 104,85 EUR (+0,87 % ce jour, +2,4 % vs PMC 102,36 EUR), frolant son plus haut 52 semaines (-0,05 %) en tendance HAUSSE_CONFIRMEE (pente +1,77 %, ecart SMA200 +19,72 %). Le RSI14 a 61,8 conforte la poursuite du cycle haussier vers 117,24 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -76,8 +76,8 @@
   {
    "symbole": "TTE.PA",
    "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "Rebond de +1,11 % ce jour a 79,07 EUR (+3,1 % de PnL) catalyse par l opinion favorable de Jefferies relayee dans la presse. Tendance HAUSSE_CONFIRMEE solide (pente +3,37 %, ecart SMA200 +5,53 %) avec un RSI14 detendu a 47,0 permettant la reprise vers 87,87 EUR.",
+   "confiance": 83,
+   "justification": "TotalEnergies rebondit de +1,75 % a 79,57 EUR (+3,7 % vs PMC 76,72 EUR), prenant appui sur sa SMA50 a 79,54 EUR en tendance HAUSSE_CONFIRMEE (pente +3,38 %, ecart SMA200 +6,19 %). Le RSI14 detendu a 48,7 et la mise en service d'actifs solaires confortent la progression vers l'objectif de 87,87 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -87,8 +87,8 @@
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
-   "confiance": 81,
-   "justification": "Rebond de +2,02 % ce jour a 166,40 EUR (+2,9 % de PnL) validant le support de la SMA50 a 165,07 EUR (+0,81 %). Tendance HAUSSE_CONFIRMEE de fond intacte (pente +3,44 %, chg126d +18,10 %) avec un RSI14 a 32,0 qui amorce son retournement vers l objectif de 185,15 EUR.",
+   "confiance": 82,
+   "justification": "Euronext progresse de +2,02 % a 166,40 EUR (+2,9 % vs PMC 161,64 EUR) et defend son support de SMA50 (165,07 EUR) en tendance HAUSSE_CONFIRMEE (pente +3,44 %, ecart SMA200 +11,84 %). Le RSI14 a 32,0 indique un rebond sain vers la cible de 185,15 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -101,15 +101,15 @@
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
-  "ageJours": 58,
-  "nbPassages": 139,
-  "equity": 10045.3,
-  "perfPct": 0.45,
-  "cacPerfPct": 2.54,
-  "alphaPct": -2.09,
+  "ageJours": 59,
+  "nbPassages": 140,
+  "equity": 10075.02,
+  "perfPct": 0.75,
+  "cacPerfPct": 3.32,
+  "alphaPct": -2.57,
   "maxDrawdownPct": -4.2,
-  "sharpe": 0.49,
-  "expositionPct": 58.2,
+  "sharpe": 0.72,
+  "expositionPct": 58.3,
   "trades": {
    "nbAchats": 18,
    "nbSolde": 10,
@@ -160,7 +160,7 @@
   "verdict": {
    "etat": "PAS_ENCORE_CONCLUANT",
    "raisons": [
-    "il faut 90 jours de recul (actuellement 58)",
+    "il faut 90 jours de recul (actuellement 59)",
     "il faut 20 positions soldees (actuellement 10)"
    ],
    "criteres": {
@@ -173,7 +173,7 @@
   }
  },
  "stats": {
-  "equity": 10045.3,
+  "equity": 10075.02,
   "cash": 4201.93,
   "nbPositions": 8
  }
