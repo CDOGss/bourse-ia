@@ -1,17 +1,17 @@
 {
- "date": "2026-11-13T14:20:43.916Z",
- "dureeS": 106,
+ "date": "2026-11-13T16:20:47.185Z",
+ "dureeS": 113,
  "dryRun": false,
  "modele": "gemini-3.8-flash",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 fait du surplace avec un recul marginal de -0,05 % a 8 357,31 points. La largeur du marche reste mitigee avec seulement 46,7 % des 122 valeurs de l univers au-dessus de leur moyenne mobile a 200 jours, caracterisant un regime partage. Le portefeuille etant a pleine capacite avec 8 positions sur 8 toutes largement positives, la discipline impose de conserver l ensemble des lignes et de laisser courir les gains.",
+ "resume_marche": "Le CAC 40 termine la seance en legere hausse de +0,10 % a 8 369,31 points, dans un contexte attentiste et sans impulsion majeure. La largeur de marche demeure partagee avec 49,2 % des valeurs au-dessus de leur moyenne mobile a 200 jours, justifiant le maintien d une posture prudente face aux fortes disparites sectorielles. Le portefeuille demeure integralement investi sur 8 positions en plus-value et portees par des tendances haussieres confirmees.",
  "signaux": [
   {
    "symbole": "DEC.PA",
    "action": "CONSERVER",
    "confiance": 88,
-   "justification": "JCDecaux cote a 27,88 EUR avec une plus-value latente de +13,9 %, a seulement 0,5 % de son plus haut sur 52 semaines (28,02 EUR). Le titre reste soutenu par une tendance HAUSSE_CONFIRMEE (pente +4,65 %, chg126d +53,61 %) et des retours d activite favorables au T3 et T4 confirmes par Les Echos.",
+   "justification": "JCDecaux touche un nouveau plus haut annuel a 28,18 EUR (+0,57 % ce jour, +15,1 % de gain latent), confirme en tendance HAUSSE_CONFIRMEE avec une pente de +4,66 % et un ecart a la SMA200 de +33,86 %. Le titre est porte par les bonnes surprises sur ses activites T3 et T4 relatees par Investir Les Echos, justifiant la poursuite du mouvement.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -22,7 +22,7 @@
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 87,
-   "justification": "Getlink cote a 20,62 EUR (+0,98 % ce jour, gain de +10,0 %), inscrivant un nouveau plus haut sur 52 semaines. La valeur affiche une tendance HAUSSE_CONFIRMEE (pente +2,02 %, chg126d +11,88 %) associee a une tres faible volatilite annualisee de 12,9 %, justifiant pleinement le maintien en portefeuille.",
+   "justification": "Getlink inscrit un sommet annuel a 20,74 EUR (+1,57 % ce jour, +10,7 % de gain), au-dessus de ses SMA20 (19,82 EUR), SMA50 (19,08 EUR) et SMA200 (18,61 EUR). La valeur affiche une tendance HAUSSE_CONFIRMEE avec une pente de +2,02 % et une volatilite tres moderee de 13,4 %.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -33,7 +33,7 @@
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 86,
-   "justification": "Air Liquide atteint son plus haut sur 52 semaines a 194,14 EUR (+0,67 % ce jour, +10,0 % de gain latent). La dynamique reste tres favorable en tendance HAUSSE_CONFIRMEE (pente +2,34 %, ecart SMA200 +15,94 %) avec le soutien strategique annonce du plan BEYOND 2030.",
+   "justification": "Air Liquide marque un plus haut a 193,92 EUR (+0,56 % ce jour, +9,9 % de gain) en tendance HAUSSE_CONFIRMEE (chg126d +18,69 %, ecart SMA200 +15,81 %). Le groupe beneficie de l annonce de son plan Beyond 2030 et conserve une dynamique saine malgre un RSI eleve a 87,6 qui reflete une forte pression acheteuse.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -44,7 +44,7 @@
    "symbole": "AMUN.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Amundi s etablit a 96,75 EUR (+8,0 % de gain latent), tout pres de son plus haut 52 semaines (97,60 EUR, soit -0,87 %). La tendance HAUSSE_CONFIRMEE reste parfaitement orientee avec une pente de +2,11 % et un ecart a la SMA200 de +13,08 %.",
+   "justification": "Amundi consolide legerement a 96,70 EUR (-0,67 % ce jour, +8,0 % de gain latent), a seulement 0,92 % de son plus haut annuel de 97,60 EUR. La tendance reste HAUSSE_CONFIRMEE (pente +2,11 %, ecart SMA200 +13,02 %) sur la continuite des encours records du T3.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -55,18 +55,7 @@
    "symbole": "SCR.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "SCOR s affiche au plus haut sur 52 semaines a 35,90 EUR (+0,73 % ce jour, +6,34 % sur 20j, pnl +3,8 %). La dynamique post-resultats T3 valide la tendance HAUSSE_CONFIRMEE (pente +2,07 %, ecart SMA200 +12,07 %).",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "TTE.PA",
-   "action": "CONSERVER",
-   "confiance": 84,
-   "justification": "TotalEnergies progresse de +1,49 % a 81,83 EUR (+6,7 % de gain latent), figurant parmi les plus fortes hausses de l indice apres une note positive de Jefferies. Le titre reste fermement ancre en tendance HAUSSE_CONFIRMEE (pente +3,30 %, cours au-dessus de la SMA50 a 79,70 EUR) avec un RSI non sature a 42,9.",
+   "justification": "Scor progresse de +0,79 % pour s etablir a son plus haut de 52 semaines a 35,92 EUR (+3,8 % de gain). Le titre s inscrit en tendance HAUSSE_CONFIRMEE avec une pente de +2,07 % et un ecart a la SMA200 de +12,14 %, profitant de la solidite de ses publications trimestrielles.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -77,7 +66,18 @@
    "symbole": "PUB.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Publicis consolide a 105,00 EUR (-0,19 % ce jour, gain latent de +2,6 %), a proximite immediate de son record annuel a 105,20 EUR (-0,19 %). La configuration de fond est solide en tendance HAUSSE_CONFIRMEE (pente +1,81 %, chg126d +25,90 %) au-dessus de sa SMA20 a 101,95 EUR.",
+   "justification": "Publicis Groupe termine a son plus haut annuel a 105,90 EUR (+0,67 % en seance, +3,5 % de gain), surperformant en tendance HAUSSE_CONFIRMEE (chg126d +26,98 %, ecart SMA200 +20,64 %). La dynamique reste robuste avec une volatilite contenue a 17,8 %.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "TTE.PA",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "justification": "TotalEnergies signe une hausse de +1,75 % a 82,04 EUR (+6,9 % de gain latent), confortant sa tendance HAUSSE_CONFIRMEE (pente SMA200 +3,30 %, cours superieur de +9,19 % a sa SMA200 de 75,13 EUR). Le RSI a 43,7 conserve un potentiel haussier intact.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -88,7 +88,7 @@
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Euronext monte de +0,84 % a 167,60 EUR (+3,7 % de gain), se maintenant au-dessus de sa SMA50 a 165,33 EUR. La tendance de fond HAUSSE_CONFIRMEE est preservee (pente +3,49 %, chg126d +13,55 %) alors que le RSI a 36,7 indique une stabilisation apres repli.",
+   "justification": "Euronext rebondit de +1,56 % a 168,80 EUR (+4,4 % de gain) au sein d une tendance HAUSSE_CONFIRMEE (pente +3,49 %, ecart SMA200 +13,07 %). Le RSI14 a 38,8 offre un point d entree de respiration favorable sans aucune remise en cause de la these haussiere.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -97,35 +97,47 @@
   }
  ],
  "signaux_ecartes": [],
- "appliques": [],
+ "appliques": [
+  {
+   "symbole": "DEC.PA",
+   "nom": "JCDecaux",
+   "action": "VENTE",
+   "shares": 32,
+   "prix": 28.18,
+   "montant": 900.86,
+   "pnlPct": 15.11,
+   "pnlEur": 117.5,
+   "motif": "objectif atteint"
+  }
+ ],
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 60,
-  "nbPassages": 148,
-  "equity": 10121.22,
-  "perfPct": 1.21,
-  "cacPerfPct": 2.95,
-  "alphaPct": -1.74,
+  "nbPassages": 149,
+  "equity": 10145.33,
+  "perfPct": 1.45,
+  "cacPerfPct": 3.1,
+  "alphaPct": -1.65,
   "maxDrawdownPct": -4.2,
-  "sharpe": 1.07,
-  "expositionPct": 58.5,
+  "sharpe": 1.25,
+  "expositionPct": 49.7,
   "trades": {
    "nbAchats": 18,
-   "nbSolde": 10,
-   "tauxReussitePct": 20,
-   "gainMoyenPct": 15.57,
+   "nbSolde": 11,
+   "tauxReussitePct": 27.3,
+   "gainMoyenPct": 15.41,
    "perteMoyennePct": -10.03,
-   "profitFactor": 0.45,
-   "montantGagne": 233.28,
+   "profitFactor": 0.68,
+   "montantGagne": 351.53,
    "montantPerdu": 519.99
   },
   "couts": {
-   "fraisCumules": 19.22,
+   "fraisCumules": 20.12,
    "ttfCumule": 37.5,
-   "totalEur": 56.72,
+   "totalEur": 57.62,
    "montantAchete": 12542.15,
-   "coutEnPctDuCapital": 0.57
+   "coutEnPctDuCapital": 0.58
   },
   "signaux": {
    "achats": {
@@ -161,7 +173,7 @@
    "etat": "PAS_ENCORE_CONCLUANT",
    "raisons": [
     "il faut 90 jours de recul (actuellement 60)",
-    "il faut 20 positions soldees (actuellement 10)"
+    "il faut 20 positions soldees (actuellement 11)"
    ],
    "criteres": {
     "ageMinJours": 90,
@@ -173,8 +185,8 @@
   }
  },
  "stats": {
-  "equity": 10121.22,
-  "cash": 4201.93,
-  "nbPositions": 8
+  "equity": 10145.33,
+  "cash": 5102.79,
+  "nbPositions": 7
  }
 }
