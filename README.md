@@ -72,7 +72,7 @@ Tout est dans `config.json` :
 
 | Cle | Defaut | Role |
 |---|---|---|
-| `modele` | `gemini-3.8-flash` | modele Gemini (`GEMINI_MODEL` l'ecrase) |
+| `modele` | `gemini-4-hydrogen` | modele Gemini (`GEMINI_MODEL` l'ecrase) |
 | `reflexion` | `high` | niveau de reflexion : `low`, `medium`, `high` (repli automatique si l'API refuse) |
 | `miseDepart` | 10000 | capital virtuel initial (EUR) |
 | `fraisPct` | 0.1 | courtage par ordre |

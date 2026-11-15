@@ -1,5 +1,5 @@
 {
-  "modele": "gemini-3.8-flash",
+  "modele": "gemini-4-hydrogen",
   "reflexion": "high",
   "espacementMinMinutes": 75,
   "espacementSecoursMinutes": 150,
