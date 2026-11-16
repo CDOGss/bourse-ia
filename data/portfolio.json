@@ -7,14 +7,14 @@
   "feePct": 0.1,
   "ttfPct": 0.3
  },
- "cash": 5102.79,
+ "cash": 4653.4,
  "positions": [
   {
    "symbole": "ENX.PA",
    "nom": "Euronext",
    "shares": 4,
    "pmc": 161.64,
-   "price": 168.8,
+   "price": 169.2,
    "stop": 149,
    "target": 185.15,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -26,7 +26,7 @@
    "nom": "Air Liquide",
    "shares": 4,
    "pmc": 176.44,
-   "price": 193.92,
+   "price": 194,
    "stop": 161.5,
    "target": 202.1,
    "dateAchat": "2026-10-05T07:20:38.130Z",
@@ -38,7 +38,7 @@
    "nom": "Getlink",
    "shares": 35,
    "pmc": 18.74,
-   "price": 20.74,
+   "price": 20.76,
    "stop": 17.5,
    "target": 21.47,
    "dateAchat": "2026-10-08T07:20:41.027Z",
@@ -50,7 +50,7 @@
    "nom": "TotalEnergies",
    "shares": 9,
    "pmc": 76.72,
-   "price": 82.04,
+   "price": 82.56,
    "stop": 70.5,
    "target": 87.87,
    "dateAchat": "2026-10-08T09:20:41.913Z",
@@ -62,7 +62,7 @@
    "nom": "Amundi",
    "shares": 8,
    "pmc": 89.56,
-   "price": 96.7,
+   "price": 96.35,
    "stop": 83.5,
    "target": 102.58,
    "dateAchat": "2026-10-29T08:20:41.948Z",
@@ -74,7 +74,7 @@
    "nom": "Scor",
    "shares": 20,
    "pmc": 34.6,
-   "price": 35.92,
+   "price": 36.04,
    "stop": 31.7,
    "target": 39.63,
    "dateAchat": "2026-10-30T10:20:41.725Z",
@@ -92,6 +92,18 @@
    "dateAchat": "2026-11-06T10:20:39.692Z",
    "these": "Publicis s'inscrit en tendance HAUSSE_CONFIRMEE (pente +1,60 %, chg126d +31,35 %) et son repli de séance (-2,81 % à 101,95 EUR) ramène le cours sur sa SMA20 (101,09 EUR) avec un RSI14 détendu à 51,4. Le dossier bénéficie d'un flux d'actualité favorable confirmé ce matin par des avis d'analystes séduits.",
    "confiance": 78
+  },
+  {
+   "symbole": "DIM.PA",
+   "nom": "Sartorius Stedim Biotech",
+   "shares": 2,
+   "pmc": 224.7,
+   "price": 223.8,
+   "stop": 204,
+   "target": 257.37,
+   "dateAchat": "2026-11-16T08:27:11.144Z",
+   "these": "Sartorius Stedim Biotech (cours 223,80 EUR, chg1d +0,27 %) evolue en tendance HAUSSE_CONFIRMEE (pente +0,95 %, chg63d +22,36 %, chg126d +31,11 %, ecart_sma200_pct +21,63 %) dans un secteur biopharma epargne par les secousses technologiques du jour. Le titre consolide sainement au contact de sa SMA20 (221,47 EUR, ecart_sma20_pct +1,05 %) avec un rsi14 detendu a 53,6 (NEUTRE), une volatilita_ann_pct",
+   "confiance": 76
   }
  ],
  "trades": [
@@ -529,6 +541,21 @@
    "frais": 0.9,
    "ttf": 0,
    "motif": "objectif atteint"
+  },
+  {
+   "date": "2026-11-16T08:27:11.144Z",
+   "symbole": "DIM.PA",
+   "nom": "Sartorius Stedim Biotech",
+   "action": "ACHAT",
+   "shares": 2,
+   "prix": 223.8,
+   "montant": 449.39,
+   "frais": 0.45,
+   "ttf": 1.34,
+   "motif": "Sartorius Stedim Biotech (cours 223,80 EUR, chg1d +0,27 %) evolue en tendance HAUSSE_CONFIRMEE (pente +0,95 %, chg63d +22,36 %, chg126d +31,11 %, ecart_sma200_pct +21,63 %) dans un secteur biopharma epargne par les secousses technologiques du jour. Le titre consolide sainement au contact de sa SMA20 (221,47 EUR, ecart_sma20_pct +1,05 %) avec un rsi14 detendu a 53,6 (NEUTRE), une volatilita_ann_pct",
+   "confiance": 76,
+   "stop": 204,
+   "objectif": null
   }
  ],
  "history": [
@@ -1276,6 +1303,11 @@
    "date": "2026-11-13T16:20:47.185Z",
    "equity": 10145.33,
    "cac": 8369.31
+  },
+  {
+   "date": "2026-11-16T08:27:11.144Z",
+   "equity": 10150.44,
+   "cac": 8395.58
   }
  ],
  "signaux": [
@@ -26769,7 +26801,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "JCDecaux cote a 26,76 EUR au plus haut annuel (dist_plus_haut_52s_pct 0,00 %) avec un gain de +9,3 % en portefeuille. Le titre est ancre en HAUSSE_CONFIRMEE (pente +4,60 %, ecart_sma200_pct +28,46 %, chg126d +45,59 %) avec un RSI 14 a 66,8 et le renouvellement de son contrat a Hambourg. La these dem",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-16T08:27:11.144Z",
+    "jours": 7,
+    "prix": 28.16,
+    "chgPct": 5.23,
+    "cacChgPct": 3.34,
+    "alphaPct": 1.89
+   },
    "h1m": null,
    "solde": null
   },
@@ -26785,7 +26824,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Getlink evolue a 20,22 EUR tout pres de son sommet annuel (-0,88 %) avec une plus-value latente de +7,9 %. La tendance reste HAUSSE_CONFIRMEE (pente +1,92 %, ecart_sma200_pct +9,13 %) accompagnee d'une volatilite tres faible a 13,1 % et de la reprise du trafic Eurostar. Maintien confiant vers l'obje",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-16T08:27:11.144Z",
+    "jours": 7,
+    "prix": 20.76,
+    "chgPct": 2.67,
+    "cacChgPct": 3.34,
+    "alphaPct": -0.67
+   },
    "h1m": null,
    "solde": null
   },
@@ -26801,7 +26847,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Euronext s'echange a 167,90 EUR (+3,9 % de pnl), consolidant sainement sur sa SMA 50 a 164,99 EUR (+1,76 %) avec un RSI 14 desature a 48,6. La tendance de fond HAUSSE_CONFIRMEE est vigoureuse (pente +3,41 %, ecart_sma200_pct +13,17 %, chg126d +19,25 %). Maintien de la these vers l'objectif de 185,15",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-16T08:27:11.144Z",
+    "jours": 7,
+    "prix": 169.2,
+    "chgPct": 0.77,
+    "cacChgPct": 3.34,
+    "alphaPct": -2.57
+   },
    "h1m": null,
    "solde": null
   },
@@ -26817,7 +26870,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Air Liquide affiche 187,18 EUR (+6,1 % de pnl) a -1,34 % de ses plus-hauts annuels en tendance HAUSSE_CONFIRMEE (pente +2,09 %, ecart_sma200_pct +12,43 %, chg126d +16,83 %). Le titre beneficie du soutien confirme par Berenberg et de son partenariat avec Hyundai en Chine, justifiant de laisser courir",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-16T08:27:11.144Z",
+    "jours": 7,
+    "prix": 194,
+    "chgPct": 3.64,
+    "cacChgPct": 3.34,
+    "alphaPct": 0.3
+   },
    "h1m": null,
    "solde": null
   },
@@ -26833,7 +26893,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Amundi s'etablit a 93,70 EUR (+4,6 % de gain), au-dessus de sa SMA 50 (+2,69 %) et de sa SMA 200 (+10,06 %). La dynamique en HAUSSE_CONFIRMEE (pente +2,02 %, chg126d +10,43 %) reflete la solidite des resultats T3 et un niveau record d'encours. La position est conservee vers 102,58 EUR.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-16T08:27:11.144Z",
+    "jours": 7,
+    "prix": 96.35,
+    "chgPct": 2.83,
+    "cacChgPct": 3.34,
+    "alphaPct": -0.51
+   },
    "h1m": null,
    "solde": null
   },
@@ -26849,7 +26916,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "TotalEnergies se replie legerement a 79,21 EUR (+3,2 % de pnl) sur sa SMA 50 (-0,37 %) avec un RSI 14 detendu a 47,6. La tendance HAUSSE_CONFIRMEE demeure saine (pente +3,48 %, ecart_sma200_pct +5,96 %) et Deutsche Bank souligne l'impact moteur des resultats T3 du groupe. La these reste entiere vers",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-16T08:27:11.144Z",
+    "jours": 7,
+    "prix": 82.56,
+    "chgPct": 4.23,
+    "cacChgPct": 3.34,
+    "alphaPct": 0.89
+   },
    "h1m": null,
    "solde": null
   },
@@ -26865,7 +26939,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Publicis se maintient a 103,55 EUR (+1,2 % de pnl), a seulement -1,29 % de son plus haut 52 semaines. Le dossier confirme son elan en HAUSSE_CONFIRMEE (pente +1,67 %, ecart_sma200_pct +18,51 %, chg126d +34,31 %) et prend appui sur sa SMA 20 (+2,14 %) avec un RSI 14 neutre a 59,4. Conservation confir",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-16T08:27:11.144Z",
+    "jours": 7,
+    "prix": 105.9,
+    "chgPct": 2.27,
+    "cacChgPct": 3.34,
+    "alphaPct": -1.07
+   },
    "h1m": null,
    "solde": null
   },
@@ -26881,7 +26962,14 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "SCOR cote a 34,38 EUR (-0,6 % de pnl), en marge de fluctuation normale au-dessus de sa SMA 50 (+3,85 %) et de sa SMA 200 (+7,85 %). La tendance HAUSSE_CONFIRMEE est validee (pente +1,90 %, chg126d +7,91 %) avec un RSI 14 a 57,8. La position reste eloignee du stop de protection fixe a 31,70 EUR.",
-   "h1s": null,
+   "h1s": {
+    "date": "2026-11-16T08:27:11.144Z",
+    "jours": 7,
+    "prix": 36.04,
+    "chgPct": 4.83,
+    "cacChgPct": 3.34,
+    "alphaPct": 1.49
+   },
    "h1m": null,
    "solde": null
   },
@@ -29873,6 +29961,134 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Euronext rebondit de +1,56 % a 168,80 EUR (+4,4 % de gain) au sein d une tendance HAUSSE_CONFIRMEE (pente +3,49 %, ecart SMA200 +13,07 %). Le RSI14 a 38,8 offre un point d entree de respiration favorable sans aucune remise en cause de la these haussiere.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-160827-DIM.PA-0",
+   "date": "2026-11-16T08:27:11.144Z",
+   "symbole": "DIM.PA",
+   "nom": "Sartorius Stedim Biotech",
+   "action": "ACHAT",
+   "confiance": 76,
+   "prixSignal": 223.8,
+   "cacAuSignal": 8395.58,
+   "execute": true,
+   "motifRejet": null,
+   "justification": "Sartorius Stedim Biotech (cours 223,80 EUR, chg1d +0,27 %) evolue en tendance HAUSSE_CONFIRMEE (pente +0,95 %, chg63d +22,36 %, chg126d +31,11 %, ecart_sma200_pct +21,63 %) dans un secteur biopharma epargne par les secousses technologiques du jour. Le titre consolide sainement au contact de sa SMA20",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-160827-ENX.PA-1",
+   "date": "2026-11-16T08:27:11.144Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "CONSERVER",
+   "confiance": 82,
+   "prixSignal": 169.2,
+   "cacAuSignal": 8395.58,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Euronext (169,20 EUR, pnl_pct +4,7 %) reste solidement orientee en tendance HAUSSE_CONFIRMEE (pente +3,53 %, chg126d +12,65 %, ecart_sma200_pct +13,13 %). Le titre rebondit sur 5 jours (+4,12 %) avec un rsi14 non sature a 39,1 (NEUTRE) et figure dans les points recommandations d'analystes du jour su",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-160827-AI.PA-2",
+   "date": "2026-11-16T08:27:11.144Z",
+   "symbole": "AI.PA",
+   "nom": "Air Liquide",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "prixSignal": 194,
+   "cacAuSignal": 8395.58,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Air Liquide atteint un plus haut 52s a 194,00 EUR (pnl_pct +10,0 %, objectif 202,10 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,37 %, chg126d +18,31 %, ecart_sma200_pct +15,72 %). L'actualite du jour confirme le dynamisme operationnel avec l'augmentation de la production d'azote a Montoir-de-Bretagn",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-160827-GET.PA-3",
+   "date": "2026-11-16T08:27:11.144Z",
+   "symbole": "GET.PA",
+   "nom": "Getlink",
+   "action": "CONSERVER",
+   "confiance": 85,
+   "prixSignal": 20.76,
+   "cacAuSignal": 8395.58,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Getlink inscrit un plus haut 52s a 20,76 EUR (pnl_pct +10,8 %, objectif 21,47 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,03 %, chg20d +8,18 %, chg126d +11,85 %). Malgre un rsi14 en SURACHAT a 81,5, la volatilita_ann_pct tres faible de 13,0 % valide le maintien de la position.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-160827-TTE.PA-4",
+   "date": "2026-11-16T08:27:11.144Z",
+   "symbole": "TTE.PA",
+   "nom": "TotalEnergies",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "prixSignal": 82.56,
+   "cacAuSignal": 8395.58,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "TotalEnergies progresse de +0,47 % a 82,56 EUR (+4,84 % sur 5 jours, pnl_pct +7,6 %) en tendance HAUSSE_CONFIRMEE (pente +3,25 %, ecart_sma200_pct +9,74 %). Le rsi14 demeure parfaitement sain a 48,4 (NEUTRE) juste au-dessus de la SMA20 (81,74 EUR), laissant de la marge vers l'objectif de 87,87 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-160827-AMUN.PA-5",
+   "date": "2026-11-16T08:27:11.144Z",
+   "symbole": "AMUN.PA",
+   "nom": "Amundi",
+   "action": "CONSERVER",
+   "confiance": 83,
+   "prixSignal": 96.35,
+   "cacAuSignal": 8395.58,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Amundi (96,35 EUR, pnl_pct +7,6 %, chg20d +9,93 %) reste portee par une tendance HAUSSE_CONFIRMEE (pente +2,10 %, chg126d +12,43 %, ecart_sma200_pct +12,51 %). L'actualite Boursorama du jour souligne que les signaux haussiers restent intacts malgre un rsi14 a 78,1 (SURACHAT).",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-160827-SCR.PA-6",
+   "date": "2026-11-16T08:27:11.144Z",
+   "symbole": "SCR.PA",
+   "nom": "Scor",
+   "action": "CONSERVER",
+   "confiance": 83,
+   "prixSignal": 36.04,
+   "cacAuSignal": 8395.58,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Scor inscrit un nouveau plus haut 52s a 36,04 EUR (+0,67 % ce jour, +4,10 % sur 5 jours, pnl_pct +4,2 %). La tendance HAUSSE_CONFIRMEE (pente +2,09 %, ecart_sma200_pct +12,39 %, chg126d +12,98 %) reste intacte en direction de l'objectif a 39,63 EUR malgre un rsi14 a 76,3.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-160827-PUB.PA-7",
+   "date": "2026-11-16T08:27:11.144Z",
+   "symbole": "PUB.PA",
+   "nom": "Publicis Groupe",
+   "action": "CONSERVER",
+   "confiance": 82,
+   "prixSignal": 105.9,
+   "cacAuSignal": 8395.58,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Publicis Groupe atteint son plus haut 52s a 105,90 EUR (pnl_pct +3,5 %, chg126d +27,13 %) en tendance HAUSSE_CONFIRMEE (pente +1,90 %, ecart_sma200_pct +20,45 %) avec une volatilita_ann_pct contenue a 17,3 %. La these vers l'objectif de 117,24 EUR demeure valide.",
    "h1s": null,
    "h1m": null,
    "solde": null
