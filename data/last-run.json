@@ -1,17 +1,17 @@
 {
- "date": "2026-11-19T10:20:56.458Z",
- "dureeS": 42,
+ "date": "2026-11-19T12:20:56.948Z",
+ "dureeS": 44,
  "dryRun": false,
  "modele": "gemini-4-hydrogen",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 progresse de +0,42 % a 8180,74 points a la mi-seance, mais la sante interne du marche reste fragile avec une largeur_marche FAIBLE (44,3 % des 122 valeurs au-dessus de leur SMA200). L'environnement appelle a la retenue malgre des catalyseurs isoles (Soitec, Groupe ADP, Interparfums), d'autant que la BCE alerte sur les engagements lies a l'IA et que le S&P 500 reste sous pression apres cinq seances de baisse. Le portefeuille etant deja au plafond de 8 positions (part_investie_pct a 53,7 %, cash de 4653,40 EUR) sur des dossiers tous en HAUSSE_CONFIRMEE, la priorite est la conservation.",
+ "resume_marche": "Le CAC 40 grappille +0,16 % a 8159,87 points dans l'attente de l'introduction en Bourse d'Anthropic a Wall Street, mais la sante interne du marche reste fragile avec une largeur FAIBLE de seulement 42,6 % des 122 valeurs au-dessus de leur SMA200. La seance est marquee par de forts ecarts idiosyncratiques sur le SBF 120, avec l'envolee de Soitec (+19,18 %) et de Groupe ADP (+4,78 %) sur catalyseurs specifiques, tandis qu'Alstom cede encore -5,35 % sur son plus bas annuel a 8,81 EUR. Le portefeuille etant deja au plafond de 8 lignes (53,7 % investi, valorisation 10046,45 EUR et 4653,40 EUR de cash) sur des dossiers tous en tendance HAUSSE_CONFIRMEE, aucun arbitrage ni nouvel achat ne s'impose.",
  "signaux": [
   {
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Getlink cote 20,60 EUR (+0,98 % en seance, +9,9 % sur le PMC de 18,74 EUR), proche de son plus haut 52s (20,68 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,07 %, ecart_sma200_pct +10,24 %, chg126d +11,05 %). Sa faible volatilite (14,1 %) et un RSI14 a 69,7 maintiennent la these intacte au-dessus du stop a 17,50 EUR.",
+   "justification": "Cours a 20,58 EUR (+9,8 % de gain latent, chg1d +0,88 %, chg20d +6,69 %, chg126d +10,94 %) en tendance HAUSSE_CONFIRMEE (+2,07 % de pente, ecart SMA200 +10,14 %) avec une faible volatilite de 14,1 % et un suivi mentionne ce jour par Investir Les Echos. Le titre campe a -0,48 % de son plus haut 52 semaines (20,68 EUR) avec un RSI14 a 69,4 encore sous le seuil de surachat, maintenant l'objectif a 21",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -22,7 +22,7 @@
    "symbole": "DIM.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Sartorius Stedim Biotech gagne +3,00 % a 233,60 EUR (+4,0 % sur le PMC de 224,70 EUR), inscrivant un nouveau plus haut 52s apres le franchissement des 228,40 EUR signale par Ideal Investisseur. La tendance reste HAUSSE_CONFIRMEE (+1,39 % de pente, chg126d +36,45 %, ecart_sma200_pct +26,45 %) avec un RSI14 a 68,6 encore sous le surachat.",
+   "justification": "Cours au plus haut de 52 semaines a 233,20 EUR (+3,8 % de gain latent, chg1d +2,82 %, chg5d +4,67 %, chg20d +11,47 %, chg126d +36,21 %) en tendance HAUSSE_CONFIRMEE (+1,38 % de pente, ecart SMA200 +26,23 %). Le RSI14 a 68,1 reste en zone NEUTRE sans signal d'essoufflement, la these vers l'objectif de 257,37 EUR tient pleinement.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -32,8 +32,8 @@
   {
    "symbole": "SCR.PA",
    "action": "CONSERVER",
-   "confiance": 81,
-   "justification": "Scor evolue a 34,74 EUR (-0,80 % en seance, +0,4 % sur le PMC de 34,60 EUR), soutenu par une tendance HAUSSE_CONFIRMEE (pente +2,12 %, ecart_sma200_pct +8,03 %, chg126d +10,92 %). Le RSI14 neutre a 51,8 et le maintien au-dessus de la SMA20 (34,49 EUR) et du stop a 31,70 EUR valident le maintien vers l'objectif de 39,63 EUR.",
+   "confiance": 80,
+   "justification": "Cours a 34,74 EUR (+0,4 % de gain latent, chg1d -0,8 %, chg20d +3,7 %, chg126d +10,92 %) en tendance HAUSSE_CONFIRMEE (+2,12 % de pente, ecart SMA50 +3,96 %, ecart SMA200 +8,03 %). Avec un RSI14 detendu a 51,8 et aucune actualite negative, le titre reste bien oriente au-dessus de son stop a 31,70 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -44,7 +44,7 @@
    "symbole": "AMUN.PA",
    "action": "CONSERVER",
    "confiance": 80,
-   "justification": "Amundi progresse de +0,78 % a 96,55 EUR (+7,8 % sur le PMC de 89,56 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,14 %, chg20d +10,15 %, chg126d +13,26 %, ecart_sma200_pct +12,41 %). Malgre un RSI14 en SURACHAT a 72,0, la faible volatilite (16,7 %) et l'absence de remise en cause fondamentale justifient de laisser courir vers l'objectif de 102,58 EUR.",
+   "justification": "Cours a 96,15 EUR (+7,4 % de gain latent, chg1d +0,37 %, chg20d +9,7 %, chg126d +12,79 %) en tendance HAUSSE_CONFIRMEE (+2,14 % de pente, ecart SMA200 +11,95 %) et faible volatilite (16,7 %). Bien que le RSI14 soit en SURACHAT a 71,0, la tendance de fond reste intacte vers l'objectif de 102,58 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -55,7 +55,7 @@
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 79,
-   "justification": "Air Liquide s'apprecie de +0,64 % a 190,96 EUR (+8,2 % sur le PMC de 176,44 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,44 %, ecart_sma200_pct +13,52 %, volatilite 15,2 %). Bien que le RSI14 soit en SURACHAT (73,8) et que le regulateur britannique examine la cession a Vivisol d'activites d'oxygenotherapie, le titre tient proche de son plus haut 52s (193,32 EUR).",
+   "justification": "Cours a 190,18 EUR (+7,8 % de gain latent, chg1d +0,23 %, chg20d +9,56 %, chg126d +14,35 %) en tendance HAUSSE_CONFIRMEE (+2,43 % de pente, ecart SMA200 +13,06 %), soutenu par Investir Les Echos qui souligne la visibilite du dossier. Les reserves du regulateur britannique sur la cession d'activites d'oxygenotherapie a Vivisol (Zonebourse Suisse) restent a surveiller mais n'invalident pas la tendan",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -65,8 +65,8 @@
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
-   "confiance": 79,
-   "justification": "Euronext consolide a 164,90 EUR (-0,42 % en seance, chg20d -7,41 %, +2,0 % sur le PMC de 161,64 EUR) mais preserve sa tendance HAUSSE_CONFIRMEE (pente +3,51 %, chg126d +14,83 %, ecart_sma200_pct +9,71 %). Le repli sur la SMA50 (165,84 EUR) avec un RSI14 detendu a 32,9 reste bien au-dessus du stop a 149,00 EUR.",
+   "confiance": 78,
+   "justification": "Cours a 165,40 EUR (+2,3 % de gain latent, chg1d -0,12 %, chg5d -0,48 %) en consolidation apres un repli de -7,13 % sur 20 jours qui ramene le titre au contact de sa SMA50 (165,85 EUR, ecart -0,27 %). La tendance reste HAUSSE_CONFIRMEE (+3,51 % de pente, ecart SMA200 +10,04 %, chg126d +15,18 %) avec un RSI14 revenu a 33,3, sans nouvelle defavorable.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -76,8 +76,8 @@
   {
    "symbole": "TTE.PA",
    "action": "CONSERVER",
-   "confiance": 78,
-   "justification": "TotalEnergies cote 79,67 EUR (-0,18 % en seance, +3,8 % sur le PMC de 76,72 EUR) en repli modere sur sa SMA50 (79,94 EUR) avec un RSI14 a 29,0 en SURVENTE. La tendance de fond reste HAUSSE_CONFIRMEE (pente +3,07 %, ecart_sma200_pct +5,52 %, chg126d +5,64 %) et les nouvelles du jour (arret du sponsoring INEOS, projet agrivoltaique) n'alterent pas la these.",
+   "confiance": 77,
+   "justification": "Cours a 79,27 EUR (+3,3 % de gain latent, chg1d -0,68 %, chg20d -0,89 %) au contact de sa SMA50 (79,93 EUR, ecart -0,83 %) et au-dessus de sa SMA200 (+4,99 %) en tendance HAUSSE_CONFIRMEE (+3,07 % de pente, chg126d +5,10 %). Le RSI14 a 28,2 en SURVENTE traduit un exces de repli court terme alors qu'Investir Les Echos souligne la visibilite de la croissance du groupe.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -88,7 +88,7 @@
    "symbole": "PUB.PA",
    "action": "CONSERVER",
    "confiance": 76,
-   "justification": "Publicis Groupe cede -0,59 % a 100,85 EUR (-1,5 % sur le PMC de 102,36 EUR) tout en se maintenant au-dessus de sa SMA50 (99,65 EUR) et de son stop a 94,50 EUR. La tendance demeure HAUSSE_CONFIRMEE (pente +2,05 %, ecart_sma200_pct +14,27 %, chg126d +21,30 %) avec un RSI14 equilibre a 52,4.",
+   "justification": "Cours a 101,10 EUR (-1,2 % sur le prix moyen d'achat de 102,36 EUR, chg1d -0,34 %, chg5d -3,90 %) en appui au-dessus de sa SMA50 a 99,65 EUR (+1,45 %) et de sa SMA200 (+14,55 %). La tendance demeure HAUSSE_CONFIRMEE (+2,05 % de pente, chg126d +21,60 %) avec un RSI14 neutre a 53,4 et aucune actualite invalidant la position au-dessus du stop a 94,50 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -100,17 +100,21 @@
  "appliques": [],
  "rejetes": [],
  "fluxEnEchec": [
-  "HTTP 429 sur https://news.google.com/rss/search?q=bourse%20OR%20actions%20site%3Alesechos.fr%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr"
+  "HTTP 429 sur https://news.google.com/rss/search?q=CAC%2040%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr",
+  "HTTP 429 sur https://news.google.com/rss/search?q=%22Amundi%22%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr",
+  "HTTP 429 sur https://news.google.com/rss/search?q=%22Publicis%20Groupe%22%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr",
+  "HTTP 429 sur https://news.google.com/rss/search?q=%22Soitec%22%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr",
+  "HTTP 429 sur https://news.google.com/rss/search?q=%22STMicroelectronics%22%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr"
  ],
  "meriques": {
   "ageJours": 66,
-  "nbPassages": 155,
-  "equity": 10054.37,
-  "perfPct": 0.54,
-  "cacPerfPct": 0.78,
-  "alphaPct": -0.23,
+  "nbPassages": 156,
+  "equity": 10046.45,
+  "perfPct": 0.46,
+  "cacPerfPct": 0.52,
+  "alphaPct": -0.05,
   "maxDrawdownPct": -4.2,
-  "sharpe": 0.52,
+  "sharpe": 0.46,
   "expositionPct": 53.7,
   "trades": {
    "nbAchats": 19,
@@ -175,7 +179,7 @@
   }
  },
  "stats": {
-  "equity": 10054.37,
+  "equity": 10046.45,
   "cash": 4653.4,
   "nbPositions": 8
  }
