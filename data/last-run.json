@@ -1,72 +1,17 @@
 {
- "date": "2026-11-16T14:20:46.016Z",
- "dureeS": 45,
+ "date": "2026-11-19T08:20:44.970Z",
+ "dureeS": 31,
  "dryRun": false,
  "modele": "gemini-4-hydrogen",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 grappille +0,27 % a 8391,17 points, mais la largeur de marche reste PARTAGEE avec seulement 49,2 % des 122 valeurs au-dessus de leur SMA200. Les actualites soulignent des echanges europeens en ordre disperse face a la baisse attendue du Nasdaq sur les valeurs liees a l'IA et a des chocs specifiques comme Eramet (-39 % a 20,08 EUR sur son augmentation de capital). Le portefeuille etant deja au plafond de 8 positions (54,1 % investi, 4653,40 EUR de cash), aucune nouvelle entree n'est engagee.",
+ "resume_marche": "Le CAC 40 progresse moderement de +0,41 % a 8180,17 points dans une seance marquee par l'attente de l'introduction en Bourse d'Anthropic et les mises en garde de la BCE sur la valorisation de l'IA. Malgre cette hausse indicielle et des catalyseurs ponctuels sur Soitec ou Groupe ADP, la largeur de marche reste FAIBLE avec seulement 44,3 % des 122 valeurs au-dessus de leur SMA200. Ce manque de participation generalisee impose un regime PRUDENT et le maintien d'une forte selectivite.",
  "signaux": [
   {
    "symbole": "GET.PA",
    "action": "CONSERVER",
-   "confiance": 85,
-   "justification": "Getlink cote 20,70 EUR (+0,10 % sur 1j, +7,87 % sur 20j, +11,53 % sur 126j) sur son plus haut 52 semaines, en tendance HAUSSE_CONFIRMEE (pente +2,03 %, ecart SMA200 +11,10 %, volatilite 13,1 %). Malgre un RSI14 a 81,0 en SURACHAT, la these (+10,5 % latent vers l'objectif de 21,47 EUR) reste soutenue par l'actualite Boursorama du jour.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "AMUN.PA",
-   "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Amundi evolue a 96,50 EUR (-0,16 % sur 1j, +10,10 % sur 20j, +12,60 % sur 126j) en tendance HAUSSE_CONFIRMEE (pente +2,10 %, ecart SMA200 +12,68 %, volatilite 16,9 %). La these (+7,7 % latent, objectif 102,58 EUR) est confortee par les actualites Investir Les Echos et Boursorama du jour sur la collecte ETF et des signaux haussiers intacts, malgre un RSI14 a 79,1 en SURACHAT.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "AI.PA",
-   "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "Air Liquide atteint 194,36 EUR (+0,54 % sur 1j, +12,09 % sur 20j, +18,53 % sur 126j) sur son plus haut 52 semaines, en tendance HAUSSE_CONFIRMEE (pente +2,37 %, ecart SMA200 +15,93 %, volatilite 14,0 %). Malgre un RSI14 tendu a 91,2 en SURACHAT, la hausse de production a Montoir-de-Bretagne et la dynamique de fond maintiennent la these (+10,2 % latent, objectif 202,10 EUR).",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "TTE.PA",
-   "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "TotalEnergies cote 82,11 EUR (-0,07 % sur 1j, +4,27 % sur 5j, +4,40 % sur 126j) en tendance HAUSSE_CONFIRMEE (pente +3,24 %, ecart SMA200 +9,14 %) avec un RSI14 NEUTRE a 46,7. Les actualites sur les centrales a gaz allemandes et l'arret du projet hydrogene au Chili n'invalident pas la tendance de fond (+7,0 % latent, stop 70,50 EUR, objectif 87,87 EUR).",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "SCR.PA",
-   "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "Scor se maintient a 35,80 EUR (0,00 % sur 1j, +6,99 % sur 20j, +12,23 % sur 126j) sur son plus haut 52 semaines, en tendance HAUSSE_CONFIRMEE (pente +2,08 %, ecart SMA200 +11,64 %). Bien que le RSI14 soit a 75,3 en SURACHAT, aucune actualite adverse ne remet en cause la progression vers l'objectif de 39,63 EUR (+3,5 % latent, stop 31,70 EUR).",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "ENX.PA",
-   "action": "CONSERVER",
-   "confiance": 81,
-   "justification": "Euronext cote 168,30 EUR (-0,24 % sur 1j, +3,57 % sur 5j, +12,05 % sur 126j) en tendance HAUSSE_CONFIRMEE (pente +3,53 %, ecart SMA50 +1,67 %, ecart SMA200 +12,53 %) avec un RSI14 detendu a 37,8 (NEUTRE). La these d'entree reste valide (+4,1 % latent, stop 149,00 EUR, objectif 185,15 EUR).",
+   "justification": "Getlink reste solide a 20,54 EUR (+1,08 % ce jour, +7,76 % sur 20j) en tendance HAUSSE_CONFIRMEE (+2,06 % de pente), a -0,68 % de son plus haut 52 semaines et avec une faible volatilite de 14,5 %. Le titre evolue a +10,03 % au-dessus de sa SMA200 avec un RSI14 a 65,0 sans exces et bien au-dessus du stop a 17,50 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -76,8 +21,63 @@
   {
    "symbole": "DIM.PA",
    "action": "CONSERVER",
+   "confiance": 83,
+   "justification": "Sartorius Stedim Biotech progresse de +2,10 % a 228,90 EUR sur son plus haut 52 semaines (dist_plus_haut_52s_pct 0 %), en tendance HAUSSE_CONFIRMEE (+1,22 % de pente) et avec une performance de +33,31 % sur 126j. Son RSI14 reste sain a 50,9 (signal NEUTRE) pour un ecart a la SMA200 de +24,08 %.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "SCR.PA",
+   "action": "CONSERVER",
+   "confiance": 81,
+   "justification": "Scor consolide legerement a 34,84 EUR (-1,14 % ce jour, +3,69 % sur 20j) tout en restant en tendance HAUSSE_CONFIRMEE (+2,10 % de pente) a +8,45 % au-dessus de sa SMA200. Le RSI14 a 64,1 et l'absence de nouvelle negative maintiennent la these d'entree intacte.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "AMUN.PA",
+   "action": "CONSERVER",
+   "confiance": 80,
+   "justification": "Amundi gagne +1,21 % a 96,25 EUR (+8,39 % sur 20j) dans une tendance HAUSSE_CONFIRMEE (+2,12 % de pente) a +12,17 % de sa SMA200, non loin de son plus haut 52 semaines (-1,38 %). Bien que le RSI14 atteigne 71,5 (SURACHAT) et que la societe se dise prudente pour 2027 dans Les Echos, la dynamique reste porteuse.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "AI.PA",
+   "action": "CONSERVER",
+   "confiance": 79,
+   "justification": "Air Liquide se maintient a 190,46 EUR (-0,25 % ce jour, +9,71 % sur 20j) en tendance HAUSSE_CONFIRMEE (+2,41 % de pente) et faible volatilite (15,0 %). Malgre un RSI14 en SURACHAT a 78,8 et les interrogations du regulateur britannique sur la cession d'activites d'oxygenotherapie a Vivisol, la tendance de fond reste intacte (+13,35 % sur SMA200).",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "ENX.PA",
+   "action": "CONSERVER",
+   "confiance": 79,
+   "justification": "Euronext consolide a 165,30 EUR (-0,24 % ce jour, -5,05 % sur 20j) directement au contact de sa SMA50 (ecart -0,27 %) tout en conservant une tendance HAUSSE_CONFIRMEE (+3,54 % de pente) et un chg126d de +13,69 %. Le RSI14 detendu a 34,5 sur un support technique milite pour la conservation bien au-dessus du stop a 149 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "TTE.PA",
+   "action": "CONSERVER",
    "confiance": 78,
-   "justification": "Sartorius Stedim Biotech progresse a 226,00 EUR (+1,25 % sur 1j, +6,70 % sur 20j, +32,40 % sur 126j) en tendance HAUSSE_CONFIRMEE (pente +0,96 %, ecart SMA200 +22,82 %, RSI14 a 57,0 NEUTRE). Ouverte ce jour (+0,6 % latent, stop 204,00 EUR, objectif 257,37 EUR), la position reste pleinement valide.",
+   "justification": "TotalEnergies recule de -2,81 % a 79,68 EUR sans remettre en cause sa tendance HAUSSE_CONFIRMEE (+3,13 % de pente) et s'appuie sur sa SMA50 a 79,91 EUR (ecart -0,29 %, ecart SMA200 +5,65 %). Avec un RSI14 revenu a 33,1 et aucune invalidation fondamentale dans l'actualite, le titre reste dans sa zone de soutien.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -87,8 +87,8 @@
   {
    "symbole": "PUB.PA",
    "action": "CONSERVER",
-   "confiance": 74,
-   "justification": "Publicis Groupe cede -1,51 % a 104,10 EUR (+2,51 % sur 20j, +24,97 % sur 126j) tout en restant en tendance HAUSSE_CONFIRMEE au-dessus de ses SMA20 (+1,95 %), SMA50 (+4,72 %) et SMA200 (+18,42 %), avec un RSI14 NEUTRE a 65,8. Malgre les actualites évoquant une resistance a 105,70 EUR et une possible prudence sur 2027, la these tient au-dessus du stop a 94,50 EUR (+1,7 % latent).",
+   "confiance": 76,
+   "justification": "Publicis Groupe cede -0,89 % a 100,65 EUR (-1,7 % sur la position) mais demeure en tendance HAUSSE_CONFIRMEE (+2,00 % de pente, chg126d +22,27 %) juste au-dessus de sa SMA50 a 99,56 EUR (+1,10 %). Le RSI14 neutre a 54,2 et l'eloignement du stop a 94,50 EUR justifient de conserver la ligne.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -101,15 +101,15 @@
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
-  "ageJours": 63,
-  "nbPassages": 153,
-  "equity": 10132.13,
-  "perfPct": 1.32,
-  "cacPerfPct": 3.37,
-  "alphaPct": -2.05,
+  "ageJours": 66,
+  "nbPassages": 154,
+  "equity": 10040.96,
+  "perfPct": 0.41,
+  "cacPerfPct": 0.77,
+  "alphaPct": -0.36,
   "maxDrawdownPct": -4.2,
-  "sharpe": 1.13,
-  "expositionPct": 54.1,
+  "sharpe": 0.41,
+  "expositionPct": 53.7,
   "trades": {
    "nbAchats": 19,
    "nbSolde": 11,
@@ -160,7 +160,7 @@
   "verdict": {
    "etat": "PAS_ENCORE_CONCLUANT",
    "raisons": [
-    "il faut 90 jours de recul (actuellement 63)",
+    "il faut 90 jours de recul (actuellement 66)",
     "il faut 20 positions soldees (actuellement 11)"
    ],
    "criteres": {
@@ -173,7 +173,7 @@
   }
  },
  "stats": {
-  "equity": 10132.13,
+  "equity": 10040.96,
   "cash": 4653.4,
   "nbPositions": 8
  }
