@@ -1,17 +1,17 @@
 {
- "date": "2026-11-23T14:20:48.661Z",
- "dureeS": 43,
+ "date": "2026-11-23T16:20:41.306Z",
+ "dureeS": 34,
  "dryRun": false,
  "modele": "gemini-4-hydrogen",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 rebondit de 1,32 % a 8032,33 points, soutenu par une accalmie sur la tech americaine et une detente des taux francais malgre une activite economique nationale en contraction selon les actualites. La largeur de marche demeure toutefois FAIBLE avec seulement 37,7 % des 122 valeurs au-dessus de leur SMA200, imposant un regime PRUDENT. Le portefeuille est investi a 53,2 % (4653,40 EUR de cash pour 9944,08 EUR de valorisation) sur 8 lignes (plafond max_positions atteint), toutes en tendance HAUSSE_CONFIRMEE.",
+ "resume_marche": "Le CAC 40 rebondit de +1.57 % a 8052.26 points dans le sillage de Wall Street et de la reintegration de Jensen Huang chez Nvidia, mais la largeur de marche reste FAIBLE avec seulement 38.5 % des 122 valeurs au-dessus de leur SMA200. Ce decalage entre la hausse de l indice et une participation limitee impose de conserver le regime PRUDENT. Le portefeuille etant deja au plafond de 8 positions (53.3 % investi, 4653.4 EUR de cash) et toutes les lignes evoluant en tendance HAUSSE_CONFIRMEE sans invalidation de stop, la gestion consiste a maintenir les positions en place.",
  "signaux": [
   {
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Cours a 20,14 EUR (+7,5 % vs PMC 18,74 EUR, stop 17,50 EUR, objectif 21,47 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,04 %, chg126d +7,76 %) a seulement -2,61 % du plus haut 52s (20,68 EUR). Le titre evolue au-dessus de ses SMA20 (20,13 EUR), SMA50 (+4,35 %) et SMA200 (+7,62 %) avec un RSI14 a 58,5 et une volatilite faible de 14,6 %.",
+   "justification": "Cours a 20.16 EUR (+0.2 % sur 1j, +3.17 % sur 20j) dans une tendance HAUSSE_CONFIRMEE (pente +2.04 %, ecart SMA200 +7.73 % a 18.71 EUR) avec une volatilite faible de 14.6 % et un RSI14 a 58.9. L actualite confirme le developpement operationnel avec l inauguration de nouveaux locaux pour Getlink Customs Services a Calais.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -22,7 +22,7 @@
    "symbole": "DIM.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "Cours a 224,60 EUR (0,0 % vs PMC 224,70 EUR, stop 204,00 EUR, objectif 257,37 EUR), en hausse de +1,81 % en seance et de +26,11 % sur 126j en tendance HAUSSE_CONFIRMEE (pente +1,62 %). Malgre une note de Boursorama evoquant une possible consolidation, le titre reste au-dessus de ses SMA20 (+0,08 %), SMA50 (+4,07 %) et SMA200 (+21,29 %) avec un RSI14 sain a 51,8.",
+   "justification": "Cours a 226.6 EUR (+2.72 % sur 1j, +4.52 % sur 20j, +27.23 % sur 126j) a seulement -0.87 % de son plus haut 52 semaines (228.6 EUR). La tendance reste HAUSSE_CONFIRMEE (pente +1.62 %, ecart SMA200 +22.36 %) avec un RSI14 sain a 54.6 et un stop a 204 EUR non menace.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -32,8 +32,8 @@
   {
    "symbole": "SCR.PA",
    "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "Cours a 35,28 EUR (+2,0 % vs PMC 34,60 EUR, stop 31,70 EUR, objectif 39,63 EUR), chg20d +6,97 % et chg126d +14,62 % en tendance HAUSSE_CONFIRMEE (pente +2,18 %). Le titre reste proche de son plus haut 52s (-1,45 % vs 35,80 EUR), au-dessus de la SMA20 (+1,66 %), SMA50 (+5,28 %) et SMA200 (+9,47 %) avec un RSI14 a 59,3.",
+   "confiance": 83,
+   "justification": "Cours a 35.44 EUR (+1.14 % sur 1j, +7.46 % sur 20j, +15.14 % sur 126j) proche de son plus haut 52 semaines (-1.01 % sous 35.8 EUR). La tendance est HAUSSE_CONFIRMEE (pente +2.18 %, ecart SMA200 +9.97 %) avec un RSI14 non sature a 60.5.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -44,7 +44,7 @@
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 81,
-   "justification": "Cours a 186,00 EUR (+5,4 % vs PMC 176,44 EUR, stop 161,50 EUR, objectif 202,10 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,45 %, chg63d +10,24 %, chg126d +14,89 %), juste sous la SMA20 (-0,30 %) et au-dessus des SMA50 (+5,49 %) et SMA200 (+10,36 %) avec un RSI14 a 57,8 et une volatilite de 16,6 %. L'amende de 90 000 EUR a Port-Jerome rapportee par Paris Normandie est sans impact materiel sur la th",
+   "justification": "Cours a 187.4 EUR (-0.1 % sur 1j, +6.87 % sur 20j, +15.76 % sur 126j), soit +6.2 % de gain latent en tendance HAUSSE_CONFIRMEE (pente +2.45 %, ecart SMA200 +11.18 %) et un RSI14 a 61.8. L amende de 90 000 EUR a Port-Jerome citee dans l actualite reste non materielle au regard de la these.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -52,10 +52,10 @@
    "invalidation": null
   },
   {
-   "symbole": "TTE.PA",
+   "symbole": "AMUN.PA",
    "action": "CONSERVER",
    "confiance": 77,
-   "justification": "Cours a 77,82 EUR (+1,4 % vs PMC 76,72 EUR, stop 70,50 EUR, objectif 87,87 EUR) : malgre un repli de -7,18 % sur 20j qui ramene le RSI14 a 31,0, le titre reste en HAUSSE_CONFIRMEE (pente +2,89 %, chg126d +3,51 %) au-dessus de la SMA200 (75,65 EUR, soit +2,88 %). Les actualites du jour (Investir Les Echos et energynews.pro) confirment la strategie multi-energies et l'objectif de 150 Mpc/j de gaz su",
+   "justification": "Cours a 93.1 EUR (+1.36 % sur 1j, +5.08 % sur 20j, +10.9 % sur 126j), en progression de +4 % sur le prix moyen d achat. Le titre reste en tendance HAUSSE_CONFIRMEE (pente +2.12 %, ecart SMA200 +8.22 %) avec un RSI14 equilibre a 51.7 malgre les commentaires d actualite sur une consolidation possible.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -66,7 +66,7 @@
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 76,
-   "justification": "Cours a 163,30 EUR (+1,0 % vs PMC 161,64 EUR, stop 149,00 EUR, objectif 185,15 EUR) : le repli sur 20j (-7,69 %) detend le RSI14 a 39,9 tout en preservant la tendance HAUSSE_CONFIRMEE (pente +3,41 %, chg126d +16,81 %) avec un coussin de +8,34 % au-dessus de la SMA200 (150,73 EUR). Aucune actualite negative ne touche le groupe (l'article de Terre-net concerne le contrat colza).",
+   "justification": "Cours a 165 EUR (-0.3 % sur 1j, -6.73 % sur 20j) revenant tester sa SMA50 (166.09 EUR, ecart -0.66 %) tout en restant +9.46 % au-dessus de sa SMA200 (150.74 EUR). La tendance demeure HAUSSE_CONFIRMEE (pente +3.41 %, chg126d +18.03 %) avec un RSI14 detendu a 42.2.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -76,8 +76,8 @@
   {
    "symbole": "PUB.PA",
    "action": "CONSERVER",
-   "confiance": 76,
-   "justification": "Cours a 99,30 EUR (-3,0 % vs PMC 102,36 EUR, stop 94,50 EUR, objectif 117,24 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,13 %, chg126d +18,58 %). Le titre teste sa SMA50 (99,68 EUR, ecart -0,38 %) avec un RSI14 a 43,8 et un ecart a la SMA200 de +12,26 %, maintenant la these intacte tant que le stop a 94,50 EUR tient.",
+   "confiance": 75,
+   "justification": "Cours a 99.48 EUR (-0.3 % sur 1j, -4.8 % sur 5j), au contact de la SMA50 (99.69 EUR, ecart -0.21 %) et largement au-dessus de la SMA200 (88.46 EUR, +12.46 %). Malgre une perte latente de -2.8 %, la tendance reste HAUSSE_CONFIRMEE (pente +2.13 %, chg126d +18.8 %), le RSI14 a 44.3 et le stop a 94.5 EUR preserve.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -85,10 +85,10 @@
    "invalidation": null
   },
   {
-   "symbole": "AMUN.PA",
+   "symbole": "TTE.PA",
    "action": "CONSERVER",
-   "confiance": 75,
-   "justification": "Cours a 92,20 EUR (+2,9 % vs PMC 89,56 EUR, stop 83,50 EUR, objectif 102,58 EUR), en progression de +4,06 % sur 20j et +9,83 % sur 126j en tendance HAUSSE_CONFIRMEE (pente +2,12 %). Malgre des articles de Boursier.com et Boursorama évoquant une consolidation, le cours se maintient au-dessus des SMA50 (+0,96 %) et SMA200 (+7,18 %) avec un RSI14 neutre a 48,5.",
+   "confiance": 74,
+   "justification": "Cours a 77.43 EUR (-0.97 % sur 1j, -5.53 % sur 5j) apres avoir enfonce le support des 78.19 EUR mentionne dans l actualite, portant le RSI14 a 30.1. Toutefois, le titre reste au-dessus de sa SMA200 (75.64 EUR, +2.36 %), en tendance HAUSSE_CONFIRMEE (pente +2.89 %) et nettement au-dessus du stop a 70.5 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -102,14 +102,14 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 70,
-  "nbPassages": 167,
-  "equity": 9944.08,
-  "perfPct": -0.56,
-  "cacPerfPct": -1.05,
-  "alphaPct": 0.49,
+  "nbPassages": 168,
+  "equity": 9969.15,
+  "perfPct": -0.31,
+  "cacPerfPct": -0.81,
+  "alphaPct": 0.5,
   "maxDrawdownPct": -4.2,
-  "sharpe": -0.28,
-  "expositionPct": 53.2,
+  "sharpe": -0.1,
+  "expositionPct": 53.3,
   "trades": {
    "nbAchats": 19,
    "nbSolde": 11,
@@ -173,7 +173,7 @@
   }
  },
  "stats": {
-  "equity": 9944.08,
+  "equity": 9969.15,
   "cash": 4653.4,
   "nbPositions": 8
  }
