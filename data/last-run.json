@@ -1,17 +1,17 @@
 {
- "date": "2026-11-20T16:20:42.798Z",
- "dureeS": 38,
+ "date": "2026-11-23T08:20:40.375Z",
+ "dureeS": 33,
  "dryRun": false,
  "modele": "gemini-4-hydrogen",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 recule de 1,78 % à 7937,3 points (en baisse de plus de 4 % sur la semaine selon les actualités), plombé par les doutes sur la rentabilité de l'IA et des propos restrictifs de la Bundesbank sur les taux. La largeur de marché est FAIBLE avec seulement 36,1 % des 122 valeurs au-dessus de leur SMA200. Avec 8 lignes déjà ouvertes (plafond atteint) et 4653,4 EUR de cash (53,2 % investi), la priorité est de conserver nos positions en tendance haussière et de préserver la liquidité.",
+ "resume_marche": "Le CAC 40 tente un timide rebond a l ouverture a 7959,95 points (+0,41 %) apres la purge sur les valeurs technologiques americaines et sa pire semaine depuis mars selon Investir Les Echos. La sante interne du marche reste toutefois degradee avec une largeur de marche FAIBLE a 35,2 % de valeurs au-dessus de leur SMA200 sur 122 titres. Dans ce contexte fragile et avec 8 positions deja ouvertes (plafond atteint, 53,2 % investi), la priorite est a la gestion disciplinee des lignes existantes sans nouvel achat.",
  "signaux": [
   {
-   "symbole": "DIM.PA",
+   "symbole": "GET.PA",
    "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "Malgré un repli de 3,59 % ce jour à 220,4 EUR (pnl -1,9 % vs PMC 224,7 EUR), le titre reste en tendance HAUSSE_CONFIRMEE (pente +1,50 %, chg126d +26,16 %) au-dessus de sa SMA50 (+2,51 %) et de sa SMA200 (+19,18 %), avec un RSI14 sain à 43,6 et le stop intact à 204 EUR.",
+   "confiance": 84,
+   "justification": "Getlink reste tres resilient a 20,16 EUR (+0,2 % sur la seance, +3,17 % sur 20 jours) avec une faible volatilite de 14,6 % et un gain latent de +7,6 %. Le titre demeure en tendance HAUSSE_CONFIRMEE (+2,04 % de pente), +7,73 % au-dessus de sa SMA200 et RSI14 a 58,9, validant pleinement la these.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -19,10 +19,10 @@
    "invalidation": null
   },
   {
-   "symbole": "GET.PA",
+   "symbole": "DIM.PA",
    "action": "CONSERVER",
-   "confiance": 84,
-   "justification": "Getlink résiste bien à la baisse du marché (-0,79 % à 20,16 EUR, pnl +7,6 % vs PMC 18,74 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,05 %, chg126d +8,91 %, ecart_sma200_pct +7,81 %) avec une volatilité faible de 14,6 % et un RSI14 à 58,4.",
+   "confiance": 83,
+   "justification": "Sartorius Stedim Biotech (221,80 EUR, chg1d +0,54 %) resiste bien au repli recent (chg5d -1,51 %) et conserve une tendance HAUSSE_CONFIRMEE (+1,61 % de pente, ecart_sma200_pct +19,78 %, chg126d +24,54 %). Avec un RSI14 detendu a 47,3 et un cours bien au-dessus du stop a 204 EUR, la these reste intacte.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -33,7 +33,7 @@
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 81,
-   "justification": "Air Liquide limite son repli à -0,98 % à 187,28 EUR (pnl +6,1 % vs PMC 176,44 EUR) et reste à 3,12 % de son plus haut 52 semaines, en tendance HAUSSE_CONFIRMEE (pente +2,44 %, chg126d +13,19 %, ecart_sma200_pct +11,23 %, RSI14 à 62,4).",
+   "justification": "Air Liquide evolue a 187,46 EUR (+6,2 % de plus-value latente, +6,9 % sur 20 jours) avec une volatilite contenue a 16,2 %. La tendance HAUSSE_CONFIRMEE (+2,45 % de pente, ecart_sma200_pct +11,22 %, RSI14 a 62) justifie de conserver la position vers l objectif de 202,10 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -44,7 +44,7 @@
    "symbole": "SCR.PA",
    "action": "CONSERVER",
    "confiance": 81,
-   "justification": "Scor progresse de 0,46 % à contre-courant du marché à 34,92 EUR (pnl +0,9 % vs PMC 34,6 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,15 %, chg126d +12,94 %, ecart_sma200_pct +8,47 %, RSI14 à 57,7), loin de son stop à 31,7 EUR.",
+   "justification": "Scor poursuit sa bonne tenue relative a 35,24 EUR (+0,57 % ce jour, chg5d -0,84 %, chg20d +6,85 %) au-dessus de sa SMA200 (+9,35 %). La tendance HAUSSE_CONFIRMEE (+2,18 % de pente) et un RSI14 equilibre a 58,9 soutiennent le maintien de la position.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -54,8 +54,8 @@
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
-   "confiance": 79,
-   "justification": "Euronext reste stable en séance (+0,06 % à 165,7 EUR, pnl +2,5 % vs PMC 161,64 EUR) en tendance HAUSSE_CONFIRMEE (pente +3,47 %, chg126d +16,94 %, ecart_sma200_pct +10,08 %) avec un RSI14 détendu à 40,6.",
+   "confiance": 76,
+   "justification": "Euronext consolide a 162,30 EUR (-1,93 % en seance, -8,25 % sur 20 jours) tout en restant proche de son PMC (161,64 EUR) et largement au-dessus de son stop a 149 EUR. La tendance de fond reste HAUSSE_CONFIRMEE (+3,41 % de pente, ecart_sma200_pct +7,68 %, chg126d +16,09 %) avec un RSI14 detendu a 38,6.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -65,19 +65,8 @@
   {
    "symbole": "PUB.PA",
    "action": "CONSERVER",
-   "confiance": 77,
-   "justification": "Publicis cède 0,74 % à 100 EUR (pnl -2,3 % vs PMC 102,36 EUR) sur sa SMA50 (+0,29 %) tout en conservant une tendance HAUSSE_CONFIRMEE (pente +2,09 %, chg126d +21,01 %, ecart_sma200_pct +13,18 %, RSI14 à 46,5) et un catalyseur cité autour de LiveRamp.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "AMUN.PA",
-   "action": "CONSERVER",
-   "confiance": 73,
-   "justification": "Amundi recule de 2,96 % à 91,7 EUR (pnl +2,4 % vs PMC 89,56 EUR) après la réquisition de l'AMF visant LCL (4 MEUR d'amende potentielle sur des fonds Amundi), mais préserve sa SMA50 (+0,39 %), sa tendance HAUSSE_CONFIRMEE (ecart_sma200_pct +6,69 %, RSI14 à 45,3) et son stop à 83,5 EUR.",
+   "confiance": 76,
+   "justification": "Publicis Groupe subit un repli technique a 98,68 EUR (-1,1 % ce jour, -5,57 % sur 5 jours) qui ramene le titre pres de sa SMA50 (99,67 EUR) sans enfoncer le stop a 94,50 EUR. La tendance demeure HAUSSE_CONFIRMEE (+2,12 % de pente, ecart_sma200_pct +11,56 %, chg126d +17,84 %) avec un RSI14 a 42.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -87,8 +76,19 @@
   {
    "symbole": "TTE.PA",
    "action": "CONSERVER",
+   "confiance": 76,
+   "justification": "TotalEnergies cote 78,14 EUR (-0,06 % ce jour, -6,8 % sur 20 jours) mais reste au-dessus de sa SMA200 (75,65 EUR, soit +3,3 %) avec un RSI14 proche de la survente a 31,8. La tendance HAUSSE_CONFIRMEE (+2,89 % de pente) est appuyee ce jour par l annonce dans les actualites d un nouvel accord avec Continental Resources pour developper sa production de gaz aux Etats-Unis.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "AMUN.PA",
+   "action": "CONSERVER",
    "confiance": 75,
-   "justification": "TotalEnergies limite sa baisse à -0,81 % à 78,52 EUR (pnl +2,3 % vs PMC 76,72 EUR) en reprenant le support des 78,2 EUR cité dans les actualités, tout en restant en tendance HAUSSE_CONFIRMEE (pente +2,99 %, ecart_sma200_pct +3,89 %, RSI14 à 30,5).",
+   "justification": "Amundi se maintient a 91,95 EUR (+0,11 % en seance, +3,78 % sur 20 jours) au-dessus de sa SMA50 (91,32 EUR) et de sa SMA200 (+6,89 %). La tendance HAUSSE_CONFIRMEE (+2,12 % de pente) et un RSI14 neutre a 47,6 confirment la validite de la these malgre une consolidation a court terme.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -101,14 +101,14 @@
  "rejetes": [],
  "fluxEnEchec": [],
  "meriques": {
-  "ageJours": 67,
-  "nbPassages": 163,
-  "equity": 9950.4,
-  "perfPct": -0.5,
-  "cacPerfPct": -2.22,
-  "alphaPct": 1.73,
+  "ageJours": 70,
+  "nbPassages": 164,
+  "equity": 9937.38,
+  "perfPct": -0.63,
+  "cacPerfPct": -1.94,
+  "alphaPct": 1.32,
   "maxDrawdownPct": -4.2,
-  "sharpe": -0.23,
+  "sharpe": -0.32,
   "expositionPct": 53.2,
   "trades": {
    "nbAchats": 19,
@@ -160,7 +160,7 @@
   "verdict": {
    "etat": "PAS_ENCORE_CONCLUANT",
    "raisons": [
-    "il faut 90 jours de recul (actuellement 67)",
+    "il faut 90 jours de recul (actuellement 70)",
     "il faut 20 positions soldees (actuellement 11)"
    ],
    "criteres": {
@@ -173,7 +173,7 @@
   }
  },
  "stats": {
-  "equity": 9950.4,
+  "equity": 9937.38,
   "cash": 4653.4,
   "nbPositions": 8
  }
