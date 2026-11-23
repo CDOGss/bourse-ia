@@ -1,99 +1,99 @@
 {
- "date": "2026-11-23T10:20:46.829Z",
- "dureeS": 40,
+ "date": "2026-11-23T12:20:41.030Z",
+ "dureeS": 38,
  "dryRun": false,
  "modele": "gemini-4-hydrogen",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 rebondit moderement a 7982,39 points (+0,69 % ce jour) apres les fortes turbulences sur les valeurs IA en Asie et a Wall Street, alors que les actualites signalent un nouveau recul de l'activite privee en France en novembre. La largeur de marche demeure FAIBLE avec seulement 36,1 % des 122 valeurs au-dessus de leur SMA200, ce qui justifie un regime PRUDENT. Le portefeuille etant deja au maximum de 8 positions pour 53,2 % investi et 4653,40 EUR de cash, aucune nouvelle entree ni sortie ne s'impose.",
+ "resume_marche": "Le CAC 40 rebondit de 0,74 % a 7986,11 points apres les secousses liees aux valeurs technologiques et d'intelligence artificielle, soutenu par une detente des taux francais malgre les indices PMI confirmant un recul de l'activite privee en France en novembre. La largeur de marche reste toutefois de grade FAIBLE avec seulement 36,1 % des 122 valeurs au-dessus de leur SMA200, tandis que les bourses asiatiques subissent une forte correction. Dans ce contexte fragile et avec un portefeuille investi a 53,2 % sur 8 lignes ouvertes (le maximum autorise), le regime PRUDENT s'impose et privilegie le suivi rigoureux des positions en place.",
  "signaux": [
   {
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Cours a 20,22 EUR (+0,50 % sur 1j, +3,48 % sur 20j, +8,19 % sur 126j) avec un gain latent de +7,9 % sur le PMC (18,74 EUR) et une tres faible volatilite (14,6 %). La tendance reste HAUSSE_CONFIRMEE (pente +2,04 %, ecart_sma200_pct +8,05 % au-dessus de 18,71 EUR, RSI14 a 60), sans signal d'invalidation sous le stop a 17,50 EUR.",
+   "justification": "Cours a 20,22 EUR (+0,5 % sur 1j, +3,48 % sur 20j), en gain de +7,9 % sur notre PMC de 18,74 EUR et largement au-dessus du stop a 17,5 EUR. La tendance reste HAUSSE_CONFIRMEE (pente +2,04 %, ecart_sma200_pct +8,05 %) avec un RSI14 a 60 et une volatilite faible de 14,6 %.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": null
+   "invalidation": "Cloture sous le stop a 17,5 EUR ou retournement sous la SMA200 a 18,71 EUR."
   },
   {
    "symbole": "DIM.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "Cours a 223,60 EUR (+1,36 % ce jour, +3,14 % sur 20j, +25,55 % sur 126j) proche de son plus haut 52 semaines (-2,19 %), malgre une actualite Boursorama evoquant la poursuite d'une consolidation. La tendance reste HAUSSE_CONFIRMEE (pente +1,62 %, ecart_sma50_pct +3,62 %, ecart_sma200_pct +20,75 %, RSI14 neutre a 50,3), au-dessus du stop a 204 EUR.",
+   "justification": "Cours a 223,6 EUR (+1,36 % sur 1j, +3,14 % sur 20j), proche du PMC a 224,7 EUR (-0,5 %) et loin du stop a 204 EUR. La tendance demeure HAUSSE_CONFIRMEE (pente +1,62 %, chg126d +25,55 %, ecart_sma200_pct +20,75 %) avec un RSI14 neutre a 50,3.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "AI.PA",
-   "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "Cours a 187,08 EUR (-0,27 % sur 1j mais +6,68 % sur 20j et +15,56 % sur 126j), affichant +6,0 % de plus-value sur le PMC (176,44 EUR) avec une volatilite contenue a 16,2 %. Le titre reste en tendance HAUSSE_CONFIRMEE (pente +2,45 %, ecart_sma50_pct +6,09 %, ecart_sma200_pct +10,99 %, RSI14 a 60,8) loin du stop a 161,50 EUR.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "invalidation": "Cassure du stop a 204 EUR ou perte de la SMA50 situee a 215,8 EUR."
   },
   {
    "symbole": "SCR.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Cours a 35,48 EUR (+1,26 % ce jour, +7,58 % sur 20j, +15,27 % sur 126j), tout pres de son plus haut 52 semaines a 35,80 EUR (-0,89 %) et en gain de +2,5 % sur le PMC (34,60 EUR). La tendance HAUSSE_CONFIRMEE se confirme (pente +2,18 %, ecart_sma200_pct +10,09 %, RSI14 a 60,9) bien au-dessus du stop a 31,70 EUR.",
+   "justification": "Cours a 35,36 EUR (+0,91 % sur 1j, +7,22 % sur 20j), a -1,23 % de son plus haut a 52 semaines et en gain de +2,2 % sur le PMC de 34,6 EUR. La tendance HAUSSE_CONFIRMEE (pente +2,18 %, ecart_sma200_pct +9,72 %, RSI14 a 59,9) confirme pleinement la these initiale.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": null
+   "invalidation": "Cloture sous le stop a 31,7 EUR ou sous la SMA200 a 32,23 EUR."
+  },
+  {
+   "symbole": "AI.PA",
+   "action": "CONSERVER",
+   "confiance": 81,
+   "justification": "Cours a 186,48 EUR (-0,59 % sur 1j, +6,34 % sur 20j), en plus-value de +5,7 % par rapport au PMC de 176,44 EUR. La tendance HAUSSE_CONFIRMEE (pente +2,45 %, ecart_sma200_pct +10,64 %, RSI14 a 59,1, volatilite 16,4 %) n'est pas remise en cause par l'amende prefectorale mineure de 90 000 EUR citee dans les actualites.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": "Enfoncement du stop a 161,5 EUR ou rupture de la SMA200 a 168,55 EUR."
+  },
+  {
+   "symbole": "TTE.PA",
+   "action": "CONSERVER",
+   "confiance": 77,
+   "justification": "Cours a 78,19 EUR (0 % sur 1j, -6,74 % sur 20j), encore en gain de +1,9 % sur notre PMC de 76,72 EUR au-dessus du stop a 70,5 EUR. La tendance reste HAUSSE_CONFIRMEE (pente +2,89 %, ecart_sma200_pct +3,36 %) avec un RSI14 detendu a 31,9 et des actualites favorables (nouvel accord gazier aux Etats-Unis, benefice T3 en hausse de 38 % au Senegal).",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": "Cloture sous la SMA200 a 75,65 EUR suivie d'une cassure du stop a 70,5 EUR."
   },
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 76,
-   "justification": "Cours a 162,60 EUR (-1,75 % ce jour, -8,08 % sur 20j) mais toujours en plus-value de +0,6 % sur le PMC (161,64 EUR) et largement au-dessus du stop a 149 EUR. La tendance de fond reste HAUSSE_CONFIRMEE (pente +3,41 %, chg126d +16,31 %, ecart_sma200_pct +7,87 % au-dessus de 150,73 EUR) avec un RSI14 detendu a 39.",
+   "justification": "Cours a 163,7 EUR (-1,09 % sur 1j, -7,46 % sur 20j), en gain de +1,3 % sur le PMC de 161,64 EUR et bien au-dessus du stop a 149 EUR. Le repli ramene le RSI14 a 40,4 au sein d'une tendance HAUSSE_CONFIRMEE (pente +3,41 %, ecart_sma200_pct +8,6 %, chg126d +17,1 %).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": null
+   "invalidation": "Cassure du stop a 149 EUR ou passage durable sous la SMA200 a 150,74 EUR."
   },
   {
    "symbole": "PUB.PA",
    "action": "CONSERVER",
    "confiance": 76,
-   "justification": "Cours a 99,08 EUR (-0,70 % ce jour, -5,19 % sur 5j, -3,2 % par rapport au PMC de 102,36 EUR) revenant au contact de la SMA50 a 99,68 EUR (-0,60 %) avec un RSI14 a 43,1. La tendance reste HAUSSE_CONFIRMEE (pente +2,12 %, chg126d +18,32 %, ecart_sma200_pct +12,01 %) et le stop a 94,50 EUR n'est pas menace.",
+   "justification": "Cours a 99,56 EUR (-0,22 % sur 1j, -4,73 % sur 5j), en leger repli de -2,7 % sur le PMC de 102,36 EUR mais au contact du support de la SMA50 a 99,69 EUR (ecart_sma50_pct -0,13 %) et au-dessus du stop a 94,5 EUR. La tendance HAUSSE_CONFIRMEE (pente +2,13 %, ecart_sma200_pct +12,55 %, chg126d +18,89 %) et le RSI14 a 44,6 restent sains.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "TTE.PA",
-   "action": "CONSERVER",
-   "confiance": 76,
-   "justification": "Cours a 78,29 EUR (+0,13 % ce jour, -6,62 % sur 20j, +2,0 % sur le PMC a 76,72 EUR) en repli pres d'une zone de survente (RSI14 a 32,5) tout en restant en HAUSSE_CONFIRMEE (pente +2,89 %, ecart_sma200_pct +3,49 % au-dessus de 75,65 EUR). Les actualites du jour confirment le renforcement dans le gaz naturel aux Etats-Unis avec Continental Resources et une hausse de 38 % du benefice T3 de TotalEnerg",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "invalidation": "Cloture sous le stop a 94,5 EUR invalidant le maintien sur la SMA50."
   },
   {
    "symbole": "AMUN.PA",
    "action": "CONSERVER",
    "confiance": 75,
-   "justification": "Cours a 91,75 EUR (-0,11 % ce jour, +3,56 % sur 20j, +9,29 % sur 126j) en gain de +2,4 % sur le PMC (89,56 EUR) et appuye sur sa SMA50 a 91,31 EUR (+0,48 %). Malgre des articles mentionnant une consolidation en cours, la tendance reste HAUSSE_CONFIRMEE (pente +2,12 %, ecart_sma200_pct +6,66 %, RSI14 a 46,8) au-dessus du stop a 83,50 EUR.",
+   "justification": "Cours a 91,7 EUR (-0,16 % sur 1j, +3,5 % sur 20j), en gain de +2,4 % sur notre PMC de 89,56 EUR et preserve au-dessus du stop a 83,5 EUR. Malgre des articles mentionnant une consolidation en cours, le titre tient sa SMA50 (91,31 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,12 %, ecart_sma200_pct +6,6 %, RSI14 a 46,6).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": null
+   "invalidation": "Rupture du stop a 83,5 EUR ou cassure nette de la SMA200 a 86,02 EUR."
   }
  ],
  "signaux_ecartes": [],
@@ -102,13 +102,13 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 70,
-  "nbPassages": 165,
-  "equity": 9949.71,
-  "perfPct": -0.5,
-  "cacPerfPct": -1.67,
-  "alphaPct": 1.16,
+  "nbPassages": 166,
+  "equity": 9950.89,
+  "perfPct": -0.49,
+  "cacPerfPct": -1.62,
+  "alphaPct": 1.13,
   "maxDrawdownPct": -4.2,
-  "sharpe": -0.24,
+  "sharpe": -0.23,
   "expositionPct": 53.2,
   "trades": {
    "nbAchats": 19,
@@ -173,7 +173,7 @@
   }
  },
  "stats": {
-  "equity": 9949.71,
+  "equity": 9950.89,
   "cash": 4653.4,
   "nbPositions": 8
  }
