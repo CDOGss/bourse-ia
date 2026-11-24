@@ -1,17 +1,17 @@
 {
- "date": "2026-11-24T08:20:40.068Z",
- "dureeS": 41,
+ "date": "2026-11-24T10:20:51.104Z",
+ "dureeS": 36,
  "dryRun": false,
  "modele": "gemini-4-hydrogen",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 ouvre en legere hausse de +0,24 % a 8064,47 points dans le sillage du rebond technologique lie au retour de Jensen Huang chez Nvidia et de l'annonce du rachat d'Insmed par Sanofi (+3,63 %). Toutefois, la largeur de marche reste FAIBLE avec seulement 39,3 % des 122 valeurs au-dessus de leur SMA200, ce qui impose un regime PRUDENT. Le portefeuille est investi a 53,3 % sur 8 lignes (plafond atteint) toutes en tendance HAUSSE_CONFIRMEE, avec 4653,40 EUR de cash disponible.",
+ "resume_marche": "Le CAC 40 est quasi stable a 8046,06 points (+0,02 %) dans une seance selective marquee par l'annonce du rachat d'Insmed par Sanofi (+5,76 %) et le projet d'OPA sur Clariane (+35,72 %). La largeur de marche reste FAIBLE avec seulement 40,2 % des 122 valeurs au-dessus de leur SMA200, ce qui impose un regime PRUDENT malgre le rebond de Wall Street et de l'Asie. Avec 8 positions deja ouvertes (plafond atteint) toutes en tendance HAUSSE_CONFIRMEE et 4653,4 EUR de cash (53,3 % investi), la priorite est la conservation disciplinee du portefeuille.",
  "signaux": [
   {
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Getlink cote 20,12 EUR (+0 % sur 1j, +2,97 % sur 20j, +7,4 % de P&L) en tendance HAUSSE_CONFIRMEE (pente +2,04 %, ecart SMA200 +7,52 %), avec une volatilite faible de 14,6 % et un RSI14 sain a 58,1. L'actualite signale l'inauguration de nouveaux locaux a Calais par Getlink Customs Services, confirmant la poursuite de la these au-dessus du stop a 17,50 EUR.",
+   "justification": "Getlink cote 20,24 EUR (+8,0 % de gain latent, chg1d +0,6 %, chg20d +4,17 %) en tendance HAUSSE_CONFIRMEE (+2,03 % de pente, ecart_sma200_pct +8,08 %). Avec une volatilite faible de 14,4 % et un RSI14 sain a 57,7, la these reste intacte bien au-dessus du stop a 17,5 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -22,7 +22,7 @@
    "symbole": "SCR.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "Scor progresse de +1,37 % a 35,52 EUR (+7,70 % sur 20j, +15,40 % sur 126j) a seulement -0,78 % de son plus haut 52 semaines, en tendance HAUSSE_CONFIRMEE (pente +2,19 %, ecart SMA200 +10,21 %) et RSI14 a 61,2. La position (+2,7 %) reste solidement orientee vers son objectif de 39,63 EUR, bien au-dessus du stop a 31,70 EUR.",
+   "justification": "Scor progresse a 35,66 EUR (+3,1 % de gain latent, chg1d +0,45 %, chg20d +8,59 %), a seulement -0,39 % de son plus haut 52 semaines. La tendance HAUSSE_CONFIRMEE (+2,21 % de pente, ecart_sma200_pct +10,54 %, chg126d +17,77 %) et un RSI14 a 57,9 valident le maintien vers l'objectif de 39,63 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -32,8 +32,8 @@
   {
    "symbole": "DIM.PA",
    "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "Sartorius Stedim Biotech gagne +2,54 % a 226,20 EUR (+4,34 % sur 20j, +27,01 % sur 126j) en tendance HAUSSE_CONFIRMEE (pente +1,62 %, ecart SMA200 +22,15 %), avec un RSI14 equilibre a 54,1. Aucune deterioration n'apparait dans les donnees ni les actualites et le cours reste loin du stop a 204,00 EUR.",
+   "confiance": 82,
+   "justification": "Sartorius Stedim Biotech evolue a 222,4 EUR (-1,0 % de perte latente, chg1d -0,89 %) au-dessus de sa SMA50 (ecart +2,74 %) et en tendance HAUSSE_CONFIRMEE (+1,74 % de pente, chg63d +13,07 %, chg126d +25,3 %). Son RSI14 neutre a 48,3 et le soutien au-dessus du stop a 204 EUR justifient la conservation.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -44,7 +44,7 @@
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 81,
-   "justification": "Air Liquide se maintient a 187,36 EUR (-0,12 % sur 1j, +6,84 % sur 20j, +6,2 % de P&L) en tendance HAUSSE_CONFIRMEE (pente +2,45 %, ecart SMA200 +11,16 %, chg126d +15,73 %), avec une volatilite maitrisee a 16,2 % et un RSI14 a 61,7. La these tient pleinement au-dessus du stop a 161,50 EUR.",
+   "justification": "Air Liquide s'echange a 187,94 EUR (+6,5 % de gain latent, chg1d +0,15 %, chg20d +7,74 %) en tendance HAUSSE_CONFIRMEE (+2,47 % de pente, ecart_sma200_pct +11,39 %, chg126d +16,52 %). Le RSI14 a 51,8 et la faible volatilite (15,8 %) confirment une dynamique solide.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -55,7 +55,7 @@
    "symbole": "AMUN.PA",
    "action": "CONSERVER",
    "confiance": 78,
-   "justification": "Amundi avance de +0,82 % a 92,60 EUR (+4,51 % sur 20j, +3,4 % de P&L) en tendance HAUSSE_CONFIRMEE (pente +2,12 %, ecart SMA200 +7,65 %, chg126d +10,30 %) avec un RSI14 neutre a 50,0. Le dossier reste bien positionne au-dessus du stop a 83,50 EUR.",
+   "justification": "Amundi reste stable a 92,65 EUR (+3,5 % de gain latent, chg20d +3,29 %, chg126d +10,3 %) en tendance HAUSSE_CONFIRMEE (+2,13 % de pente, ecart_sma50_pct +1,39 %, ecart_sma200_pct +7,6 %). Le RSI14 detendu a 42,4 laisse du potentiel au-dessus du stop a 83,5 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -65,8 +65,8 @@
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
-   "confiance": 76,
-   "justification": "Euronext consolide a 165,40 EUR (-0,06 % sur 1j, -6,50 % sur 20j, +2,3 % de P&L) mais conserve sa tendance HAUSSE_CONFIRMEE (pente +3,42 %, ecart SMA200 +9,72 %, chg126d +18,31 %) avec un RSI14 detendu a 42,8. Le titre reste nettement au-dessus de son stop a 149,00 EUR sans nouvelle negative.",
+   "confiance": 77,
+   "justification": "Euronext rebondit a 167,2 EUR (+3,4 % de gain latent, chg1d +1,46 %, chg5d +0,91 %) au contact de sa SMA50 (ecart +0,56 %) et en tendance HAUSSE_CONFIRMEE (+3,37 % de pente, ecart_sma200_pct +10,75 %, chg126d +19,77 %). Le RSI14 a 44,6 soutient la poursuite de la tendance.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -77,7 +77,7 @@
    "symbole": "PUB.PA",
    "action": "CONSERVER",
    "confiance": 75,
-   "justification": "Publicis recule de -0,64 % a 99,14 EUR (-3,1 % de P&L) mais teste sa SMA50 a 99,68 EUR (ecart -0,54 %) tout en restant en tendance HAUSSE_CONFIRMEE (pente +2,12 %, ecart SMA200 +12,08 %, chg126d +18,39 %) avec un RSI14 a 43,3. La these n'est pas invalidee tant que le stop a 94,50 EUR tient.",
+   "justification": "Publicis Groupe se stabilise a 99,7 EUR (-2,6 % de perte latente, chg1d +0,12 %) exactement sur sa SMA50 (99,71 EUR, ecart -0,01 %) avec un RSI14 en SURVENTE a 29,1. La tendance de fond reste HAUSSE_CONFIRMEE (+2,21 % de pente, ecart_sma200_pct +12,54 %, chg126d +16,09 %) bien au-dessus du stop a 94,5 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -88,7 +88,7 @@
    "symbole": "TTE.PA",
    "action": "CONSERVER",
    "confiance": 74,
-   "justification": "TotalEnergies cede -1,34 % a 77,14 EUR (-7,99 % sur 20j, RSI14 a 29,4 en SURVENTE) au contact de sa SMA200 a 75,64 EUR (ecart +1,98 %), tout en restant en tendance HAUSSE_CONFIRMEE (pente +2,88 %, chg126d +2,61 %). En l'absence de nouvelle defavorable majeure (simple declaration de rachat d'actions propres), le stop a 70,50 EUR demeure intact.",
+   "justification": "TotalEnergies revient a 77,0 EUR (+0,4 % latent, chg5d -6,07 %, chg20d -7,23 %) juste au-dessus de sa SMA200 a 75,71 EUR (ecart +1,71 %) avec un RSI14 proche de la survente a 31,8. La tendance demeure HAUSSE_CONFIRMEE (+2,79 % de pente) et l'actualite du jour signale un accord pour accroitre la production de gaz aux Etats-Unis de 1,5 milliard de m3 par an.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -100,17 +100,18 @@
  "appliques": [],
  "rejetes": [],
  "fluxEnEchec": [
-  "HTTP 429 sur https://news.google.com/rss/search?q=%22Sartorius%20Stedim%20Biotech%22%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr"
+  "HTTP 429 sur https://news.google.com/rss/search?q=site%3Aboursorama.com%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr",
+  "HTTP 429 sur https://news.google.com/rss/search?q=%22Getlink%22%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr"
  ],
  "meriques": {
   "ageJours": 71,
-  "nbPassages": 169,
-  "equity": 9961.34,
-  "perfPct": -0.39,
-  "cacPerfPct": -0.66,
-  "alphaPct": 0.27,
+  "nbPassages": 170,
+  "equity": 9972.76,
+  "perfPct": -0.27,
+  "cacPerfPct": -0.88,
+  "alphaPct": 0.61,
   "maxDrawdownPct": -4.2,
-  "sharpe": -0.15,
+  "sharpe": -0.08,
   "expositionPct": 53.3,
   "trades": {
    "nbAchats": 19,
@@ -175,7 +176,7 @@
   }
  },
  "stats": {
-  "equity": 9961.34,
+  "equity": 9972.76,
   "cash": 4653.4,
   "nbPositions": 8
  }
