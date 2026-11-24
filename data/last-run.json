@@ -1,28 +1,17 @@
 {
- "date": "2026-11-23T16:20:41.306Z",
- "dureeS": 34,
+ "date": "2026-11-24T08:20:40.068Z",
+ "dureeS": 41,
  "dryRun": false,
  "modele": "gemini-4-hydrogen",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 rebondit de +1.57 % a 8052.26 points dans le sillage de Wall Street et de la reintegration de Jensen Huang chez Nvidia, mais la largeur de marche reste FAIBLE avec seulement 38.5 % des 122 valeurs au-dessus de leur SMA200. Ce decalage entre la hausse de l indice et une participation limitee impose de conserver le regime PRUDENT. Le portefeuille etant deja au plafond de 8 positions (53.3 % investi, 4653.4 EUR de cash) et toutes les lignes evoluant en tendance HAUSSE_CONFIRMEE sans invalidation de stop, la gestion consiste a maintenir les positions en place.",
+ "resume_marche": "Le CAC 40 ouvre en legere hausse de +0,24 % a 8064,47 points dans le sillage du rebond technologique lie au retour de Jensen Huang chez Nvidia et de l'annonce du rachat d'Insmed par Sanofi (+3,63 %). Toutefois, la largeur de marche reste FAIBLE avec seulement 39,3 % des 122 valeurs au-dessus de leur SMA200, ce qui impose un regime PRUDENT. Le portefeuille est investi a 53,3 % sur 8 lignes (plafond atteint) toutes en tendance HAUSSE_CONFIRMEE, avec 4653,40 EUR de cash disponible.",
  "signaux": [
   {
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Cours a 20.16 EUR (+0.2 % sur 1j, +3.17 % sur 20j) dans une tendance HAUSSE_CONFIRMEE (pente +2.04 %, ecart SMA200 +7.73 % a 18.71 EUR) avec une volatilite faible de 14.6 % et un RSI14 a 58.9. L actualite confirme le developpement operationnel avec l inauguration de nouveaux locaux pour Getlink Customs Services a Calais.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "DIM.PA",
-   "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "Cours a 226.6 EUR (+2.72 % sur 1j, +4.52 % sur 20j, +27.23 % sur 126j) a seulement -0.87 % de son plus haut 52 semaines (228.6 EUR). La tendance reste HAUSSE_CONFIRMEE (pente +1.62 %, ecart SMA200 +22.36 %) avec un RSI14 sain a 54.6 et un stop a 204 EUR non menace.",
+   "justification": "Getlink cote 20,12 EUR (+0 % sur 1j, +2,97 % sur 20j, +7,4 % de P&L) en tendance HAUSSE_CONFIRMEE (pente +2,04 %, ecart SMA200 +7,52 %), avec une volatilite faible de 14,6 % et un RSI14 sain a 58,1. L'actualite signale l'inauguration de nouveaux locaux a Calais par Getlink Customs Services, confirmant la poursuite de la these au-dessus du stop a 17,50 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -33,7 +22,18 @@
    "symbole": "SCR.PA",
    "action": "CONSERVER",
    "confiance": 83,
-   "justification": "Cours a 35.44 EUR (+1.14 % sur 1j, +7.46 % sur 20j, +15.14 % sur 126j) proche de son plus haut 52 semaines (-1.01 % sous 35.8 EUR). La tendance est HAUSSE_CONFIRMEE (pente +2.18 %, ecart SMA200 +9.97 %) avec un RSI14 non sature a 60.5.",
+   "justification": "Scor progresse de +1,37 % a 35,52 EUR (+7,70 % sur 20j, +15,40 % sur 126j) a seulement -0,78 % de son plus haut 52 semaines, en tendance HAUSSE_CONFIRMEE (pente +2,19 %, ecart SMA200 +10,21 %) et RSI14 a 61,2. La position (+2,7 %) reste solidement orientee vers son objectif de 39,63 EUR, bien au-dessus du stop a 31,70 EUR.",
+   "prix_entree": null,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": null
+  },
+  {
+   "symbole": "DIM.PA",
+   "action": "CONSERVER",
+   "confiance": 83,
+   "justification": "Sartorius Stedim Biotech gagne +2,54 % a 226,20 EUR (+4,34 % sur 20j, +27,01 % sur 126j) en tendance HAUSSE_CONFIRMEE (pente +1,62 %, ecart SMA200 +22,15 %), avec un RSI14 equilibre a 54,1. Aucune deterioration n'apparait dans les donnees ni les actualites et le cours reste loin du stop a 204,00 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -44,7 +44,7 @@
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 81,
-   "justification": "Cours a 187.4 EUR (-0.1 % sur 1j, +6.87 % sur 20j, +15.76 % sur 126j), soit +6.2 % de gain latent en tendance HAUSSE_CONFIRMEE (pente +2.45 %, ecart SMA200 +11.18 %) et un RSI14 a 61.8. L amende de 90 000 EUR a Port-Jerome citee dans l actualite reste non materielle au regard de la these.",
+   "justification": "Air Liquide se maintient a 187,36 EUR (-0,12 % sur 1j, +6,84 % sur 20j, +6,2 % de P&L) en tendance HAUSSE_CONFIRMEE (pente +2,45 %, ecart SMA200 +11,16 %, chg126d +15,73 %), avec une volatilite maitrisee a 16,2 % et un RSI14 a 61,7. La these tient pleinement au-dessus du stop a 161,50 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -54,8 +54,8 @@
   {
    "symbole": "AMUN.PA",
    "action": "CONSERVER",
-   "confiance": 77,
-   "justification": "Cours a 93.1 EUR (+1.36 % sur 1j, +5.08 % sur 20j, +10.9 % sur 126j), en progression de +4 % sur le prix moyen d achat. Le titre reste en tendance HAUSSE_CONFIRMEE (pente +2.12 %, ecart SMA200 +8.22 %) avec un RSI14 equilibre a 51.7 malgre les commentaires d actualite sur une consolidation possible.",
+   "confiance": 78,
+   "justification": "Amundi avance de +0,82 % a 92,60 EUR (+4,51 % sur 20j, +3,4 % de P&L) en tendance HAUSSE_CONFIRMEE (pente +2,12 %, ecart SMA200 +7,65 %, chg126d +10,30 %) avec un RSI14 neutre a 50,0. Le dossier reste bien positionne au-dessus du stop a 83,50 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -66,7 +66,7 @@
    "symbole": "ENX.PA",
    "action": "CONSERVER",
    "confiance": 76,
-   "justification": "Cours a 165 EUR (-0.3 % sur 1j, -6.73 % sur 20j) revenant tester sa SMA50 (166.09 EUR, ecart -0.66 %) tout en restant +9.46 % au-dessus de sa SMA200 (150.74 EUR). La tendance demeure HAUSSE_CONFIRMEE (pente +3.41 %, chg126d +18.03 %) avec un RSI14 detendu a 42.2.",
+   "justification": "Euronext consolide a 165,40 EUR (-0,06 % sur 1j, -6,50 % sur 20j, +2,3 % de P&L) mais conserve sa tendance HAUSSE_CONFIRMEE (pente +3,42 %, ecart SMA200 +9,72 %, chg126d +18,31 %) avec un RSI14 detendu a 42,8. Le titre reste nettement au-dessus de son stop a 149,00 EUR sans nouvelle negative.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -77,7 +77,7 @@
    "symbole": "PUB.PA",
    "action": "CONSERVER",
    "confiance": 75,
-   "justification": "Cours a 99.48 EUR (-0.3 % sur 1j, -4.8 % sur 5j), au contact de la SMA50 (99.69 EUR, ecart -0.21 %) et largement au-dessus de la SMA200 (88.46 EUR, +12.46 %). Malgre une perte latente de -2.8 %, la tendance reste HAUSSE_CONFIRMEE (pente +2.13 %, chg126d +18.8 %), le RSI14 a 44.3 et le stop a 94.5 EUR preserve.",
+   "justification": "Publicis recule de -0,64 % a 99,14 EUR (-3,1 % de P&L) mais teste sa SMA50 a 99,68 EUR (ecart -0,54 %) tout en restant en tendance HAUSSE_CONFIRMEE (pente +2,12 %, ecart SMA200 +12,08 %, chg126d +18,39 %) avec un RSI14 a 43,3. La these n'est pas invalidee tant que le stop a 94,50 EUR tient.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -88,7 +88,7 @@
    "symbole": "TTE.PA",
    "action": "CONSERVER",
    "confiance": 74,
-   "justification": "Cours a 77.43 EUR (-0.97 % sur 1j, -5.53 % sur 5j) apres avoir enfonce le support des 78.19 EUR mentionne dans l actualite, portant le RSI14 a 30.1. Toutefois, le titre reste au-dessus de sa SMA200 (75.64 EUR, +2.36 %), en tendance HAUSSE_CONFIRMEE (pente +2.89 %) et nettement au-dessus du stop a 70.5 EUR.",
+   "justification": "TotalEnergies cede -1,34 % a 77,14 EUR (-7,99 % sur 20j, RSI14 a 29,4 en SURVENTE) au contact de sa SMA200 a 75,64 EUR (ecart +1,98 %), tout en restant en tendance HAUSSE_CONFIRMEE (pente +2,88 %, chg126d +2,61 %). En l'absence de nouvelle defavorable majeure (simple declaration de rachat d'actions propres), le stop a 70,50 EUR demeure intact.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -99,16 +99,18 @@
  "signaux_ecartes": [],
  "appliques": [],
  "rejetes": [],
- "fluxEnEchec": [],
+ "fluxEnEchec": [
+  "HTTP 429 sur https://news.google.com/rss/search?q=%22Sartorius%20Stedim%20Biotech%22%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr"
+ ],
  "meriques": {
-  "ageJours": 70,
-  "nbPassages": 168,
-  "equity": 9969.15,
-  "perfPct": -0.31,
-  "cacPerfPct": -0.81,
-  "alphaPct": 0.5,
+  "ageJours": 71,
+  "nbPassages": 169,
+  "equity": 9961.34,
+  "perfPct": -0.39,
+  "cacPerfPct": -0.66,
+  "alphaPct": 0.27,
   "maxDrawdownPct": -4.2,
-  "sharpe": -0.1,
+  "sharpe": -0.15,
   "expositionPct": 53.3,
   "trades": {
    "nbAchats": 19,
@@ -160,7 +162,7 @@
   "verdict": {
    "etat": "PAS_ENCORE_CONCLUANT",
    "raisons": [
-    "il faut 90 jours de recul (actuellement 70)",
+    "il faut 90 jours de recul (actuellement 71)",
     "il faut 20 positions soldees (actuellement 11)"
    ],
    "criteres": {
@@ -173,7 +175,7 @@
   }
  },
  "stats": {
-  "equity": 9969.15,
+  "equity": 9961.34,
   "cash": 4653.4,
   "nbPositions": 8
  }
