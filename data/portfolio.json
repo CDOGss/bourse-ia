@@ -14,7 +14,7 @@
    "nom": "Euronext",
    "shares": 4,
    "pmc": 161.64,
-   "price": 167.2,
+   "price": 168.5,
    "stop": 149,
    "target": 185.15,
    "dateAchat": "2026-09-14T12:48:39.173Z",
@@ -26,7 +26,7 @@
    "nom": "Air Liquide",
    "shares": 4,
    "pmc": 176.44,
-   "price": 188.82,
+   "price": 188.58,
    "stop": 161.5,
    "target": 202.1,
    "dateAchat": "2026-10-05T07:20:38.130Z",
@@ -38,7 +38,7 @@
    "nom": "Getlink",
    "shares": 35,
    "pmc": 18.74,
-   "price": 20.28,
+   "price": 20.4,
    "stop": 17.5,
    "target": 21.47,
    "dateAchat": "2026-10-08T07:20:41.027Z",
@@ -50,7 +50,7 @@
    "nom": "TotalEnergies",
    "shares": 9,
    "pmc": 76.72,
-   "price": 77.88,
+   "price": 78.02,
    "stop": 70.5,
    "target": 87.87,
    "dateAchat": "2026-10-08T09:20:41.913Z",
@@ -62,7 +62,7 @@
    "nom": "Amundi",
    "shares": 8,
    "pmc": 89.56,
-   "price": 90.65,
+   "price": 90.35,
    "stop": 83.5,
    "target": 102.58,
    "dateAchat": "2026-10-29T08:20:41.948Z",
@@ -74,7 +74,7 @@
    "nom": "Scor",
    "shares": 20,
    "pmc": 34.6,
-   "price": 35.72,
+   "price": 35.64,
    "stop": 31.7,
    "target": 39.63,
    "dateAchat": "2026-10-30T10:20:41.725Z",
@@ -86,7 +86,7 @@
    "nom": "Publicis Groupe",
    "shares": 6,
    "pmc": 102.36,
-   "price": 101.95,
+   "price": 101.6,
    "stop": 94.5,
    "target": 117.24,
    "dateAchat": "2026-11-06T10:20:39.692Z",
@@ -98,7 +98,7 @@
    "nom": "Sartorius Stedim Biotech",
    "shares": 2,
    "pmc": 224.7,
-   "price": 219.6,
+   "price": 218,
    "stop": 204,
    "target": 257.37,
    "dateAchat": "2026-11-16T08:27:11.144Z",
@@ -1443,6 +1443,11 @@
    "date": "2026-11-25T14:20:43.461Z",
    "equity": 9978.7,
    "cac": 8070.48
+  },
+  {
+   "date": "2026-11-25T16:20:45.591Z",
+   "equity": 9979.1,
+   "cac": 8008.7
   }
  ],
  "signaux": [
@@ -20476,7 +20481,14 @@
     "cacChgPct": 2.24,
     "alphaPct": 2.39
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-25T16:20:45.591Z",
+    "jours": 30,
+    "prix": 292,
+    "chgPct": 6.49,
+    "cacChgPct": 1.72,
+    "alphaPct": 4.77
+   },
    "solde": null
   },
   {
@@ -20499,7 +20511,14 @@
     "cacChgPct": 2.24,
     "alphaPct": -5.17
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-25T16:20:45.591Z",
+    "jours": 30,
+    "prix": 168.5,
+    "chgPct": -5.18,
+    "cacChgPct": 1.72,
+    "alphaPct": -6.9
+   },
    "solde": null
   },
   {
@@ -20522,7 +20541,14 @@
     "cacChgPct": 2.24,
     "alphaPct": 0.71
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-25T16:20:45.591Z",
+    "jours": 30,
+    "prix": 84.52,
+    "chgPct": -1.68,
+    "cacChgPct": 1.72,
+    "alphaPct": -3.4
+   },
    "solde": null
   },
   {
@@ -20545,7 +20571,14 @@
     "cacChgPct": 2.24,
     "alphaPct": -5.1
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-25T16:20:45.591Z",
+    "jours": 30,
+    "prix": 27.52,
+    "chgPct": 9.47,
+    "cacChgPct": 1.72,
+    "alphaPct": 7.74
+   },
    "solde": null
   },
   {
@@ -20568,7 +20601,14 @@
     "cacChgPct": 2.24,
     "alphaPct": -2.24
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-25T16:20:45.591Z",
+    "jours": 30,
+    "prix": 37,
+    "chgPct": 5.84,
+    "cacChgPct": 1.72,
+    "alphaPct": 4.11
+   },
    "solde": null
   },
   {
@@ -20591,7 +20631,14 @@
     "cacChgPct": 2.24,
     "alphaPct": 1.05
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-25T16:20:45.591Z",
+    "jours": 30,
+    "prix": 188.58,
+    "chgPct": 7.49,
+    "cacChgPct": 1.72,
+    "alphaPct": 5.77
+   },
    "solde": null
   },
   {
@@ -20614,7 +20661,14 @@
     "cacChgPct": 2.24,
     "alphaPct": -0.87
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-25T16:20:45.591Z",
+    "jours": 30,
+    "prix": 20.4,
+    "chgPct": 3.82,
+    "cacChgPct": 1.72,
+    "alphaPct": 2.09
+   },
    "solde": null
   },
   {
@@ -20637,7 +20691,14 @@
     "cacChgPct": 2.24,
     "alphaPct": -2.08
    },
-   "h1m": null,
+   "h1m": {
+    "date": "2026-11-25T16:20:45.591Z",
+    "jours": 30,
+    "prix": 78.02,
+    "chgPct": -6.25,
+    "cacChgPct": 1.72,
+    "alphaPct": -7.97
+   },
    "solde": null
   },
   {
@@ -35213,6 +35274,134 @@
    "execute": false,
    "motifRejet": "avis_de_conservation",
    "justification": "Cours a 77.88 EUR (chg1d +0.26%, chg20d -6.84%), conservant sa tendance HAUSSE_CONFIRMEE (pente +2.70%, ecart_sma200_pct +2.77%) avec un RSI14 a 37.8. L'actualite Ideal Investisseur du 25/11 releve la reprise du support des 77.49 EUR, maintenant le dossier au-dessus du stop a 70.50 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-251620-GET.PA-0",
+   "date": "2026-11-25T16:20:45.591Z",
+   "symbole": "GET.PA",
+   "nom": "Getlink",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "prixSignal": 20.4,
+   "cacAuSignal": 8008.7,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Cours a 20,40 EUR (+8,9 % vs PMC 18,74 EUR, chg1d +0,59 %), en tendance HAUSSE_CONFIRMEE (pente +2,03 %, ecart_sma200_pct +8,84 %) avec une faible volatilite (14,3 %) et un RSI14 equilibre a 50,0. L'actualite du jour confirme le renforcement de Getlink Customs Services a Calais (TRM24).",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-251620-SCR.PA-1",
+   "date": "2026-11-25T16:20:45.591Z",
+   "symbole": "SCR.PA",
+   "nom": "Scor",
+   "action": "CONSERVER",
+   "confiance": 84,
+   "prixSignal": 35.64,
+   "cacAuSignal": 8008.7,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Cours a 35,64 EUR (+3,0 % vs PMC 34,60 EUR, chg20d +8,79 %), tout proche de son plus haut sur 52 semaines (dist_plus_haut_52s_pct -0,45 %) en tendance HAUSSE_CONFIRMEE (pente +2,24 %, ecart_sma200_pct +10,36 %) avec un RSI14 a 50,5 et nettement au-dessus du stop a 31,70 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-251620-AI.PA-2",
+   "date": "2026-11-25T16:20:45.591Z",
+   "symbole": "AI.PA",
+   "nom": "Air Liquide",
+   "action": "CONSERVER",
+   "confiance": 83,
+   "prixSignal": 188.58,
+   "cacAuSignal": 8008.7,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Cours a 188,58 EUR (+6,9 % vs PMC 176,44 EUR, chg1d +0,24 %, chg20d +8,23 %) en tendance HAUSSE_CONFIRMEE (pente +2,48 %, ecart_sma200_pct +11,65 %), RSI14 a 46,0 et volatilite contenue a 15,7 %. La these est confortee par les actualites du jour sur le lancement de rachats d'actions et une nouvelle ",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-251620-ENX.PA-3",
+   "date": "2026-11-25T16:20:45.591Z",
+   "symbole": "ENX.PA",
+   "nom": "Euronext",
+   "action": "CONSERVER",
+   "confiance": 79,
+   "prixSignal": 168.5,
+   "cacAuSignal": 8008.7,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Cours a 168,50 EUR (+4,2 % vs PMC 161,64 EUR, chg5d +1,75 %) au contact de sa SMA20 (168,54 EUR) en tendance HAUSSE_CONFIRMEE (pente +3,34 %, ecart_sma200_pct +11,44 %) avec un RSI14 detendu a 39,9, bien au-dessus du stop a 149,00 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-251620-AMUN.PA-4",
+   "date": "2026-11-25T16:20:45.591Z",
+   "symbole": "AMUN.PA",
+   "nom": "Amundi",
+   "action": "CONSERVER",
+   "confiance": 78,
+   "prixSignal": 90.35,
+   "cacAuSignal": 8008.7,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Cours a 90,35 EUR (+0,9 % vs PMC 89,56 EUR) malgre un repli hebdomadaire (chg5d -5,69 %), conservant une tendance HAUSSE_CONFIRMEE (pente +2,12 %, ecart_sma200_pct +4,85 %) et un RSI14 a 36,3 sans catalyseur negatif dans les actualites ni cassure du stop a 83,50 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-251620-DIM.PA-5",
+   "date": "2026-11-25T16:20:45.591Z",
+   "symbole": "DIM.PA",
+   "nom": "Sartorius Stedim Biotech",
+   "action": "CONSERVER",
+   "confiance": 77,
+   "prixSignal": 218,
+   "cacAuSignal": 8008.7,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Cours a 218,00 EUR (-3,0 % vs PMC 224,70 EUR, chg1d -2,24 %), qui reste au-dessus de sa SMA50 (ecart +0,48 %) et en tendance HAUSSE_CONFIRMEE (pente +1,84 %, ecart_sma200_pct +17,41 %) avec un RSI14 a 41,9, sans remise en cause de la these ni approche du stop a 204,00 EUR.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-251620-PUB.PA-6",
+   "date": "2026-11-25T16:20:45.591Z",
+   "symbole": "PUB.PA",
+   "nom": "Publicis Groupe",
+   "action": "CONSERVER",
+   "confiance": 77,
+   "prixSignal": 101.6,
+   "cacAuSignal": 8008.7,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Cours a 101,60 EUR (-0,7 % vs PMC 102,36 EUR, chg1d +0,25 %) au-dessus de sa SMA50 (ecart +1,77 %) en tendance HAUSSE_CONFIRMEE (pente +2,32 %, ecart_sma200_pct +14,48 %) avec un RSI14 a 37,1 et l'annonce du renforcement de Publicis Groupe Belgium dans le contenu.",
+   "h1s": null,
+   "h1m": null,
+   "solde": null
+  },
+  {
+   "id": "2026-11-251620-TTE.PA-7",
+   "date": "2026-11-25T16:20:45.591Z",
+   "symbole": "TTE.PA",
+   "nom": "TotalEnergies",
+   "action": "CONSERVER",
+   "confiance": 73,
+   "prixSignal": 78.02,
+   "cacAuSignal": 8008.7,
+   "execute": false,
+   "motifRejet": "avis_de_conservation",
+   "justification": "Cours a 78,02 EUR (+1,7 % vs PMC 76,72 EUR, chg1d +0,44 %) reprenant le support des 77,49 EUR selon Ideal Investisseur dans un contexte de stocks de petrole americains sous les attentes, tout en restant en tendance HAUSSE_CONFIRMEE (pente +2,70 %, ecart_sma200_pct +2,96 %) avec un RSI14 a 38,6.",
    "h1s": null,
    "h1m": null,
    "solde": null
