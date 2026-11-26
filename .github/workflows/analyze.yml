@@ -29,6 +29,8 @@ concurrency:
 jobs:
   analyser:
     runs-on: ubuntu-latest
+    outputs:
+      pousse: ${{ steps.sauvegarde.outputs.pousse }}
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -55,6 +57,7 @@ jobs:
           node src/run.js $ARGS
 
       - name: Committer l'etat (portfolio, dernier run, cours)
+        id: sauvegarde
         run: |
           git config user.name "bourse-ia[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -68,9 +71,48 @@ jobs:
           for i in 1 2 3; do
             if git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME"; then
               echo "Pousse."
+              echo "pousse=true" >> "$GITHUB_OUTPUT"
               exit 0
             fi
             echo "Push #${i} en echec, nouvelle tentative..."; sleep 15
           done
           echo "::error::impossible de pousser l'etat apres 3 tentatives"
+          exit 1
+
+  # Les déploiements Pages échouent parfois côté GitHub (erreur 500 le 25/11/2026) : le
+  # site reste alors figé sur la version précédente. On relance le déploiement raté.
+  surveiller-pages:
+    needs: analyser
+    if: always() && needs.analyser.outputs.pousse == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Relancer le déploiement Pages s'il a échoué
+        run: |
+          SHA=$(gh api "repos/$GH_REPO/commits/$GITHUB_REF_NAME" -q .sha)
+          dernier() {
+            gh run list --workflow pages-build-deployment --commit "$SHA" --limit 1 \
+              --json databaseId,status,conclusion -q '.[0] | "\(.databaseId) \(.status) \(.conclusion)"'
+          }
+          # Attendre que le déploiement du commit poussé démarre puis se termine (10 min max).
+          for i in $(seq 1 40); do
+            read -r ID STATUS CONCL <<< "$(dernier)"
+            [ "$STATUS" = completed ] && break
+            sleep 15
+          done
+          if [ -z "$ID" ]; then echo "Aucun déploiement Pages trouvé pour $SHA."; exit 0; fi
+          for essai in 1 2 3; do
+            read -r ID STATUS CONCL <<< "$(dernier)"
+            if [ "$CONCL" != failure ]; then echo "Déploiement Pages $ID : ${CONCL:-$STATUS}."; exit 0; fi
+            echo "Déploiement Pages $ID en échec : relance $essai/3 dans $((essai * 30)) s."
+            sleep $((essai * 30))
+            gh run rerun "$ID" --failed
+            sleep 15
+            if gh run watch "$ID" --exit-status > /dev/null; then echo "Déploiement relancé avec succès."; exit 0; fi
+          done
+          echo "::error::déploiement Pages toujours en échec après 3 relances"
           exit 1
