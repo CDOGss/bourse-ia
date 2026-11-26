@@ -1,17 +1,17 @@
 {
- "date": "2026-11-26T14:20:41.543Z",
- "dureeS": 33,
+ "date": "2026-11-26T16:20:41.830Z",
+ "dureeS": 25,
  "dryRun": false,
  "modele": "gemini-4-hydrogen",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 rebondit de +1,78 % à 8122,66 points dans une séance animée en Europe malgré la fermeture de Wall Street pour Thanksgiving. Toutefois, la largeur de marché reste dégradée avec seulement 41,8 % des 122 valeurs au-dessus de leur SMA200 (état FAIBLE), ce qui impose de maintenir un régime PRUDENT. Le portefeuille étant déjà au plafond de 8 positions pour 53,6 % d'exposition et toutes les lignes évoluant en tendance HAUSSE_CONFIRMEE, aucun arbitrage ni nouvel achat ne s'impose.",
+ "resume_marche": "Le CAC 40 rebondit de 1,83 % à 8126,75 points en cette séance du 26 novembre 2026, mais la largeur de marché demeure FAIBLE avec seulement 41,8 % des 122 valeurs au-dessus de leur SMA200. Ce rebond reste sélectif alors que le portefeuille est au complet avec 8 positions ouvertes sur 8 autorisées (part investie de 53,6 %, valorisation de 10 037,05 EUR). En raison de la largeur de marché dégradée, la prudence reste de mise et aucune rotation n'est nécessaire ce soir.",
  "signaux": [
   {
    "symbole": "SCR.PA",
    "action": "CONSERVER",
-   "confiance": 84,
-   "justification": "Cours à 35,94 EUR (+1,18 % ce jour, +8,84 % sur 20j, +19,24 % sur 126j) sur son plus haut 52 semaines, en tendance HAUSSE_CONFIRMEE (pente +2,28 %, écart SMA200 +11,16 %) avec un RSI14 à 66,8 non suracheté, maintenant pleinement la thèse haussière (+3,9 % sur la ligne).",
+   "confiance": 85,
+   "justification": "Scor progresse de 1,69 % à 36,12 EUR (+4,4 % de plus-value latente), inscrivant un plus haut à 52 semaines en tendance HAUSSE_CONFIRMEE (pente +2,28 %, chg126d +19,84 %, écart SMA200 +11,72 %) avec un RSI14 à 68,4 sous la zone de surachat.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -22,7 +22,7 @@
    "symbole": "GET.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Cours à 20,42 EUR (+0,79 % ce jour, +2,61 % sur 20j, +9,14 % sur 126j) en tendance HAUSSE_CONFIRMEE (pente +2,01 %, écart SMA200 +8,86 %), avec une volatilité contenue à 13,7 % et un RSI14 à 56,1, justifiant de conserver le gain (+9,0 %) vers l'objectif de 21,47 EUR.",
+   "justification": "Getlink gagne 0,69 % à 20,40 EUR (+8,9 % de gain latent) à seulement 1,35 % de son plus haut 52 semaines, portée par une tendance HAUSSE_CONFIRMEE (pente +2,01 %, écart SMA200 +8,75 %), une faible volatilité de 13,6 % et un RSI14 neutre à 55,6.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -32,8 +32,8 @@
   {
    "symbole": "AI.PA",
    "action": "CONSERVER",
-   "confiance": 83,
-   "justification": "Cours à 190,02 EUR (+0,83 % ce jour, +7,13 % sur 20j, +16,19 % sur 126j) en tendance HAUSSE_CONFIRMEE (pente +2,49 %, écart SMA200 +12,38 %, RSI14 à 58,2) et faible volatilité (14,9 %), soutenu dans les actualités du jour par la poursuite de ses investissements industriels de 100 millions de dollars aux Etats-Unis.",
+   "confiance": 84,
+   "justification": "Air Liquide avance de 0,84 % à 190,04 EUR (+7,7 % de gain latent) en tendance HAUSSE_CONFIRMEE (pente +2,49 %, chg126d +16,2 %, écart SMA200 +12,4 %, volatilité basse de 14,9 %), soutenue dans les actualités du jour par la poursuite de ses investissements industriels aux États-Unis.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -43,8 +43,8 @@
   {
    "symbole": "DIM.PA",
    "action": "CONSERVER",
-   "confiance": 82,
-   "justification": "Cours à 220,60 EUR (+1,47 % ce jour, +24,99 % sur 126j) en tendance HAUSSE_CONFIRMEE (pente +1,91 %, écart SMA200 +18,66 %, RSI14 détendu à 43,6), renforcé ce jour par les actualités confirmant que Goldman Sachs reste à l'achat avec un objectif relevé de 235 à 265 EUR.",
+   "confiance": 83,
+   "justification": "Sartorius Stedim Biotech rebondit de 1,75 % à 221,20 EUR (-1,6 % latent) en tendance HAUSSE_CONFIRMEE (pente +1,91 %, chg126d +25,33 %, écart SMA200 +18,98 %, RSI14 à 44,4), confortée ce 26 novembre par Goldman Sachs qui maintient son avis à l'achat en relevant son objectif de 235 à 265 EUR.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -54,8 +54,8 @@
   {
    "symbole": "ENX.PA",
    "action": "CONSERVER",
-   "confiance": 80,
-   "justification": "Cours à 170,20 EUR (+1,61 % ce jour, +2,78 % sur 5j, +25,42 % sur 126j) repassé au-dessus de sa SMA20 (+1,22 %) en tendance HAUSSE_CONFIRMEE (pente +3,30 %, écart SMA200 +12,40 %, RSI14 neutre à 50,4), validant le maintien de la position (+5,3 %).",
+   "confiance": 81,
+   "justification": "Euronext progresse de 2,03 % à 170,90 EUR (+5,7 % latent) au-dessus de sa SMA20 (168,19 EUR) en tendance HAUSSE_CONFIRMEE (pente +3,30 %, chg126d +25,94 %, écart SMA200 +12,86 %), avec un RSI14 équilibré à 51,6.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -65,8 +65,8 @@
   {
    "symbole": "AMUN.PA",
    "action": "CONSERVER",
-   "confiance": 79,
-   "justification": "Cours à 92,00 EUR (+2,22 % ce jour, +1,04 % sur 20j, +9,98 % sur 126j) en tendance HAUSSE_CONFIRMEE (pente +2,11 %, écart SMA200 +6,67 %, RSI14 à 44,0), accompagné ce jour d'actualités mentionnant une prise de participation minoritaire dans Emergence et son positionnement sur l'épargne retraite.",
+   "confiance": 80,
+   "justification": "Amundi rebondit de 2,50 % à 92,25 EUR (+3,0 % latent) en tendance HAUSSE_CONFIRMEE (pente +2,11 %, écart SMA50 +1,0 %, écart SMA200 +6,95 %, RSI14 à 44,8), tandis que l'actualité du jour mentionne une prise de participation minoritaire au capital d'Emergence.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -76,8 +76,8 @@
   {
    "symbole": "PUB.PA",
    "action": "CONSERVER",
-   "confiance": 78,
-   "justification": "Cours à 102,65 EUR (+1,08 % ce jour, +3,29 % sur 20j, +20,76 % sur 126j) au contact de sa SMA20 (+0,12 %) en tendance HAUSSE_CONFIRMEE (pente +2,41 %, écart SMA200 +15,47 %, RSI14 à 48,7) et volatilité modérée (20,5 %), sans élément d'invalidation.",
+   "confiance": 79,
+   "justification": "Publicis Groupe gagne 1,18 % à 102,75 EUR (+0,4 % latent), se maintenant au-dessus de sa SMA20 (102,53 EUR) et de sa SMA50 (99,93 EUR) en tendance HAUSSE_CONFIRMEE (pente +2,41 %, chg126d +20,88 %, RSI14 à 49,2).",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -87,8 +87,8 @@
   {
    "symbole": "TTE.PA",
    "action": "CONSERVER",
-   "confiance": 72,
-   "justification": "Cours à 78,48 EUR en rebond de +1,55 % ce jour après un repli de -7,23 % sur 20j, conservant une tendance HAUSSE_CONFIRMEE (pente +2,59 %) et un support au-dessus de sa SMA200 à 75,85 EUR (+3,47 %) avec un RSI14 à 44,8 loin de toute invalidation sous le stop de 70,50 EUR.",
+   "confiance": 73,
+   "justification": "TotalEnergies reprend 1,59 % à 78,51 EUR (+2,3 % latent) après un repli de 7,20 % sur 20 jours, mais préserve sa tendance HAUSSE_CONFIRMEE (pente +2,59 %, cours au-dessus de la SMA200 à 75,85 EUR soit +3,51 %) avec un RSI14 détendu à 44,9.",
    "prix_entree": null,
    "stop_perte": null,
    "prise_profit": null,
@@ -102,13 +102,13 @@
  "fluxEnEchec": [],
  "meriques": {
   "ageJours": 73,
-  "nbPassages": 182,
-  "equity": 10027.2,
-  "perfPct": 0.27,
-  "cacPerfPct": 0.06,
-  "alphaPct": 0.21,
+  "nbPassages": 183,
+  "equity": 10037.05,
+  "perfPct": 0.37,
+  "cacPerfPct": 0.11,
+  "alphaPct": 0.26,
   "maxDrawdownPct": -4.2,
-  "sharpe": 0.29,
+  "sharpe": 0.35,
   "expositionPct": 53.6,
   "trades": {
    "nbAchats": 19,
@@ -173,7 +173,7 @@
   }
  },
  "stats": {
-  "equity": 10027.2,
+  "equity": 10037.05,
   "cash": 4653.4,
   "nbPositions": 8
  }
