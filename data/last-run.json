@@ -1,120 +1,115 @@
 {
- "date": "2026-11-27T14:20:49.789Z",
+ "date": "2026-11-27T16:20:40.066Z",
  "dureeS": 37,
  "dryRun": false,
  "modele": "gemini-4-hydrogen",
  "regime": "PRUDENT",
  "regimeApplique": "PRUDENT",
- "resume_marche": "Le CAC 40 avance modestement de 0,16 % à 8121,7 points, mais la largeur de marché reste FAIBLE avec seulement 42,6 % des 122 valeurs au-dessus de leur SMA200. Sur le plan macroéconomique, l'Insee confirme l'entrée officielle de la France en récession au T3 2026 (-0,2 % de PIB) dans l'attente du verdict de S&P sur la note souveraine, tandis que Wall Street prépare un rebond post-Thanksgiving. Le portefeuille étant déjà au plafond de 8 positions (53,7 % investi), la priorité est de conserver nos lignes en tendance haussière confirmée.",
+ "resume_marche": "Le CAC 40 progresse de 0,76 % a 8170,55 points dans l'attente du verdict de S&P sur la note de la France, tandis que la largeur de marche reste FAIBLE avec seulement 43,4 % des 122 valeurs au-dessus de leur SMA200. Ce decalage entre la hausse de l'indice et une participation etroite impose le regime PRUDENT. Le portefeuille etant deja au plafond de 8 lignes pour 53,8 % investis (valorisation 10066,14 EUR, cash 4653,40 EUR) et toutes les theses etant intactes, aucun achat ni vente n'est requis.",
  "signaux": [
   {
    "symbole": "SCR.PA",
    "action": "CONSERVER",
    "confiance": 85,
-   "justification": "Cours à 35,98 EUR (+4,0 % sur pmc 34,60 EUR), en tendance HAUSSE_CONFIRMEE (pente +2,27 %, chg126d +18,90 %, écart SMA200 +11,17 %) avec un RSI14 à 67,2 et une volatilité de 18,2 %. Catalyseur confirmé ce jour dans les actualités avec le feu vert du conseil à l'accord de réassurance avec Japan Post Insurance portant sur 3 000 milliards de yens de provisions, justifiant le maintien vers l'objectif ",
-   "prix_entree": null,
+   "justification": "Cours a 36,12 EUR (+0,06 % sur 1j, +4,51 % sur 20j, +19,37 % sur 126j), sur son plus haut a 52 semaines, en tendance HAUSSE_CONFIRMEE (+2,28 % de pente, ecart SMA200 +11,60 %) avec un RSI14 a 69,4. L'approbation du partenariat avec Japan Post Insurance portant sur 3000 MdJPY de provisions valide la these (+4,4 % de plus-value latente vs objectif 39,63 EUR).",
+   "prix_entree": 36.12,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": null
+   "invalidation": "Cassure en cloture sous le stop a 31,70 EUR ou remise en cause de l'accord avec Japan Post Insurance."
   },
   {
    "symbole": "AI.PA",
    "action": "CONSERVER",
    "confiance": 84,
-   "justification": "Cours à 191,28 EUR (+8,4 % sur pmc 176,44 EUR), en progression de 0,50 % ce jour et de 5,74 % sur 20 jours, à seulement 1,06 % du plus haut 52 semaines (193,32 EUR). Tendance HAUSSE_CONFIRMEE (pente +2,47 %, écart SMA200 +13,01 %, chg126d +15,81 %) avec un RSI14 sain à 56,8 et une volatilité basse de 13,8 %, thèse intacte vers l'objectif de 202,10 EUR (stop 161,50 EUR).",
-   "prix_entree": null,
+   "justification": "Cours a 192,16 EUR (+0,97 % sur 1j, +6,22 % sur 20j, +16,34 % sur 126j) a 0,60 % de son plus haut 52 semaines, en tendance HAUSSE_CONFIRMEE (+2,48 % de pente, ecart SMA200 +13,52 %) avec un RSI14 sain a 59,5 et une volatilite faible de 14 %. Malgre l'annonce d'un plan social a Grenoble, le titre reste solide (+8,9 % de gain latent vs objectif 202,10 EUR).",
+   "prix_entree": 192.16,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": null
+   "invalidation": "Cassure en cloture sous le stop a 161,50 EUR ou retournement sous la SMA200 (169,27 EUR)."
   },
   {
    "symbole": "GET.PA",
    "action": "CONSERVER",
-   "confiance": 84,
-   "justification": "Cours stable à 20,34 EUR (+8,5 % sur pmc 18,74 EUR), évoluant en tendance HAUSSE_CONFIRMEE (pente +1,98 %, chg126d +11,82 %, écart SMA200 +8,35 %) à proximité du plus haut 52 semaines (20,68 EUR). Avec un RSI14 à 56,0 et une volatilité très faible de 13,3 %, la valeur reste défensive dans un marché prudent en route vers l'objectif de 21,47 EUR (stop 17,50 EUR).",
-   "prix_entree": null,
+   "confiance": 83,
+   "justification": "Cours a 20,32 EUR (-0,10 % sur 1j, +2,73 % sur 20j, +11,71 % sur 126j) en tendance HAUSSE_CONFIRMEE (+1,98 % de pente, ecart SMA200 +8,24 %) avec un RSI14 a 55,3 et une volatilite tres basse de 13,3 %. La position affiche +8,4 % de gain latent en direction de l'objectif a 21,47 EUR.",
+   "prix_entree": 20.32,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": null
+   "invalidation": "Cassure en cloture sous le stop a 17,50 EUR ou sous la SMA200 (18,77 EUR)."
   },
   {
    "symbole": "DIM.PA",
    "action": "CONSERVER",
    "confiance": 82,
-   "justification": "Cours à 220,60 EUR (-1,8 % sur pmc 224,70 EUR), en léger repli de 0,18 % sur la séance mais conservant une tendance HAUSSE_CONFIRMEE (pente +2,00 %, chg63d +12,95 %, chg126d +20,09 %, écart SMA200 +18,50 %). Le RSI14 détendu à 43,1 et le maintien au-dessus de la SMA50 (217,89 EUR) ne valident aucune cassure, maintenant la thèse vers 257,37 EUR (stop 204,00 EUR).",
-   "prix_entree": null,
+   "justification": "Cours a 222,60 EUR (+0,72 % sur 1j, +13,98 % sur 63j, +21,18 % sur 126j) en tendance HAUSSE_CONFIRMEE (+2,01 % de pente, ecart SMA200 +19,57 %) avec un RSI14 detendu a 45,7. La note de Goldman Sachs dans Les Echos soutenant la poursuite du rally sur la sante conforte la these malgre un leger repli (-0,9 % latent).",
+   "prix_entree": 222.6,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": null
-  },
-  {
-   "symbole": "ENX.PA",
-   "action": "CONSERVER",
-   "confiance": 81,
-   "justification": "Cours à 172,50 EUR (+6,7 % sur pmc 161,64 EUR), en hausse de 0,58 % ce jour et de 4,23 % sur 5 jours en tendance HAUSSE_CONFIRMEE (pente +3,27 %, chg126d +27,59 %, écart SMA200 +13,73 %). Bien que le RSI14 atteigne 71,7 (SURACHAT), la dynamique de fond reste solide et l'objectif de 185,15 EUR demeure pertinent avec un stop à 149,00 EUR.",
-   "prix_entree": null,
-   "stop_perte": null,
-   "prise_profit": null,
-   "taille_pct": null,
-   "invalidation": null
+   "invalidation": "Cassure en cloture sous le stop a 204,00 EUR ou perte de la SMA50 (217,93 EUR) sur degradation sectorielle."
   },
   {
    "symbole": "AMUN.PA",
    "action": "CONSERVER",
    "confiance": 80,
-   "justification": "Cours à 92,90 EUR (+3,7 % sur pmc 89,56 EUR), en hausse de 1,09 % sur la séance et soutenu par des actualités positives (accord pour entrer au capital d'Emergence et prix aux ETF Innovation Awards). Tendance HAUSSE_CONFIRMEE (pente +2,10 %, chg126d +9,88 %, écart SMA200 +7,61 %) avec un RSI14 à 42,4 offrant un potentiel intact vers 102,58 EUR (stop 83,50 EUR).",
-   "prix_entree": null,
+   "justification": "Cours a 93,55 EUR (+1,80 % sur 1j, +2,63 % sur 20j, +10,64 % sur 126j) en tendance HAUSSE_CONFIRMEE (+2,10 % de pente, ecart SMA200 +8,36 %) avec un RSI14 a 44,7. L'actualite reste porteuse avec l'entree au capital d'Emergence et les ETF Innovation Awards (+4,5 % latent).",
+   "prix_entree": 93.55,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": null
+   "invalidation": "Cassure en cloture sous le stop a 83,50 EUR ou sous la SMA200 (86,33 EUR)."
+  },
+  {
+   "symbole": "ENX.PA",
+   "action": "CONSERVER",
+   "confiance": 78,
+   "justification": "Cours a 172,80 EUR (+0,76 % sur 1j, +4,41 % sur 5j, +27,81 % sur 126j) en tendance HAUSSE_CONFIRMEE (+3,27 % de pente, ecart SMA200 +13,93 %), avec +6,9 % de gain latent. Le RSI14 a 72,1 signale un SURACHAT a court terme qui invite a la vigilance a l'approche de l'objectif a 185,15 EUR sans invalider la tendance.",
+   "prix_entree": 172.8,
+   "stop_perte": null,
+   "prise_profit": null,
+   "taille_pct": null,
+   "invalidation": "Cassure en cloture sous le stop a 149,00 EUR ou sous la SMA200 (151,67 EUR)."
   },
   {
    "symbole": "PUB.PA",
    "action": "CONSERVER",
    "confiance": 79,
-   "justification": "Cours à 102,15 EUR (-0,2 % sur pmc 102,36 EUR), consolidant près de sa SMA20 (102,61 EUR) tout en restant au-dessus de la SMA50 (100,02 EUR) et de la SMA200 (89,05 EUR, soit +14,71 %). La tendance HAUSSE_CONFIRMEE (pente +2,50 %, chg126d +14,49 %) et un RSI14 à 45,2 avec une volatilité contenue (20,2 %) confirment le maintien vers 117,24 EUR (stop 94,50 EUR).",
-   "prix_entree": null,
+   "justification": "Cours a 103,05 EUR (+1,48 % sur 1j, +3,69 % sur 20j, +21,24 % sur 126j) en tendance HAUSSE_CONFIRMEE (+2,41 % de pente, ecart SMA200 +15,92 %) avec un RSI14 neutre a 50,4 et une volatilite maitrisee (20,7 %). Le titre repasse au-dessus de son prix moyen d'achat (+0,7 % latent) vers l'objectif de 117,24 EUR.",
+   "prix_entree": 103.05,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": null
+   "invalidation": "Cassure en cloture sous le stop a 94,50 EUR."
   },
   {
    "symbole": "TTE.PA",
    "action": "CONSERVER",
-   "confiance": 74,
-   "justification": "Cours à 78,57 EUR (+2,4 % sur pmc 76,72 EUR, chg1d +0,27 %), qui reste bridé sous ses SMA20 (79,90 EUR) et SMA50 (79,73 EUR) après un repli de 8,03 % sur 20 jours relevé dans la presse. Toutefois, le titre préserve sa tendance HAUSSE_CONFIRMEE (pente +2,49 %) au-dessus de la SMA200 (75,92 EUR, écart +3,50 %) avec un RSI14 neutre à 49,2 et un stop intact à 70,50 EUR.",
-   "prix_entree": null,
+   "confiance": 73,
+   "justification": "Cours a 78,60 EUR (+0,31 % sur 1j, -7,99 % sur 20j, +1,58 % sur 126j) avec un RSI14 a 49,3. Bien que l'actualite note un titre bride sous ses moyennes courtes (ecart SMA20 -1,62 %, ecart SMA50 -1,41 %), la tendance de fond reste HAUSSE_CONFIRMEE (+2,49 % de pente, ecart SMA200 +3,54 %) avec +2,5 % de gain latent.",
+   "prix_entree": 78.6,
    "stop_perte": null,
    "prise_profit": null,
    "taille_pct": null,
-   "invalidation": null
+   "invalidation": "Cassure en cloture sous le stop a 70,50 EUR ou perte nette de la SMA200 (75,92 EUR)."
   }
  ],
  "signaux_ecartes": [],
  "appliques": [],
  "rejetes": [],
- "fluxEnEchec": [
-  "HTTP 429 sur https://news.google.com/rss/search?q=%22Euronext%22%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr",
-  "HTTP 429 sur https://news.google.com/rss/search?q=%22Sartorius%20Stedim%20Biotech%22%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr",
-  "HTTP 429 sur https://news.google.com/rss/search?q=%22Soitec%22%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr",
-  "HTTP 429 sur https://news.google.com/rss/search?q=%22Boiron%22%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr"
- ],
+ "fluxEnEchec": [],
  "meriques": {
   "ageJours": 74,
-  "nbPassages": 187,
-  "equity": 10044.45,
-  "perfPct": 0.44,
-  "cacPerfPct": 0.05,
-  "alphaPct": 0.4,
+  "nbPassages": 188,
+  "equity": 10066.14,
+  "perfPct": 0.66,
+  "cacPerfPct": 0.65,
+  "alphaPct": 0.01,
   "maxDrawdownPct": -4.2,
-  "sharpe": 0.39,
-  "expositionPct": 53.7,
+  "sharpe": 0.53,
+  "expositionPct": 53.8,
   "trades": {
    "nbAchats": 19,
    "nbSolde": 11,
@@ -178,7 +173,7 @@
   }
  },
  "stats": {
-  "equity": 10044.45,
+  "equity": 10066.14,
   "cash": 4653.4,
   "nbPositions": 8
  }
